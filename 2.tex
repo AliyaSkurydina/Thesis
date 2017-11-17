@@ -1,0 +1,244 @@
+\chapter{Решение операторных уравнений в случае положительного спектра}
+Монотонность оператора $A$ исходного уравнения --- очень сильное требование, которое не выполняется во многих важных прикладных задачах, например, в задачах гравиметрии и магнитометрии. В данной главе показано, что есть возможность ослабить условие монотонности и обосновать сходимость итераций РМН, ММО, МНС, ММН.
+В первом параграфе представлены доказательства сходимости метода Ньютона с регуляризацией, во втором параграфе сформулированы теоремы сходимости для нелинейных $\alpha$-процессов, в третьем параграфе представлены следствия для модифицированных аналогов $\alpha$-процессов, в четвертом приведены результаты численных расчетов.
+
+\newpage
+\section{Метод Ньютона}
+Рассматривается конечномерный случай, когда оператор $A\colon R^n \to R^n$, для которого матрица $A'(u)$ в некоторой окрестности решения имеет спектр, состоящий из различных неотрицательных собственных значений.
+Справедлива лемма (Васин, \cite{VasSkur2017}).
+\begin{lemma}\label{lemVas}
+	Пусть $n\times n$ матрица $A'(u)$ не имеет кратных собственных значений $\lambda _i$ и числа $\lambda _i$ ($i=1,2,..n$) различны и неотрицательны. Тогда при $\bar\alpha>0$ матрица имеет представление $A'(u)+\bar\alpha I =S(u)\Lambda S^{-1}(u)$ и справедлива оценка
+	\begin{equation}\label{est4.1}
+	\|(A'(u)+\bar\alpha I)^{-1}\|\le \frac{\mu (S(u))}{\bar\alpha+\lambda_{min}} \le \frac{\mu(S(u))}{\bar\alpha},
+	\end{equation}
+	где столбцы матрицы $S(u)$ составлены из собственных векторов матрицы $A'(u)+\bar\alpha I$, $\Lambda$-- диагональная матрица, ее элементы -- собственные значения матрицы $A'(u)+\bar\alpha I$, $\mu(S(u))=\|S(u)\|\|S^{-1}(u)\|$.
+\end{lemma}
+Обратимся к регуляризованному методу Ньютона, для которого была доказана теорема $(\ref{teo2.3})$ о сходимости итераций и оценке погрешности для монотонного оператора. Рассмотрим теперь вариант этой теоремы, когда оператор $A\colon R^n \to R^n$ и производная которого имеет неотрицательный спектр, удовлетворяющий условиям леммы $(\ref{lemVas})$, причем функция $\mu(S(u))$ при фиксированном $\alpha$ равномерно ограничена по $u$ в шаре $S_r(u_\alpha)$, т.е.
+\begin{equation}\label{cond4.3}
+\sup\{\mu(S(u)): u\in S_r(u_\alpha)\}\le\bar S <\infty .
+\end{equation}
+\begin{theorem}\label{teoRMN_nomonot}
+	Пусть выполнены условия $\eqref{cond4.3}$, $\eqref{cond2.1}$-- $\eqref{cond2.3}$, $A'(u^0)$ --- симметричная матрица, и для параметров справедливы соотношения: $0<\alpha\le\bar\alpha$, $\bar\alpha\ge 4N_0$, $r\le\alpha/8N_2\bar S$, $\|u_\alpha-u^0\|\le r$.
+	
+	Тогда для метода $\eqref{equ_rmn}$ справедливо заключение теоремы $\ref{teo2.3}$, где соотношения $\eqref{ineq2.12}$, $\eqref{eq2.13}$ для $\gamma$ и выражение для $q$ в $\eqref{est2.16}$ соответственно принимает вид
+	$$\gamma < \frac{\alpha\bar\alpha}{2(N_1+\alpha)^2\bar S^2}, \quad \gamma _{opt}=\frac{\alpha\bar\alpha}{4(N_1+\alpha)^2\bar S^2}, \quad q=\sqrt{1-\frac{\alpha ^2}{16(N_1+\alpha)^2\bar S^2}}$$
+\end{theorem}
+\proof С учетом оценки $\eqref{est4.1}$, доказательство с несущественными поправками проводится по схеме из теоремы $\ref{teo2.3}$.
+
+\mbox{З\ а\ м\ е\ ч\ а\ н\ и\ е 2.1.} При доказательстве теоремы вместо условия  $\eqref{cond4.3}$ достаточно требовать ограниченность величины $\sup\{\mu(S(u^k)): u^k \in S_r(u_\alpha)\}$, где $u^k$ --- итерационные точки метода. Причем, при регулярном правиле останова итераций $k(\delta)$, супремум берется по конечному набору номеров $k\le k(\delta)$, что автоматически влечет ограниченность супремума и выполнение оценки вида $\eqref{est2.16}$ при этих значениях $k$. Кроме того, для модифицированного метода Ньютона, в котором производная $A'(u^0)$ вычисляется в фиксированной точке $u^0$, величина $\mu(S(u^0))=\|S(u^0)\|\|S^{-1}(u^0)\|=\bar S<\infty$.
+
+\newpage
+\section{Нелинейные альфа-процессы}
+При тех же условиях на оператор, что и для метода Ньютона в параграфе 2.1, исследуем процессы $\eqref{equ_alphaproc}$.
+\begin{theorem}\label{teo4.2}
+	Пусть выполнены условия $\eqref{cond2.1}$--$\eqref{cond2.3}$. Пусть при $u \in S_r(u_\alpha)$ матрица $A'(u)$ имеет спектр, состоящий из неотрицательных различных собственных значений, $A'(u^0)$ -- симметричная неотрицательно определенная матрица. Пусть параметры удовлетворяют условиям: 
+	\begin{equation}\label{cond4.4}
+	MMO:\qquad 0<\alpha\le\bar\alpha, \quad r\le\alpha /6\bar SN_2, \quad \bar\alpha \ge N_0
+	\end{equation}
+	\begin{equation}\label{cond4.5}
+	MHC:\qquad 0<\alpha\le\bar\alpha, \quad r\le\alpha /3N_2,
+	\end{equation}
+	\begin{equation}\label{cond4.6}
+	MMH:\qquad 0<\alpha\le\bar\alpha, \quad r\le\alpha /6N_2.
+	\end{equation}
+	Тогда справедливы следующие соотношения  $\eqref{ineq3.4}$, где
+	\begin{equation}\label{eq4.7}
+	\mu _{-1}=\frac{8\bar S^2(N_1+\alpha)^2}{\alpha\bar\alpha}, \quad \mu _0=\frac{18(N_1+\alpha)^2(N_1+\bar\alpha)}{\alpha\bar\alpha ^2}, \quad \mu _1=\frac{18(N_1+\alpha)^2(N_1+\bar\alpha)^4}{\alpha\bar\alpha ^5}
+	\end{equation}
+\end{theorem}
+\proof При $\varkappa=-1$ и тех же обозначениях, которые были приняты в разделе 3, имеем (верхний индекс (-1) соответствует методу $\eqref{equ_alphaproc}$ при $\varkappa=-1$)
+$$<F^{-1}(u), u-u_\alpha>=\beta ^{-1}(u)[<A(u)-A(u_\alpha), u-u_\alpha>+\alpha\|u-u_\alpha\|^2].$$
+Оценим каждое из слагаемых в правой части равенства с учетом условий $\eqref{cond4.4}$:
+$$<A(u)-A(u_\alpha), u-u_\alpha>+\alpha\|u-u_\alpha\|^2=\alpha\|u-u_\alpha\|^2$$ $$+<\int\limits_0^1 (A'(u_\alpha+\theta(u-u_\alpha))-A'(u^0))(u-u_\alpha)d\theta, u-u_\alpha>+<A'(u^0)(u-u_\alpha), u-u_\alpha>$$ $$\ge \alpha\|u-u_\alpha\|^2-\frac{N_2(\|u^0-u_\alpha\|+\|u-u^0\|)^2}{2}\|u-u_\alpha\|^2$$
+\begin{equation}\label {est4.8}
+\ge\left ( \alpha-\frac{3N_2 r}{2}\right )\|u-u_\alpha\|^2\ge\frac{3\alpha}{4}\|u-u_\alpha\|^2
+\end{equation}
+$$\beta ^{-1}(u)=\frac{<(A'(u)+\bar\alpha I)^{-1}S_\alpha(u), S_\alpha(u)>}{\|S_\alpha(u)\|^2}=\frac{<(A'(u^0)+\bar\alpha I)^{-1}S_\alpha(u), S_\alpha(u)>}{\|S_\alpha(u)\|^2}$$ $$+\frac{<(B^{-1}(u)-B^{-1}(u^0))S_\alpha(u), S_\alpha(u)>}{\|S_\alpha(u)\|^2}\ge\frac{1}{N_0+\bar\alpha}-\frac{\bar S N_2\|u-u^0\|}{\bar\alpha^2}$$
+\begin{equation}\label{est4.9}
+\ge\frac{1}{N_0+\bar\alpha}-\frac{2\bar S N_2 r}{\bar\alpha^2}\ge\frac{1}{6\bar\alpha},
+\end{equation}
+где учтены условия $\eqref{cond4.4}$ и соотношение $\|u-u^0\|\le\|u-u_\alpha\|+\|u_\alpha-u^0\|\le 2r$.
+
+Кроме того, имеем оценку
+$$\|F^{-1}(u)\|^2\le(\beta^{-1})^2\|A(u)-A(u_\alpha)+\alpha(u-u_\alpha)\|^2$$
+\begin{equation}\label{est4.10}
+\le\|B^{-1}(u)\|^2(N_1+\alpha)^2\|u-u_\alpha\|^2\le\frac{\bar S^2(N_1+\alpha)^2}{\bar\alpha^2}\|u-u_\alpha\|^2
+\end{equation}
+Объединяя $\eqref{est4.8}$--$\eqref{est4.10}$, получаем, что в соотношении $\eqref{ineq3.4}$, $\mu_{-1}$ выражается величиной из $\eqref{eq4.7}$
+
+Исследуем теперь МНС, т.е. процесс $\eqref{equ_alphaproc}$ при $\varkappa=0$. Аналогично прерыдущему методу устанавливаем, что
+\begin{equation}\label{est4.11}
+<A(u)-A(u_\alpha), u-u_\alpha>+\alpha\|u-u_\alpha\|^2\ge\left(\alpha-\frac{3N_2 r}{2}\right)\|u-u_\alpha\|^2
+\end{equation}
+Кроме того, имеем
+$$\beta^0(u)=\frac{\|S_\alpha(u)\|^2}{<B(u)S_\alpha(u), S_\alpha(u)>}\ge\frac{1}{\|B(u)\|}\ge\frac{1}{\|A'(u)+\bar\alpha I\|}\ge\frac{1}{N_1+\bar\alpha}.$$
+Объединяя последнее соотношение с $\eqref{est4.11}$, получаем оценку снизу
+\begin{equation}\label{est4.12}
+<F^0(u), u-u_\alpha>\ge\frac{1}{N_1+\bar\alpha}\left (\alpha -\frac{3N_2 r}{2}\right )\|u-u_\alpha\|^2.
+\end{equation}
+Аналог оценки $\eqref{est4.10}$ для $F^0(u)$ следует из следующих неравенств:
+\begin{equation}\label{est4.13}
+\|F^0(u)\|\le\beta^0(u)(\|A(u)-A(u_\alpha)\|+\alpha\|u-u_\alpha\|)\le\beta^0(u)(N_1+\alpha)\|u-u_\alpha\|,
+\end{equation}
+$$\beta^0(u)=\frac{\|S_\alpha(u)\|^2}{\bar\alpha\|S_\alpha(u)\|^2+<A'(u^0)S_\alpha(u), S_\alpha(u)>+<(A'(u)-A'(u^0))S_\alpha(u), S_\alpha(u)>}$$
+\begin{equation}\label{est4.14}
+\le \frac{\|S_\alpha(u)\|^2}{\bar\alpha\|S_\alpha(u)\|^2-|<(A'(u)-A'(u^0))S_\alpha(u), S_\alpha(u)>|}\le\frac{1}{\bar\alpha -N_2\|u-u^0\|}\le\frac{1}{\bar\alpha -2N_2 r}
+\end{equation}
+Из $\eqref{est4.12}$-$\eqref{est4.14}$ при значениях параметров из $\eqref{cond4.5}$ получаем значения $\mu_0$ в $\eqref{eq4.7}$.
+
+Наконец рассмотрим процесс $\eqref{equ_alphaproc}$ при $\varkappa=1$ с учетом замечания 3.1. Как и в предыдущем методе, при оценке снизу величины $<F^1(u), u-u_\alpha>$, справедливо соотношение $\eqref{est4.11}$. Для параметра $\beta^1(u)$ получаем
+$$\beta^1(u)=\frac{<B(u)S_\alpha(u), S_\alpha(u)>}{\|B(u)S_\alpha(u)\|^2}$$$$\ge\frac{<A'(u^0)S_\alpha(u), S_\alpha(u)>+\bar\alpha<S_\alpha(u), S_\alpha(u)>-\|A'(u)-A'(u^0)\|\|S_\alpha(u)\|^2}{(N_1+\bar\alpha)^2\|S_\alpha(u)\|^2}$$$$\ge\frac{\bar\alpha -N_2\|u-u^0\|}{(N_1+\bar\alpha)^2}\ge\frac{\bar\alpha -2N_2 r}{(N_1+\bar\alpha)^2},$$
+что при условиях на параметры $\eqref{cond4.6}$, дает оценку
+\begin{equation}\label{est4.15}
+<F^1(u), u-u_\alpha>\ge\left (\alpha -\frac{3N_2 r}{2}\right )\frac{\bar\alpha - 2N_2 r}{(N_1+\bar\alpha)^2}\|u-u_\alpha\|^2\ge\frac{\alpha\bar\alpha}{2(N_1+\bar\alpha)^2}\|u-u_\alpha\|^2.
+\end{equation}
+
+Поскольку
+$$\|F^1(u)\|\le\beta^1(u)(\|A(u)-A(u_\alpha)\|+\alpha\|u-u_\alpha\|)\le \beta^1(u)(N_1+\alpha)\|u-u_\alpha\|,$$ $$\|\beta^1(u)\|\le\frac{(N_1+\bar\alpha)\|S_\alpha(u)\|^2}{\|A'(u)S_\alpha(u)\|^2+2\bar\alpha<A'(u)S_\alpha(u), S_\alpha(u)>+\bar\alpha^2\|S_\alpha(u)\|^2}$$ $$\le\frac{(N_1+\bar\alpha)\|S_\alpha(u)\|^2}{2\bar\alpha<A'(u^0)S_\alpha(u), S_\alpha(u)>-2\bar\alpha|<(A'(u)-A'(u^0))S_\alpha(u), S_\alpha(u)>|+\bar\alpha^2\|S_\alpha(u)\|^2}$$$$
+\le\frac{(N_1+\bar\alpha)}{\bar\alpha^2-2\bar\alpha N_2\|u-u^0\|}\le\frac{N_1+\bar\alpha}{\bar\alpha(\bar\alpha - 4N_2 r)}\le\frac{3(N_1+\bar\alpha)}{\bar\alpha^2}.$$
+Окончательно получаем для $\|F^1(u)\|^2$ оценку сверху
+\begin{equation}\label{est4.16}
+\|F^1(u)\|^2\le\frac{3^2(N_1+\alpha)^2(N_1+\bar\alpha)^2}{\bar\alpha^4}\|u-u_\alpha\|^2.
+\end{equation}
+Объединяя соотношения $\eqref{est4.15}$ и $\eqref{est4.16}$, и условия $\eqref{cond4.6}$, получаем значение $\mu_1$, представленное в $\eqref{eq4.7}$.
+\begin{teo}\label{teo4.3}
+	Пусть выполнены условия $\ref{teo4.1}$. Тогда при $\gamma_\varkappa<2/\mu _\varkappa$, $\varkappa=-1,0,1$, где значения $\mu _k$ определяются соотношениями $\eqref{eq4.7}$, последовательности ${u^k}$, порождаемые процессом $\eqref{equ_alphaproc}$ при $\varkappa=-1,0,1$, сходятся к $u_\alpha$, т.е., $$\lim_{k\to\infty}\|u^k-u_\alpha\|=0,$$ а при $
+	\gamma{_\varkappa^{opt}}=\frac{1}{\mu_\varkappa}$
+	справедлива оценка $$\|u^{k+1}-u_\alpha\|\le q{_\varkappa^k}r,$$ где
+	$$
+	q_{-1}=\sqrt{1-\frac{\alpha^2}{64\bar S^2(N_1+\alpha)^2}}, \quad q_0=\sqrt{1-\frac{\alpha^2\bar\alpha^2}{36(N_1+\alpha)^2(N_1+\bar\alpha)^2}},$$
+	\begin{equation}\label{eq4.17}
+	q_1=\sqrt{1-\frac{\alpha^2\bar\alpha^6}{36(N_1+\alpha)^2(N_1+\bar\alpha)^6}}.
+	\end{equation}
+\end{teo}
+\proof Подставляя в соотношение $\eqref{ineq2.20}$ вместо $F(u^k)$ последовательность $F^\varkappa(u^k)$ ($\varkappa=-1,0,1$) и, используя оценки $\eqref{est4.8}$, $\eqref{est4.9}$ ($\varkappa=-1$), $\eqref{est4.9}$, $\eqref{est4.10}$ ($\varkappa=0$), $\eqref{est4.11}$, $\eqref{est4.12}$ ($\varkappa=1$), а также условия на параметры $\eqref{cond4.4}$--$\eqref{cond4.6}$, получаем, после минимизации по $\gamma$, значения для $q_\varkappa$, представленные в $\eqref{eq4.17}$. При выполнении условия $\gamma_\varkappa<2/\mu_\varkappa$, выражение в круглых скобках в правой части неравенства $\eqref{ineq2.20}$ принимает значение, которое меньше единицы, что влечет сходимость итераций для всех трех методов.
+
+\mbox{З\ а\ м\ е\ ч\ а\ н\ и\ е 4.2.}\ Предложенный подход к получению оценок скорости сходимости итерационных процессов полностью переносится на случай, когда спектр матрицы $A'(u^k)$, состоящий из различных вещественных значений, содержит набор малых по абсолютной величине отрицательных собственных значений. Пусть $\lambda _1$ --- отрицательное собственное значение с наименьшим модулем $|\lambda_1|$ и $\bar\alpha -|\lambda _1|=\bar\alpha _1<\alpha^*$. Тогда оценка $\eqref{est4.1}$ трансформируется в неравенство
+\begin{equation}\label{ineq4.16}
+\|(A'(u^k)+\bar\alpha I)^{-1}\|\le\frac{\mu(S(u^k))}{\bar\alpha^*}\le\frac{\bar S}{\bar\alpha^*}
+\end{equation}
+Все утверждения, т.е. теоремы $(\ref{teo4.1})$--$(\ref{teo4.3})$ остаются справедливыми при замене $\bar\alpha$ на $\bar\alpha^*$ во всех оценках, где используется $\eqref{ineq4.16}$.
+
+\mbox{З\ а\ м\ е\ ч\ а\ н\ и\ е 4.3.}\ Если рассматривать модифицированные варианты методов $\eqref{equ_rmn}$-$\eqref{equ_alphaproc}$, когда вместо $A'(u^k)$ в операторе шага используется $A'(u^0)$ в процессе итераций, то при условиях на оператор, принятых в данном разделе, для получения аналогичных результатов о сходимости и оценке погрешности наряду с неотрицательностью спектра достаточно: требовать симметричность матрицы $A'(u^0)$ \cite{VasAkiMin2013, Vasin_2014, Vasin_2016}. Заметим, что при исследовании основных методов $\eqref{equ_rmn}$-$\eqref{equ_alphaproc}$ существование симметричной матрицы для некоторого элемента $u^0$ предполагается.
+
+\newpage
+\section{Модифицированные варианты регуляризованных методов на основе нелинейных альфа-процессов}
+Рассматривается случай, когда производная оператора производной $A'(u)$ вычисляется в начальной точке итерационных процессов $u^0$. Тогда формулы итерационных процессов (?) принимают вид:
+модифицированный метод минимальной ошибки (МММО)
+\begin{equation}\label{m3o}
+u^{k+1}=u^k-\gamma\frac{<(A'(u^0)+\bar{\alpha}I)^{-1}S_\alpha(u^k),S_\alpha(u^k)>}{\|S_\alpha(u^k)\|^2}S_\alpha(u^k)\equiv T(u^k),
+\end{equation}
+модифицированный метод наискорейшего спуска (ММНС)
+\begin{equation}\label{m2ns}
+u^{k+1}=u^k-\gamma\frac{\|S_\alpha(u^k)\|^2}{<(A'(u^0)+\bar{\alpha}I)S_\alpha(u^k),S_\alpha(u^k)>}S_\alpha(u^k),
+\end{equation}
+модифицированный метод минимальных невязок (МММН)
+\begin{equation}\label{m3n}
+u^{k+1}=u^k-\gamma\frac{<(A'(u^0)+\bar{\alpha}I)S_\alpha(u^k),S_\alpha(u^k)>}{\|(A'(u^0)+\bar{\alpha}I)S_\alpha(u^k)\|^2}S_\alpha(u^k).
+\end{equation}
+Все три метода можно кратко записать в виде
+\begin{equation}\label{modalpha}
+u^{k+1}=u^k-\gamma\frac{<(A'(u^0)+\bar\alpha I)^{\varkappa}S_\alpha(u^k), S_\alpha(u^k)>}{<(A'(u^0)+\bar\alpha I)^{\varkappa+1}S_\alpha(u^k), S_\alpha(u^k)>}S_\alpha(u^k)\equiv T(u^k),
+\end{equation}
+где при $\varkappa=-1$ итерационный процесс представляет собой модифицированный ММО, при $\varkappa=0$ --- модифицированный МНС и при $\varkappa=1$ --- модифицированный ММН.
+
+Справедлива следующая теорема.
+\begin{theorem}\label{teomodalpnomonot}
+	Пусть выполнены условия
+	\begin{equation}\label{cond2.1}
+	\|A(u)-A(v)\|\le N_1\|u-v\| \quad \forall u, v \in U,
+	\end{equation}
+	\begin{equation}\label{cond2.2}
+	\|A'(u)-A'(v)\|\le N_2\|u-v\| \quad \forall u, v \in U,
+	\end{equation}
+	\begin{equation}\label{cond2.3}
+	\|A'(u^0)\|\le N_0\le N_1, \|u^0-u_\alpha\|\le r,
+	\end{equation}
+	$A'(u^0)$ --- самосопряженный оператор, спектр которого состоит из неотрицательных различных собственных значений, параметры удовлетворяют условиям:
+	\begin{equation}\label{cond2.4}
+	0\le\alpha\le\bar{\alpha}, \quad r=\alpha/6N_2, \quad \bar{\alpha}\ge N_0.
+	\end{equation}
+	
+	Тогда для оператора поправки итерационного метода (\ref{modalpha})
+	$$F^\varkappa(u)=\frac{<(A'(u^0)+\bar\alpha I)^{\varkappa}S_\alpha(u^k), S_\alpha(u^k)>}{<(A'(u^0)+\bar\alpha I)^{\varkappa+1}S_\alpha(u^k), S_\alpha(u^k)>}S_\alpha(u^k)$$ имеет место неравенство
+	$$\|F^\varkappa(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}<F^\varkappa(u), u-u_\alpha>,$$
+	где $\varkappa=-1, 0, 1,$ для модифицированных вариантов ММО, МНС и ММН соответственно.
+\end{theorem} 
+Доказательство. Установим свойство монотонности оператора $F$ для МММО, обозначим его как $F_0^{-1}$.
+$$<F_0^{-1}(u),u-u_\alpha>=<F_0^{-1}(u)-F_0^{-1}(u_\alpha),u-u_\alpha>=\beta_0^{-1}[<A(u)-A(u_\alpha),u-u_\alpha>$$ $$+\alpha\|u-u_\alpha\|^2].$$
+$$<A(u)-A(u_\alpha),u-u_\alpha>=<\int_{0}^{1}[A'(u_\alpha+\theta(u-u_\alpha))-A'(u^0)](u-u_\alpha)d\theta, u-u_\alpha>$$ $$+<A'(u^0)(u-u_\alpha), u-u_\alpha>\ge-N_2\int_{0}^{1}\|u_\alpha-u^0+\theta(u-u_\alpha)\|\cdot\|u-u_\alpha\|^2d\theta$$ $$=-N_2\|u-u_\alpha\|^2\int_{0}^{1}\|u_\alpha-u^0+\theta u-\theta u_\alpha\pm\theta u^0\|d\theta=-N_2\|u-u_\alpha\|^2$$
+$$\times\int_{0}^{1}\|(1-\theta)(u_\alpha-u^0)+\theta(u-u_\alpha)\|d\theta\ge-N_2\|u-u_\alpha\|^2\Big[\int_{0}^{1}(1-\theta)d\theta\cdot\|u^0-u_\alpha\|$$$$+\int_{0}^{1}\theta d\theta\|u-u_\alpha\|^2\Big]=-N_2\|u-u_\alpha\|^2\Big[\frac{\|u_\alpha-u^0\|}{2}+\frac{\|u_\alpha-u^0+u^0-u\|}{2}\Big]$$
+\begin{equation}\label{estmodif2.5}
+\ge-\frac{3N_2r}{2}\|u-u_\alpha\|^2,
+\end{equation}
+где $r=\|u_\alpha-u^0\|,\quad \|u-u^0\|\le r$.
+
+Получим оценку снизу для множителя $\beta_0^{-1}(u)$, воспользовавшись спектральным разложением резольвенты самосопряженного оператора $A'(u^0)$:
+$$<(A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)>=\int_{0}^{N_0}\frac{d<E_\lambda S_\alpha(u), S_\alpha(u)>}{\lambda+\bar{\alpha}}\ge\frac{\|S_\alpha(u)\|^2}{N_0+\bar{\alpha}},$$
+$$\beta_0^{-1}(u)=\frac{<(A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)>}{\|S_\alpha(u)\|^2}\ge\frac{1}{N_0+\bar{\alpha}}.$$ 
+Имеем $$<F_0^{-1}(u), u-u_\alpha>\ge\frac{1}{N_0+\bar{\alpha}}\Big[\alpha-\frac{3N_2r}{2}\Big]\|u-u_\alpha\|^2.$$
+Применяя условия (\ref{cond2.4}) теоремы, получаем итоговую оценку
+\begin{equation}\label{estmodif2.6}
+<F_0^{-1}(u), u-u_\alpha>\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
+\end{equation}
+Получим оценку нормы оператора $F_0^{-1}$:
+$$\|F_0^{-1}(u)\|=|\beta_0^{-1}(u)|\cdot\|A(u)+\alpha(u-u^0)-f_\delta\|=|\beta_0^{-1}(u)|\cdot\|A(u)-A(u_\alpha)+\alpha(u-u_\alpha)\|.$$
+\begin{equation}\label{estmodif2.7}
+\|A(u)+\alpha(u-u^0)-f_\delta\|\le(N_1+\alpha)\|u-u_\alpha\|.
+\end{equation}
+$$\beta_0^{-1}(u)=\frac{1}{\|S_\alpha(u)\|^2}\int_{0}^{N_0}\frac{d<E_\lambda S_\alpha(u), S_\alpha(u)>}{\lambda + \bar{\alpha}}\le\frac{1}{\bar{\alpha}},$$
+\begin{equation}\label{estmodif2.8}
+\|F_0^{-1}(u)\|^2\le\frac{(N_1+\alpha)^2}{\bar{\alpha}^2}\|u-u_\alpha\|^2.
+\end{equation}
+Объединим (\ref{estmodif2.6}) и (\ref{estmodif2.8}), получаем
+$$\|F_0^{-1}(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}<F_0^{-1}(u), u-u_\alpha>$$ для модифицированного варианта ММО.
+
+Рассмотрим модифицированный вариант МНС ($\varkappa=0$).
+$$<F_0^0(u), u-u_\alpha>=\beta_0^0(u)[<A(u)-A(u_\alpha), u-u_\alpha>+\alpha\|u-u_\alpha\|^2].$$
+Учитывая, что $<(A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)>\le(N_0+\bar{\alpha})\|S_\alpha(u)\|^2$, имеем
+$$\beta_0^0(u)=\frac{\|S_\alpha(u)\|^2}{<(A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)>}\ge\frac{1}{N_0+\bar{\alpha}}.$$
+Воспользовавшись ранее полученной оценкой (\ref{estmodif2.5}), имеем
+\begin{equation}\label{estmodif2.11}
+<F_0^0(u), u-u_\alpha>\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
+\end{equation}
+Оценивая сверху $\beta_0^0(u)$ как
+\begin{equation}\label{estmodif2.12}
+\beta_0^0(u)\le\frac{1}{\bar{\alpha}},
+\end{equation}
+при объединении неравенств (\ref{estmodif2.7}), (\ref{estmodif2.11}) и (\ref{estmodif2.12}), приходим к соотношению
+$$\|F_0^0(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}<F_0^0(u), u-u_\alpha>$$ для модифицированного варианта МНС.
+
+Для модифицированного ММН ($\varkappa=1$), по аналогии, оценим сверху и снизу параметр $\beta_0^1(u)$. Обозначим $B_0(u)=A'(u^0)+\bar{\alpha}I,$
+$$\beta_0^1(u)=\frac{<B_0(u)S_\alpha(u), S_\alpha(u)>}{\|B_0(u)S_\alpha(u)\|^2}=\frac{\|B_0^{1/2}(u)S_\alpha(u)\|^2}{\|B_0^{1/2}\|^2\|B_0^{1/2}S_\alpha(u)\|^2}\ge\frac{1}{\|B_0(u)\|}\ge\frac{1}{N_0+\bar{\alpha}}.$$
+Объединяя эту оценку и оценку (\ref{estmodif2.5}), имеем соотношение
+\begin{equation}\label{estmodif2.13}
+<F_0^1(u), u-u_\alpha>\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
+\end{equation}
+И наконец,
+$$\beta_0^1(u)=\frac{<B_0(u)S_\alpha(u), S_\alpha(u)>}{<B_0(u)S_\alpha(u), A'(u^0)S_\alpha(u)>+\bar{\alpha}<B_0(u)S_\alpha(u), S_\alpha(u)>}$$
+$$\le\frac{<B_0(u)S_\alpha(u), S_\alpha(u)>}{\bar{\alpha}<B_0S_\alpha(u), S_\alpha(u)>}=\frac{1}{\bar{\alpha}},$$
+так как $$<B_0(u)S_\alpha(u), A'(u^0)S_\alpha(u)>=<A'(u^0)S_\alpha(u), A'(u^0)S_\alpha(u)>$$$$+\bar{\alpha}<S_\alpha(u), A'(u^0)S_\alpha(u)>\ge 0$$ в силу неотрицательности спектра оператора $A'(u^0)$. Таким образом,
+\begin{equation}\label{estmodif2.14}
+\|F_0^1(u)\|^2\le\frac{(N_1+\alpha)^2}{\bar{\alpha}^2}\|u-u_\alpha\|^2,
+\end{equation}
+объединяя (\ref{estmodif2.13}), (\ref{estmodif2.14}), получаем
+$$\|F_0^1(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}<F_0^1(u), u-u_\alpha>.$$
+
+Докажем сильную фейеровость оператора шага $T$ в методах (\ref{modalpha}).
+\begin{theorem}
+	Пусть выполнены условия теоремы \ref{teomodalpnomonot}. Тогда при $\gamma < 2/\mu_\varkappa$ последовательность $\{u^k\}_{k=1}^\infty$ сходится к регуляризованному решению $u_\alpha$: $$\lim\limits_{k\to\infty}\|u^k-u_\alpha\|=0,$$ при $\gamma_{opt}=1/\mu_\varkappa.$ Справедлива оценка $$\|u^k-u_\alpha\|\le q{_\varkappa^k}r,$$ где
+	$$q^\varkappa=\sqrt{1-\frac{9\alpha^2}{64(N_1+\alpha)^2}}$$
+\end{theorem}
+Доказательство.
+
+Неравенство (?) будет выполнено при $\mu_\varkappa=\frac{2}{\gamma(1+\nu)}$ (из теоремы~\ref{teomodalpnomonot}), $\nu=\frac{2}{\gamma\mu_\varkappa}-1,$ где $\gamma<2/\mu_\varkappa$. Отсюда следует сходимость итераций к $u_\alpha$.
+
+Величину $q$ получим из условия минимума $\|u^{k+1}-u_\alpha\|^2$:
+$$\|u^{k+1}-u_\alpha\|^2=\|u^k-u_\alpha\|^2-2\gamma\langle F^\varkappa(u^k), u^k-u_\alpha\rangle+\gamma^2\|F^\varkappa(u^k)\|^2$$
+\begin{equation}\label{estmod2.11}
+\le\big(1-2\gamma\frac{3\alpha}{8\bar{\alpha}}+\gamma^2\frac{(N_1+\alpha)^2}{\bar{\alpha}^2}\big)\|u^k-u_\alpha\|^2.
+\end{equation}
+$$\gamma_{opt}=argmin\{1-2\gamma\frac{3\alpha}{8\bar{\alpha}}+\gamma^2\frac{(N_1+\alpha)^2}{\bar{\alpha}^2}\},$$
+подставляя полученное $\gamma_{opt}$ в выражение в круглых скобках~(\ref{estmod2.11}), вычисляем значение для $q^\varkappa$:
+$$\|u^{k+1}-u_\alpha\|^2\le\big(1-\frac{9\alpha^2}{64(N_1+\alpha)^2}\big)\|u^k-u_\alpha\|^2,$$ отсюда получаем $q^\varkappa$.
+\section{Выводы ко второй главе}
