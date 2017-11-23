@@ -2677,15 +2677,16 @@
     <bcf:citekey order="3">Vasin2014</bcf:citekey>
     <bcf:citekey order="4">KufFuch1988</bcf:citekey>
     <bcf:citekey order="5">VasEre2009</bcf:citekey>
-    <bcf:citekey order="6">VasSkur2017</bcf:citekey>
-    <bcf:citekey order="7">VasAkiMin2013</bcf:citekey>
-    <bcf:citekey order="7">Vasin_2014</bcf:citekey>
-    <bcf:citekey order="7">Vasin_2016</bcf:citekey>
-    <bcf:citekey order="8">MarPrut2003</bcf:citekey>
-    <bcf:citekey order="9">AkMarMis2013</bcf:citekey>
-    <bcf:citekey order="10">Vasin_2012</bcf:citekey>
-    <bcf:citekey order="11">VasPer_2011</bcf:citekey>
-    <bcf:citekey order="12">Kok_2010</bcf:citekey>
+    <bcf:citekey order="6">Vasin_2016</bcf:citekey>
+    <bcf:citekey order="7">VasSkur2017</bcf:citekey>
+    <bcf:citekey order="8">VasAkiMin2013</bcf:citekey>
+    <bcf:citekey order="8">Vasin_2014</bcf:citekey>
+    <bcf:citekey order="8">Vasin_2016</bcf:citekey>
+    <bcf:citekey order="9">MarPrut2003</bcf:citekey>
+    <bcf:citekey order="10">AkMarMis2013</bcf:citekey>
+    <bcf:citekey order="11">Vasin_2012</bcf:citekey>
+    <bcf:citekey order="12">VasPer_2011</bcf:citekey>
+    <bcf:citekey order="13">Kok_2010</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none" type="entry" sortscheme="none">
   <bcf:sorting>
