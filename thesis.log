@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  27 NOV 2017 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  27 NOV 2017 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1392,7 +1392,7 @@ Overfull \hbox (1.18982pt too wide) in paragraph at lines 123--124
 ван^^?ные ва^^?ри^^?ан^^?ты ме^^?
  []
 
-[30] [31] [32] [33] [34] [35]
+[30] [31] [32] [33] [34] [35] [36]
 Package epstopdf Info: Source file: <fig/Twolaymodgrav.eps>
 (epstopdf)                    date: 2017-11-17 13:56:25
 (epstopdf)                    size: 1074682 bytes
@@ -1401,31 +1401,35 @@ Package epstopdf Info: Source file: <fig/Twolaymodgrav.eps>
 (epstopdf)                    size: 46266 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/Twolaymodgrav-eps-conv
 erted-to.pdf fig/Twolaymodgrav.eps>
-(epstopdf)             \includegraphics on input line 258.
+(epstopdf)             \includegraphics on input line 259.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/Twolaymodgrav-eps-converted-to.pdf, id=972, 287.0725pt x 232.87pt>
+<fig/Twolaymodgrav-eps-converted-to.pdf, id=977, 287.0725pt x 232.87pt>
 File: fig/Twolaymodgrav-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/Twolaymodgrav-eps-converted-to.pdf>
 Package pdftex.def Info: fig/Twolaymodgrav-eps-converted-to.pdf used on input l
-ine 258.
+ine 259.
 (pdftex.def)             Requested size: 210.45915pt x 170.71652pt.
- [36] [37 <./fig/Twolaymodgrav-eps-converted-to.pdf>]
+ [37 <./fig/Twolaymodgrav-eps-converted-to.pdf>]
 
-LaTeX Warning: Citation 'AkMisSkTr2015' on page 38 undefined on input line 281.
-
-
-
-LaTeX Warning: Citation 'Vasin2014' on page 38 undefined on input line 290.
+LaTeX Warning: Citation 'AkMisSkTr2015' on page 38 undefined on input line 282.
 
 
-LaTeX Warning: Citation 'Vasin2016' on page 38 undefined on input line 290.
+
+LaTeX Warning: Citation 'Vasin2014' on page 38 undefined on input line 291.
 
 
-LaTeX Warning: Reference `equ6.3' on page 38 undefined on input line 296.
+LaTeX Warning: Citation 'Vasin2016' on page 38 undefined on input line 291.
 
-[38]) (./3.tex [39]
+[38]
+
+LaTeX Warning: Reference `equ6.3' on page 39 undefined on input line 297.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./3.tex [39] [40]
 Package epstopdf Info: Source file: <fig/Twolaymodgrav.eps>
 (epstopdf)                    date: 2017-11-17 13:56:25
 (epstopdf)                    size: 1074682 bytes
@@ -1441,7 +1445,7 @@ File: fig/Twolaymodgrav-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/Twolaymodgrav-eps-converted-to.pdf used on input l
 ine 17.
 (pdftex.def)             Requested size: 210.45915pt x 170.71652pt.
- [40
+ [41
 
 ]
 Package epstopdf Info: Source file: <fig/MultilayerModel.eps>
@@ -1455,14 +1459,14 @@ nverted-to.pdf fig/MultilayerModel.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/MultilayerModel-eps-converted-to.pdf, id=1080, 230.8625pt x 305.14pt>
+<fig/MultilayerModel-eps-converted-to.pdf, id=1084, 230.8625pt x 305.14pt>
 File: fig/MultilayerModel-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/MultilayerModel-eps-converted-to.pdf>
 Package pdftex.def Info: fig/MultilayerModel-eps-converted-to.pdf used on input
  line 45.
 (pdftex.def)             Requested size: 129.16586pt x 170.71652pt.
- [41]
+ [42]
 Overfull \hbox (18.53209pt too wide) in paragraph at lines 55--57
 \T2A/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 f$ \T2A/cmr/m/n/14.4 --- гра^^?ви^^?т
 а^^?ци^^?он^^?ная по^^?сто^^?ян^^?ная, $\OT1/cmr/m/n/14.4 ^^A\OML/cmm/m/it/14.4
@@ -1473,12 +1477,12 @@ t/14.4 ; ::; L\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 скач^^?ки плот^^?но^^?сти,
  []
 
 
-LaTeX Warning: Citation 'MarPrut2003' on page 42 undefined on input line 58.
+LaTeX Warning: Citation 'MarPrut2003' on page 43 undefined on input line 58.
 
 
-LaTeX Warning: Citation 'AkMarMis2013' on page 42 undefined on input line 58.
+LaTeX Warning: Citation 'AkMarMis2013' on page 43 undefined on input line 58.
 
-[42 <./fig/MultilayerModel-eps-converted-to.pdf>]
+[43 <./fig/MultilayerModel-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/Twolaymodmag.eps>
 (epstopdf)                    date: 2017-11-17 13:56:25
 (epstopdf)                    size: 868792 bytes
@@ -1490,14 +1494,14 @@ rted-to.pdf fig/Twolaymodmag.eps>
 (epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/Twolaymodmag-eps-converted-to.pdf, id=1098, 257.96375pt x 208.78pt>
+<fig/Twolaymodmag-eps-converted-to.pdf, id=1103, 257.96375pt x 208.78pt>
 File: fig/Twolaymodmag-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/Twolaymodmag-eps-converted-to.pdf>
 Package pdftex.def Info: fig/Twolaymodmag-eps-converted-to.pdf used on input li
 ne 84.
 (pdftex.def)             Requested size: 210.94513pt x 170.71652pt.
- [43]
+ [44]
 Package epstopdf Info: Source file: <fig/Matrix.eps>
 (epstopdf)                    date: 2017-11-17 13:56:25
 (epstopdf)                    size: 4440772 bytes
@@ -1509,37 +1513,37 @@ o.pdf fig/Matrix.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/Matrix-eps-converted-to.pdf, id=1121, 607.26875pt x 606.265pt>
+<fig/Matrix-eps-converted-to.pdf, id=1125, 607.26875pt x 606.265pt>
 File: fig/Matrix-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/Matrix-eps-converted-to.pdf>
 Package pdftex.def Info: fig/Matrix-eps-converted-to.pdf used on input line 111
 .
 (pdftex.def)             Requested size: 170.99777pt x 170.71652pt.
- [44 <./fig/Twolaymodmag-eps-converted-to.pdf>]
+ [45 <./fig/Twolaymodmag-eps-converted-to.pdf>]
 Overfull \hbox (10.90738pt too wide) in paragraph at lines 117--118
 []\T2A/cmr/m/n/14.4 Поэтому в струк^^?тур^^?ных об^^?рат^^?ных за^^?да^^?чах гр
 ави- маг^^?ни^^?то^^?мет^^?рии при неболь^^?
  []
 
-[45 <./fig/Matrix-eps-converted-to.pdf>] [46]
+[46 <./fig/Matrix-eps-converted-to.pdf>] [47]
 
-LaTeX Warning: Citation 'Vasin_2012' on page 47 undefined on input line 160.
+LaTeX Warning: Citation 'Vasin_2012' on page 48 undefined on input line 160.
 
 
-LaTeX Warning: Citation 'VasPer_2011' on page 47 undefined on input line 160.
+LaTeX Warning: Citation 'VasPer_2011' on page 48 undefined on input line 160.
 
-[47]
+[48]
 
-LaTeX Warning: Citation 'Kok_2010' on page 48 undefined on input line 168.
+LaTeX Warning: Citation 'Kok_2010' on page 49 undefined on input line 168.
 
-[48]) (./concl.tex [49])
+[49]) (./concl.tex [50])
 
 LaTeX Warning: Empty bibliography on input line 142.
 
 
 AED: lastpage setting LastPage
-[50
+[51
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
@@ -1567,8 +1571,8 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
- 19017 strings out of 493109
- 293654 string characters out of 6132291
+ 19018 strings out of 493109
+ 293661 string characters out of 6132291
  843307 words of memory out of 5000000
  21963 multiletter control sequences out of 15000+600000
  23498 words of font info for 63 fonts, out of 8000000 for 9000
@@ -1596,10 +1600,10 @@ m1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/cm-super
 /sfrm1728.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/cm-s
 uper/sfrm2074.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/
 cm-super/sfti1440.pfb>
-Output written on thesis.pdf (50 pages, 563468 bytes).
+Output written on thesis.pdf (51 pages, 563404 bytes).
 PDF statistics:
- 1287 PDF objects out of 1440 (max. 8388607)
- 705 compressed objects within 8 object streams
- 189 named destinations out of 1000 (max. 500000)
+ 1291 PDF objects out of 1440 (max. 8388607)
+ 708 compressed objects within 8 object streams
+ 190 named destinations out of 1000 (max. 500000)
  190 words of extra memory for PDF output out of 10000 (max. 10000000)
 
