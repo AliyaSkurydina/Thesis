@@ -1,10 +1,10 @@
 [0] Config.pm:320> INFO - This is Biber 1.9
 [0] Config.pm:323> INFO - Logfile is 'thesis.blg'
-[45] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
-[45] Biber.pm:333> INFO - Reading 'thesis.bcf'
-[176] Biber.pm:635> INFO - Found 15 citekeys in bib section 0
+[46] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
+[46] Biber.pm:333> INFO - Reading 'thesis.bcf'
+[176] Biber.pm:635> INFO - Found 17 citekeys in bib section 0
 [215] Biber.pm:3051> INFO - Processing section 0
-[252] Biber.pm:3189> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[253] Biber.pm:3189> INFO - Looking for bibtex format file 'thesis.bib' for section 0
 [258] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
 [262] bibtex.pm:864> INFO - Found BibTeX data source 'thesis.bib'
 [262] Utils.pm:144> WARN - Entry VasAkiMin2013 does not parse correctly
@@ -12,9 +12,9 @@
 [263] Utils.pm:144> WARN - Entry Vasin_2016 does not parse correctly
 [263] Utils.pm:144> WARN - Entry VasSkur2017 does not parse correctly
 [263] Utils.pm:144> WARN - Entry AkMarMis2013 does not parse correctly
-[263] Utils.pm:144> WARN - Entry Kok_2010 does not parse correctly
+[264] Utils.pm:144> WARN - Entry Kok_2010 does not parse correctly
 [264] Utils.pm:144> WARN - Entry VasPer_2011 does not parse correctly
 [264] Utils.pm:144> WARN - Entry Vasin_2012 does not parse correctly
-[276] Utils.pm:160> ERROR - BibTeX subsystem: C:\Users\u1104\AppData\Local\Temp\OdkfLhlxaQ\thesis.bib_5920.utf8, line 3, syntax error: found "title", expected end of entry ("}" or ")") (skipping to next "@")
-[276] Biber.pm:106> INFO - WARNINGS: 8
+[275] Utils.pm:160> ERROR - BibTeX subsystem: C:\Users\u1104\AppData\Local\Temp\m_mDZFwhTb\thesis.bib_5688.utf8, line 3, syntax error: found "title", expected end of entry ("}" or ")") (skipping to next "@")
+[275] Biber.pm:106> INFO - WARNINGS: 8
 [276] Biber.pm:110> INFO - ERRORS: 1

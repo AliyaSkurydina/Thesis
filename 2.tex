@@ -127,19 +127,19 @@ $$\|F^1(u)\|\le\beta^1(u)(\|A(u)-A(u_\alpha)\|+\alpha\|u-u_\alpha\|)\le \beta^1(
 Рассматривается случай, когда производная оператора производной $A'(u)$ вычисляется в начальной точке итерационных процессов $u^0$. Тогда формулы итерационных процессов $\eqref{equ_alphaproc}$ принимают вид:
 %модифицированный метод минимальной ошибки (МММО)
 %\begin{equation}\label{m3o}
-%u^{k+1}=u^k-\gamma\frac{<(A'(u^0)+\bar{\alpha}I)^{-1}S_\alpha(u^k),S_\alpha(u^k)>}{\|S_\alpha(u^k)\|^2}S_\alpha(u^k)\equiv T(u^k),
+%u^{k+1}=u^k-\gamma\frac{\langle (A'(u^0)+\bar{\alpha}I)^{-1}S_\alpha(u^k),S_\alpha(u^k)>}{\|S_\alpha(u^k)\|^2}S_\alpha(u^k)\equiv T(u^k),
 %\end{equation}
 %модифицированный метод наискорейшего спуска (ММНС)
 %\begin{equation}\label{m2ns}
-%u^{k+1}=u^k-\gamma\frac{\|S_\alpha(u^k)\|^2}{<(A'(u^0)+\bar{\alpha}I)S_\alpha(u^k),S_\alpha(u^k)>}S_\alpha(u^k),
+%u^{k+1}=u^k-\gamma\frac{\|S_\alpha(u^k)\|^2}{\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u^k),S_\alpha(u^k)>}S_\alpha(u^k),
 %\end{equation}
 %модифицированный метод минимальных невязок (МММН)
 %\begin{equation}\label{m3n}
-%u^{k+1}=u^k-\gamma\frac{<(A'(u^0)+\bar{\alpha}I)S_\alpha(u^k),S_\alpha(u^k)>}{\|(A'(u^0)+\bar{\alpha}I)S_\alpha(u^k)\|^2}S_\alpha(u^k).
+%u^{k+1}=u^k-\gamma\frac{\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u^k),S_\alpha(u^k)>}{\|(A'(u^0)+\bar{\alpha}I)S_\alpha(u^k)\|^2}S_\alpha(u^k).
 %\end{equation}
 %Все три метода можно кратко записать в виде
 \begin{equation}\label{modalphaproc}
-u^{k+1}=u^k-\gamma\frac{<(A'(u^0)+\bar\alpha I)^{\varkappa}S_\alpha(u^k), S_\alpha(u^k)>}{<(A'(u^0)+\bar\alpha I)^{\varkappa+1}S_\alpha(u^k), S_\alpha(u^k)>}S_\alpha(u^k)\equiv T(u^k),
+u^{k+1}=u^k-\gamma\frac{\langle (A'(u^0)+\bar\alpha I)^{\varkappa}S_\alpha(u^k), S_\alpha(u^k)\rangle}{\langle (A'(u^0)+\bar\alpha I)^{\varkappa+1}S_\alpha(u^k), S_\alpha(u^k)\rangle}S_\alpha(u^k)\equiv T(u^k),
 \end{equation}
 где при $\varkappa=-1$ итерационный процесс представляет собой модифицированный ММО, при $\varkappa=0$ --- модифицированный МНС и при $\varkappa=1$ --- модифицированный ММН.
 
@@ -161,13 +161,13 @@ u^{k+1}=u^k-\gamma\frac{<(A'(u^0)+\bar\alpha I)^{\varkappa}S_\alpha(u^k), S_\alp
 	\end{equation}
 	
 	Тогда для оператора поправки итерационного метода (\ref{modalphaproc})
-	$$F^\varkappa(u)=\frac{<(A'(u^0)+\bar\alpha I)^{\varkappa}S_\alpha(u^k), S_\alpha(u^k)>}{<(A'(u^0)+\bar\alpha I)^{\varkappa+1}S_\alpha(u^k), S_\alpha(u^k)>}S_\alpha(u^k)$$ имеет место неравенство
-	$$\|F^\varkappa(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}<F^\varkappa(u), u-u_\alpha\rangle,$$
+	$$F^\varkappa(u)=\frac{\langle (A'(u^0)+\bar\alpha I)^{\varkappa}S_\alpha(u^k), S_\alpha(u^k)\rangle}{\langle (A'(u^0)+\bar\alpha I)^{\varkappa+1}S_\alpha(u^k), S_\alpha(u^k)\rangle}S_\alpha(u^k)$$ имеет место неравенство
+	$$\|F^\varkappa(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}\langle F^\varkappa(u), u-u_\alpha\rangle,$$
 	где $\varkappa=-1, 0, 1,$ для модифицированных вариантов ММО, МНС и ММН соответственно.
 \end{theorem} 
-\proof Установим свойство монотонности оператора $F$ для МММО, обозначим его как $F_0^{-1}$.
-$$<F_0^{-1}(u),u-u_\alpha>=<F_0^{-1}(u)-F_0^{-1}(u_\alpha),u-u_\alpha>=\beta_0^{-1}[<A(u)-A(u_\alpha),u-u_\alpha>$$ $$+\alpha\|u-u_\alpha\|^2].$$
-$$<A(u)-A(u_\alpha),u-u_\alpha>=<\int_{0}^{1}[A'(u_\alpha+\theta(u-u_\alpha))-A'(u^0)](u-u_\alpha)d\theta, u-u_\alpha\rangle$$ $$+<A'(u^0)(u-u_\alpha), u-u_\alpha\rangle\ge-N_2\int_{0}^{1}\|u_\alpha-u^0+\theta(u-u_\alpha)\|\cdot\|u-u_\alpha\|^2d\theta$$ $$=-N_2\|u-u_\alpha\|^2\int_{0}^{1}\|u_\alpha-u^0+\theta u-\theta u_\alpha\pm\theta u^0\|d\theta=-N_2\|u-u_\alpha\|^2$$
+\proof Установим свойство монотонности оператора $F$ для модифицированного ММО, обозначим его как $F_0^{-1}$.
+$$\langle F_0^{-1}(u),u-u_\alpha\rangle=\langle F_0^{-1}(u)-F_0^{-1}(u_\alpha),u-u_\alpha\rangle=\beta_0^{-1}[\langle A(u)-A(u_\alpha),u-u_\alpha\rangle$$ $$+\alpha\|u-u_\alpha\|^2].$$
+$$\langle A(u)-A(u_\alpha),u-u_\alpha\rangle=\langle\int_{0}^{1}[A'(u_\alpha+\theta(u-u_\alpha))-A'(u^0)](u-u_\alpha)d\theta, u-u_\alpha\rangle$$ $$+\langle A'(u^0)(u-u_\alpha), u-u_\alpha\rangle\ge-N_2\int_{0}^{1}\|u_\alpha-u^0+\theta(u-u_\alpha)\|\cdot\|u-u_\alpha\|^2d\theta$$ $$=-N_2\|u-u_\alpha\|^2\int_{0}^{1}\|u_\alpha-u^0+\theta u-\theta u_\alpha\pm\theta u^0\|d\theta=-N_2\|u-u_\alpha\|^2$$
 $$\times\int_{0}^{1}\|(1-\theta)(u_\alpha-u^0)+\theta(u-u_\alpha)\|d\theta\ge-N_2\|u-u_\alpha\|^2\Big[\int_{0}^{1}(1-\theta)d\theta\cdot\|u^0-u_\alpha\|$$$$+\int_{0}^{1}\theta d\theta\|u-u_\alpha\|^2\Big]=-N_2\|u-u_\alpha\|^2\Big[\frac{\|u_\alpha-u^0\|}{2}+\frac{\|u_\alpha-u^0+u^0-u\|}{2}\Big]$$
 \begin{equation}\label{estmodif2.5}
 \ge-\frac{3N_2r}{2}\|u-u_\alpha\|^2,
@@ -175,55 +175,55 @@ $$\times\int_{0}^{1}\|(1-\theta)(u_\alpha-u^0)+\theta(u-u_\alpha)\|d\theta\ge-N_
 где $r=\|u_\alpha-u^0\|,\quad \|u-u^0\|\le 2r$.
 
 Получим оценку снизу для множителя $\beta_0^{-1}(u)$, воспользовавшись спектральным разложением резольвенты самосопряженного оператора $A'(u^0)$:
-$$<(A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle=\int_{0}^{N_0}\frac{d<E_\lambda S_\alpha(u), S_\alpha(u)\rangle}{\lambda+\bar{\alpha}}\ge\frac{\|S_\alpha(u)\|^2}{N_0+\bar{\alpha}},$$
-$$\beta_0^{-1}(u)=\frac{<(A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha(u)\|^2}\ge\frac{1}{N_0+\bar{\alpha}}.$$ 
-Имеем $$<F_0^{-1}(u), u-u_\alpha\rangle\ge\frac{1}{N_0+\bar{\alpha}}\Big[\alpha-\frac{3N_2r}{2}\Big]\|u-u_\alpha\|^2.$$
+$$\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle=\int_{0}^{N_0}\frac{d\langle E_\lambda S_\alpha(u), S_\alpha(u)\rangle}{\lambda+\bar{\alpha}}\ge\frac{\|S_\alpha(u)\|^2}{N_0+\bar{\alpha}},$$
+$$\beta_0^{-1}(u)=\frac{\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha(u)\|^2}\ge\frac{1}{N_0+\bar{\alpha}}.$$ 
+Имеем $$\langle (A'(u^0), u-u_\alpha\rangle\ge\frac{1}{N_0+\bar{\alpha}}\Big[\alpha-\frac{3N_2r}{2}\Big]\|u-u_\alpha\|^2.$$
 Применяя условия (\ref{cond2.4}) теоремы, получаем итоговую оценку
 \begin{equation}\label{estmodif2.6}
-<F_0^{-1}(u), u-u_\alpha\rangle\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
+\langle (A'(u^0), u-u_\alpha\rangle\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
 \end{equation}
 Получим оценку нормы оператора $F_0^{-1}$:
 $$\|F_0^{-1}(u)\|=|\beta_0^{-1}(u)|\cdot\|A(u)+\alpha(u-u^0)-f_\delta\|=|\beta_0^{-1}(u)|\cdot\|A(u)-A(u_\alpha)+\alpha(u-u_\alpha)\|.$$
 \begin{equation}\label{estmodif2.7}
 \|A(u)+\alpha(u-u^0)-f_\delta\|\le(N_1+\alpha)\|u-u_\alpha\|.
 \end{equation}
-$$\beta_0^{-1}(u)=\frac{1}{\|S_\alpha(u)\|^2}\int_{0}^{N_0}\frac{d<E_\lambda S_\alpha(u), S_\alpha(u)\rangle}{\lambda + \bar{\alpha}}\le\frac{1}{\bar{\alpha}},$$
+$$\beta_0^{-1}(u)=\frac{1}{\|S_\alpha(u)\|^2}\int_{0}^{N_0}\frac{d\langle E_\lambda S_\alpha(u), S_\alpha(u)\rangle}{\lambda + \bar{\alpha}}\le\frac{1}{\bar{\alpha}},$$
 \begin{equation}\label{estmodif2.8}
 \|F_0^{-1}(u)\|^2\le\frac{(N_1+\alpha)^2}{\bar{\alpha}^2}\|u-u_\alpha\|^2.
 \end{equation}
 Объединим (\ref{estmodif2.6}) и (\ref{estmodif2.8}), получаем
-$$\|F_0^{-1}(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}<F_0^{-1}(u), u-u_\alpha\rangle$$ для модифицированного варианта ММО.
+$$\|F_0^{-1}(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}\langle (A'(u^0), u-u_\alpha\rangle$$ для модифицированного варианта ММО.
 
 Рассмотрим модифицированный вариант МНС ($\varkappa=0$).
-$$<F_0^0(u), u-u_\alpha\rangle=\beta_0^0(u)[<A(u)-A(u_\alpha), u-u_\alpha\rangle+\alpha\|u-u_\alpha\|^2].$$
-Учитывая, что $<(A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle\le(N_0+\bar{\alpha})\|S_\alpha(u)\|^2$, имеем
-$$\beta_0^0(u)=\frac{\|S_\alpha(u)\|^2}{<(A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle}\ge\frac{1}{N_0+\bar{\alpha}}.$$
+$$\langle F_0^0(u), u-u_\alpha\rangle=\beta_0^0(u)[\langle A(u)-A(u_\alpha), u-u_\alpha\rangle+\alpha\|u-u_\alpha\|^2].$$
+Учитывая, что $\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle\le(N_0+\bar{\alpha})\|S_\alpha(u)\|^2$, имеем
+$$\beta_0^0(u)=\frac{\|S_\alpha(u)\|^2}{\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle}\ge\frac{1}{N_0+\bar{\alpha}}.$$
 Воспользовавшись ранее полученной оценкой (\ref{estmodif2.5}), имеем
 \begin{equation}\label{estmodif2.11}
-<F_0^0(u), u-u_\alpha\rangle\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
+\langle F_0^0(u), u-u_\alpha\rangle\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
 \end{equation}
 Оценивая сверху $\beta_0^0(u)$ как
 \begin{equation}\label{estmodif2.12}
 \beta_0^0(u)\le\frac{1}{\bar{\alpha}},
 \end{equation}
 при объединении неравенств (\ref{estmodif2.7}), (\ref{estmodif2.11}) и (\ref{estmodif2.12}), приходим к соотношению
-$$\|F_0^0(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}<F_0^0(u), u-u_\alpha\rangle$$ для модифицированного варианта МНС.
+$$\|F_0^0(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}\langle F_0^0(u), u-u_\alpha\rangle$$ для модифицированного варианта МНС.
 
 Для модифицированного ММН ($\varkappa=1$), по аналогии, оценим сверху и снизу параметр $\beta_0^1(u)$. Обозначим $B_0(u)=A'(u^0)+\bar{\alpha}I,$
-$$\beta_0^1(u)=\frac{<B_0(u)S_\alpha(u), S_\alpha(u)\rangle}{\|B_0(u)S_\alpha(u)\|^2}=\frac{\|B_0^{1/2}(u)S_\alpha(u)\|^2}{\|B_0^{1/2}\|^2\|B_0^{1/2}S_\alpha(u)\|^2}\ge\frac{1}{\|B_0(u)\|}\ge\frac{1}{N_0+\bar{\alpha}}.$$
+$$\beta_0^1(u)=\frac{\langle B_0(u)S_\alpha(u), S_\alpha(u)\rangle}{\|B_0(u)S_\alpha(u)\|^2}=\frac{\|B_0^{1/2}(u)S_\alpha(u)\|^2}{\|B_0^{1/2}\|^2\|B_0^{1/2}S_\alpha(u)\|^2}\ge\frac{1}{\|B_0(u)\|}\ge\frac{1}{N_0+\bar{\alpha}}.$$
 Объединяя эту оценку и оценку (\ref{estmodif2.5}), имеем соотношение
 \begin{equation}\label{estmodif2.13}
-<F_0^1(u), u-u_\alpha\rangle\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
+\langle F_0^1(u), u-u_\alpha\rangle\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
 \end{equation}
 И наконец,
-$$\beta_0^1(u)=\frac{<B_0(u)S_\alpha(u), S_\alpha(u)\rangle}{<B_0(u)S_\alpha(u), A'(u^0)S_\alpha(u)\rangle+\bar{\alpha}<B_0(u)S_\alpha(u), S_\alpha(u)\rangle}$$
-$$\le\frac{<B_0(u)S_\alpha(u), S_\alpha(u)\rangle}{\bar{\alpha}<B_0S_\alpha(u), S_\alpha(u)\rangle}=\frac{1}{\bar{\alpha}},$$
-так как $$<B_0(u)S_\alpha(u), A'(u^0)S_\alpha(u)\rangle=<A'(u^0)S_\alpha(u), A'(u^0)S_\alpha(u)\rangle$$$$+\bar{\alpha}<S_\alpha(u), A'(u^0)S_\alpha(u)>\ge 0$$ в силу неотрицательности спектра оператора $A'(u^0)$. Таким образом,
+$$\beta_0^1(u)=\frac{\langle B_0(u)S_\alpha(u), S_\alpha(u)\rangle}{\langle B_0(u)S_\alpha(u), A'(u^0)S_\alpha(u)\rangle+\bar{\alpha}\langle B_0(u)S_\alpha(u), S_\alpha(u)\rangle}$$
+$$\le\frac{\langle B_0(u)S_\alpha(u), S_\alpha(u)\rangle}{\bar{\alpha}\langle B_0(u)S_\alpha(u), S_\alpha(u)\rangle}=\frac{1}{\bar{\alpha}},$$
+так как $$\langle B_0(u)S_\alpha(u), A'(u^0)S_\alpha(u)\rangle=\langle A'(u^0)S_\alpha(u), A'(u^0)S_\alpha(u)\rangle$$$$+\bar{\alpha}\langle S_\alpha(u), A'(u^0)S_\alpha(u)\rangle\ge 0$$ в силу неотрицательности спектра оператора $A'(u^0)$. Таким образом,
 \begin{equation}\label{estmodif2.14}
 \|F_0^1(u)\|^2\le\frac{(N_1+\alpha)^2}{\bar{\alpha}^2}\|u-u_\alpha\|^2,
 \end{equation}
 объединяя (\ref{estmodif2.13}), (\ref{estmodif2.14}), получаем
-$$\|F_0^1(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}<F_0^1(u), u-u_\alpha\rangle.$$
+$$\|F_0^1(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}\langle F_0^1(u), u-u_\alpha\rangle.$$
 
 Докажем сильную фейеровость оператора шага $T$ в методах (\ref{modalphaproc}).
 \begin{theorem}
@@ -240,4 +240,87 @@ $$\|u^{k+1}-u_\alpha\|^2=\|u^k-u_\alpha\|^2-2\gamma\langle F^\varkappa(u^k), u^k
 $$\gamma_{opt}=argmin\{1-2\gamma\frac{3\alpha}{8\bar{\alpha}}+\gamma^2\frac{(N_1+\alpha)^2}{\bar{\alpha}^2}\},$$
 подставляя полученное $\gamma_{opt}$ в выражение в круглых скобках~(\ref{estmod2.11}), вычисляем значение для $q^\varkappa$:
 $$\|u^{k+1}-u_\alpha\|^2\le\big(1-\frac{9\alpha^2}{64(N_1+\alpha)^2}\big)\|u^k-u_\alpha\|^2,$$ отсюда получаем $q^\varkappa$.
+
+\section{Численные эксперименты}
+
+{\bfseries 2.4.1.} Рассматривается трехмерная структурная обратная задача гравиметрии о нахождении поверхностей раздела сред по известным скачкам плотности и гравитационному полю, измеренному на некоторой площади земной поверхности.
+Рассмотрим уравнение гравиметрии для модели двуслойной среды в декартовой системе координат с осью $z$, направленной вниз 
+\begin{equation}\label{equ_grav2l}
+\begin{aligned}
+\gamma\Delta\sigma\frac{1}{4\pi} \bigg\{ \iint_{D} \frac{1}{[(x-x')^2+(y-y')^2+H^2]^{1/2}}dx'dy' \\
+- 
+\iint_{D} \frac{1}{[(x-x')^2+(y-y')^2+u^2(x',y')]^{1/2}}dx'dy'\bigg\}=\Delta g(x,y),
+\end{aligned} 
+\end{equation}
+где $\gamma$ --- гравитационная постоянная, $\Delta\sigma=\sigma_2-\sigma_1$ --- скачок плотности на поверхности раздела сред, описываемой функцией $u(x,y)$ и подлежащей определению, $f(x,y)$ --- аномальное гравитационное поле, вызванное отклонением поверхности от асимптотической плоскости $z=H$ для искомого решения $u(x,y)$ (рис.~\ref{fig:twolayergrav}). 
+\begin{figure}
+	\centering
+	\includegraphics[height=6.0cm]{Twolaymodgrav}
+	\caption{Модель двуслойной среды в задаче гравиметрии.}
+	\label{fig:twolayergrav}
+	\end{figure}
+Запишем $\eqref{equ_grav2l}$ в виде операторного уравнения
+\begin{equation}\label{equ_2lop}
+	[A(u)](x,y)=-\iint_{D} \frac{1}{[(x-x')^2+(y-y')^2+u^2(x',y')]^{1/2}}dx'dy'=f(x,y),
+\end{equation}
+где $f(x,y)=\Delta g(x,y) 4\pi/\gamma\Delta\sigma - A(H)$. Тогда производная оператора $A$ в точке $u^0(x,y)$ определяется формулой
+$$ [A'(u^0)]h=\iint_{D} \frac{u^0(x',y')h(x',y')}{[(x-x')^2+(y-y')^2+(u^0(x',y'))^2]^{3/2}}dx'dy', $$
+Уравнение (\ref{equ_2lop}) является интегральным уравнением Урысона (так как неизвестная функция $u(x,y)$ входит в ядро оператора нелинейно) I рода, следовательно, относится к классу некорректных задач.
+	
+После дискретизации интегрального уравнения $\eqref{equ_2lop}$ двумерным аналогом формулы прямоугольников с равномерной сеткой по каждой переменной с шагом $\Delta x$, $\Delta y$, получаем систему нелинейных уравнений относительно неизвестного вектора $u_{ji}=u(x_j,y_i)\quad (j=1,2,...,N, i=1,2,...,M)$, которая в векторно-матричном виде может быть записана следующим образом
+\begin{equation}\label{equ_snle}
+	A_n(u_n)=f_n,
+\end{equation}
+где $u_n$, $f_n$ --- векторы размерности $n=N\times M$. Дискретный аналог производной $A'(u^0)$ принимает форму
+\begin{equation}\label{op_grav_disc_form}
+	[A'_n(u_n^0)h_n]_{k,l}=\sum\limits_{i=1}^{M}\sum\limits_{j=1}^{N}
+	\Delta x\Delta y\frac{u^0_{ji}h_{ji}}{[(x_k-x'_j)^2+(y_l-y'_i)^2+(u^0_{ji})^2]^{3/2}},
+\end{equation}
+где при $u_n=u_{n}^{0}$ --- const $A'_n(u_n^0)$ --- симметричная матрица, компоненты которой вычисляются по формуле $\eqref{op_grav_disc_form}$.
+
+Рассматривая модель двухслойной среды, в которой поверхность раздела задается функцией $u(x,y)$, определяется формулой \cite[c.~160]{AkMisSkTr2015}
+$$
+\hat{u}(x,y)=5-3.21e^{-(x/10.13-6.62)^6-(y/9.59-2.93)^6}-
+2.78e^{-(x/9.89-4.12)^6-(y/8.63-7.43)^6}$$
+\begin{equation}\label{form6.5}
++3.13e^{-(x/9.89-4.82)^6-(y/8.72-4.33)^6},
+\end{equation}
+заданной в области $D=\{0\le x\le 100, 0\le y \le 110\}$. Была выбрана сетка с шагом $\Delta x=\Delta y=1$ (км), что приводит к размерности $n=11000$ для искомого вектора $u_n$, а также принято, что $\Delta\sigma=0.21$ (г/см$^3$), $H=5$ (км) ($z=H=5$ --- асимптотическая плоскость для $\hat{u}(x,y)$).
+
+Цель численного эксперимента --- сравнить по экономичности (затратам машинного времени) методы $\eqref{equ_rmn}$, $\eqref{equ_alphaproc}$ с их модифицированными вариантами, когда производная $A'(u^k)$, входящая в оператор шага этих процессов, вычисляется в фиксированной точке $u^0$ в течение всего процесса итераций, т.е. $A'(u^k)$ в $\eqref{equ_rmn}$, $\eqref{equ_alphaproc}$ заменяется на $A'(u^0)$ (см. \cite{Vasin2014, Vasin2016}). В результате численного эксперимента по восстановлению модельного решения $\eqref{form6.5}$ было установлено, что не только матрица $A'_n(u^0)$ имеет $n$ различных неотрицательных собственных значений, но это свойство имеет место и для $A'(u_n^k)$. Тем самым выполняются условия, при которых получены результаты в данной главе по сходимости и оценке погрешности процессов $\eqref{equ_rmn}$, $\eqref{equ_alphaproc}$ для немонотонного оператора $A$ с положительным спектром. 
+
+При анализе числа обусловленности $\mu(A'_n(u_n^k))$ было установлено, что эта величина для всех четырех процессов незначительно колеблется около значений $\mu=10^{17}$(??). Выход из процесса итераций каждого из методов осуществляется по правилу
+\begin{equation}\label{cond6.6}
+\frac{\|\hat{u}_n-\tilde{u}_n\|_{R^n}}{\|\tilde{u}_n\|_{R^n}}\le 10^{-2},
+\end{equation}
+где $\hat{u}_n$ --- точное решение системы уравнений $\eqref{equ6.3}$, а $\tilde{u}_n$ --- восстановленное каждым из четырех итерационных методов. Таким образом, точность численного решения, полученного процессами $\eqref{equ_rmn}$, $\eqref{equ_alphaproc}$ и их модифицированными аналогами, гарантированно не превышала $\varepsilon=10^{-2}$.
+
+При значениях параметров $\bar\alpha=\alpha=10^{-3}$, $\gamma=1$ в Таблице $\ref{Table_gravy}$ представлены результаты численных расчетов, где
+\begin{equation}\label{form6.7}
+\Delta=\frac{\|A_n(\tilde{u}_n)+\alpha(\tilde{u}_n-u^0)-f_n\|_{R^n}}{\|f_n\|_{R^n}},
+\end{equation}
+относительная регуляризованная невязка для восстановленного решения, $N$ --- число итераций в процессе для достижения точности, определяемой неравенством $\eqref{cond6.6}$, $T$ --- время реализации метода. В позициях для $\Delta$, $N$, $T$ верхняя строка соответствует основным процессам, а нижняя --- их модифицированным вариантам.
+\begin{table}[h]
+	\centering
+	\caption{Эксперименты для обратной задачи гравиметрии}
+	\label{Table_gravy}
+	\begin{tabular}{|p{0.2\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|}
+		\hline
+		\rule{0cm}{0.5cm}
+		\textbf{Методы} & \textbf{ММО} & \textbf{МНС} & \textbf{ММН} & \textbf{РМН} \\ \hline
+		\rule{0cm}{0.5cm}
+		{$\Delta$} & 0.0048 & 0.0020 & 0.0024 & 0.0023	 \\ \cline{2-5} 
+		\rule{0cm}{0.5cm}
+		&  0.0094   & 0.0019    &  0.0019   &  0.0021   \\ \hline
+		\rule{0cm}{0.5cm}
+		{$N$} & 17  &  21   &   20  &  16    \\ \cline{2-5}
+		\rule{0cm}{0.5cm}
+		&  22   &   23  &  23   &  16   \\ \hline
+		\rule{0cm}{0.5cm}
+		{$T$ (сек)}    &  214   &  11   &  14  & 15    \\ \cline{2-5}
+		\rule{0cm}{0.5cm}
+		& 328    & 7    &  7   &   7  \\ \hline
+	\end{tabular}
+\end{table}
+
 \section{Выводы ко второй главе}
