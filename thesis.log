@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.7)  30 NOV 2017 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.7)  4 DEC 2017 23:57
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -903,6 +903,30 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 Language: russianb 2016/02/18 1.3h Russian support for the Babel system
 Package babel Info: Making " an active character on input line 111.
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
+Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count118
+)
+\csq@reset=\count119
+\csq@gtype=\count120
+\csq@glevel=\count121
+\csq@qlevel=\count122
+\csq@maxlvl=\count123
+\csq@tshold=\count124
+\csq@ltx@everypar=\toks23
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
+File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
+File: csquotes.cfg 
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
@@ -921,37 +945,754 @@ G,.JBIG2,.JB2,.eps]
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks23
-\thm@bodyfont=\toks24
-\thm@headfont=\toks25
-\thm@notefont=\toks26
-\thm@headpunct=\toks27
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
 \thm@preskip=\skip51
 \thm@postskip=\skip52
 \thm@headsep=\skip53
-\dth@everypar=\toks28
+\dth@everypar=\toks29
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 
-! LaTeX Error: File `lastpage.sty' not found.
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count125
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write3
+\integerpart=\count126
+\decimalpart=\count127
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count128
+\c@listtotal=\count129
+\c@listcount=\count130
+\c@liststart=\count131
+\c@liststop=\count132
+\c@citecount=\count133
+\c@citetotal=\count134
+\c@multicitecount=\count135
+\c@multicitetotal=\count136
+\c@instcount=\count137
+\c@maxnames=\count138
+\c@minnames=\count139
+\c@maxitems=\count140
+\c@minitems=\count141
+\c@citecounter=\count142
+\c@savedcitecounter=\count143
+\c@uniquelist=\count144
+\c@uniquename=\count145
+\c@refsection=\count146
+\c@refsegment=\count147
+\c@maxextratitle=\count148
+\c@maxextratitleyear=\count149
+\c@maxextrayear=\count150
+\c@maxextraalpha=\count151
+\c@abbrvpenalty=\count152
+\c@highnamepenalty=\count153
+\c@lownamepenalty=\count154
+\c@maxparens=\count155
+\c@parenlevel=\count156
+\blx@tempcnta=\count157
+\blx@tempcntb=\count158
+\blx@tempcntc=\count159
+\blx@maxsection=\count160
+\blx@maxsegment@0=\count161
+\blx@notetype=\count162
+\blx@parenlevel@text=\count163
+\blx@parenlevel@foot=\count164
+\blx@sectionciteorder@0=\count165
+\labelnumberwidth=\skip54
+\labelalphawidth=\skip55
+\biblabelsep=\skip56
+\bibitemsep=\skip57
+\bibnamesep=\skip58
+\bibinitsep=\skip59
+\bibparsep=\skip60
+\bibhang=\skip61
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count166
+\c@maxcomprange=\count167
+\c@mincompwidth=\count168
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.22 
-      
-*** (cannot \read from terminal in nonstop modes)
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'gost-numeric.dbx' found.
 
- 
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-gost\dbx\gost-numeric.dbx"
+File: gost-numeric.dbx 2017/02/16 v1.13 biblatex-gost data model
+Package biblatex Info: Trying to load biblatex-gost data model...
+Package biblatex Info: ... file 'biblatex-gost.dbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-gost\dbx\biblatex-gost.dbx"
+File: biblatex-gost.dbx 2017/02/16 v1.13 biblatex-gost data model
+))
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count169
+\c@savedafterword=\count170
+\c@annotator=\count171
+\c@savedannotator=\count172
+\c@author=\count173
+\c@savedauthor=\count174
+\c@bookauthor=\count175
+\c@savedbookauthor=\count176
+\c@commentator=\count177
+\c@savedcommentator=\count178
+\c@editor=\count179
+\c@savededitor=\count180
+\c@editora=\count181
+\c@savededitora=\count182
+\c@editorb=\count183
+\c@savededitorb=\count184
+\c@editorc=\count185
+\c@savededitorc=\count186
+\c@foreword=\count187
+\c@savedforeword=\count188
+\c@holder=\count189
+\c@savedholder=\count190
+\c@introduction=\count191
+\c@savedintroduction=\count192
+\c@namea=\count193
+\c@savednamea=\count194
+\c@nameb=\count195
+\c@savednameb=\count196
+\c@namec=\count197
+\c@savednamec=\count198
+\c@translator=\count199
+\c@savedtranslator=\count266
+\c@shortauthor=\count267
+\c@savedshortauthor=\count268
+\c@shorteditor=\count269
+\c@savedshorteditor=\count270
+\c@booktranslator=\count271
+\c@savedbooktranslator=\count272
+\c@bookcommentator=\count273
+\c@savedbookcommentator=\count274
+\c@bookannotator=\count275
+\c@savedbookannotator=\count276
+\c@bookintroduction=\count277
+\c@savedbookintroduction=\count278
+\c@bookforeword=\count279
+\c@savedbookforeword=\count280
+\c@bookafterword=\count281
+\c@savedbookafterword=\count282
+\c@labelname=\count283
+\c@savedlabelname=\count284
+\c@institution=\count285
+\c@savedinstitution=\count286
+\c@lista=\count287
+\c@savedlista=\count288
+\c@listb=\count289
+\c@savedlistb=\count290
+\c@listc=\count291
+\c@savedlistc=\count292
+\c@listd=\count293
+\c@savedlistd=\count294
+\c@liste=\count295
+\c@savedliste=\count296
+\c@listf=\count297
+\c@savedlistf=\count298
+\c@location=\count299
+\c@savedlocation=\count300
+\c@organization=\count301
+\c@savedorganization=\count302
+\c@origlocation=\count303
+\c@savedoriglocation=\count304
+\c@origpublisher=\count305
+\c@savedorigpublisher=\count306
+\c@publisher=\count307
+\c@savedpublisher=\count308
+\c@language=\count309
+\c@savedlanguage=\count310
+\c@specdata=\count311
+\c@savedspecdata=\count312
+\c@credits=\count313
+\c@savedcredits=\count314
+\c@bookcredits=\count315
+\c@savedbookcredits=\count316
+\c@editioncredits=\count317
+\c@savededitioncredits=\count318
+\c@pageref=\count319
+\c@savedpageref=\count320
+\shorthandwidth=\skip62
+\shortjournalwidth=\skip63
+\shortserieswidth=\skip64
+\shorttitlewidth=\skip65
+\shortauthorwidth=\skip66
+\shorteditorwidth=\skip67
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count321
+\c@textcitetotal=\count322
+\c@textcitemaxnames=\count323
+\c@biburlnumpenalty=\count324
+\c@biburlucpenalty=\count325
+\c@biburllcpenalty=\count326
+
+
+! LaTeX Error: Command \bibfont already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270 ...ommand*{\bibfont}{\normalfont\normalsize}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\c@smartand=\count327
+)
+Package biblatex Info: Trying to load bibliography style 'gost-numeric'...
+Package biblatex Info: ... file 'gost-numeric.bbx' found.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-gost\bbx\gost-numeric.bbx"
+File: gost-numeric.bbx 2017/02/16 v1.13 biblatex-gost styles
+Package biblatex Info: Trying to load bibliography style 'gost-standard'...
+Package biblatex Info: ... file 'gost-standard.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-gost\bbx\gost-standard.bbx"
+File: gost-standard.bbx 2017/02/16 v1.13 biblatex-gost styles
+Package biblatex Info: Trying to load biblatex-gost generic definitions...
+Package biblatex Info: ... file 'biblatex-gost.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-gost\biblatex-gost.def"
+File: biblatex-gost.def 2017/02/16 v1.13 biblatex-gost styles
+)
+\c@blx@gost@pointer=\count328
+\c@bbx:relatedcount=\count329
+\c@bbx:relatedtotal=\count330
+Package biblatex Info: Redefining autocite command 'footnote'.
+Package biblatex Info: Redefining autocite command 'superscript'.
+))
+Package biblatex Info: Trying to load citation style 'gost-numeric'...
+Package biblatex Info: ... file 'gost-numeric.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-gost\cbx\gost-numeric.cbx"
+File: gost-numeric.cbx 2017/02/16 v1.13 biblatex-gost styles
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric-comp.cbx"
+File: numeric-comp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+\c@cbx@tempcnta=\count331
+\c@cbx@tempcntb=\count332
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+\c@theorem=\count333
+\c@cor=\count334
+\c@lemma=\count335
+\c@fact=\count336
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'russian'.
+Package biblatex Info: Trying to load language 'russian' -> 'russian-gost'...
+Package biblatex Info: ... file 'russian-gost.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-gost\lbx\russian-gost.lbx"
+File: russian-gost.lbx 2017/02/16 v1.13 biblatex-gost styles
+Package biblatex Info: Trying to load language 'russian'...
+Package biblatex Info: ... file 'russian.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\russian.lbx"
+File: russian.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
+File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+) (thesis.aux)
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box28
+Package hyperref Info: Link coloring ON on input line 56.
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count337
+)
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
+
+(thesis.out) (thesis.out)
+\@outlinefile=\write5
+\openout5 = `thesis.out'.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count338
+\scratchdimen=\dimen135
+\scratchbox=\box29
+\nofMPsegments=\count339
+\nofMParguments=\count340
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count341
+\MPscratchDim=\dimen136
+\MPnumerator=\count342
+\makeMPintoPDFobject=\count343
+\everyMPtoPDFconversion=\toks31
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 497.92325pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=497.92325pt
+* \textheight=731.23584pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-49.28133pt
+* \headheight=14.0pt
+* \headsep=19.91684pt
+* \topskip=14.0pt
+* \footskip=28.45274pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 56.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `thesis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'thesis.bbl' found.
+(thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 56.
+Package biblatex Info: Reference segment=0 on input line 56.
+ (common.tex)
+\firstskip=\skip68
+\secondskip=\skip69
+\thirdskip=\skip70
+\fourthskip=\skip71
+\fifthskip=\skip72
+\sixthskip=\skip73
+\specskip=\skip74
+\saskip=\skip75
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (thesis.toc<<ot1.cmap>><<
+oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+euex on input line 5.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\ueuex.fd"
+File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
+))
+\tf@toc=\write6
+\openout6 = `thesis.toc'.
+
+ [2
+
+
+] (intro.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+ [3
+
+
+] [4] [5]
+
+LaTeX Warning: Citation 'Ivanov_1999_Journal_17_173' on page 6 undefined on inp
+ut line 33.
+
+
+LaTeX Warning: Citation 'Petrov_2001_Journal_23_12321' on page 6 undefined on i
+nput line 33.
+
+
+LaTeX Warning: Citation 'Sidorov_2002_Journal_32_1531' on page 6 undefined on i
+nput line 33.
+
+
+Overfull \hbox (25.29738pt too wide) in paragraph at lines 32--34
+\T2A/cmr/m/n/14.4 тах, из них $\OT1/cmr/m/n/14.4 4$ \T2A/cmr/m/n/14.4 статей в
+ рецензируемых журналах [[];
+ []
+
+) (1.tex [6] [7
+
+]
+
+LaTeX Warning: Citation 'VasAkiMin2013' on page 8 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'Vasin2014' on page 8 undefined on input line 18.
+
+[8]
+
+LaTeX Warning: Citation 'KufFuch1988' on page 9 undefined on input line 31.
+
+
+Overfull \hbox (16.06487pt too wide) in paragraph at lines 41--42
+[]\T2A/cmr/m/n/14.4 ”читыва€, что дл€ монотонного оператора $\OML/cmm/m/
+it/14.4 A$ $\OMS/cmsy/m/n/14.4 k\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]\OT1/c
+mr/m/n/14.4 (\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 ) + []\OML/cmm/m/it/14.4 I\O
+T1/cmr/m/n/14.4 )[]\OMS/cmsy/m/n/14.4 k 
+ []
+
+[9]
+
+LaTeX Warning: Citation 'VasEre2009' on page 10 undefined on input line 54.
+
+
+Overfull \hbox (24.03159pt too wide) in paragraph at lines 65--66
+[][]\T2A/cmr/bx/n/14.4 “еорема 1.2. []\T2A/cmr/m/it/14.4 ѕусть дл€ монотонно
+го оператора $\OML/cmm/m/it/14.4 A$ \T2A/cmr/m/it/14.4 выполнены услови
+€ $[]$--$[]$,
+ []
+
+[10] [11] [12] [13] [14] [15] [16] [17] [18]
+Overfull \hbox (2.77051pt too wide) in paragraph at lines 267--269
+\T2A/cmr/m/n/14.4 “акже имеем оценку нормы производной в начальном при
+ближении $\OMS/cmsy/m/n/14.4 k\OML/cmm/m/it/14.4 F[]\OT1/cmr/m/n/14.4 (\OML/c
+mm/m/it/14.4 x[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 h\OMS/cmsy/m/n/14.4 k 
+ []
+
+<fig/mmn_ch1.png, id=544, 365.11406pt x 306.39468pt>
+File: fig/mmn_ch1.png Graphic file (type png)
+ <use fig/mmn_ch1.png>
+Package pdftex.def Info: fig/mmn_ch1.png used on input line 273.
+(pdftex.def)             Requested size: 203.43181pt x 170.71652pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 278.
+
+[19] [20 <./fig/mmn_ch1.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 307.
+
+
+LaTeX Warning: Citation 'Vasin_2016' on page 21 undefined on input line 325.
+
+
+LaTeX Warning: Citation 'VasAkiMin2013' on page 21 undefined on input line 325.
+
+
+[21]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 329.
+
+
+LaTeX Warning: Citation 'VasSkur2017' on page 22 undefined on input line 347.
+
+) (2.tex [22] [23] [24
+
+]
+
+LaTeX Warning: Citation 'VasSkur2017' on page 25 undefined on input line 8.
+
+[25] [26] [27] [28] [29]
+
+LaTeX Warning: Citation 'VasAkiMin2013' on page 30 undefined on input line 123.
+
+
+
+LaTeX Warning: Citation 'Vasin_2014' on page 30 undefined on input line 123.
+
+
+LaTeX Warning: Citation 'Vasin_2016' on page 30 undefined on input line 123.
+
+
+Overfull \hbox (1.18982pt too wide) in paragraph at lines 123--124
+[][] \T2A/cmr/m/n/14.4 ≈сли рассматривать модифицированные вариант
+ы ме
+ []
+
+[30] [31] [32] [33] [34] [35] [36]
+Package epstopdf Info: Source file: <fig/Twolaymodgrav.eps>
+(epstopdf)                    date: 2017-11-18 20:22:40
+(epstopdf)                    size: 1074682 bytes
+(epstopdf)             Output file: <fig/Twolaymodgrav-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-11-18 20:22:40
+(epstopdf)                    size: 46266 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Twolaymodgrav-eps-conve
+rted-to.pdf fig/Twolaymodgrav.eps>
+(epstopdf)             \includegraphics on input line 259.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Twolaymodgrav-eps-converted-to.pdf, id=967, 287.0725pt x 232.87pt>
+File: fig/Twolaymodgrav-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/Twolaymodgrav-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Twolaymodgrav-eps-converted-to.pdf used on input l
+ine 259.
+(pdftex.def)             Requested size: 210.45915pt x 170.71652pt.
+ [37 <./fig/Twolaymodgrav-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation 'AkMisSkTr2015' on page 38 undefined on input line 282.
+
+
+
+LaTeX Warning: Citation 'Vasin2014' on page 38 undefined on input line 291.
+
+
+LaTeX Warning: Citation 'Vasin2016' on page 38 undefined on input line 291.
+
+[38] [39]
+Package epstopdf Info: Source file: <fig/Twolaymodmag.eps>
+(epstopdf)                    date: 2017-11-18 20:22:40
+(epstopdf)                    size: 868792 bytes
+(epstopdf)             Output file: <fig/Twolaymodmag-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-11-18 20:22:40
+(epstopdf)                    size: 39113 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Twolaymodmag-eps-conver
+ted-to.pdf fig/Twolaymodmag.eps>
+(epstopdf)             \includegraphics on input line 336.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/Twolaymodmag-eps-converted-to.pdf, id=1052, 257.96375pt x 208.78pt>
+File: fig/Twolaymodmag-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/Twolaymodmag-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Twolaymodmag-eps-converted-to.pdf used on input li
+ne 336.
+(pdftex.def)             Requested size: 210.94513pt x 170.71652pt.
+ [40]
+
+LaTeX Warning: Citation 'AkMisDer2014' on page 41 undefined on input line 358.
+
+[41 <./fig/Twolaymodmag-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation 'VasEre2009' on page 42 undefined on input line 392.
+
+[42]) (3.tex [43]
+Package epstopdf Info: Source file: <fig/MultilayerModel.eps>
+(epstopdf)                    date: 2017-11-18 20:22:40
+(epstopdf)                    size: 111593 bytes
+(epstopdf)             Output file: <fig/MultilayerModel-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-11-18 20:22:40
+(epstopdf)                    size: 30456 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/MultilayerModel-eps-con
+verted-to.pdf fig/MultilayerModel.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/MultilayerModel-eps-converted-to.pdf, id=1168, 230.8625pt x 305.14pt>
+File: fig/MultilayerModel-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/MultilayerModel-eps-converted-to.pdf>
+Package pdftex.def Info: fig/MultilayerModel-eps-converted-to.pdf used on input
+ line 45.
+(pdftex.def)             Requested size: 129.16586pt x 170.71652pt.
+ [44
+
+ <./fig/MultilayerModel-eps-converted-to.pdf>]
+Overfull \hbox (18.53209pt too wide) in paragraph at lines 55--57
+\T2A/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 f$ \T2A/cmr/m/n/14.4 --- гравитаци
+онна€ посто€нна€, $\OT1/cmr/m/n/14.4 \OML/cmm/m/it/14.4 []\OT1/cmr/m/n/1
+4.4 (\OML/cmm/m/it/14.4 l \OT1/cmr/m/n/14.4 = 1\OML/cmm/m/it/14.4 ; ::; L\OT1/c
+mr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 скачки плотности, $\OT1/cmr/m/n/14.4 \OML/
+cmm/m/it/14.4 g\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; y[]\OT1/cmr/m/n/14.4 
+) =
+ []
+
+
+LaTeX Warning: Citation 'MarPrut2003' on page 45 undefined on input line 58.
+
+
+LaTeX Warning: Citation 'AkMarMis2013' on page 45 undefined on input line 58.
+
+[45]
+Package epstopdf Info: Source file: <fig/Matrix.eps>
+(epstopdf)                    date: 2017-11-18 20:22:40
+(epstopdf)                    size: 4440772 bytes
+(epstopdf)             Output file: <fig/Matrix-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-11-18 20:22:40
+(epstopdf)                    size: 49213 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Matrix-eps-converted-to
+.pdf fig/Matrix.eps>
+(epstopdf)             \includegraphics on input line 111.
+Package epstopdf Info: Output file is already uptodate.
+ <fig/Matrix-eps-converted-to.pdf, id=1189, 607.26875pt x 606.265pt>
+File: fig/Matrix-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/Matrix-eps-converted-to.pdf>
+Package pdftex.def Info: fig/Matrix-eps-converted-to.pdf used on input line 111
+.
+(pdftex.def)             Requested size: 170.99777pt x 170.71652pt.
+
+Overfull \hbox (10.90738pt too wide) in paragraph at lines 117--118
+[]\T2A/cmr/m/n/14.4 ѕоэтому в структурных обратных задачах грави- магни
+тометрии при неболь
+ []
+
+[46 <./fig/Matrix-eps-converted-to.pdf>] [47] [48]
+
+LaTeX Warning: Citation 'Vasin_2012' on page 49 undefined on input line 160.
+
+
+LaTeX Warning: Citation 'VasPer_2011' on page 49 undefined on input line 160.
+
+
+LaTeX Warning: Citation 'Kok_2010' on page 49 undefined on input line 168.
+
+[49]) (concl.tex [50])
+
+LaTeX Warning: Empty bibliography on input line 143.
+
+
+AED: lastpage setting LastPage
+[51
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
+ (thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: AD779E3F77E1A56D1C2D1D7B5A7DF0FA;5911.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
+ ) 
 Here is how much of TeX's memory you used:
- 12150 strings out of 493334
- 170134 string characters out of 3139253
- 247610 words of memory out of 3000000
- 15562 multiletter control sequences out of 15000+200000
- 4744 words of font info for 16 fonts, out of 3000000 for 9000
+ 21029 strings out of 493334
+ 331282 string characters out of 3139253
+ 1018445 words of memory out of 3000000
+ 24031 multiletter control sequences out of 15000+200000
+ 21857 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,0n,40p,250b,78s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 43i,15n,40p,2569b,2189s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Afina\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
+rm1200.pk> <C:\Users\Afina\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\d
+pi600\lati1440.pk> <C:\Users\Afina\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\
+lh-t2a\dpi600\labx1728.pk> <C:\Users\Afina\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\lh\lh-t2a\dpi600\larm2074.pk> <C:\Users\Afina\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\Afina\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Users\Afina\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk> <C:\Users\Afina\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on thesis.pdf (51 pages, 660831 bytes).
+PDF statistics:
+ 1722 PDF objects out of 1728 (max. 8388607)
+ 186 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+
