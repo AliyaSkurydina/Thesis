@@ -21,6 +21,7 @@ colorlinks,  % цветные гиперссылки
 \usepackage{amsmath, amsthm}
 \usepackage{lastpage}
 \usepackage{multirow}
+%\usepackage{multibib}
 
 \usepackage[style=gost-numeric,
   backend=biber,
@@ -31,7 +32,7 @@ colorlinks,  % цветные гиперссылки
 ]{biblatex}
 
 \addbibresource{thesis.bib}
-%\bibliography{thesis.bib}
+\bibliography{thesis.bib}
 
 % Номера страниц снизу и по центру
 \pagestyle{footcenter}
@@ -41,7 +42,9 @@ colorlinks,  % цветные гиперссылки
 %\setcitestyle{semicolon}
 
 % Ссылки на работы соискателя включаются в общий список литературы
-\let\citemy=\cite
+%\let\citemy=\cite
+
+%\newcites{mybib}{Публикации автора по теме диссертации}
 
 % Использовать полужирное начертание для векторов
 \let\vec=\mathbf
@@ -114,6 +117,9 @@ colorlinks,  % цветные гиперссылки
 %
 %\maketitle[en]
 
+% Список сокращений и условных обозначений
+\input{defs}
+
 % Содержание
 \tableofcontents
 
@@ -134,14 +140,17 @@ colorlinks,  % цветные гиперссылки
 % Заключение
 \input{concl}
 
-% Список сокращений и условных обозначений
-%\input{defs}
-
 % Словарь терминов
 %\input{dict}
 
 % Список литературы
-\printbibliography[heading=bibintoc]
+%\bibliographystyle{gost705s}
+%\printbibliography[heading=bibintoc]
+%\bibliography{thesis}
+
+%\bibliographystylemybib{gost705}
+
+%\bibliographymybib{mybib}
 
 % Список иллюстративного материала
 %\listoffigures
