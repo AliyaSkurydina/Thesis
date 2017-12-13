@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  12 DEC 2017 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  13 DEC 2017 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1658,6 +1658,24 @@ LaTeX Warning: Citation 'NeuSch1995' on page 7 undefined on input line 13.
 LaTeX Warning: Citation 'Sch1995' on page 7 undefined on input line 13.
 
 
+LaTeX Warning: Citation 'Pow1970' on page 7 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'DenSchn1996' on page 7 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Kel1995' on page 7 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'SchnFra1983' on page 7 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'GilNoc1991' on page 7 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'NocWri2006' on page 7 undefined on input line 13.
+
+
 LaTeX Warning: Citation 'KraVayZab1969' on page 7 undefined on input line 13.
 
 
@@ -1723,7 +1741,7 @@ Overfull \hbox (25.29738pt too wide) in paragraph at lines 36--38
  в ре^^?цен^^?зи^^?ру^^?е^^?мых жур^^?на^^?лах [[];
  []
 
-) [10] (./1.tex [11] [12
+[10]) (./1.tex [11] [12
 
 ]
 
@@ -2232,7 +2250,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
 Here is how much of TeX's memory you used:
  19649 strings out of 493109
  304778 string characters out of 6132291
- 869215 words of memory out of 5000000
+ 869277 words of memory out of 5000000
  22531 multiletter control sequences out of 15000+600000
  21857 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2260,7 +2278,7 @@ sfrm1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/cm-su
 per/sfrm1728.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/c
 m-super/sfrm2074.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/publ
 ic/cm-super/sfti1440.pfb>
-Output written on thesis.pdf (69 pages, 2803675 bytes).
+Output written on thesis.pdf (69 pages, 2805323 bytes).
 PDF statistics:
  1524 PDF objects out of 1728 (max. 8388607)
  852 compressed objects within 9 object streams
