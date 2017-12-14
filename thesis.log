@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  13 DEC 2017 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  14 DEC 2017 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1679,6 +1679,30 @@ LaTeX Warning: Citation 'NocWri2006' on page 7 undefined on input line 13.
 LaTeX Warning: Citation 'KraVayZab1969' on page 7 undefined on input line 13.
 
 
+Overfull \hbox (18.06296pt too wide) in paragraph at lines 13--13
+\T2A/cmr/m/n/14.4 но^^?гра^^?фии М.А. Крас^^?но^^?сель^^?ско^^?го, Г.М. Вай^^?н
+ик^^?ко, П.П. За^^?брей^^?ко [[]
+ []
+
+
+LaTeX Warning: Citation 'Lan1951' on page 7 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'HanNeuSch1995' on page 7 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Neu2000' on page 7 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'NeuSch1995' on page 7 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Kok2010_1' on page 7 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Kok2010_2' on page 7 undefined on input line 13.
+
+
 LaTeX Warning: Citation 'Vas1982' on page 7 undefined on input line 13.
 
 
@@ -1700,9 +1724,6 @@ LaTeX Warning: Citation 'Ere1966' on page 7 undefined on input line 13.
 LaTeX Warning: Citation 'Ere1968' on page 7 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'KraVaiZab1969' on page 7 undefined on input line 13.
-
-
 LaTeX Warning: Citation 'VasPer2011' on page 7 undefined on input line 13.
 
 
@@ -1722,17 +1743,17 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
 
-[9]
+[9] [10]
 
-LaTeX Warning: Citation 'Ivanov_1999_Journal_17_173' on page 10 undefined on in
+LaTeX Warning: Citation 'Ivanov_1999_Journal_17_173' on page 11 undefined on in
 put line 37.
 
 
-LaTeX Warning: Citation 'Petrov_2001_Journal_23_12321' on page 10 undefined on 
+LaTeX Warning: Citation 'Petrov_2001_Journal_23_12321' on page 11 undefined on 
 input line 37.
 
 
-LaTeX Warning: Citation 'Sidorov_2002_Journal_32_1531' on page 10 undefined on 
+LaTeX Warning: Citation 'Sidorov_2002_Journal_32_1531' on page 11 undefined on 
 input line 37.
 
 
@@ -1741,7 +1762,7 @@ Overfull \hbox (25.29738pt too wide) in paragraph at lines 36--38
  в ре^^?цен^^?зи^^?ру^^?е^^?мых жур^^?на^^?лах [[];
  []
 
-[10]) (./1.tex [11] [12
+) (./1.tex [11] [12
 
 ]
 
@@ -2250,11 +2271,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
 Here is how much of TeX's memory you used:
  19649 strings out of 493109
  304778 string characters out of 6132291
- 869277 words of memory out of 5000000
+ 869313 words of memory out of 5000000
  22531 multiletter control sequences out of 15000+600000
  21857 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,18n,40p,2759b,2111s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,18n,40p,2567b,2111s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Program Files/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
 2a.enc}<c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmex10.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/amsfon
@@ -2278,7 +2299,7 @@ sfrm1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/cm-su
 per/sfrm1728.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/c
 m-super/sfrm2074.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/publ
 ic/cm-super/sfti1440.pfb>
-Output written on thesis.pdf (69 pages, 2805323 bytes).
+Output written on thesis.pdf (69 pages, 2805950 bytes).
 PDF statistics:
  1524 PDF objects out of 1728 (max. 8388607)
  852 compressed objects within 9 object streams
