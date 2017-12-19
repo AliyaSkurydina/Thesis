@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  18 DEC 2017 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  19 DEC 2017 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1638,13 +1638,10 @@ LaTeX Warning: Citation 'BakPol1974' on page 6 undefined on input line 13.
 LaTeX Warning: Citation 'BakGon1989' on page 6 undefined on input line 13.
 
 
+LaTeX Warning: Citation 'Bak1992' on page 6 undefined on input line 13.
+
+
 LaTeX Warning: Citation 'GonLeoYag1973' on page 6 undefined on input line 13.
-
-
-Overfull \hbox (9.77281pt too wide) in paragraph at lines 13--13
-\T2A/cmr/m/n/14.4 был пред^^?ло^^?жен А.В. Гон^^?чар^^?ским, А.С. Лео^^?но^^?вы
-м, А.Г. Яго^^?лой  [[]
- []
 
 
 LaTeX Warning: Citation 'Tan1977' on page 6 undefined on input line 13.
@@ -2325,7 +2322,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
 Here is how much of TeX's memory you used:
  19681 strings out of 493109
  305362 string characters out of 6132291
- 869548 words of memory out of 5000000
+ 869556 words of memory out of 5000000
  22556 multiletter control sequences out of 15000+600000
  21857 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2353,7 +2350,7 @@ sfrm1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/cm-su
 per/sfrm1728.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/c
 m-super/sfrm2074.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/publ
 ic/cm-super/sfti1440.pfb>
-Output written on thesis.pdf (72 pages, 2808249 bytes).
+Output written on thesis.pdf (72 pages, 2808396 bytes).
 PDF statistics:
  1536 PDF objects out of 1728 (max. 8388607)
  861 compressed objects within 9 object streams
