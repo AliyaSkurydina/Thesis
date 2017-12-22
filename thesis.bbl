@@ -1,3 +1,6 @@
+\makeatletter\renewcommand{\@biblabel}[1]{#1.}\makeatother
+\ifx\undefined\BibPrefix\def\BibPrefix{}\else\fi
+\ifx\undefined\BibPostfix\def\BibPostfix{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
 \ifx\undefined\href\def\href#1#2{#2}\else\fi
 \ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
@@ -7,266 +10,449 @@
 \cyr\cyrd\cyra\cyrt\cyra\ %
 \cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
-\begin{thebibliography}{10}
+\begin{thebibliography}{\BibPrefix10\BibPostfix}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
 
-\bibitem{Neu2000}
+\bibitem[\BibPrefix1\BibPostfix]{Neu2000}
 \selectlanguageifdefined{english}
-\BibEmph{A.~N.}
+\BibEmph{A.~N.} On Landweber iteration for nonlinear ill-posed problems in
+  Hilbert scales~// \BibEmph{Numerische Mathematik}.
+\newblock 2000.
+\newblock Vol.~85, no.~2.
+\newblock Pp.~309--328.
 
-\bibitem{NeuSch1995}
+\bibitem[\BibPrefix2\BibPostfix]{BlaNeuSch1997}
 \selectlanguageifdefined{english}
-\BibEmph{A.~N., O.~S.}
+\BibEmph{B.~B., A.~N., O.~S.} On convergence rates for the iteratively
+  regularized Gauss-Newton method~// \BibEmph{IMA Journal of Numerical
+  Analysis}.
+\newblock 1997.
+\newblock Vol.~17, no.~3.
+\newblock Pp.~421–--436.
 
-\bibitem{BlaNeuSch1997}
+\bibitem[\BibPrefix3\BibPostfix]{KalNeuRam2002}
 \selectlanguageifdefined{english}
-\BibEmph{B.~B., A.~N., O.~S.}
+\BibEmph{B.~K., A.~N., G.~R.~A.} Convergence rates of the continuous
+  regularized Gauss—Newton method~// \BibEmph{Journal of Inverse and
+  Ill-Posed Problems}.
+\newblock 1995.
+\newblock Vol.~10, no.~3.
+\newblock Pp.~261–--280.
 
-\bibitem{KalNeuRam2002}
+\bibitem[\BibPrefix4\BibPostfix]{GilNoc1991}
 \selectlanguageifdefined{english}
-\BibEmph{B.~K., A.~N., G.~R.~A.}
+\BibEmph{Gilbert~J., Nocedal~J.} Tensor Methods for Nonlinear Equations~//
+  \BibEmph{SIAM Journal on Numerical Analysis}.
+\newblock 1991.
+\newblock Vol.~2, no.~1.
+\newblock Pp.~21–--42.
 
-\bibitem{GilNoc1991}
+\bibitem[\BibPrefix5\BibPostfix]{Han1997}
 \selectlanguageifdefined{english}
-\BibEmph{Gilbert~J., Nocedal~J.}
+\BibEmph{Hanke~M.} A regularizing Levenberg-Marquardt scheme, with applications
+  to inverse groundwater filtration problems~// \BibEmph{Inverse problems}.
+\newblock 1997.
+\newblock Vol.~13, no.~1.
+\newblock Pp.~79--96.
 
-\bibitem{Han1997}
+\bibitem[\BibPrefix6\BibPostfix]{Han2010}
 \selectlanguageifdefined{english}
-\BibEmph{Hanke~M.}
+\BibEmph{Hanke~M.} The regularizing Levenberg-Marquardt scheme is of optimal
+  order~// \BibEmph{J. Integral Equations Appl.}
+\newblock 2010.
+\newblock Vol.~22, no.~2.
+\newblock Pp.~259--283.
 
-\bibitem{Han2010}
-\selectlanguageifdefined{english}
-\BibEmph{Hanke~M.}
-
-\bibitem{DenSchn1996}
+\bibitem[\BibPrefix7\BibPostfix]{DenSchn1996}
 \selectlanguageifdefined{english}
 \BibEmph{J.E.~Dennis~J., Schnabel~R.~B.} Numerical Methods for Unconstrained
   Optimization and Nonlinear Equations.
 \newblock Siam, 1996.
 
-\bibitem{Hadamar1902}
+\bibitem[\BibPrefix8\BibPostfix]{Hadamar1902}
 \selectlanguageifdefined{english}
-\BibEmph{J.Hadamard}.
+\BibEmph{J.Hadamard}. Sur les probl`emes aux derivees partielles et leur
+  signification physique~// \BibEmph{Bull. Univ. Princeton}.
+\newblock 1902.
+\newblock Vol.~13, no.~1.
+\newblock Pp.~49--52.
 
-\bibitem{Kel1995}
+\bibitem[\BibPrefix9\BibPostfix]{JinZon1997}
+\selectlanguageifdefined{english}
+\BibEmph{Jin~Q., Zong-Yi~H.} On the choice of the regularization parameter for
+  ordinary and iterated Tikhonov regularization of nonlinear illposed
+  problems~// \BibEmph{Inverse Problems}.
+\newblock 1997.
+\newblock Vol.~13.
+\newblock Pp.~815–--827.
+
+\bibitem[\BibPrefix10\BibPostfix]{JinZon1999}
+\selectlanguageifdefined{english}
+\BibEmph{Jin~Q., Zong-Yi~H.} “On an a posteriori parameter choice strategy
+  for Tikhonov regularization of nonlinear ill-posed problems~//
+  \BibEmph{Numer. Math}.
+\newblock 1999.
+\newblock Vol.~83.
+\newblock Pp.~139–--159.
+
+\bibitem[\BibPrefix11\BibPostfix]{Kel1995}
 \selectlanguageifdefined{english}
 \BibEmph{Kelley~C.} Iterative Methods for Linear and Nonlinear Equations.
 \newblock Philadelphia: Siam, 1995.
 
-\bibitem{Kok2010_1}
+\bibitem[\BibPrefix12\BibPostfix]{Kok2010_2}
 \selectlanguageifdefined{english}
-\BibEmph{Kokurin~M.}
+\BibEmph{Kokurin~M.} Convexity of the Tikhonov Functional and Iterativly
+  Regularized Methods of Solution Irregular Operator Equations~//
+  \BibEmph{Computational Mathematics and Mathematical Physics}.
+\newblock 2010.
+\newblock Vol.~50, no.~4.
+\newblock Pp.~620--632.
 
-\bibitem{Kok2010_2}
+\bibitem[\BibPrefix13\BibPostfix]{Kok2010_1}
 \selectlanguageifdefined{english}
-\BibEmph{Kokurin~M.}
+\BibEmph{Kokurin~M.} On Organizing Global Search under Implementation of
+  Tikhonov Scheme~// \BibEmph{Russian Mathematics (Izvestiya VUZ. Matematika)}.
+\newblock 2010.
+\newblock Vol.~54, no.~12.
+\newblock Pp.~17--26.
 
-\bibitem{Lan1951}
+\bibitem[\BibPrefix14\BibPostfix]{Lan1951}
 \selectlanguageifdefined{english}
-\BibEmph{Landweber~L.}
+\BibEmph{Landweber~L.} An Iteration Formula for Fredholm Integral Equations of
+  the First Kind~// \BibEmph{American Journal of Mathematics}.
+\newblock 1951.
+\newblock Vol.~73, no.~3.
+\newblock Pp.~615--624.
 
-\bibitem{HanNeuSch1995}
+\bibitem[\BibPrefix15\BibPostfix]{HanNeuSch1995}
 \selectlanguageifdefined{english}
-\BibEmph{M.~H., A.~N., O.~S.}
+\BibEmph{M.~H., A.~N., O.~S.} A convergence analysis of the Landweber iteration
+  for nonlinear ill-posed problems~// \BibEmph{Numerische Mathematik}.
+\newblock 1995.
+\newblock Vol.~72, no.~1.
+\newblock Pp.~21--37.
 
-\bibitem{NocWri2006}
+\bibitem[\BibPrefix16\BibPostfix]{NocWri2006}
 \selectlanguageifdefined{english}
 \BibEmph{Nocedal~J., Wright~S.} Numerical Optimization.
 \newblock Springer Science \& Business Media, 2006.
 
-\bibitem{SchEngKun1993}
+\bibitem[\BibPrefix17\BibPostfix]{SchEngKun1993}
 \selectlanguageifdefined{english}
-\BibEmph{O.~Scherzer~K.~K., H. W.~Engl}.
+\BibEmph{O.~Scherzer~K.~K., H. W.~Engl}. Optimal a posteriori parameter choice
+  for Tikhonov regularization for solving nonlinear ill-posed problems~//
+  \BibEmph{SIAM J. Numer. Anal}.
+\newblock 1993.
+\newblock Vol.~30.
+\newblock Pp.~1796–--1838.
 
-\bibitem{OrtRhe1970}
+\bibitem[\BibPrefix18\BibPostfix]{OrtRhe1970}
 \selectlanguageifdefined{english}
 \BibEmph{Ortega~J., Rheinboldt~W.} Iterative solution of nonlinear equations in
   several variables.
 \newblock Siam, 1970.
 
-\bibitem{Pow1970}
+\bibitem[\BibPrefix19\BibPostfix]{Pow1970}
 \selectlanguageifdefined{english}
-\BibEmph{Powell~M.}
+\BibEmph{Powell~M.} A hybrid method for nonlinear equations~//
+  \BibEmph{Numerical methods for nonlinear algebraic equations}.
+\newblock 1970.
+\newblock Vol.~7.
+\newblock Pp.~87--114.
 
-\bibitem{JinZon1997}
+\bibitem[\BibPrefix20\BibPostfix]{Sch1995}
 \selectlanguageifdefined{english}
-\BibEmph{Q.~Jin~Z.-Y.~H.}
+\BibEmph{Scherzer~O.} A convergent rate result for steepest descent method and
+  a minimal error method for the solution of nonlinear ill-posed problems~//
+  \BibEmph{J. Anal. Appl.}
+\newblock 1995.
+\newblock Vol.~14.
+\newblock Pp.~369--377.
 
-\bibitem{Sch1995}
+\bibitem[\BibPrefix21\BibPostfix]{SchnFra1983}
 \selectlanguageifdefined{english}
-\BibEmph{Scherzer~O.}
+\BibEmph{Schnabel~R.~B., Frank~P.~D.} Tensor Methods for Nonlinear Equations~//
+  \BibEmph{SIAM Journal on Numerical Analysis}.
+\newblock 1983.
+\newblock Vol.~21, no.~5.
+\newblock Pp.~815–--843.
 
-\bibitem{SchnFra1983}
+\bibitem[\BibPrefix22\BibPostfix]{Tau2002}
 \selectlanguageifdefined{english}
-\BibEmph{Schnabel~R.~B., Frank~P.~D.}
-
-\bibitem{Sidorov_2002_Journal_32_1531}
-\selectlanguageifdefined{english}
-\BibEmph{Sidorov~S.~S., Petrov~P.~P., Ivanov~I.~I.} Article Title~//
-  \BibEmph{Journal Name}.
+\BibEmph{U.~T.} On the method of Lavrentiev regularization for nonlinear
+  ill-posed problems~// \BibEmph{Inverse Problems}.
 \newblock 2002.
+\newblock Vol.~18.
+\newblock Pp.~191–--207.
+
+\bibitem[\BibPrefix23\BibPostfix]{Tau2004}
+\selectlanguageifdefined{english}
+\BibEmph{U.~T.} Lavrentiev regularization of nonlinear ill-posed problems~//
+  \BibEmph{Vietnam J. Math.}
+\newblock 2004.
 \newblock Vol.~32.
-\newblock P.~1531--1540.
+\newblock Pp.~29–--41.
 
-\bibitem{Tau2002}
-\selectlanguageifdefined{english}
-\BibEmph{U.~T.}
+\bibitem[\BibPrefix24\BibPostfix]{Vasin_2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Vasin~V.} Modified Newton type processes generating Fejer
+  approximations of regularized solutions to nonlinear equations~//
+  \BibEmph{Proc. Steklov Inst. Math.}
+\newblock 2014.
+\newblock {\cyr\CYRT.} 284.
+\newblock {\cyr\CYRS.}~145--158.
 
-\bibitem{Tau2004}
-\selectlanguageifdefined{english}
-\BibEmph{U.~T.}
+\bibitem[\BibPrefix25\BibPostfix]{Vasin_2016}
+\selectlanguageifdefined{russian}
+\BibEmph{Vasin~V.} Regularized modified alpha-processes for nonlinear equations
+  with monotone operators~// \BibEmph{Dokl. Math.}
+\newblock 2016.
+\newblock {\cyr\CYRT.} 469.
+\newblock {\cyr\CYRS.}~13--16.
 
-\bibitem{Vasin_2016}
-\selectlanguageifdefined{english}
-\BibEmph{Vasin~V.}
-
-\bibitem{Vasin_2014}
-\selectlanguageifdefined{english}
-\BibEmph{Vasin~V.}
-
-\bibitem{VasEre2009}
+\bibitem[\BibPrefix26\BibPostfix]{VasEre2009}
 \selectlanguageifdefined{english}
 \BibEmph{Vasin~V., Eremin~I.} Operators and Iterative Processes of Fejer Type.
   Theory and Application.
 \newblock Berlin/New York: Walter de Gruyter, 2009.
 
-\bibitem{Bak1992}
-\selectlanguageifdefined{english}
-\BibEmph{Б.~�.~�.}
+\bibitem[\BibPrefix27\BibPostfix]{Bak1992}
+\selectlanguageifdefined{russian}
+\BibEmph{Б.~�.~�.} К проблеме сходимости
+  интеративно-регуляризованного метода
+  Гаусса-Ньютона~// \BibEmph{Журнал
+  вычислительной математики и
+  математической физики}.
+\newblock 1992.
+\newblock {\cyr\CYRT.}~32, {\cyr\textnumero}~9.
+\newblock {\cyr\CYRS.}~1503–--1509.
 
-\bibitem{KraVayZab1969}
+\bibitem[\BibPrefix28\BibPostfix]{KraVayZab1969}
 \selectlanguageifdefined{english}
-\BibEmph{Красносельского~�., Вайникко~�.,
+\BibEmph{Красносельский~�.~�., Вайникко~�.,
   Забрейко~�.} Приближенное решение
   операторных уравнений.
 \newblock Москва: Наука, 1969.
 
-\bibitem{Tikh1943}
-\selectlanguageifdefined{english}
-\BibEmph{А.Н.~�.}
+\bibitem[\BibPrefix29\BibPostfix]{Tikh1943}
+\selectlanguageifdefined{russian}
+\BibEmph{А.Н.~�.} Об устойчивости обратных
+  задач~// \BibEmph{Доклады РАН СССР}.
+\newblock 1943.
+\newblock {\cyr\CYRT.}~39, {\cyr\textnumero}~5.
+\newblock {\cyr\CYRS.}~195–--198.
 
-\bibitem{Tikh1963_1}
-\selectlanguageifdefined{english}
-\BibEmph{А.Н.~�.}
+\bibitem[\BibPrefix30\BibPostfix]{Lavr1956}
+\selectlanguageifdefined{russian}
+\BibEmph{М.М.~�.} К вопросу об обратной задаче
+  теории потенциала~// \BibEmph{Доклады Академии
+  наук СССР}.
+\newblock 1956.
+\newblock {\cyr\CYRT.} 106, {\cyr\textnumero}~3.
+\newblock {\cyr\CYRS.}~389--390.
 
-\bibitem{Tikh1963_2}
-\selectlanguageifdefined{english}
-\BibEmph{А.Н.~�.}
+\bibitem[\BibPrefix31\BibPostfix]{Lavr1959}
+\selectlanguageifdefined{russian}
+\BibEmph{М.М.~�.} Об интегральных уравнениях
+  первого рода~// \BibEmph{Доклады Академии наук
+  СССР}.
+\newblock 1959.
+\newblock {\cyr\CYRT.} 127, {\cyr\textnumero}~1.
+\newblock {\cyr\CYRS.}~31--33.
 
-\bibitem{Lavr1962}
-\selectlanguageifdefined{english}
-\BibEmph{М.М.~�.}
+\bibitem[\BibPrefix32\BibPostfix]{Lavr1962}
+\selectlanguageifdefined{russian}
+\BibEmph{М.М.~�.} О некоторых некорректных
+  задачах математической физики.
+\newblock Новосибирск: Изд-во Сибирского
+  отд-ния АН СССР, 1962.
+\newblock {\cyr\CYRS.}~92.
 
-\bibitem{Lavr1956}
-\selectlanguageifdefined{english}
-\BibEmph{М.М.~�.}
+\bibitem[\BibPrefix33\BibPostfix]{Tikh1963_1}
+\selectlanguageifdefined{russian}
+\BibEmph{А.Н.~�.} О решении некорректно
+  поставленных задач~// \BibEmph{Доклады РАН
+  СССР}.
+\newblock 1963.
+\newblock {\cyr\CYRT.} 151, {\cyr\textnumero}~3.
+\newblock {\cyr\CYRS.}~791--794.
 
-\bibitem{Lavr1959}
-\selectlanguageifdefined{english}
-\BibEmph{М.М.~�.}
+\bibitem[\BibPrefix34\BibPostfix]{Tikh1963_2}
+\selectlanguageifdefined{russian}
+\BibEmph{А.Н.~�.} О регуляризации некорректно
+  поставленных задач~// \BibEmph{Доклады РАН
+  СССР}.
+\newblock 1963.
+\newblock {\cyr\CYRT.} 153, {\cyr\textnumero}~1.
+\newblock {\cyr\CYRS.}~49–--52.
 
-\bibitem{Lavr1963}
-\selectlanguageifdefined{english}
-\BibEmph{М.М.~�.}
+\bibitem[\BibPrefix35\BibPostfix]{Lavr1963}
+\selectlanguageifdefined{russian}
+\BibEmph{М.М.~�.} Об одном классе нелинейных
+  интегральных уравнений~// \BibEmph{Сибирский
+  математический журнал}.
+\newblock 1963.
+\newblock {\cyr\CYRT.}~4, {\cyr\textnumero}~4.
+\newblock {\cyr\CYRS.}~837--844.
 
-\bibitem{Tan2003_1}
-\selectlanguageifdefined{english}
-\BibEmph{В.П.~�.}
+\bibitem[\BibPrefix36\BibPostfix]{TikhGlas1965}
+\selectlanguageifdefined{russian}
+\BibEmph{А.Н.~�., В.Б~�.} Применение методов
+  регуляризации в нелинейных задачах~//
+  \BibEmph{Журнал вычислительной математики и
+  математической физики}.
+\newblock 1965.
+\newblock {\cyr\CYRT.}~5, {\cyr\textnumero}~3.
+\newblock {\cyr\CYRS.}~463--473.
 
-\bibitem{Tan2003_2}
-\selectlanguageifdefined{english}
-\BibEmph{В.П.~�.}
-
-\bibitem{TikhGlas1965}
-\selectlanguageifdefined{english}
-\BibEmph{А.Н.~�., В.Б~�.}
-
-\bibitem{TikhArs1986}
+\bibitem[\BibPrefix37\BibPostfix]{TikhArs1986}
 \selectlanguageifdefined{english}
 \BibEmph{А.Н.~�., В.Я.~�.} Приближенное решение
   операторных уравнений.
 \newblock Москва: Наука, 1986.
 
-\bibitem{Petrov_2001_Journal_23_12321}
+\bibitem[\BibPrefix38\BibPostfix]{BachZhid1987}
 \selectlanguageifdefined{russian}
-\BibEmph{Петров~�.~�., Иванов~�.~�., Сидоров~�.~�.}
-  Название статьи~// \BibEmph{Название журнала}.
-\newblock 2001.
-\newblock {\cyr\CYRT.}~23.
-\newblock {\cyr\CYRS.}~12321--12328.
-
-\bibitem{Vasin_2012}
-\selectlanguageifdefined{english}
-\BibEmph{Васин~�.}
-
-\bibitem{VasPer_2011}
-\selectlanguageifdefined{english}
-\BibEmph{Васин~�., Пересторонина~�.~�.}
-
-\bibitem{BachZhid1987}
-\selectlanguageifdefined{english}
-\BibEmph{Бахвалов~�., Жидков~�., Кобельков~�.}
-  Численные методы.
+\BibEmph{Н.С.~�., Жидков~�., Кобельков~�.} Численные
+  методы.
 \newblock Москва: Наука, 1987.
+\newblock 600~{\cyr\cyrs.}
 
-\bibitem{Kok_2010}
-\selectlanguageifdefined{english}
-\BibEmph{Кокурин~�.}
+\bibitem[\BibPrefix39\BibPostfix]{Vasin_2012}
+\selectlanguageifdefined{russian}
+\BibEmph{Васин~�.} Метод Левенберга---Марквардта
+  для аппроксимации решений нерегулярных
+  операторных уравнений~// \BibEmph{Автоматика и
+  телемеханика}.
+\newblock 2012.
+\newblock {\cyr\CYRT.}~73.
+\newblock {\cyr\CYRS.}~28--38.
 
-\bibitem{Pol1969}
-\selectlanguageifdefined{english}
-\BibEmph{Поляк~�.}
+\bibitem[\BibPrefix40\BibPostfix]{VasPer_2011}
+\selectlanguageifdefined{russian}
+\BibEmph{Васин~�., Пересторонина~�.~�.} Метод
+  Левенберга--–Марквардта и его
+  модифицированные варианты для решения
+  нелинейных уравнений с приложением к
+  обратной задаче гравиметрии~// \BibEmph{Труды
+  ИММ УрО РАН}.
+\newblock 2011.
+\newblock {\cyr\CYRT.}~17.
+\newblock {\cyr\CYRS.}~174--182.
 
-\bibitem{Kan1947}
-\selectlanguageifdefined{english}
-\BibEmph{Канторович~�.}
+\bibitem[\BibPrefix41\BibPostfix]{Kok_2010}
+\selectlanguageifdefined{russian}
+\BibEmph{Кокурин~�.} О выпуклости функционала
+  Тихонова и итеративного регуляризованных
+  методах решения нерегулярных нелинейных
+  операторных уравнений~// \BibEmph{Журн. вычисл.
+  мат. и матем. физики}.
+\newblock 2010.
+\newblock {\cyr\CYRT.}~50.
+\newblock {\cyr\CYRS.}~651--664.
 
-\bibitem{LavrVas1966}
-\selectlanguageifdefined{english}
-\BibEmph{Лаврентьев~М.М.~�.}
+\bibitem[\BibPrefix42\BibPostfix]{Pol1969}
+\selectlanguageifdefined{russian}
+\BibEmph{Поляк~�.~�.} Метод сопряженных
+  градиентов в задачах на экстремум~//
+  \BibEmph{Журнал вычислительной математики и
+  математичекой физики}.
+\newblock 1969.
+\newblock {\cyr\CYRT.}~9, {\cyr\textnumero}~4.
+\newblock {\cyr\CYRS.}~807--821.
 
-\bibitem{LavrRomShi1980}
+\bibitem[\BibPrefix43\BibPostfix]{Kan1947}
+\selectlanguageifdefined{russian}
+\BibEmph{Канторович~�.} О методе наискорейшего
+  спуска~// \BibEmph{Доклады РАН СССР}.
+\newblock 1947.
+\newblock {\cyr\CYRT.}~56.
+\newblock {\cyr\CYRS.}~233--236.
+
+\bibitem[\BibPrefix44\BibPostfix]{LavrVas1966}
+\selectlanguageifdefined{russian}
+\BibEmph{Лаврентьев~М.М.~�.} О постановке
+  некоторых некорректных задач
+  математической физики~// \BibEmph{Сибирский
+  математический журнал}.
+\newblock 1966.
+\newblock {\cyr\CYRT.}~7, {\cyr\textnumero}~3.
+\newblock {\cyr\CYRS.}~559--576.
+
+\bibitem[\BibPrefix45\BibPostfix]{LavrRomShi1980}
 \selectlanguageifdefined{english}
 \BibEmph{Лаврентьев~М.М.~�.~�., Романов~В.Г.}
   Некорректные задачи математической
   физики и анализа.
 \newblock М.: Наука, 1980.
 
-\bibitem{Tan1977}
-\selectlanguageifdefined{english}
-\BibEmph{Танана~�.}
+\bibitem[\BibPrefix46\BibPostfix]{Tan1977}
+\selectlanguageifdefined{russian}
+\BibEmph{Танана~�.} О решении операторных
+  уравнений первого рода с многозначными
+  операторами и их приложение~//
+  \BibEmph{Известия вузов. Математика}.
+\newblock 1977.
+\newblock {\cyr\CYRT.}~7.
+\newblock {\cyr\CYRS.}~87--93.
 
-\bibitem{Tan1997}
-\selectlanguageifdefined{english}
-\BibEmph{Танана~�.}
-
-\bibitem{Tan1981}
+\bibitem[\BibPrefix47\BibPostfix]{Tan1981}
 \selectlanguageifdefined{english}
 \BibEmph{Танана~�.} Методы решения операторных
   уравнений.
 \newblock Москва: Наука, 1987.
 
-\bibitem{Ivanov_1999_Journal_17_173}
+\bibitem[\BibPrefix48\BibPostfix]{Tan1997}
 \selectlanguageifdefined{russian}
-\BibEmph{Иванов~�.~�., Петров~�.~�., Сидоров~�.~�.}
-  Название статьи~// \BibEmph{Название журнала}.
-\newblock 1999.
-\newblock {\cyr\CYRT.}~17.
-\newblock {\cyr\CYRS.}~173--180.
+\BibEmph{Танана~�.} Об аппроксимации
+  регуляризованного решения нелинейного
+  уравнения~// \BibEmph{Сибирский
+  математический журнал}.
+\newblock 1997.
+\newblock {\cyr\CYRT.}~2.
+\newblock {\cyr\CYRS.}~416--423.
 
-\bibitem{AkMarMis2013}
-\selectlanguageifdefined{english}
+\bibitem[\BibPrefix49\BibPostfix]{Tan2003_2}
+\selectlanguageifdefined{russian}
+\BibEmph{Танана~�.~�.} О сходимости
+  регуляризованных решений нелинейных
+  операторных уравнений~// \BibEmph{Сибирский
+  журнал индустриальной математики}.
+\newblock 2003.
+\newblock {\cyr\CYRT.}~6, {\cyr\textnumero}~3.
+\newblock {\cyr\CYRS.}~119–--133.
+
+\bibitem[\BibPrefix50\BibPostfix]{Tan2003_1}
+\selectlanguageifdefined{russian}
+\BibEmph{Танана~�.~�.} О приближенном решении
+  нелинейных операторных уравнений~//
+  \BibEmph{Известия Челябинского научного
+  центра}.
+\newblock 2003.
+\newblock {\cyr\CYRT.}~21, {\cyr\textnumero}~4.
+\newblock {\cyr\CYRS.}~6–--8.
+
+\bibitem[\BibPrefix51\BibPostfix]{AkMarMis2013}
+\selectlanguageifdefined{russian}
 \BibEmph{Акимова~�., Мартышко~�., Мисилов~�.}
+  Методы решения структурной задачи
+  гравиметрии в многослойной среде~//
+  \BibEmph{Доклады Академии наук}.
+\newblock 2013.
+\newblock {\cyr\CYRT.} 453.
+\newblock {\cyr\CYRS.}~1278--1281.
 
-\bibitem{AkMisDer2014}
+\bibitem[\BibPrefix52\BibPostfix]{AkMisDer2014}
 \selectlanguageifdefined{english}
-\BibEmph{Акимова~�., Мисилов~�.~�., Дергачев~�.~�.}~//
-  Труды 41-й сессии Международного семинара
-  им. Д.Г. Успенского, Екатеринбург, 2014~/ Ed. by
-  �.~�.~РАН.
-\newblock Екатеринбург: ИГФ УрО РАН, 1968.
-\newblock P.~4–--6.
+\BibEmph{Акимова~�., Мисилов~�.~�., Дергачев~�.~�.}
+  Алгоритмы решения структурной обратной
+  задачи магнитометрии~// Труды 41-й сессии
+  Международного семинара им. Д.Г.
+  Успенского, Екатеринбург, 2014.
+\newblock 1968.
+\newblock Pp.~4–--6.
 
 \end{thebibliography}
