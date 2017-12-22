@@ -1,0 +1,499 @@
+\chapter{Алгоритмы решения структурных обратных задач гравиметрии и магнитометрии о восстановлении поверхностей раздела}
+
+Данная глава посвящена построению оригинальных экономичных алгоритмов решения задач, поставленных в первой главе.
+
+Построены быстрые алгоритмы решения нелинейных уравнений структурных обратных задач гравиметрии и магнитометрии о восстановлении одной поверхности на основе нелинейного метода сопряженных градиентов. 
+
+Получено нелинейное уравнение обратной задачи магнитометрии о восстановлении поверхности раздела сред для случая произвольно направленной суммарной намагниченности и предложен алгоритм его решения.
+
+Построены экономичные алгоритмы решения нелинейных уравнений о восстановлении одной поверхности на основе идеи локальности.
+
+Предложен новый алгоритм решения задач о восстановлении нескольких поверхностей раздела, основанный на применении градиентных методов с весовыми множителями, позволяющий восстанавливать форму не\-сколь\-ких поверхностей раздела сред одновременно. Строятся быстрые алгоритмы  решения базового нелинейного уравнения для задач о восстановлении нескольких поверхностей. Рассматривается вопрос выбора весовых множителей.
+
+%\textbf{Вторая глава} посвящена рассмотрению структурных обратных задач гравиметрии и магнитометрии о восстановлении нескольких поверхностей в постановках, рассмотренных в работе П.~С.~Мартышко и др.\footnote{Мартышко, П. С., И. В. Ладовский, and А. Г. Цидаев. "Построение региональных геофизических моделей на основе комплексной интерпретации гравитационных и сейсмических данных." Физика земли 11 (2010): 23-35.}.
+
+\newpage
+\section{Построение быстрых алгоритмов решения задач о восстановлении одной поверхности на основе метода сопряженных градиентов}
+%\subsection{Построение быстрых алгоритмов на основе нелинейного метода сопряженных градиентов}
+
+Построим алгоритм решения нелинейных уравнений~\eqref{eq1grav_disop} и~\eqref{eq1magn_disop} на основе метода сопряженных градиентов. Метод сопряженных градиентов был предложен в работе~\cite{fletcher1964function} для решения корректных задач нелинейной оптимизации, различные варианты метода исследовались в работах~\cite{polak1969note, polyak1969, gilbert1992global}. Его преимуществом является неявное использование второй производной минимизуемой функции, что дает ускорение сходимости по сравнению с методом наискорейшего спуска при сравнимом с ним количеством операций.
+ 
+Рассмотрим систему нелинейных уравнений вида 
+\begin{equation}\nonumber
+A[z]=F
+\end{equation}
+где $A: R^n \Rightarrow  R^m$ --- конечномерная аппроксимация интегрального оператора первого рода, дифференцируемая по Фреше. Если решение существует, то задача его нахождения эквивалентна задаче минимизации 
+
+\begin{equation} \nonumber
+\min\left \{\frac{1}{2}\left \| A(z)-F \right \|^2:z \in R^n\right \}.
+\end{equation}
+\vspace*{16pt}
+
+Обозначим градиент квадратичной невязки
+\begin{equation}
+\nabla \left[\frac{1}{2} \left \| A(z) -F \right \|^2 \right]= A'(z)^T(A(z)-F) \equiv S(z), \\[16pt]
+\end{equation}
+где $A'(z)$ --- матрица производных размерности $n\times m$.
+
+Для решения задачи построим итеративный процесс вида
+\begin{equation} \label{eq8}
+z_{k+1} = z_{k} + \alpha_k p_k ,
+\end{equation}
+где $k \geqslant 0$ --- номер итерации, $z_0 \in R^n$ --- некоторое начальное приближение, $\alpha_k$ --- размер шага.
+
+Направления $p_k$ получаются по формуле
+\begin{equation} \nonumber
+\begin{aligned}
+& p_k = - A'(z)^T(A(z)-F)+\beta_k p_{k-1}, \\[16pt]
+& p_0=- A'(z_0)^T(A(z_0)-F). %\nonumber.
+\end{aligned}
+\end{equation}
+Параметры $\beta$ можно получать по различным формулам. В данной работе используется модифицированная формула Полака-Рибьера-Поляка~\cite{gilbert1992global}, которая по результатам многочисленных численных экспериментов является наболее эффективной из негибридных формул: 
+\begin{equation} \nonumber
+\begin{aligned}
+& \beta_k = \beta_{k}^{PRP+}=\max\{\beta_{k}^{PRP},0\}, \\[16pt]
+& \beta_{k}^{PRP} = \frac{\langle S(z_k),(S(z_k)-S(z_{k-1})) \rangle}{\left \| S(z_{k-1})\right \|^2},\\[16pt]
+\end{aligned}
+\end{equation}
+\vspace*{16pt}
+В классических методах размер шага $\alpha_k$ находится из условия:
+\begin{equation} \nonumber
+\alpha_k=\argmin\limits_{\alpha}{\left \{ \left \|A(z_k-\alpha p_k)-F \right \|^2\right \}}, 
+\end{equation}
+т. е. на каждой итерации необходимо решать задачу одномерной минимизации.
+%\begin{equation} 
+%\begin{aligned} \nonumber
+%\alpha_k \approx & \argmin\limits_{\alpha}{\left \|A(z_k)+A'(z_k)(z_k+\alpha p_k-z_k)-F \right \|^2}=\\ \nonumber
+%& =\argmin\limits_{\alpha}{\left \|(A(z_k)-F)+\alpha  A'(z_k) p_k\right \|^2}=\\\nonumber
+%& =\argmin\limits_{\alpha}{\left \|(A(z_k)-F)\right \|^2 +2\alpha p_k^T S(z_k)+\alpha^2\left \|A'(z_k) p_k \right \|^2}.\nonumber
+%\end{aligned}
+%\end{equation}
+
+Чтобы избавиться от этой алгоритмически сложной процедуры, модифицируем процесс следующим образом. Воспользуемся идеей линеаризации~\cite{kaltenbacher}. Она состоит в том, что нелинейный оператор заменяется линейной аппроксимацией в итерационной точке, в таком случае минимум квадратичной невязки можно будет найти по явной формуле.
+
+Линеаризуем оператор $A$ в точке $z_k$, взяв первый член ряда Тейлора:
+\begin{equation} \nonumber
+	A(z)\cong A(z_k)+A'(z_k)(z-z_k)
+\end{equation}
+и найдем размер шага $\alpha_k$ решением задачи минимизации для линеаризованного выражения:
+\begin{equation} 
+\begin{aligned} \nonumber
+\alpha_k \approx & \argmin\limits_{\alpha}{\left \|A(z_k)+A'(z_k)(z_k+\alpha p_k-z_k)-F \right \|^2}=\\[16pt]
+& =\argmin\limits_{\alpha}\Bigg \{\left \|(A(z_k)-F)+\alpha  A'(z_k) p_k\right \|^2 \Bigg \}=\\[16pt]
+& =\argmin\limits_{\alpha}\Bigg \{\left \|(A(z_k)-F)\right \|^2 +2\alpha \langle p_k, S(z_k) \rangle +\alpha^2\left \|A'(z_k) p_k \right \|^2 \Bigg \}.\nonumber
+\end{aligned}
+\end{equation}
+
+Необходимым условием минимума является равенство нулю производной:
+
+\begin{equation} \nonumber
+\begin{aligned}
+\frac{\partial}{\partial \alpha}\Big ( &\left \|(A(z_k)-F)\right \|^2 +2\alpha \langle p_k, S(z_k) \rangle +\\[16pt]
+&+\alpha^2\left \|A'(z_k) p_k \right \|^2 \Big )=0;\\[16pt]
+&2 \langle p_k, S(z_k) \rangle + 2 \alpha \left \|A'(z_k) p_k \right \|^2 = 0.
+\end{aligned}
+\end{equation}
+\vspace*{16pt}
+
+Получаем явную формулу для размера шага
+
+\begin{equation} \nonumber
+\alpha_k \approx \widetilde{\alpha_k}= -\frac{\langle p_k, S(z_k) \rangle}{\left \|A'(z_k) p_k \right \|^2}.
+\end{equation}
+\vspace*{16pt}
+
+Таким образом, процесс~\eqref{eq8} принимает вид
+
+\begin{equation}\label{eq9a}
+\begin{aligned}
+& z_{k+1} = z_k - \frac{\langle p_k, S(z_k) \rangle }{\left \| A'(z_k)p_k\right \|^2}p_k,\\[16pt]
+& p_k=S(z_k)+\beta_k p_{k-1}, \\[16pt]
+& p_0=S(z_0), \\[16pt]
+&\beta_k=\max \left \{ \frac{\langle S(z_k),(S(z_k)-S(z_{k-1}))\rangle}{\left \| S(z_{k-1})\right \|^2},0 \right \}, \\[16pt]
+& S(z)=A'(z)^T(A(z)-F). \\[16pt]
+\end{aligned}
+\end{equation}
+
+Введем дополнительный управляющий параметр $0<\psi \leqslant 1$, обеспечивающий расширение области сходимости итеративного метода, впервые предложен\-ный \- В.~В.~Ва\-си\-ным для линеаризованного метода наискорейшего спуска с постоянным демпфирующим множителем~\cite{vasin1998}. 
+
+Итерационный процесс приобретет вид:
+
+\begin{equation}\label{eq9}
+\begin{aligned}
+& z_{k+1} = z_k - \psi \frac{\langle p_k, S(z_k) \rangle }{\left \| A'(z_k)p_k\right \|^2}p_k,\\[16pt]
+&p_k=S(z_k)+\beta_k p_{k-1}, \\[16pt]
+&p_0=S(z_0), \\[16pt]
+&\beta_k=\max \left \{ \frac{\langle S(z_k),(S(z_k)-S(z_{k-1}))\rangle}{\left \| S(z_{k-1})\right \|^2},0 \right \}, \\[16pt]
+& S(z)=A'(z)^T(A(z)-F). \\[16pt]
+\end{aligned}
+\end{equation}
+
+\newpage
+\begin{remark}
+При выборе параметра $\beta=0$ процесс совпадет с линеаризованным методом наискорейшего спуска:
+
+\begin{equation}\label{eq_sdm}
+\begin{aligned}
+& z_{k+1} = z_k - \psi \frac{\left \| S(z_k) \right \|^2}{\left \| A'(z_k)S(z_k)\right \|^2}S(z_k),\\[16pt]
+& S(z)=A'(z)^T(A(z)-F). \\[16pt]
+\end{aligned}
+\end{equation}
+
+Cходимость такого процесса при решении уравнений гравиметрии и магнитометрии следует из работы~\cite{scherzer1996convergence}.
+\end{remark}
+
+В качестве начального приближения предлагается использовать $z^0=H$, где $z=H$ --- уравнение асимптотической плоскости либо априорно известное нулевое приближение $z^0=\hat{Z}$. В задачах гравиметрии и магнитометрии такое приближение может быть получено путем использования данных сейсморазведки или электроразведки. Критерием останова итерационного процесса является выполнение условия $\left \| A(z) - F \right \|/\left \| F \right \| < \varepsilon$ при некотором $\varepsilon < 1$. 
+
+%Схожие процессы, рассмотренные в~\cite{engl1996regularization}, например, метод Ландвебера и линеаризованный метод наискорейшего спуска, обладают свойством саморегуляризации в том смысле, что ранний останов итеративного процесса дает регуляризующий эффект. %Другими словами, ограничение числа итераций выполняет роль параметра регуляризации. Можно предположить, что и данный процесс обладает таким свойством.
+
+%По аналогии с работой В. Васина \footnote{Vasin, V. Irregular nonlinear operator equations: Tikhonov's regularization and iterative approximation // Journal of Inverse and Ill-Posed Problems 21, no. 1 (2013): 109-123.} 
+
+При решении практических задач погрешности измерения и получения правой части могут значительно усиливать неустойчивость задачи, и алгоритм~\eqref{eq9} будет расходиться при любом выборе демпфирующего параметра.
+
+Построим устойчивый к погрешностям регуляризованный вариант линеаризованного метода сопряженных градиентов, используя регуляризацию по методу Тихонова, заменив задачу
+\begin{equation} \label{reg_eq}
+S_{\alpha}(z)=A'(z)^T(A(z)-F)+\alpha (z-z_0)=0,
+\end{equation}
+где $z^0$ --- начальное приближение, $\alpha$ --- параметр регуляризации, 
+
+Построим процесс вида
+\begin{equation} \nonumber
+z_{k+1} = z_{k} + \psi \ \chi_k \ p_k.
+\end{equation}
+
+Найдем выражение для приближенного размера шага, пользуясь линейной аппроксимацией оператора $A$:
+
+\begin{equation} 
+\begin{aligned} \nonumber
+\chi_k \approx  \argmin\limits_{\chi}\Bigg \{&\left \|A(z_k)+A'(z_k)(z_k+\chi p_k-z_k)-F \right \|^2 +\\[16pt]
+& +\alpha \left \| z_k + \chi p_k-z_0 \right \|^2\Bigg \}=\\[20pt]
+ =\argmin\limits_{\chi}\Bigg \{&\left \|(A(z_k)-F)\right \|^2 +2\chi \langle A'(z_k)^T(A(z_k)-F),p_k \rangle +\\[16pt]
+&+\chi^2\left \|A'(z_k) p_k \right \|^2 + \alpha \left\|z_k-z_0 \right\|^2 +\\[16pt]
+&+ 2 \alpha \chi \langle (z_k-z_0), p_k \rangle + \alpha \chi^2 \left \| p_k\right \|^2 \Bigg \}= \\[16pt]
+\end{aligned}
+\end{equation}
+\begin{equation} 
+\begin{aligned} \nonumber
+ = \argmin\limits_{\chi}\Bigg \{&\left \|(A(z_k)-F)\right \|^2 + \alpha \left\|z_k-z_0 \right\|^2 +\\[16pt]
+&+ \chi^2\left \|A'(z_k) p_k \right \|^2 + \alpha \chi^2 \left \| p_k\right \|^2 + 2 \chi \langle S_{\alpha}, p_k \rangle \Bigg \}.
+\end{aligned}
+\end{equation}
+
+Из необходимого условия минимума 
+\begin{equation} \nonumber
+\begin{aligned}
+\frac{\partial}{\partial \chi}\Big (&\left \|(A(z_k)-F)\right \|^2 + \alpha \left\|z_k-z_0 \right\|^2 + \chi^2\left \|A'(z_k) p_k \right \|^2 + \\[16pt]
+&+ \alpha \chi^2 \left \| p_k\right \|^2 + 2 \chi \langle S_{\alpha}, p_k \rangle \Big )=0; \\[20pt]
+& 2\chi \left \|A'(z_k) p_k \right \|^2 + 2\alpha \chi \left \| p_k\right \|^2 + 2 \langle S_{\alpha}, p_k \rangle =0
+\end{aligned}
+\end{equation}
+получаем
+\begin{equation} \nonumber
+\chi_k \approx \widetilde{\chi_k}= -\frac{\langle p_k, S_{\alpha}(z_k) \rangle}{\left \|A'(z_k) p_k \right \|^2+\alpha \left \|p_k \right \|^2}. \\[16pt]
+\end{equation}
+
+Назовем полученный процесс регуляризованным линеаризованным методом сопряженных градиентов (РЛМСГ):
+\begin{equation}\label{eq9reg}
+\begin{aligned}
+& z_{k+1} = z_k - \psi \frac{\langle p_k, S_{\alpha}(z_k)\rangle}{\left \| A'(z_k)p_k\right \|^2 + \alpha \left \| p^k \right \|^2}p_k, \\[16pt]
+& p_k=S_{\alpha}(z_k)+\beta_k p_{k-1}, \quad p_0=S_{\alpha}(z_0), \\[16pt]
+& \beta_k=\max \left \{ \frac{\langle S_{\alpha}(z_k),(S_{\alpha}(z_k)-S_{\alpha}(z_{k-1})) \rangle}{\left \| S_{\alpha}(z_{k-1})\right \|^2},0 \right \},\\[16pt]
+& S_{\alpha}(z)=A'(z)^T(A(z)-F)+\alpha(z-z^0).
+\end{aligned}
+\end{equation}
+
+\begin{remark}
+При выборе параметра $\beta=0$ процесс совпадет с регуляризованным линеаризованным методом наискорейшего спуска, для которого доказана сходимость процесса в работе~\cite{vasin2013irregular}:
+\begin{equation}\nonumber
+\begin{aligned}
+& z_{k+1} = z_k - \psi \frac{\left \| S_{\alpha}(z_k) \right \|^2} {\left \| A'(z_k)S_{\alpha}(z_k)\right \|^2 + \alpha \left \| S_{\alpha}(z^k) \right \|^2}S(z_k), \\[16pt]
+& S_{\alpha}(z)=A'(z)^T(A(z)-F)+\alpha(z-z^0).
+\end{aligned}
+\end{equation}
+\end{remark}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newpage
+\section{Построение экономичного покомпонентного градиентного метода}
+Построим алгоритм решения систем нелинейных уравнений~\eqref{eq1grav_disop} и~\eqref{eq1magn_disop} применительно к решению задач гравиметрии и магнитометрии о восстановлении поверхности раздела сред на основе идеи, предложенной \linebreak И.~Л.~Прут\-кин\-ым~\cite{prutkin1986}. Идея состоит в возможности минимизировать невязку $A_i(z)-F_i$ по правой части в узле $i$ только за счет изменения значения $z(x,y)$ в том же узле. 
+
+\begin{remark}
+Это допустимое упрощение, поскольку значение гравитационного и магнитного (для вертикально направленной намагниченности) поля обратно зависит от $(x'-x)^2+(y'-y)^2$, соответственно, наибольшее влияние на значение поля $F_i$ оказывает значение глубины залегания поверхности $z_i$ в этом же узле. В случае произвольно направленной суммарной намагниченности такой зависимости нет, поэтому данный метод, как и метод локальных поправок будет давать решение, совпадающее по невязке с правой частью, но не имеющее физического содержания.
+\end{remark}
+
+Рассмотрим $i$-е уравнение системы~\eqref{eq1grav_disop} или~\eqref{eq1magn_disop}:
+\begin{equation}\label{eqsys}
+A_i(z)=F_i.
+\end{equation}
+Задача нахождения $z$ из этого уравнения будет эквивалентна задаче минимизации
+\begin{equation}\nonumber
+\min\left \{\frac{1}{2} ( A_i(z)-F_i  )^2:z \in R^n\right \}.
+\end{equation}
+Необходимым условием минимума является: 
+\begin{equation}\nonumber
+\nabla(\frac{1}{2} ( A_i(z)-F_i  )^2)=(A_i(z)-F_i) \nabla A_i(z)=0,
+\end{equation}
+где $\nabla A_i(z)$ --- строка матрицы производной оператора $A(z)$.
+
+Построим метод градиентного типа: 
+\begin{equation}\label{process1}
+\hat{z}^{k+1}={z}^{k}+ \alpha_i  (A_i(z^k)-F_i) \nabla A_i(z^k)^T,
+\end{equation}
+где $\hat{z}^k$ --- вспомогательное промежуточное решение, минимизующее невязку $( A_i(z)-F_i  )^2$ на $k$-й итерации, $z^k$ --- приближенное решение полной системы уравнений на $k$-й итерации.
+
+Размер шага $\alpha^k$ находится из задачи одномерной минимизации
+\begin{equation}\nonumber
+\alpha^k=\argmin\limits_{\alpha}\{(A_i(z^{k+1})-F_i)^2\}.
+\end{equation}
+
+Воспользуемся линеаризованным приближением в точке $z^k$
+\begin{equation}\nonumber
+A_i(z)\simeq A_i(z^k)+\nabla A_i(z^k)(z-z^k),
+\end{equation}
+где $\nabla A_i(z)$ --- строка матрицы производных.
+
+\begin{equation}\nonumber
+\begin{aligned}
+\alpha^k=&\argmin\limits_{\alpha}\Big \{(A_i(z^{k+1})-F_i)^2\Big \}=\\[16pt]
+=&\argmin\limits_{\alpha}\Big \{ (A_i(z^{k}+\alpha (A_i(z^k)-F_i) \nabla A_i(z^k)^T)-F_i)^2\Big \} \simeq \\[16pt]
+\simeq &\argmin\limits_{\alpha}\Big \{ (A_i(z^k)+\nabla A_i(z^k) (\alpha (A_i(z^k)-F_i) \nabla A_i(z^k)^T)-F_i)^2\Big \}=\\[16pt]
+= &\argmin\limits_{\alpha}\Big \{ (A_i(z^k)-F_i)^2+\\[16pt]
+&+ 2 \alpha (A_i(z^k)-F_i)^2  \| \nabla A_i(z^k) \|^2 + \alpha^2 (A_i(z^k)-F_i)^2 \| \nabla A_i(z^k)  \| ^4 \Big \}.
+\end{aligned}
+\end{equation}
+
+Необходимым условием минимума является:
+\begin{equation}\nonumber
+\begin{aligned} \nonumber
+\frac {\partial}{\partial \alpha} \Big(&(A_i(z^k)-F_i)^2+ 2 \alpha (A_i(z^k)-F_i)^2  \| \nabla A_i(z^k) \|^2 +\\[16pt]
+&+\alpha^2 (A_i(z^k)-F_i)^2 \| \nabla A_i(z^k)  \| ^4 \Big)  =0; \\[16pt]
+&2(A_i(z^k)-F_i)^2  \| \nabla A_i(z^k) \|^2 + \\[16pt]
++&2 \alpha  (A_i(z)-F_i)^2 \| \nabla A_i(z^k)  \| ^4 =0.\\[16pt]
+\end{aligned}
+\end{equation}
+
+Отсюда
+\begin{equation}\nonumber
+\begin{aligned} \nonumber
+\alpha_k\approx \widetilde{\alpha_k} =  -\frac{1}{\left \| \nabla A_i(z^k) \right \|^2}.\\[16pt]
+\end{aligned}
+\end{equation}
+
+Таким образом, процесс (\ref{process1}) примет вид
+
+\begin{equation}\nonumber
+\hat{z}^{k+1}=z^{k}- \frac{A_i(z^k)-F_i}{\left \| \nabla A_i(z^k) \right \|^2} \nabla A_i^T(z^k). \\[16pt]
+\end{equation}
+%Воспользуемся идеей метода локальных поправок: будем пытаться минимизировать невязку в узле $i$ только за счет изменения значения $z_i$ в том же узле. 
+
+Применяя процесс независимо для всех индексов $i$, получим компоненты нового приближенного решения полной системы:
+
+\begin{equation}\nonumber
+z^{k+1}_i=z^{k}_i- \frac{A_i(z^k)-F_i}{\left \| \nabla A_i(z^k) \right \|^2} \left( \frac{\partial A_i(z_i^k)}{\partial z_i}\right). \\[16pt]
+\end{equation}
+
+Добавив демпфирующий множитель $\psi$, получаем покомпонентный градиентный метод:
+
+\begin{equation}\label{process_cw}
+z^{k+1}_i=z^{k}_i- \psi \frac{A_i(z^k)-F_i}{\left \| \nabla A_i(z^k) \right \|^2} \left( \frac{\partial A_i(z_i^k)}{\partial z_i}\right), \\[16pt]
+\end{equation}
+где $k$ --- номер итерации, $i$ --- индекс конкретного узла сетки.
+
+Введя демпфирующий параметр $\psi$ и заменив уравнение регуляризованным вариантом~\eqref{reg_eq}, получаем регуляризованный покомпонентный градиентный метод:
+\begin{equation}\label{process_cw_reg}
+z^{k+1}_i=z^{k}_i- \psi \frac{A_i(z^k)-F_i + \alpha(z^k_i-z^0_i)}{\left \| \nabla A_i(z^k) \right \|^2+\alpha} \left( \frac{\partial A_i}{\partial z_i}(z_i^k)\right).
+\end{equation}
+
+В качестве начального приближения предлагается использовать $z^0=H$ либо априорно известное нулевое приближение $z^0=\hat{Z}$. Критерием останова итерационного процесса является выполнение условия \\ \mbox{$\left \| A(z) - F \right \|/\left \| F \right \| < \varepsilon$} при некотором $\varepsilon < 1$.
+
+\begin{remark}
+По сравнению с линеаризованным методом наискорейшего спуска~\eqref{eq_sdm} и линеаризованным методом сопряженных градиентов~\eqref{eq9} данный метод имеет меньшую алгоритмическую сложность: не требует трудоемких операций векторно-матричного умножения или хранения матриц большой размерности. Требуется лишь вычисление норм строк матрицы $A'(z^k)$ и значений ее диагональных элементов ${\partial A_i(z_i^k)}/{\partial z_i}$.
+\end{remark}
+
+\newpage
+\section{Новый алгоритм решения обратных задач о восстановлении нескольких поверхностей}
+
+Новый алгоритм решения интегральных уравнений~\eqref{eq1_sumgrav} или~\eqref{eq3_summagn} позволяет по суммарному полю из уравнения находить несколько структурных границ одновременно. Алгоритм основан на применении градиентных методов с переменными весовыми множителями. 
+
+%\newpage
+\subsection{Способ дискретизации уравнений}
+Дискретизация уравнений~\eqref{eq1_sumgrav} или~\eqref{eq3_summagn} осуществляется на сетке $n=M\times N$, где задана правая часть $\Delta Z(x,y)$.
+В результате получается вектор правой части $F(x,y)$ размерности $n=M \cdot N$,
+векторы $x=\{\underbrace{x_1,x_1,...x_1}_{N},x_2,x_2,...x_2,x_3,x_3...x_3,...,x_M,x_M...x_M\}$, \\* $y=\{y_1,y_2,y_3,...,y_M,y_1,y_2,y_3,...,y_M,...\}$ размерности $n=M \cdot N$, результирующий вектор решения составляется из дискретизированных векторов для каждой границы: $z=[z_1\lbcomma...\lbcomma z_L]=(z_{1,1},z_{1,2},...,z_{1,n},z_{2,1},...z_{L,n})$ размерности  $Ln=L \cdot M \cdot N$ (рис.~\ref{fig3discret}), матрицу производной операторов $A'(z^k)^T$  или $B'(z^k)^T$ размерности $M \cdot N \times L \cdot M \cdot N$ и системы нелинейных уравнений
+
+%вектора $x={x_1,...,x_2,...,x_3...,...,x_M}$
+\begin{equation}\label{eq1_disgravsum}
+\begin{aligned}
+&f \sum \limits_{l=1}^{L} \Delta \sigma_l \Delta x \Delta y \sum \limits_{j=1..n} \Bigg\{ \frac{1}{\sqrt{(x_i-x_j)^2+(y_i-y_j)^2+z^2_{ln+j}}} - \\[16pt]
+&-\frac{1}{\sqrt{(x_i-x_j)^2+(y_i-y_j)^2+h^2_l}} \Bigg\} = F_i, \\[16pt]
+i=1..n;&\\[16pt]
+\end{aligned}
+\end{equation}
+
+\begin{equation}\label{eq1_dismagnsum}
+\begin{aligned}
+&f \sum \limits_{l=1}^{L} \Delta \sigma_l \Delta x \Delta y \sum \limits_{j=1..n} \Bigg\{ \frac{\zeta^2_{ln+j}}{[{(x_i-x_j)^2+(y_i-y_j)^2+\zeta^2_{ln+j}}]^{3/2}} - \\[16pt]
+&-\frac{h_l}{[{(x_i-x_j)^2+(y_i-y_j)^2+h^2_l}]^{3/2}} \Bigg\} = F_i, \\[16pt]
+i=1..n, 
+\end{aligned}
+\end{equation}
+где $z_m$ --- $m$-я компонента результирующего вектора решения.  
+
+В операторном виде можно записать эти уравнения как 
+\begin{equation}\label{eq1_disgravsumop}
+\widetilde{A}[z]=\widetilde{F}.
+\end{equation}
+%\begin{equation}\label{eq1_dismagnsumop}
+%\widetilde{B}[z]=\widetilde{F}.
+%\end{equation}
+
+\begin{figure}[H]
+\center{\includegraphics[width=.95\textwidth]{indices3.png}}
+\caption{Распределение индексов по сетке}\label{fig3discret}
+\end{figure}
+
+\begin{remark}
+Задача~\eqref{eq1_disgravsumop} является недоопределенной в том смысле, что при правой части размерности $n$ вектор неизвестных имеет размерность $L \cdot n$. При решении задачи итерационными методами, которые применяются для задач о восстановлении одной поверхности, полученные решения могут удовлетворять базовому уравнению (давать малую невязку по правой части), но значительно отличаться от истинных.
+
+В таких случаях требуется находить начальное приближение, близкое к решению, а также использовать адаптивные методы, которые за счет подходящей настройки параметров переводят итерации в область локальной сходимости.
+
+Первоначальная идея была предложена в работе~\cite{prutkin1986}: для каждой поверхности задавался весовой коэффициент, определяющий, за счет изменения какой из поверхностей мы, в основном, пытаемся добиться уменьшения невязки. Можно расширить данный подход: основная идея нового алгоритма состоит в использовании дополнительной информации и задании весовых коэффициентов для каждой из поверхностей и для каждого узла сетки по отдельности. Это обеспечивает более тонкую настройку и дает возможность за счет выбора весовых коэффициентов выбрать более правдоподобное решение.
+\end{remark}
+
+\newpage
+\subsection{Градиентные методы наискорейшего спуска и минимальной ошибки с переменными весовыми множителями}
+Для решения системы~\eqref{eq1_disgravsumop} предложено использовать модификации линеаризованных итерационных методы градиентного типа (наискорейшего спуска и минимальной ошибки) с весовыми множителями (см.~\citemybib{dan13,ugatu1,ugatu2}):
+\begin{itemize}
+\item линеаризованный метод наискорейшего спуска (ЛМНС)
+\begin{equation} \label{eq5}
+\begin{aligned}
+& z^{k+1}_i=z^k_i - \psi \gamma_i \frac{\left \| S(z^k) \right \|^2}{\left \|A'(z^k)S(z^k) \right \|^2} S_i(z^k),\\[16pt]
+& S(z^k)=A'(z^k)^T(A(z^k)-F);
+\end{aligned}
+\end{equation}
+\item линеаризованный метод минимальной ошибки (ЛММО)
+\begin{equation} \label{eq6}
+\begin{aligned}
+&z^{k+1}_i=z^k_i - \psi \gamma_i \frac{\left \| A(z_k)-F \right \|^2}{\left \| S(z^k) \right \|^2} S_i(z^k), \\[16pt]
+&S(z^k)=A'(z^k)^T(A(z^k)-F),
+\end{aligned}
+\end{equation}
+\end{itemize}
+где $z_i$ --- $i$-я компонента результирующего вектора $z$, $S_i$ --- $i$-я компонента вектора градиента $S(z)$,$k$ --- номер итерации, $\psi$ --- демпфирующий параметр, $\gamma_i$ --- весовые множители, вычисляемые  для каждой компоненты $z_i(i=1\lbcomma ... \lbcomma L \cdot M \cdot N)$.
+
+В качестве начального приближения используются $z^0_i=H_l$,\\*$(l-1)n<i<ln$ либо известные начальные приближения поверхностей $\hat{Z_l}$, $l=1..L$. Заметим, что от выбора начального приближения значительно зависит физичность результирующего решения. 
+
+Критерием останова итерационного процесса является выполнение условия для суммарной невязки $\left \| A(z) - F \right \|/\left \| F \right \| < \varepsilon$ при некотором $\varepsilon < 1$.
+
+Как показали численные эксперименты, применение нового алгоритма значительно сокращает число итераций и время счета по сравнению с использованием традиционного алгоритма, состоящего в независимом решении задач о восстановлении каждой из поверхностей. Для модельных задач произошло даже некоторое снижение относительной погрешности приближенного решения.
+
+\newpage
+\subsection{Построение быстрых модифицированных методов наискорейшего спуска и сопряженных градиентов с весовыми множителями}
+Для большей экономии вычислительных ресурсов были построены модифицированные варианты методов (см.~\citemybib{num-meth15,fze16}). Модификация метода~\eqref{eq5} состоит во внесении весовых множителей в направление одномерного поиска, т. е. направления $S(z)=\nabla \left[\frac{1}{2} \left \| A(z) -y \right \|^2 \right]$ заменяются на $v$, которые получаются путем покомпонентнго домножения $S(z)$ на весовые множители $\gamma_i$, и в этом направлении ищется минимум суммарной невязки. Это ещё больше уменьшило число итераций по сравнению с методом~\eqref{eq5}.
+
+Чтобы получить явную приближенную формулу для размера шага $\alpha^k$ в направлении $v$, воспользуемся линейным приближением оператора $A$:
+
+\begin{equation} \label{alpha_mod}
+\begin{aligned} %\nonumber
+\alpha^k \approx & \argmin\limits_{\alpha}{\left \|A(z^k)+A'(z^k)(z^k+\alpha (v^k-z^k)-F \right \|^2}=\\[16pt]
+& =\argmin\limits_{\alpha}\Bigg \{\left \|(A(z^k)-F)+\alpha  A'(z^k) v^k\right \|^2 \Bigg \}=\\[16pt]
+& =\argmin\limits_{\alpha}\Bigg \{\left \|(A(z^k)-F)\right \|^2 +2\alpha \langle v^k, S(z^k) \rangle+ \\[16pt]
+& +\alpha^2\left \|A'(z^k) v^k \right \|^2 \Bigg \}.\\[16pt]
+\end{aligned}
+\end{equation}
+
+Необходимым условием минимума является 
+
+\begin{equation} \nonumber
+\frac{\partial}{\partial \alpha}\Big (\left \|(A(z^k)-F)\right \|^2 +2\alpha \langle v^k, S(z^k) \rangle +\alpha^2\left \|A'(z^k) v^k \right \|^2 \Big )=0;\\[16pt]
+\end{equation}
+\begin{equation} \nonumber
+2 \langle v^k, S(z^k) \rangle + 2 \alpha \left \|A'(z^k) p^k \right \|^2 = 0.\\[16pt]
+\end{equation}
+
+Получаем размер шага
+\begin{equation} \nonumber
+\alpha^k \approx \widetilde{\alpha^k}= -\frac{\langle v^k, S(z^k) \rangle}{\left \|A'(z^k) v^k \right \|^2}.
+\end{equation}
+
+Получаем 
+
+\begin{itemize}
+\item линеаризованный модифицированный метод наискорейшего спуска (ЛММНС):
+\begin{equation} \label{eq7}
+\begin{aligned}
+& z^{k+1}=z^k-\psi \frac {\langle v^k, S(z^k) \rangle}{\left \| A'(z^k) v^k \right \|^2} v^k, \\[16pt]
+&v^k_i= \gamma_i S_i(z^k), \\[16pt]
+& S(z)=A'(z)^T(A(z)-F);
+\end{aligned}
+\end{equation}
+\end{itemize}
+где $\psi$ --- демпфирующий параметр,  $k$ --- номер итерации, $i=1..Ln$ --- индекс элемента вектора решения. 
+
+Применим также аналогичную идею к методу~\eqref{eq9}. В качестве направлений будем выбирать $p^k = v^k +\beta^k p^{k-1}$, а для выбора коэффициента $\beta^k$ возьмем формулу 
+\begin{equation} \nonumber
+\begin{aligned}
+& \beta_k =\max\{\beta_{k}^{M},0\}, \\[16pt]
+& \beta_0 = 0 ,\nonumber \\[16pt]
+& \beta_{k}^{M} = \frac{\langle v^k,(v^k-v^{k-1}) \rangle}{\left \| v^{k-1}\right \|^2}. \\[16pt]
+\end{aligned}
+\end{equation} 
+
+Данная формула получена по аналогии с формулой Полака-Рибьера-Поляка заменой $S(z)$ на $v$. Вычислительные эксперименты показали её работоспособность и эффективность.
+
+Заменив в выводе~\eqref{alpha_mod} и далее $v^k$ на $p^k$, получаем выражение для $\alpha^k$. В итоге имеем
+
+\begin{itemize}
+\item линеаризованный модифицированный метод сопряженных градиентов (ЛММСГ)
+
+\begin{equation}\label{eq10}
+\begin{aligned}
+& z^{k+1} = z^k - \psi \frac{\langle p^k, S(z^k)\rangle}{\left \| A'(z^k)p^k\right \|^2}p^k, \\[16pt]
+& p^k=v^k+\beta_k p^{k-1}, \\[16pt]
+& p^0=v^0, \\[16pt]
+& \beta_k=\max \left \{ \frac{\langle v^k,(v^k-v_{k-1})\rangle}{\left \| v^{k-1}\right \|^2},0 \right \}, \\[16pt]
+& v^k_i= \gamma_i S_i(z^k), \\[16pt]
+& S(z)=A'(z)^T(A(z)-F),
+\end{aligned}
+\end{equation}
+\end{itemize}
+где $\psi$ --- демпфирующий параметр, $k$ --- номер итерации.
+
+\newpage
+\subsection{Выбор весовых множителей}
+Весовые множители $\gamma_i$ для каждой компоненты $z_i(i=1 \lbcomma ... \lbcomma L \cdot M \cdot N)$ будем выбирать двумя способами: используя выделенные для каждой границы гравитационные или магнитные поля либо используя априорно известные нулевые приближения искомых поверхностей. Весовые множители выбираются путем нормировки значений для каждой поверхности раздела. 
+ 
+В первом случае необходимо воспользоваться процедурой разделения источников по глубине, чтобы приближенно выделить гравитационные или магнитные поля, соответствующие каждой поверхности. Отметим, что эта процедура может быть весьма трудоемкой для сеток большой размерности. Поскольку, в отличии от традиционного алгоритма, информация, получаемая в результате этой процедуры, является вспомогательной, можно выполнять её на загрубленной сетке, что значительно снизит время вычисления и требования к вычислительным ресурсам.
+
+%\begin{center}
+\begin{equation} \nonumber
+\begin{aligned}
+F &\longrightarrow [F_1, F_2,...,F_L]=\\[16pt]
+ & =(f_1,f_2,...,f_{m\cdot n},...,f_{L\cdot M\cdot N}) \longrightarrow \\[16pt]
+ &\longrightarrow (\gamma_1,\gamma_2,...,\gamma_{L\cdot M\cdot N}), \\[16pt]
+F_l &\longrightarrow (\gamma_{M\cdot N\cdot l+1},\gamma_{M\cdot N\cdot l+2},...,\gamma_{M\cdot N\cdot(l+1)}), \\[16pt]
+& \gamma_i=\frac{|f_i|^\beta}{\max \limits_{i,l}|f_i|^\beta},
+\end{aligned}
+\end{equation}
+%\end{center}
+где $F_l(l=1,...,L)$ --- аномальные поля от гравитирующих либо магнитных масс, находящихся между соответствующими глубинами $H_{l-1}$  и $H_{l+1}$ ($H_0=0$, $H_{L+1}=\infty $)  для искомых поверхностей раздела, выделенные из общего гравитационного $\Delta g(x,y,0)$ или магнитного поля $\Delta Z(x,y,0)$ по методике повысотных трансформаций, $\beta>1$ --- сглаживающий параметр.
+
+
+Второй вариант --- выбирать множители, используя априорно известные начальные приближения поверхностей:
+
+\begin{equation} \nonumber
+\begin{aligned}
+\hat{Z} &= [\hat{Z_1},\hat{Z_2},...,\hat{Z_L}]=\\[16pt]
+&=(\hat{z_1},\hat{z_2},...,\hat{z_{m\cdot n}},...,\hat{z_{L\cdot M\cdot N}}) \longrightarrow \\[16pt]
+& \longrightarrow(\gamma_1,\gamma_2,...,\gamma_{L\cdot M\cdot N}), \\[16pt]
+\hat{Z_l} &\longrightarrow (\gamma_{M\cdot N\cdot l+1}, \gamma_{M\cdot N\cdot l+2},...,\gamma_{M\cdot N\cdot(l+1)}), \\[16pt]
+&\gamma_i=\frac{|\frac{\hat{f_i}}{H_i}-1|^\beta}{\max \limits_{i,l}|\frac{\hat{f_i}}{H_i}-1|^\beta},
+\end{aligned}
+\end{equation}
+где $\hat{Z_l}(l=1 \lbcomma ... \lbcomma L)$ --- известные нулевые приближения соответствующих искомых поверхностей раздела $S_l(l=1 \lbcomma ...\lbcomma L)$, $\beta>1$ --- сглаживающий параметр.
+
+\begin{remark}
+Для задач гравиметрии и магнитометрии такие нулевые приближения могут быть получены путем использования данных сейсморазведки или электроразведки, бурения и т. д.
+\end{remark}

@@ -23,18 +23,19 @@ colorlinks,  % цветные гиперссылки
 \usepackage{multirow}
 \usepackage{setspace}
 %\linespread{1.6} %1.3 для полуторного
-%\usepackage{multibib}
+\usepackage{multibib}
+\usepackage{longtable}
 
-\usepackage[style=gost-numeric,
-  backend=biber,
-  language=auto,
-  hyperref=auto,
-  autolang=other,
-  sorting=none
-]{biblatex}
+%\usepackage[style=gost-numeric,
+%  backend=biber,
+%  language=auto,
+%  hyperref=auto,
+%  autolang=other,
+%  sorting=none
+%]{biblatex}
 
-\addbibresource{thesis.bib}
-\bibliography{thesis.bib}
+%\addbibresource{thesis.bib}
+%\bibliography{thesis.bib}
 
 % Номера страниц снизу и по центру
 \pagestyle{footcenter}
@@ -46,7 +47,7 @@ colorlinks,  % цветные гиперссылки
 % Ссылки на работы соискателя включаются в общий список литературы
 %\let\citemy=\cite
 
-%\newcites{mybib}{Публикации автора по теме диссертации}
+\newcites{mybib}{Публикации автора по теме диссертации}
 
 % Использовать полужирное начертание для векторов
 \let\vec=\mathbf
@@ -148,13 +149,14 @@ colorlinks,  % цветные гиперссылки
 %\input{dict}
 
 % Список литературы
-%\bibliographystyle{gost705s}
+
+\bibliographystyle{gost705s}
 %\printbibliography[heading=bibintoc]
-%\bibliography{thesis}
+\bibliography{thesis}
 
-%\bibliographystylemybib{gost705}
+\bibliographystylemybib{gost705s}
 
-%\bibliographymybib{mybib}
+\bibliographymybib{mybib}
 
 % Список иллюстративного материала
 %\listoffigures

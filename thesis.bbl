@@ -1,0 +1,272 @@
+\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
+\ifx\undefined\href\def\href#1#2{#2}\else\fi
+\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
+\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
+\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
+\cyr\cyrd\cyra\cyrt\cyra\ %
+\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+
+\bibitem{Neu2000}
+\selectlanguageifdefined{english}
+\BibEmph{A.~N.}
+
+\bibitem{NeuSch1995}
+\selectlanguageifdefined{english}
+\BibEmph{A.~N., O.~S.}
+
+\bibitem{BlaNeuSch1997}
+\selectlanguageifdefined{english}
+\BibEmph{B.~B., A.~N., O.~S.}
+
+\bibitem{KalNeuRam2002}
+\selectlanguageifdefined{english}
+\BibEmph{B.~K., A.~N., G.~R.~A.}
+
+\bibitem{GilNoc1991}
+\selectlanguageifdefined{english}
+\BibEmph{Gilbert~J., Nocedal~J.}
+
+\bibitem{Han1997}
+\selectlanguageifdefined{english}
+\BibEmph{Hanke~M.}
+
+\bibitem{Han2010}
+\selectlanguageifdefined{english}
+\BibEmph{Hanke~M.}
+
+\bibitem{DenSchn1996}
+\selectlanguageifdefined{english}
+\BibEmph{J.E.~Dennis~J., Schnabel~R.~B.} Numerical Methods for Unconstrained
+  Optimization and Nonlinear Equations.
+\newblock Siam, 1996.
+
+\bibitem{Hadamar1902}
+\selectlanguageifdefined{english}
+\BibEmph{J.Hadamard}.
+
+\bibitem{Kel1995}
+\selectlanguageifdefined{english}
+\BibEmph{Kelley~C.} Iterative Methods for Linear and Nonlinear Equations.
+\newblock Philadelphia: Siam, 1995.
+
+\bibitem{Kok2010_1}
+\selectlanguageifdefined{english}
+\BibEmph{Kokurin~M.}
+
+\bibitem{Kok2010_2}
+\selectlanguageifdefined{english}
+\BibEmph{Kokurin~M.}
+
+\bibitem{Lan1951}
+\selectlanguageifdefined{english}
+\BibEmph{Landweber~L.}
+
+\bibitem{HanNeuSch1995}
+\selectlanguageifdefined{english}
+\BibEmph{M.~H., A.~N., O.~S.}
+
+\bibitem{NocWri2006}
+\selectlanguageifdefined{english}
+\BibEmph{Nocedal~J., Wright~S.} Numerical Optimization.
+\newblock Springer Science \& Business Media, 2006.
+
+\bibitem{SchEngKun1993}
+\selectlanguageifdefined{english}
+\BibEmph{O.~Scherzer~K.~K., H. W.~Engl}.
+
+\bibitem{OrtRhe1970}
+\selectlanguageifdefined{english}
+\BibEmph{Ortega~J., Rheinboldt~W.} Iterative solution of nonlinear equations in
+  several variables.
+\newblock Siam, 1970.
+
+\bibitem{Pow1970}
+\selectlanguageifdefined{english}
+\BibEmph{Powell~M.}
+
+\bibitem{JinZon1997}
+\selectlanguageifdefined{english}
+\BibEmph{Q.~Jin~Z.-Y.~H.}
+
+\bibitem{Sch1995}
+\selectlanguageifdefined{english}
+\BibEmph{Scherzer~O.}
+
+\bibitem{SchnFra1983}
+\selectlanguageifdefined{english}
+\BibEmph{Schnabel~R.~B., Frank~P.~D.}
+
+\bibitem{Sidorov_2002_Journal_32_1531}
+\selectlanguageifdefined{english}
+\BibEmph{Sidorov~S.~S., Petrov~P.~P., Ivanov~I.~I.} Article Title~//
+  \BibEmph{Journal Name}.
+\newblock 2002.
+\newblock Vol.~32.
+\newblock P.~1531--1540.
+
+\bibitem{Tau2002}
+\selectlanguageifdefined{english}
+\BibEmph{U.~T.}
+
+\bibitem{Tau2004}
+\selectlanguageifdefined{english}
+\BibEmph{U.~T.}
+
+\bibitem{Vasin_2016}
+\selectlanguageifdefined{english}
+\BibEmph{Vasin~V.}
+
+\bibitem{Vasin_2014}
+\selectlanguageifdefined{english}
+\BibEmph{Vasin~V.}
+
+\bibitem{VasEre2009}
+\selectlanguageifdefined{english}
+\BibEmph{Vasin~V., Eremin~I.} Operators and Iterative Processes of Fejer Type.
+  Theory and Application.
+\newblock Berlin/New York: Walter de Gruyter, 2009.
+
+\bibitem{Bak1992}
+\selectlanguageifdefined{english}
+\BibEmph{Б.~�.~�.}
+
+\bibitem{KraVayZab1969}
+\selectlanguageifdefined{english}
+\BibEmph{Красносельского~�., Вайникко~�.,
+  Забрейко~�.} Приближенное решение
+  операторных уравнений.
+\newblock Москва: Наука, 1969.
+
+\bibitem{Tikh1943}
+\selectlanguageifdefined{english}
+\BibEmph{А.Н.~�.}
+
+\bibitem{Tikh1963_1}
+\selectlanguageifdefined{english}
+\BibEmph{А.Н.~�.}
+
+\bibitem{Tikh1963_2}
+\selectlanguageifdefined{english}
+\BibEmph{А.Н.~�.}
+
+\bibitem{Lavr1962}
+\selectlanguageifdefined{english}
+\BibEmph{М.М.~�.}
+
+\bibitem{Lavr1956}
+\selectlanguageifdefined{english}
+\BibEmph{М.М.~�.}
+
+\bibitem{Lavr1959}
+\selectlanguageifdefined{english}
+\BibEmph{М.М.~�.}
+
+\bibitem{Lavr1963}
+\selectlanguageifdefined{english}
+\BibEmph{М.М.~�.}
+
+\bibitem{Tan2003_1}
+\selectlanguageifdefined{english}
+\BibEmph{В.П.~�.}
+
+\bibitem{Tan2003_2}
+\selectlanguageifdefined{english}
+\BibEmph{В.П.~�.}
+
+\bibitem{TikhGlas1965}
+\selectlanguageifdefined{english}
+\BibEmph{А.Н.~�., В.Б~�.}
+
+\bibitem{TikhArs1986}
+\selectlanguageifdefined{english}
+\BibEmph{А.Н.~�., В.Я.~�.} Приближенное решение
+  операторных уравнений.
+\newblock Москва: Наука, 1986.
+
+\bibitem{Petrov_2001_Journal_23_12321}
+\selectlanguageifdefined{russian}
+\BibEmph{Петров~�.~�., Иванов~�.~�., Сидоров~�.~�.}
+  Название статьи~// \BibEmph{Название журнала}.
+\newblock 2001.
+\newblock {\cyr\CYRT.}~23.
+\newblock {\cyr\CYRS.}~12321--12328.
+
+\bibitem{Vasin_2012}
+\selectlanguageifdefined{english}
+\BibEmph{Васин~�.}
+
+\bibitem{VasPer_2011}
+\selectlanguageifdefined{english}
+\BibEmph{Васин~�., Пересторонина~�.~�.}
+
+\bibitem{BachZhid1987}
+\selectlanguageifdefined{english}
+\BibEmph{Бахвалов~�., Жидков~�., Кобельков~�.}
+  Численные методы.
+\newblock Москва: Наука, 1987.
+
+\bibitem{Kok_2010}
+\selectlanguageifdefined{english}
+\BibEmph{Кокурин~�.}
+
+\bibitem{Pol1969}
+\selectlanguageifdefined{english}
+\BibEmph{Поляк~�.}
+
+\bibitem{Kan1947}
+\selectlanguageifdefined{english}
+\BibEmph{Канторович~�.}
+
+\bibitem{LavrVas1966}
+\selectlanguageifdefined{english}
+\BibEmph{Лаврентьев~М.М.~�.}
+
+\bibitem{LavrRomShi1980}
+\selectlanguageifdefined{english}
+\BibEmph{Лаврентьев~М.М.~�.~�., Романов~В.Г.}
+  Некорректные задачи математической
+  физики и анализа.
+\newblock М.: Наука, 1980.
+
+\bibitem{Tan1977}
+\selectlanguageifdefined{english}
+\BibEmph{Танана~�.}
+
+\bibitem{Tan1997}
+\selectlanguageifdefined{english}
+\BibEmph{Танана~�.}
+
+\bibitem{Tan1981}
+\selectlanguageifdefined{english}
+\BibEmph{Танана~�.} Методы решения операторных
+  уравнений.
+\newblock Москва: Наука, 1987.
+
+\bibitem{Ivanov_1999_Journal_17_173}
+\selectlanguageifdefined{russian}
+\BibEmph{Иванов~�.~�., Петров~�.~�., Сидоров~�.~�.}
+  Название статьи~// \BibEmph{Название журнала}.
+\newblock 1999.
+\newblock {\cyr\CYRT.}~17.
+\newblock {\cyr\CYRS.}~173--180.
+
+\bibitem{AkMarMis2013}
+\selectlanguageifdefined{english}
+\BibEmph{Акимова~�., Мартышко~�., Мисилов~�.}
+
+\bibitem{AkMisDer2014}
+\selectlanguageifdefined{english}
+\BibEmph{Акимова~�., Мисилов~�.~�., Дергачев~�.~�.}~//
+  Труды 41-й сессии Международного семинара
+  им. Д.Г. Успенского, Екатеринбург, 2014~/ Ed. by
+  �.~�.~РАН.
+\newblock Екатеринбург: ИГФ УрО РАН, 1968.
+\newblock P.~4–--6.
+
+\end{thebibliography}
