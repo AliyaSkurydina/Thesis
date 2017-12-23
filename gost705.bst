@@ -1,10 +1,10 @@
 %%
-%% This is file `gost705s.bst',
+%% This is file `gost705.bst',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
 %%
-%% gost705.dtx  (with options: `gost705s')
+%% gost705.dtx  (with options: `gost705')
 %% 
 %% Copyright (c) 2004-2014 Stanislav Kruchinin.
 %% All rights reserved.
@@ -1896,109 +1896,6 @@ MACRO {sst} {"Semicond. Sci. Tech."}
 MACRO {nl} {"Nano Lett."}
 
 READ
-
-FUNCTION {sortify}
-{
-  purify$
-  "l" change.case$
-}
-
-INTEGERS { len }
-
-FUNCTION {chop.word}
-{
-  's :=
-  'len :=
-  s #1 len substring$ =
-    { s len #1 + global.max$ substring$ }
-    's
-  if$
-}
-
-FUNCTION {sort.format.names}
-{
-  's :=
-  #1 'nameptr :=
-  ""
-  s num.names$ 'numnames :=
-  numnames 'namesleft :=
-    { namesleft #0 > }
-    { nameptr #1 >
-        { "   " * }
-        'skip$
-      if$
-      s nameptr
-      "{vv{ } }{ll{ }}{  f{ }}{  jj{ }}"
-      format.name$ 't :=
-      nameptr numnames = t "others" = and
-        { "et al" * }
-        { t sortify * }
-      if$
-      nameptr #1 + 'nameptr :=
-      namesleft #1 - 'namesleft :=
-    }
-  while$
-}
-
-FUNCTION {sort.format.title}
-{
-  't :=
-  "A " #2
-    "An " #3
-      "The " #4 t chop.word
-    chop.word
-  chop.word
-  sortify
-  #1 global.max$ substring$
-}
-
-FUNCTION {author.sort}
-{
-  author empty$
-    { key empty$
-        { "to sort, need author or key in " cite$ * warning$ "" }
-        { key sortify }
-      if$
-    }
-    { author sort.format.names }
-  if$
-}
-
-FUNCTION {author.title.sort}
-{
-  author empty$
-    { title empty$
-      { key empty$
-        { "to sort, need author, title, or key in " cite$ * warning$ "" }
-        { key sortify }
-      if$
-      }
-      { title sort.format.title }
-    if$
-    }
-    { author sort.format.names }
-  if$
-}
-
-FUNCTION {presort}
-{
-  author.title.sort
-  "   "
-  *
-  year field.or.null sortify
-  *
-  "   "
-  *
-  title field.or.null
-  sort.format.title
-  *
-  #1 entry.max$ substring$
-  'sort.key$ :=
-}
-
-ITERATE {presort}
-
-SORT
 
 
 STRINGS { longest.label }
