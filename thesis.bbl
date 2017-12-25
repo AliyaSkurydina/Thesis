@@ -34,7 +34,7 @@
   \BibEmph{SIAM Journal on Numerical Analysis}. \BibDash
 \newblock 1991. \BibDash
 \newblock Vol.~2, no.~1. \BibDash
-\newblock P.~21–--42.
+\newblock P.~21--42.
 
 \bibitem{Hadamar1902}
 \selectlanguageifdefined{english}
@@ -180,7 +180,7 @@
   \BibEmph{SIAM Journal on Numerical Analysis}. \BibDash
 \newblock 1983. \BibDash
 \newblock Vol.~21, no.~5. \BibDash
-\newblock P.~815–--843.
+\newblock P.~815--843.
 
 \bibitem{Tau2002}
 \selectlanguageifdefined{english}
@@ -228,47 +228,56 @@
   операторных уравнений. \BibDash
 \newblock Москва: Наука, 1969.
 
-\bibitem{Lavr1956}
-\selectlanguageifdefined{russian}
-\BibEmph{М.М.~�.} К вопросу об обратной задаче
-  теории потенциала~// \BibEmph{Доклады Академии
-  наук СССР}. \BibDash
-\newblock 1956. \BibDash
-\newblock {\cyr\CYRT.} 106, {\cyr\textnumero}~3. \BibDash
-\newblock {\cyr\CYRS.}~389--390.
-
-\bibitem{Lavr1959}
-\selectlanguageifdefined{russian}
-\BibEmph{М.М.~�.} Об интегральных уравнениях
-  первого рода~// \BibEmph{Доклады Академии наук
-  СССР}. \BibDash
-\newblock 1959. \BibDash
-\newblock {\cyr\CYRT.} 127, {\cyr\textnumero}~1. \BibDash
-\newblock {\cyr\CYRS.}~31--33.
-
-\bibitem{Lavr1962}
-\selectlanguageifdefined{russian}
-\BibEmph{М.М.~�.} О некоторых некорректных
-  задачах математической физики. \BibDash
-\newblock Новосибирск: Изд-во Сибирского
-  отд-ния АН СССР, 1962. \BibDash
-\newblock {\cyr\CYRS.}~92.
-
-\bibitem{Lavr1963}
-\selectlanguageifdefined{russian}
-\BibEmph{М.М.~�.} Об одном классе нелинейных
-  интегральных уравнений~// \BibEmph{Сибирский
-  математический журнал}. \BibDash
-\newblock 1963. \BibDash
-\newblock {\cyr\CYRT.}~4, {\cyr\textnumero}~4. \BibDash
-\newblock {\cyr\CYRS.}~837--844.
-
 \bibitem{BachZhid1987}
 \selectlanguageifdefined{russian}
 \BibEmph{Н.С.~�., Жидков~�., Кобельков~�.} Численные
   методы. \BibDash
 \newblock Москва: Наука, 1987. \BibDash
 \newblock 600~{\cyr\cyrs.}
+
+\bibitem{PetPlich1980}
+\selectlanguageifdefined{english}
+\BibEmph{Петунин~�.~�., Пличко~�.~�.} Теория
+  характеристик подпространств и ее
+  приложения. \BibDash
+\newblock Киев Вища шк., 1980. \BibDash
+\newblock 216~p.
+
+\bibitem{Dor1979}
+\selectlanguageifdefined{russian}
+\BibEmph{Дорофеев~�.} О решении интегральных
+  уравнений 1 рода в классе функций с
+  ограниченной вариацией~// \BibEmph{Доклады
+  Академии наук СССР}. \BibDash
+\newblock 1979. \BibDash
+\newblock {\cyr\CYRT.} 244, {\cyr\textnumero}~6. \BibDash
+\newblock {\cyr\CYRS.}~1303--1311.
+
+\bibitem{Vas1982}
+\selectlanguageifdefined{english}
+\BibEmph{Васин~�.} Проксимальный алгоритм с
+  проектированием в задачах выпуклого
+  программирования. \BibDash
+\newblock Уральск. научн. центр, Ин-т матем. и
+  механ., 1982. \BibDash
+\newblock 47~p.
+
+\bibitem{Vas1988}
+\selectlanguageifdefined{russian}
+\BibEmph{Васин~�.} Итерационные методы решения
+  некорректных задач с априорной
+  информацией в гильбертовых
+  пространствах~// \BibEmph{ЖВМ и МФ}. \BibDash
+\newblock 1988. \BibDash
+\newblock {\cyr\CYRT.}~28, {\cyr\textnumero}~7. \BibDash
+\newblock {\cyr\CYRS.}~971--980.
+
+\bibitem{VasAge1993}
+\selectlanguageifdefined{english}
+\BibEmph{Васин~�., Агеев~�.} Некорректные задачи с
+  априорной информацией. \BibDash
+\newblock Уральская изд. фирма "Наука", 1993. \BibDash
+\newblock 263~p.
 
 \bibitem{Vasin_2012}
 \selectlanguageifdefined{russian}
@@ -325,6 +334,14 @@
   решение операторных уравнений. \BibDash
 \newblock Москва: Наука, 1986.
 
+\bibitem{TikhGonSteYag1990}
+\selectlanguageifdefined{english}
+\BibEmph{Тихонов~�., Гончарский~�., Степанов~�.,
+  Ягола~�.} Численные методы решения
+  некорректных задач. \BibDash
+\newblock M.: Наука, 1990. \BibDash
+\newblock 232~p.
+
 \bibitem{TikhGlas1965}
 \selectlanguageifdefined{russian}
 \BibEmph{Тихонов~�., Гласко~�.} Применение
@@ -346,6 +363,23 @@
 \newblock {\cyr\CYRT.}~50. \BibDash
 \newblock {\cyr\CYRS.}~651--664.
 
+\bibitem{BakPol1974}
+\selectlanguageifdefined{russian}
+\BibEmph{Бакушинский~�., Поляк~�.} О решении
+  вариационных неравенств~// \BibEmph{Доклады
+  Академии наук СССР}. \BibDash
+\newblock 1974. \BibDash
+\newblock {\cyr\CYRT.} 219, {\cyr\textnumero}~5. \BibDash
+\newblock {\cyr\CYRS.}~1038--1041.
+
+\bibitem{BakGon1989}
+\selectlanguageifdefined{english}
+\BibEmph{Бакушинский~�., Гончарский~�.}
+  Итеративные методы решения некорректных
+  задач. \BibDash
+\newblock M.: Наука, 1978. \BibDash
+\newblock 128~p.
+
 \bibitem{Bak1992}
 \selectlanguageifdefined{russian}
 \BibEmph{Бакушинский~�.~�.} К проблеме сходимости
@@ -357,6 +391,14 @@
 \newblock {\cyr\CYRT.}~32, {\cyr\textnumero}~9. \BibDash
 \newblock {\cyr\CYRS.}~1503–--1509.
 
+\bibitem{DmiPol1972}
+\selectlanguageifdefined{russian}
+\BibEmph{Дмитриев~�., Полещук~�.} Обобщенный
+  принцип невязки~// \BibEmph{ЖВМ и МФ}. \BibDash
+\newblock 1973. \BibDash
+\newblock {\cyr\CYRT.}~13, {\cyr\textnumero}~2. \BibDash
+\newblock {\cyr\CYRS.}~1316--1318.
+
 \bibitem{Pol1969}
 \selectlanguageifdefined{russian}
 \BibEmph{Поляк~�.~�.} Метод сопряженных
@@ -367,6 +409,26 @@
 \newblock {\cyr\CYRT.}~9, {\cyr\textnumero}~4. \BibDash
 \newblock {\cyr\CYRS.}~807--821.
 
+\bibitem{GonSte1979}
+\selectlanguageifdefined{russian}
+\BibEmph{Гончарский~�., Степанов~�.} О
+  равномерном приближении с ограниченной
+  вариацией некорректно поставленных
+  задач~// \BibEmph{Доклады Академии наук СССР}.
+  \BibDash
+\newblock 1979. \BibDash
+\newblock {\cyr\CYRT.} 248, {\cyr\textnumero}~1. \BibDash
+\newblock {\cyr\CYRS.}~20--22.
+
+\bibitem{GonLeoYag1973}
+\selectlanguageifdefined{russian}
+\BibEmph{Гончарский~�., Леонов~�., Ягола~�.}
+  Обобщенный принцип невязки~// \BibEmph{ЖВМ и
+  МФ}. \BibDash
+\newblock 1973. \BibDash
+\newblock {\cyr\CYRT.}~13, {\cyr\textnumero}~2. \BibDash
+\newblock {\cyr\CYRS.}~294--302.
+
 \bibitem{Kan1947}
 \selectlanguageifdefined{russian}
 \BibEmph{Канторович~�.} О методе наискорейшего
@@ -375,9 +437,46 @@
 \newblock {\cyr\CYRT.}~56. \BibDash
 \newblock {\cyr\CYRS.}~233--236.
 
+\bibitem{Lavr1956}
+\selectlanguageifdefined{russian}
+\BibEmph{Лаврентьев~�.} К вопросу об обратной
+  задаче теории потенциала~// \BibEmph{Доклады
+  Академии наук СССР}. \BibDash
+\newblock 1956. \BibDash
+\newblock {\cyr\CYRT.} 106, {\cyr\textnumero}~3. \BibDash
+\newblock {\cyr\CYRS.}~389--390.
+
+\bibitem{Lavr1959}
+\selectlanguageifdefined{russian}
+\BibEmph{Лаврентьев~�.} Об интегральных
+  уравнениях первого рода~// \BibEmph{Доклады
+  Академии наук СССР}. \BibDash
+\newblock 1959. \BibDash
+\newblock {\cyr\CYRT.} 127, {\cyr\textnumero}~1. \BibDash
+\newblock {\cyr\CYRS.}~31--33.
+
+\bibitem{Lavr1962}
+\selectlanguageifdefined{russian}
+\BibEmph{Лаврентьев~�.} О некоторых
+  некорректных задачах математической
+  физики. \BibDash
+\newblock Новосибирск: Изд-во Сибирского
+  отд-ния АН СССР, 1962. \BibDash
+\newblock {\cyr\CYRS.}~92.
+
+\bibitem{Lavr1963}
+\selectlanguageifdefined{russian}
+\BibEmph{Лаврентьев~�.} Об одном классе
+  нелинейных интегральных уравнений~//
+  \BibEmph{Сибирский математический журнал}.
+  \BibDash
+\newblock 1963. \BibDash
+\newblock {\cyr\CYRT.}~4, {\cyr\textnumero}~4. \BibDash
+\newblock {\cyr\CYRS.}~837--844.
+
 \bibitem{LavrVas1966}
 \selectlanguageifdefined{russian}
-\BibEmph{Лаврентьев~М.М.~�.} О постановке
+\BibEmph{Лаврентьев~�., Васильев~�.} О постановке
   некоторых некорректных задач
   математической физики~// \BibEmph{Сибирский
   математический журнал}. \BibDash
@@ -387,10 +486,66 @@
 
 \bibitem{LavrRomShi1980}
 \selectlanguageifdefined{russian}
-\BibEmph{Лаврентьев~М.М.~�.~�., Романов~В.Г.}
+\BibEmph{Лаврентьев~�., Романов~�., Шишатский~�.}
   Некорректные задачи математической
   физики и анализа. \BibDash
 \newblock М.: Наука, 1980.
+
+\bibitem{Menih1978}
+\selectlanguageifdefined{russian}
+\BibEmph{Менихес~�.} О регуляризуемости
+  отображений, обратных к интегральным
+  операторам~// \BibEmph{Доклады Академии наук
+  СССР}. \BibDash
+\newblock 1978. \BibDash
+\newblock {\cyr\CYRT.} 241, {\cyr\textnumero}~2. \BibDash
+\newblock {\cyr\CYRS.}~625--629.
+
+\bibitem{Ag1980}
+\selectlanguageifdefined{russian}
+\BibEmph{Агеев~�.} Регуляризация нелинейных
+  операторных уравнений на классе функций
+  ограниченной вариации~// \BibEmph{ЖВМ и МФ}.
+  \BibDash
+\newblock 1980. \BibDash
+\newblock {\cyr\CYRT.}~20, {\cyr\textnumero}~4. \BibDash
+\newblock {\cyr\CYRS.}~819--826.
+
+\bibitem{Iv1962_2}
+\selectlanguageifdefined{russian}
+\BibEmph{Иванов~�.} О линейных некорректных
+  задачах~// \BibEmph{Доклады Академии наук
+  СССР}. \BibDash
+\newblock 1962. \BibDash
+\newblock {\cyr\CYRT.} 145, {\cyr\textnumero}~2. \BibDash
+\newblock {\cyr\CYRS.}~270--272.
+
+\bibitem{Iv1963}
+\selectlanguageifdefined{russian}
+\BibEmph{Иванов~�.} О линейных некорректных
+  задачах~// \BibEmph{Математический сборник}.
+  \BibDash
+\newblock 1963. \BibDash
+\newblock {\cyr\CYRT.} 161, {\cyr\textnumero}~2. \BibDash
+\newblock {\cyr\CYRS.}~211--223.
+
+\bibitem{Iv1966}
+\selectlanguageifdefined{russian}
+\BibEmph{Иванов~�.} О приближенном решении
+  операторных уравнений первого рода~//
+  \BibEmph{ЖВМ и МФ}. \BibDash
+\newblock 1966. \BibDash
+\newblock {\cyr\CYRT.}~6, {\cyr\textnumero}~6. \BibDash
+\newblock {\cyr\CYRS.}~1089--1094.
+
+\bibitem{Iv1967}
+\selectlanguageifdefined{russian}
+\BibEmph{Иванов~�.} Об интегральных уравнениях
+  Фредгольма 1 рода~// \BibEmph{Дифференциальные
+  уравнения}. \BibDash
+\newblock 1967. \BibDash
+\newblock {\cyr\CYRT.}~3, {\cyr\textnumero}~3. \BibDash
+\newblock {\cyr\CYRS.}~410--421.
 
 \bibitem{Tan1977}
 \selectlanguageifdefined{russian}
@@ -418,6 +573,16 @@
 \newblock {\cyr\CYRT.}~2. \BibDash
 \newblock {\cyr\CYRS.}~416--423.
 
+\bibitem{Tan2003_1}
+\selectlanguageifdefined{russian}
+\BibEmph{Танана~�.} О приближенном решении
+  нелинейных операторных уравнений~//
+  \BibEmph{Известия Челябинского научного
+  центра}. \BibDash
+\newblock 2003. \BibDash
+\newblock {\cyr\CYRT.}~21, {\cyr\textnumero}~4. \BibDash
+\newblock {\cyr\CYRS.}~6–--8.
+
 \bibitem{Tan2003_2}
 \selectlanguageifdefined{russian}
 \BibEmph{Танана~�.~�.} О сходимости
@@ -427,16 +592,6 @@
 \newblock 2003. \BibDash
 \newblock {\cyr\CYRT.}~6, {\cyr\textnumero}~3. \BibDash
 \newblock {\cyr\CYRS.}~119–--133.
-
-\bibitem{Tan2003_1}
-\selectlanguageifdefined{russian}
-\BibEmph{Танана~�.~�.} О приближенном решении
-  нелинейных операторных уравнений~//
-  \BibEmph{Известия Челябинского научного
-  центра}. \BibDash
-\newblock 2003. \BibDash
-\newblock {\cyr\CYRT.}~21, {\cyr\textnumero}~4. \BibDash
-\newblock {\cyr\CYRS.}~6–--8.
 
 \bibitem{AkMarMis2013}
 \selectlanguageifdefined{russian}
