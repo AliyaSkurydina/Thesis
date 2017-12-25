@@ -83,5 +83,9 @@
     <requires type="dynamic">
       <file>thesis.bcf</file>
     </requires>
+    <requires type="editable">
+      <file>thesis.bib</file>
+      <file>mybib.bib</file>
+    </requires>
   </external>
 </requests>
