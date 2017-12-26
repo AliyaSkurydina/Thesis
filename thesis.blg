@@ -1,14 +1,8 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
-The style file: gost705s.bst
-Database file #1: thesis.bib
-Warning--I didn't find a database entry for "Vas_2012"
-Warning--I didn't find a database entry for "Ivanov_1999_Journal_17_173"
-Warning--I didn't find a database entry for "Petrov_2001_Journal_23_12321"
-Warning--I didn't find a database entry for "Sidorov_2002_Journal_32_1531"
-Warning--I didn't find a database entry for "VasAkiMin2013"
-Warning--I didn't find a database entry for "Vasin2014"
-Warning--I didn't find a database entry for "KufFuch1988"
-Warning--I didn't find a database entry for "VasSkur2017"
-Warning--I didn't find a database entry for "AkMisSkTr2015"
-Warning--I didn't find a database entry for "Vasin2016"
-(There were 10 warnings)
+[3] Config.pm:302> INFO - This is Biber 2.9
+[4] Config.pm:305> INFO - Logfile is 'thesis.blg'
+[591] biber-MSWIN64:313> INFO - === 
+[987] Biber.pm:371> INFO - Reading 'thesis.bcf'
+[4068] Utils.pm:185> ERROR - Error: Found biblatex control file version 3.3, expected version 3.4.
+This means that your biber (2.9) and biblatex (3.7) versions are incompatible.
+See compat matrix in biblatex or biber PDF documentation.
+[4070] Biber.pm:114> INFO - ERRORS: 1
