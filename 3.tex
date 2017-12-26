@@ -204,13 +204,17 @@ u^{k+1}=u^k-\gamma[A'(u^k)^*A'(u^k)+\alpha I]^{-1} A'(u^k)^*(A(u^k)-f_\delta),
  
 В работах В.В. Васина \cite{Vasin_2012}, \cite{VasPer_2011} был исследован метод Левенберга -- Марквардта
 \begin{equation}\label{LM_Vasin}
-u^{k+1}=u^k-\gamma[A'(u^k)^*A'(u^k)+\bar{\alpha} I]^{-1} [A'(u^k)^*(A(u^k)-f_\delta)+\alpha (u-u^0)]
+u^{k+1}=u^k-\gamma[A'(u^k)^*A'(u^k)+\alpha I]^{-1} [A'(u^k)^*(A(u^k)-f_\delta)]
 \end{equation} и его модифицированный вариант
 \begin{equation}\label{LM_modif_Vasin}
-u^{k+1}=u^k-\gamma[A'(u^0)^*A'(u^0)+\bar{\alpha} I]^{-1} [A'(u^k)^*(A(u^k)-f_\delta)+\alpha (u-u^0)]
+u^{k+1}=u^k-\gamma[A'(u^0)^*A'(u^0)+\alpha I]^{-1} [A'(u^k)^*(A(u^k)-f_\delta)]
 \end{equation} для решения регуляризованного уравнения
 $$A'(u)^*(A(u)-f_\delta)+	\alpha (u-u^0)=0,$$
-где $\gamma$ --- демпфирующий множитель, $u^0$ --- некоторое приближение к $u_\alpha$, $\alpha>0$. На основании выводов, сделанных М.Ю. Кокуриным \cite{Kok_2010} о свойствах градиента $\Phi_\alpha '(u)$ тихоновского функционала $$\Phi_\alpha(u)=(1/2)(\|A(u)-f_\delta\|^2+\alpha\|u-\xi\|^2)$$ было установлено, что при выборе параметров $\bar{\alpha}$, $\alpha$, $\gamma$ имеет место сильная сходимость итераций (\ref{LM_Vasin}), (\ref{LM_modif_Vasin}) к регуляризованному решению $u_\alpha$.
+где $\gamma$ --- демпфирующий множитель, $u^0$ --- некоторое приближение к $u_\alpha$, $\alpha>0$. На основании выводов, сделанных М.Ю. Кокуриным \cite{Kok_2010} о свойствах градиента $\Phi_\alpha '(u)$ тихоновского функционала $$\Phi_\alpha(u)=(1/2)(\|A(u)-f_\delta\|^2+\alpha\|u-\xi\|^2)$$ было установлено, что при выборе параметров $\bar{\alpha}$, $\alpha$, $\gamma$ имеет место сильная сходимость итераций (\ref{LM_Vasin}), (\ref{LM_modif_Vasin}) скорректированных в виде
+$$u^{k+1}=u^k-\gamma [A'(u^k)^*A'(u^k)+\bar\alpha I]^{-1}\Phi'_\alpha(u^k)$$
+и
+$$u^{k+1}=u^k-\gamma [A'(u^0)^*A'(u^0)+\bar\alpha I]^{-1}\Phi'_\alpha(u^k)$$
+соответственно к регуляризованному решению $u_\alpha$.
 
 По аналогии с покомпонентным методом типа Ньютона (\ref{comp_newt_meth}), можно выполнить прием вынесения значимой компоненты за знак интегрального оператора, как в (\ref{comp_newt_meth_step1}) и запишем итерационную последовательность восстановления каждой из неизвестных границ $u_l$
 \begin{equation}\label{comp_lm_meth}
