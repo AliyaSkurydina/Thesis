@@ -1,8 +1,27 @@
-[3] Config.pm:302> INFO - This is Biber 2.9
-[4] Config.pm:305> INFO - Logfile is 'thesis.blg'
-[591] biber-MSWIN64:313> INFO - === 
-[987] Biber.pm:371> INFO - Reading 'thesis.bcf'
-[4068] Utils.pm:185> ERROR - Error: Found biblatex control file version 3.3, expected version 3.4.
-This means that your biber (2.9) and biblatex (3.7) versions are incompatible.
-See compat matrix in biblatex or biber PDF documentation.
-[4070] Biber.pm:114> INFO - ERRORS: 1
+[2] Config.pm:354> INFO - This is Biber 2.7
+[4] Config.pm:357> INFO - Logfile is 'thesis.blg'
+[374] biber-MSWIN64:303> INFO - === 
+[649] Biber.pm:359> INFO - Reading 'thesis.bcf'
+[2609] Biber.pm:835> INFO - Found 111 citekeys in bib section 0
+[2795] Biber.pm:3670> INFO - Processing section 0
+[2971] Biber.pm:3840> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[3016] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[3148] bibtex.pm:1292> INFO - Found BibTeX data source 'thesis.bib'
+[4959] Utils.pm:164> WARN - I didn't find a database entry for 'Vas_2012' (section 0)
+[4960] Utils.pm:164> WARN - I didn't find a database entry for 'VasAkiMin2013' (section 0)
+[4961] Utils.pm:164> WARN - I didn't find a database entry for 'VasSkur2017' (section 0)
+[4996] Utils.pm:164> WARN - I didn't find a database entry for 'Skur2017' (section 0)
+[4997] Utils.pm:164> WARN - I didn't find a database entry for 'AkSkur2014' (section 0)
+[4998] Utils.pm:164> WARN - I didn't find a database entry for 'AkSkur2015' (section 0)
+[4999] Utils.pm:164> WARN - I didn't find a database entry for 'AkSkur2016' (section 0)
+[5000] Utils.pm:164> WARN - I didn't find a database entry for 'Vasin2014' (section 0)
+[5000] Utils.pm:164> WARN - I didn't find a database entry for 'KufFuch1988' (section 0)
+[5001] Utils.pm:164> WARN - I didn't find a database entry for 'AkMisSkTr2015' (section 0)
+[5002] Utils.pm:164> WARN - I didn't find a database entry for 'Vasin2016' (section 0)
+[5669] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5670] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5671] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'ru-RU'
+[5672] Biber.pm:3505> INFO - No sort tailoring available for locale 'ru-RU'
+[6579] bbl.pm:608> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[6734] bbl.pm:712> INFO - Output to thesis.bbl
+[6736] Biber.pm:109> INFO - WARNINGS: 11
