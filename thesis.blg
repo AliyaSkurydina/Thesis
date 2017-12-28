@@ -1,29 +1,16 @@
 [0] Config.pm:320> INFO - This is Biber 1.9
 [0] Config.pm:323> INFO - Logfile is 'thesis.blg'
-[45] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
-[45] Biber.pm:333> INFO - Reading 'thesis.bcf'
-[189] Biber.pm:635> INFO - Found 115 citekeys in bib section 0
-[230] Biber.pm:3051> INFO - Processing section 0
-[267] Biber.pm:3189> INFO - Looking for bibtex format file 'thesis.bib' for section 0
-[281] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
-[291] bibtex.pm:864> INFO - Found BibTeX data source 'thesis.bib'
-[430] Utils.pm:144> WARN - I didn't find a database entry for 'Vas_2012' (section 0)
-[430] Utils.pm:144> WARN - I didn't find a database entry for 'VasAkiMin2013' (section 0)
-[431] Utils.pm:144> WARN - I didn't find a database entry for 'VasSkur2017' (section 0)
-[431] Utils.pm:144> WARN - I didn't find a database entry for 'Skur2017' (section 0)
-[431] Utils.pm:144> WARN - I didn't find a database entry for 'AkSkur2014' (section 0)
-[431] Utils.pm:144> WARN - I didn't find a database entry for 'AkSkur2015' (section 0)
-[431] Utils.pm:144> WARN - I didn't find a database entry for 'AkSkur2016' (section 0)
-[432] Utils.pm:144> WARN - I didn't find a database entry for 'MisMinDer2013' (section 0)
-[432] Utils.pm:144> WARN - I didn't find a database entry for 'AkiMisMin2014' (section 0)
-[432] Utils.pm:144> WARN - I didn't find a database entry for 'AkiMinMis2014' (section 0)
-[432] Utils.pm:144> WARN - I didn't find a database entry for 'VasSkur2015' (section 0)
-[432] Utils.pm:144> WARN - I didn't find a database entry for 'Vasin_2014' (section 0)
-[433] Utils.pm:144> WARN - I didn't find a database entry for 'AkMisSkTr2015' (section 0)
-[433] Utils.pm:144> WARN - I didn't find a database entry for 'Vasin2016' (section 0)
-[1881] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1881] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1882] Biber.pm:2928> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'ru-RU'
-[2499] bbl.pm:517> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[2519] bbl.pm:606> INFO - Output to thesis.bbl
-[2519] Biber.pm:106> INFO - WARNINGS: 14
+[50] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
+[51] Biber.pm:333> INFO - Reading 'thesis.bcf'
+[201] Biber.pm:635> INFO - Found 114 citekeys in bib section 0
+[243] Biber.pm:3051> INFO - Processing section 0
+[281] Biber.pm:3189> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[297] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[308] bibtex.pm:864> INFO - Found BibTeX data source 'thesis.bib'
+[495] Utils.pm:144> WARN - Datamodel: Entry 'Mis2014' (thesis.bib): Invalid format '19.12.2016' of date field 'urldate' - ignoring
+[2282] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2282] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2283] Biber.pm:2928> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'ru-RU'
+[3016] bbl.pm:517> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[3039] bbl.pm:606> INFO - Output to thesis.bbl
+[3040] Biber.pm:106> INFO - WARNINGS: 1
