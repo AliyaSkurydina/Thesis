@@ -23,7 +23,10 @@ colorlinks,  % цветные гиперссылки
 \usepackage{multirow}
 \usepackage{setspace}
 %\linespread{1.6} %1.3 для полуторного
+<<<<<<< HEAD
+=======
 %\usepackage{multibib}
+>>>>>>> a2ae4dd5f1b53ef460faec334f4b735ec9e159f1
 \usepackage{longtable}
 
 \usepackage[style=gost-numeric,
@@ -31,10 +34,19 @@ colorlinks,  % цветные гиперссылки
   language=auto,
   hyperref=auto,
   autolang=other,
+<<<<<<< HEAD
+  sorting=nyt
+]{biblatex}
+%\usepackage{multibib}
+
+%\addbibresource{thesis.bib}
+\bibliography{thesis.bib,mybib.bib}
+=======
   sorting=none
 ]{biblatex}
 \addbibresource{thesis.bib}
 \bibliography{thesis}
+>>>>>>> a2ae4dd5f1b53ef460faec334f4b735ec9e159f1
 
 % Номера страниц снизу и по центру
 \pagestyle{footcenter}
@@ -150,8 +162,13 @@ colorlinks,  % цветные гиперссылки
 % Список литературы
 % Выделять курсивом
 \let\BibEmph=\emph
+<<<<<<< HEAD
+\printbibliography[heading=bibintoc]
+%\bibliographystyle{gost705s}
+=======
 %\bibliographystyle{gost705s}
 \printbibliography[heading=bibintoc]
+>>>>>>> a2ae4dd5f1b53ef460faec334f4b735ec9e159f1
 %\bibliography{thesis}
 
 %\bibliographystylemybib{gost705}
