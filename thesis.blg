@@ -1,8 +1,8 @@
 [2] Config.pm:354> INFO - This is Biber 2.7
-[4] Config.pm:357> INFO - Logfile is 'thesis.blg'
-[398] biber-MSWIN64:303> INFO - === 
-[673] Biber.pm:359> INFO - Reading 'thesis.bcf'
-[2692] Utils.pm:180> ERROR - Error: Found biblatex control file version 3.4, expected version 3.3.
+[3] Config.pm:357> INFO - Logfile is 'thesis.blg'
+[294] biber-MSWIN64:303> INFO - === 
+[497] Biber.pm:359> INFO - Reading 'thesis.bcf'
+[2030] Utils.pm:180> ERROR - Error: Found biblatex control file version 3.4, expected version 3.3.
 This means that your biber (2.7) and biblatex (3.10) versions are incompatible.
 See compat matrix in biblatex or biber PDF documentation.
-[2693] Biber.pm:113> INFO - ERRORS: 1
+[2031] Biber.pm:113> INFO - ERRORS: 1

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.9)  20 JAN 2018 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.9)  21 JAN 2018 19:27
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2317,12 +2317,12 @@ input line 568.
 Package pdftex.def Info: Requested size: 497.92325pt x 319.49298pt on input lin
 e 568.
  [80] [81 <./fig/gravy_nov2014_cmn.png> <./fig/gravy_nov2014_clm.png>]
-<fig/field_sum_exact.png, id=1471, 402.00188pt x 273.27094pt>
+<fig/field_sum_exact.png, id=1471, 402.00188pt x 261.22594pt>
 File: fig/field_sum_exact.png Graphic file (type png)
 <use fig/field_sum_exact.png>
 Package pdftex.def Info: fig/field_sum_exact.png  used on input line 613. on in
 put line 613.
-Package pdftex.def Info: Requested size: 497.92325pt x 338.47298pt on input lin
+Package pdftex.def Info: Requested size: 497.92325pt x 323.55406pt on input lin
 e 613.
 <fig/field_gauss_noise22.png, id=1472, 405.76593pt x 280.04625pt>
 File: fig/field_gauss_noise22.png Graphic file (type png)
@@ -2332,33 +2332,22 @@ n input line 619.
 Package pdftex.def Info: Requested size: 497.92325pt x 343.66002pt on input lin
 e 619.
  [82] [83 <./fig/field_sum_exact.png>]
-Package epstopdf Info: Source file: <fig/exact_hor.eps>
-(epstopdf)                    date: 2017-12-25 21:24:32
-(epstopdf)                    size: 1510603 bytes
-(epstopdf)             Output file: <fig/exact_hor-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-25 21:24:32
-(epstopdf)                    size: 82196 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/exact_hor-eps-converted
--to.pdf fig/exact_hor.eps>
-(epstopdf)             \includegraphics on input line 627.
-Package epstopdf Info: Output file is already uptodate.
-<fig/exact_hor-eps-converted-to.pdf, id=1486, pagebox=cropbox, 752.8125pt x 166
-.6225pt>
-File: fig/exact_hor-eps-converted-to.pdf Graphic file (type pdf)
-<use fig/exact_hor-eps-converted-to.pdf>
-Package pdftex.def Info: fig/exact_hor-eps-converted-to.pdf  used on input line
- 627. on input line 627.
-Package pdftex.def Info: Requested size: 497.92325pt x 110.21017pt on input lin
-e 627.
- [84 <./fig/exact_hor-eps-converted-to.pdf> <./fig/field_gauss_noise22.png>]
+<fig/exact_ver.png, id=1486, 431.36156pt x 740.7675pt>
+File: fig/exact_ver.png Graphic file (type png)
+<use fig/exact_ver.png>
+Package pdftex.def Info: fig/exact_ver.png  used on input line 633. on input li
+ne 633.
+Package pdftex.def Info: Requested size: 404.52553pt x 694.67181pt on input lin
+e 633.
+ [84 <./fig/field_gauss_noise22.png>] [85 <./fig/exact_ver.png>]
 
-LaTeX Warning: Citation 'VasEre2009' on page 85 undefined on input line 638.
+LaTeX Warning: Citation 'VasEre2009' on page 86 undefined on input line 644.
 
 
-LaTeX Warning: Citation 'BachZhid1987' on page 85 undefined on input line 638.
+LaTeX Warning: Citation 'BachZhid1987' on page 86 undefined on input line 644.
 
 
-Overfull \hbox (21.0798pt too wide) in paragraph at lines 637--639
+Overfull \hbox (21.0798pt too wide) in paragraph at lines 643--645
 \T2A/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 b \OMS/cmsy/m/n/14.4  \OT1/cmr/m/n/1
 4.4 [\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u[]\OT1/cmr/m/
 n/14.4 )[]\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u[]\OT1/c
@@ -2373,53 +2362,33 @@ ML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 )
  []
 
 
-Overfull \hbox (28.22592pt too wide) in paragraph at lines 637--639
+Overfull \hbox (28.22592pt too wide) in paragraph at lines 643--645
 \T2A/cmr/m/n/14.4 тодами градиентного типа, например, методом мини
 мальных невязок [[]],
  []
 
 
-Overfull \hbox (6.74698pt too wide) in paragraph at lines 642--643
+Overfull \hbox (6.74698pt too wide) in paragraph at lines 648--649
 \T2A/cmr/m/n/14.4 мизации с использованием средств компилятора Intel
  Xeon и директивы #pragma
  []
 
-Package epstopdf Info: Source file: <fig/levmar.eps>
-(epstopdf)                    date: 2017-12-25 21:24:33
-(epstopdf)                    size: 1610219 bytes
-(epstopdf)             Output file: <fig/levmar-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-25 21:24:33
-(epstopdf)                    size: 81517 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/levmar-eps-converted-to
-.pdf fig/levmar.eps>
-(epstopdf)             \includegraphics on input line 647.
-Package epstopdf Info: Output file is already uptodate.
-<fig/levmar-eps-converted-to.pdf, id=1501, pagebox=cropbox, 760.8425pt x 175.65
-625pt>
-File: fig/levmar-eps-converted-to.pdf Graphic file (type pdf)
-<use fig/levmar-eps-converted-to.pdf>
-Package pdftex.def Info: fig/levmar-eps-converted-to.pdf  used on input line 64
-7. on input line 647.
-Package pdftex.def Info: Requested size: 497.92325pt x 114.95784pt on input lin
-e 647.
-Package epstopdf Info: Source file: <fig/clm.eps>
-(epstopdf)                    date: 2017-12-25 21:24:32
-(epstopdf)                    size: 1525814 bytes
-(epstopdf)             Output file: <fig/clm-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-25 21:24:32
-(epstopdf)                    size: 75098 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/clm-eps-converted-to.pd
-f fig/clm.eps>
-(epstopdf)             \includegraphics on input line 653.
-Package epstopdf Info: Output file is already uptodate.
-<fig/clm-eps-converted-to.pdf, id=1502, pagebox=cropbox, 749.80125pt x 168.63pt
->
-File: fig/clm-eps-converted-to.pdf Graphic file (type pdf)
-<use fig/clm-eps-converted-to.pdf>
-Package pdftex.def Info: fig/clm-eps-converted-to.pdf  used on input line 653. 
-on input line 653.
-Package pdftex.def Info: Requested size: 497.92325pt x 111.98314pt on input lin
+[86]
+<fig/levmar_ver.png, id=1508, 251.43938pt x 497.60907pt>
+File: fig/levmar_ver.png Graphic file (type png)
+<use fig/levmar_ver.png>
+Package pdftex.def Info: fig/levmar_ver.png  used on input line 653. on input l
+ine 653.
+Package pdftex.def Info: Requested size: 351.04587pt x 694.67181pt on input lin
 e 653.
+<fig/clm_ver.png, id=1509, 437.38406pt x 719.68875pt>
+File: fig/clm_ver.png Graphic file (type png)
+<use fig/clm_ver.png>
+Package pdftex.def Info: fig/clm_ver.png  used on input line 659. on input line
+ 659.
+Package pdftex.def Info: Requested size: 422.21312pt x 694.67181pt on input lin
+e 659.
+ [87] [88 <./fig/levmar_ver.png>]
 Package epstopdf Info: Source file: <fig/lm_noise.eps>
 (epstopdf)                    date: 2017-12-25 21:24:33
 (epstopdf)                    size: 1492041 bytes
@@ -2428,16 +2397,17 @@ Package epstopdf Info: Source file: <fig/lm_noise.eps>
 (epstopdf)                    size: 78531 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/lm_noise-eps-converted-
 to.pdf fig/lm_noise.eps>
-(epstopdf)             \includegraphics on input line 660.
+(epstopdf)             \includegraphics on input line 666.
 Package epstopdf Info: Output file is already uptodate.
-<fig/lm_noise-eps-converted-to.pdf, id=1503, pagebox=cropbox, 756.8275pt x 163.
+<fig/lm_noise-eps-converted-to.pdf, id=1520, pagebox=cropbox, 756.8275pt x 163.
 61125pt>
 File: fig/lm_noise-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/lm_noise-eps-converted-to.pdf>
 Package pdftex.def Info: fig/lm_noise-eps-converted-to.pdf  used on input line 
-660. on input line 660.
+666. on input line 666.
 Package pdftex.def Info: Requested size: 497.92325pt x 107.64172pt on input lin
-e 660.
+e 666.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2449,55 +2419,58 @@ Package epstopdf Info: Source file: <fig/clm_noise.eps>
 (epstopdf)                    size: 108529 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/clm_noise-eps-converted
 -to.pdf fig/clm_noise.eps>
-(epstopdf)             \includegraphics on input line 667.
+(epstopdf)             \includegraphics on input line 673.
 Package epstopdf Info: Output file is already uptodate.
-<fig/clm_noise-eps-converted-to.pdf, id=1506, pagebox=cropbox, 980.66376pt x 21
+<fig/clm_noise-eps-converted-to.pdf, id=1523, pagebox=cropbox, 980.66376pt x 21
 5.80624pt>
 File: fig/clm_noise-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/clm_noise-eps-converted-to.pdf>
 Package pdftex.def Info: fig/clm_noise-eps-converted-to.pdf  used on input line
- 667. on input line 667.
+ 673. on input line 673.
 Package pdftex.def Info: Requested size: 497.92325pt x 109.57236pt on input lin
-e 667.
+e 673.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 671.
+               Default added (so using `tbp') on input line 677.
 
-[85]
+[89 <./fig/clm_ver.png>]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Citation 'AkMarMis2013' on page 90 undefined on input line 691.
 
-
-LaTeX Warning: Citation 'AkMarMis2013' on page 86 undefined on input line 685.
-
-[86 <./fig/levmar-eps-converted-to.pdf> <./fig/clm-eps-converted-to.pdf>]
+[90 <./fig/lm_noise-eps-converted-to.pdf> <./fig/clm_noise-eps-converted-to.pdf
+>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 688.
+               Default added (so using `tbp') on input line 694.
 
-[87 <./fig/lm_noise-eps-converted-to.pdf> <./fig/clm_noise-eps-converted-to.pdf
->] [88] [89] [90]
-<fig/prog_complex.png, id=1556, 555.57562pt x 761.09344pt>
+
+LaTeX Warning: Reference `fig:rlmm' on page 91 undefined on input line 707.
+
+
+LaTeX Warning: Reference `fig:rlmm' on page 91 undefined on input line 707.
+
+[91] [92] [93] [94]
+<fig/prog_complex.png, id=1562, 555.57562pt x 761.09344pt>
 File: fig/prog_complex.png Graphic file (type png)
 <use fig/prog_complex.png>
-Package pdftex.def Info: fig/prog_complex.png  used on input line 748. on input
- line 748.
+Package pdftex.def Info: fig/prog_complex.png  used on input line 754. on input
+ line 754.
 Package pdftex.def Info: Requested size: 497.92325pt x 682.12091pt on input lin
-e 748.
+e 754.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (11.99232pt too wide) in paragraph at lines 761--762
+Overfull \hbox (11.99232pt too wide) in paragraph at lines 767--768
 \T2A/cmr/m/n/14.4 зультатов может быть осуществлена с помощью картогр
 афического пакета Golden
  []
 
-) (concl.tex [91] [92 <./fig/prog_complex.png>])
+) (concl.tex [95] [96 <./fig/prog_complex.png>])
 
 AED: lastpage setting LastPage
-[93
+[97
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
@@ -2509,4 +2482,56 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 22DD239E343120BBF82EE7D856F64A52;7804.
 
 
-LaTeX Warning: There were undefined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
+ ) 
+Here is how much of TeX's memory you used:
+ 21811 strings out of 493312
+ 346904 string characters out of 3138900
+ 1020833 words of memory out of 3000000
+ 24677 multiletter control sequences out of 15000+200000
+ 22980 words of font info for 64 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,18n,40p,2736b,2502s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\Afina\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm
+0700.pk> <C:\Users\Afina\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi
+600\larm1000.pk> <C:\Users\Afina\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh
+-t2a\dpi600\larm1200.pk> <C:\Users\Afina\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\lh\lh-t2a\dpi600\lati1440.pk> <C:\Users\Afina\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk> <C:\Users\Afina\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2074.pk> <C:\Users\Afina\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\Afina\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Users\Afin
+a\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk> <C:\Us
+ers\Afina\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on thesis.pdf (97 pages, 4016201 bytes).
+PDF statistics:
+ 2251 PDF objects out of 2487 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+
