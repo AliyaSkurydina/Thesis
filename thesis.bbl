@@ -1,0 +1,2660 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Mis2014}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=4c4f42a9f6a60306ae39de6e70642267}{Martyshko}{M\bibinitperiod}{P\bibnamedelima S}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=4c4f42a9f6a60306ae39de6e70642267}{Martyshko}{M\bibinitperiod}{P\bibnamedelima S}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{9545335d9e8aebf1f7dd90c9428b11a9}
+      \strng{fullhash}{9545335d9e8aebf1f7dd90c9428b11a9}
+      \field{sortinit}{A}
+      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
+      \field{labeltitle}{A fast parallel gradient algorithm for solving structural inverse gravity problem [Электронный ресурс]}
+      \field{booktitle}{AIP Conference Proceedings 1648, 850063}
+      \field{title}{A fast parallel gradient algorithm for solving structural inverse gravity problem [Электронный ресурс]}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://dx.doi.org/10.1063/1.4913118
+      \endverb
+      \warn{\item Datamodel: Entry 'Mis2014' (thesis.bib): Invalid format '19.12.2016' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{AkiMinMis2014}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=be09e54ed595478259614cd86f1642e7}{Miniakhmetova}{M\bibinitperiod}{A\bibnamedelima F}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=be09e54ed595478259614cd86f1642e7}{Miniakhmetova}{M\bibinitperiod}{A\bibnamedelima F}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d6c82b34cd5e4355c81ab9c141662c9f}
+      \strng{fullhash}{d6c82b34cd5e4355c81ab9c141662c9f}
+      \field{sortinit}{A}
+      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
+      \field{labeltitle}{Fast stable parallel algorithms for solving gravimetry and magnetometry inverse problems}
+      \field{booktitle}{International conference "Advanced Mathematics, Computations & Applications -- 2014"}
+      \field{title}{Fast stable parallel algorithms for solving gravimetry and magnetometry inverse problems}
+      \field{year}{2014}
+    \endentry
+    \entry{Mis2015}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{5fa7ecd5fe570ec52383d235bcd73ca6}
+      \strng{fullhash}{5fa7ecd5fe570ec52383d235bcd73ca6}
+      \field{sortinit}{A}
+      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
+      \field{labeltitle}{A fast componentwise gradient method for solving structural inverse gravity problem}
+      \field{booktitle}{International Multidisciplinary Scientific GeoConference Surveying Geology and Mining Ecology Management-SGEM}
+      \field{title}{A fast componentwise gradient method for solving structural inverse gravity problem}
+      \field{year}{2015}
+    \endentry
+    \entry{AkSkur2015}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=2438b7d4b9a65b7cddff6db27e7d2add}{Akimova}{A\bibinitperiod}{E}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b7ab5df543f0b92c840c069275a91584}{Skurydina}{S\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=2438b7d4b9a65b7cddff6db27e7d2add}{Akimova}{A\bibinitperiod}{E}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b7ab5df543f0b92c840c069275a91584}{Skurydina}{S\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Kiev, Ukraine}%
+      }
+      \strng{namehash}{28a23870613be6f4c8aa60ab3861654c}
+      \strng{fullhash}{28a23870613be6f4c8aa60ab3861654c}
+      \field{sortinit}{A}
+      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
+      \field{labeltitle}{A Componentwise Newton Type Method for Solving the Structural Inverse Gravity Problem}
+      \field{booktitle}{XIVth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
+      \field{title}{A Componentwise Newton Type Method for Solving the Structural Inverse Gravity Problem}
+      \field{year}{2015}
+    \endentry
+    \entry{AkSkur2016}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=2438b7d4b9a65b7cddff6db27e7d2add}{Akimova}{A\bibinitperiod}{E}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b7ab5df543f0b92c840c069275a91584}{Skurydina}{S\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=2438b7d4b9a65b7cddff6db27e7d2add}{Akimova}{A\bibinitperiod}{E}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b7ab5df543f0b92c840c069275a91584}{Skurydina}{S\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Kiev, Ukraine}%
+      }
+      \strng{namehash}{28a23870613be6f4c8aa60ab3861654c}
+      \strng{fullhash}{28a23870613be6f4c8aa60ab3861654c}
+      \field{sortinit}{A}
+      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
+      \field{labeltitle}{On Solving the Three-Dimensional Structural Gravity Problem for the Case of a Multilayered Medium by the Componentwise Levenberg--Marquardt Method}
+      \field{booktitle}{XVth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
+      \field{title}{On Solving the Three-Dimensional Structural Gravity Problem for the Case of a Multilayered Medium by the Componentwise Levenberg--Marquardt Method}
+      \field{year}{2016}
+    \endentry
+    \entry{BlaNeuSch1997}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=5f54f89a33091387d11fba48955c2809}{Blaschke}{B\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=5f54f89a33091387d11fba48955c2809}{Blaschke}{B\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{2a7d4176862906174548208cadc8e5fb}
+      \strng{fullhash}{2a7d4176862906174548208cadc8e5fb}
+      \field{sortinit}{B}
+      \field{sortinithash}{1a3a21dbed09540af12d49a0b14f4751}
+      \field{labeltitle}{On convergence rates for the iteratively regularized Gauss-Newton method}
+      \field{journaltitle}{IMA Journal of Numerical Analysis}
+      \field{number}{3}
+      \field{title}{On convergence rates for the iteratively regularized Gauss-Newton method}
+      \field{volume}{17}
+      \field{year}{1997}
+      \field{pages}{421\bibrangedash 436}
+      \keyw{own}
+    \endentry
+    \entry{DenSchn1996}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=91c02a929cd1e55bb42dabbc20f00d89}{Dennis}{D\bibinitperiod}{Jr.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=db6add9aed90cf8aa48f151234fe21fc}{Schnabel}{S\bibinitperiod}{Robert\bibnamedelima B.}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=91c02a929cd1e55bb42dabbc20f00d89}{Dennis}{D\bibinitperiod}{Jr.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=db6add9aed90cf8aa48f151234fe21fc}{Schnabel}{S\bibinitperiod}{Robert\bibnamedelima B.}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Siam}%
+      }
+      \strng{namehash}{8b9286d05c4e8eec0ed589536d5aa976}
+      \strng{fullhash}{8b9286d05c4e8eec0ed589536d5aa976}
+      \field{sortinit}{D}
+      \field{sortinithash}{a01c54d1737685bc6dbf0ea0673fa44c}
+      \field{labeltitle}{Numerical Methods for Unconstrained Optimization and Nonlinear Equations}
+      \field{title}{Numerical Methods for Unconstrained Optimization and Nonlinear Equations}
+      \field{year}{1996}
+    \endentry
+    \entry{GilNoc1991}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=27641a2cfdfd77444c0d6497f02f3bdd}{Gilbert}{G\bibinitperiod}{J.C.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=f4db7b8fcb0d0c051ae414940a50d4e8}{Nocedal}{N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=27641a2cfdfd77444c0d6497f02f3bdd}{Gilbert}{G\bibinitperiod}{J.C.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=f4db7b8fcb0d0c051ae414940a50d4e8}{Nocedal}{N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b7dd224791dffa4500b6a97e317b5d75}
+      \strng{fullhash}{b7dd224791dffa4500b6a97e317b5d75}
+      \field{sortinit}{G}
+      \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
+      \field{labeltitle}{Tensor Methods for Nonlinear Equations}
+      \field{journaltitle}{SIAM Journal on Numerical Analysis}
+      \field{number}{1}
+      \field{title}{Tensor Methods for Nonlinear Equations}
+      \field{volume}{2}
+      \field{year}{1991}
+      \field{pages}{21\bibrangedash 42}
+    \endentry
+    \entry{Hadamar1902}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e9fc6edde2a078dc5a21d220a004c3c2}{Hadamard}{H\bibinitperiod}{J}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e9fc6edde2a078dc5a21d220a004c3c2}{Hadamard}{H\bibinitperiod}{J}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e9fc6edde2a078dc5a21d220a004c3c2}
+      \strng{fullhash}{e9fc6edde2a078dc5a21d220a004c3c2}
+      \field{sortinit}{H}
+      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
+      \field{labeltitle}{Sur les probl`emes aux derivees partielles et leur signification physique}
+      \field{journaltitle}{Bull. Univ. Princeton}
+      \field{number}{1}
+      \field{title}{Sur les probl`emes aux derivees partielles et leur signification physique}
+      \field{volume}{13}
+      \field{year}{1902}
+      \field{pages}{49\bibrangedash 52}
+      \keyw{own}
+    \endentry
+    \entry{Han1997}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e2a770c1e1822efec8b8f1c69ce546ec}{Hanke}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e2a770c1e1822efec8b8f1c69ce546ec}{Hanke}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e2a770c1e1822efec8b8f1c69ce546ec}
+      \strng{fullhash}{e2a770c1e1822efec8b8f1c69ce546ec}
+      \field{sortinit}{H}
+      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
+      \field{labeltitle}{A regularizing Levenberg-Marquardt scheme, with applications to inverse groundwater filtration problems}
+      \field{journaltitle}{Inverse problems}
+      \field{number}{1}
+      \field{title}{A regularizing Levenberg-Marquardt scheme, with applications to inverse groundwater filtration problems}
+      \field{volume}{13}
+      \field{year}{1997}
+      \field{pages}{79\bibrangedash 96}
+      \keyw{own}
+    \endentry
+    \entry{Han2010}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e2a770c1e1822efec8b8f1c69ce546ec}{Hanke}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e2a770c1e1822efec8b8f1c69ce546ec}{Hanke}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e2a770c1e1822efec8b8f1c69ce546ec}
+      \strng{fullhash}{e2a770c1e1822efec8b8f1c69ce546ec}
+      \field{sortinit}{H}
+      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
+      \field{labeltitle}{The regularizing Levenberg-Marquardt scheme is of optimal order}
+      \field{journaltitle}{Journal of Integral Equations and Applications}
+      \field{number}{2}
+      \field{title}{The regularizing Levenberg-Marquardt scheme is of optimal order}
+      \field{volume}{22}
+      \field{year}{2010}
+      \field{pages}{259\bibrangedash 283}
+      \keyw{own}
+    \endentry
+    \entry{HanNeuSch1995}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=e2a770c1e1822efec8b8f1c69ce546ec}{Hanke}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e2a770c1e1822efec8b8f1c69ce546ec}{Hanke}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{82c1bf7b024b01f99275a6c4ce864c97}
+      \strng{fullhash}{82c1bf7b024b01f99275a6c4ce864c97}
+      \field{sortinit}{H}
+      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
+      \field{labeltitle}{A convergence analysis of the Landweber iteration for nonlinear ill-posed problems}
+      \field{journaltitle}{Numerische Mathematik}
+      \field{number}{1}
+      \field{title}{A convergence analysis of the Landweber iteration for nonlinear ill-posed problems}
+      \field{volume}{72}
+      \field{year}{1995}
+      \field{pages}{21\bibrangedash 37}
+      \keyw{own}
+    \endentry
+    \entry{JinZon1997}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=baf1474820591c12616648dd8689027a}{Jin}{J\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=010b7756840870f997f8c01803184076}{Zong-Yi}{Z\bibinithyphendelim Y\bibinitperiod}{Hou}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=baf1474820591c12616648dd8689027a}{Jin}{J\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=010b7756840870f997f8c01803184076}{Zong-Yi}{Z\bibinithyphendelim Y\bibinitperiod}{Hou}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{6065892b1dd2108a928b85125c3d3659}
+      \strng{fullhash}{6065892b1dd2108a928b85125c3d3659}
+      \field{sortinit}{J}
+      \field{sortinithash}{f75b22df8c340a961dce37019e29107f}
+      \field{labeltitle}{On the choice of the regularization parameter for ordinary and iterated Tikhonov regularization of nonlinear illposed problems}
+      \field{journaltitle}{Inverse Problems}
+      \field{title}{On the choice of the regularization parameter for ordinary and iterated Tikhonov regularization of nonlinear illposed problems}
+      \field{volume}{13}
+      \field{year}{1997}
+      \field{pages}{815\bibrangedash 827}
+      \keyw{own}
+    \endentry
+    \entry{JinZon1999}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=baf1474820591c12616648dd8689027a}{Jin}{J\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=010b7756840870f997f8c01803184076}{Zong-Yi}{Z\bibinithyphendelim Y\bibinitperiod}{Hou}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=baf1474820591c12616648dd8689027a}{Jin}{J\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=010b7756840870f997f8c01803184076}{Zong-Yi}{Z\bibinithyphendelim Y\bibinitperiod}{Hou}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{6065892b1dd2108a928b85125c3d3659}
+      \strng{fullhash}{6065892b1dd2108a928b85125c3d3659}
+      \field{sortinit}{J}
+      \field{sortinithash}{f75b22df8c340a961dce37019e29107f}
+      \field{labeltitle}{On an a posteriori parameter choice strategy for Tikhonov regularization of nonlinear ill-posed problems}
+      \field{journaltitle}{Numerische Mathematik}
+      \field{title}{On an a posteriori parameter choice strategy for Tikhonov regularization of nonlinear ill-posed problems}
+      \field{volume}{83}
+      \field{year}{1999}
+      \field{pages}{139\bibrangedash 159}
+      \keyw{own}
+    \endentry
+    \entry{KalNeuRam2002}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8d4663f3ac4e38c410bb04ab97a4c119}{Kaltenbacher}{K\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=d794cb94e8145308a02a1925f6818ccf}{Ramm}{R\bibinitperiod}{A.\bibnamedelimi G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8d4663f3ac4e38c410bb04ab97a4c119}{Kaltenbacher}{K\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=d794cb94e8145308a02a1925f6818ccf}{Ramm}{R\bibinitperiod}{A.\bibnamedelimi G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{fee58d80716db45c18bec283f200d71f}
+      \strng{fullhash}{fee58d80716db45c18bec283f200d71f}
+      \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
+      \field{labeltitle}{Convergence rates of the continuous regularized Gauss—Newton method}
+      \field{journaltitle}{Journal of Inverse and Ill-Posed Problems}
+      \field{number}{3}
+      \field{title}{Convergence rates of the continuous regularized Gauss—Newton method}
+      \field{volume}{10}
+      \field{year}{1995}
+      \field{pages}{261\bibrangedash 280}
+      \keyw{own}
+    \endentry
+    \entry{Kel1995}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=2bb12fa0944be33ef77f320e66a40978}{Kelley}{K\bibinitperiod}{C.T.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=2bb12fa0944be33ef77f320e66a40978}{Kelley}{K\bibinitperiod}{C.T.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Philadelphia: Siam}%
+      }
+      \strng{namehash}{2bb12fa0944be33ef77f320e66a40978}
+      \strng{fullhash}{2bb12fa0944be33ef77f320e66a40978}
+      \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
+      \field{labeltitle}{Iterative Methods for Linear and Nonlinear Equations}
+      \field{title}{Iterative Methods for Linear and Nonlinear Equations}
+      \field{year}{1995}
+    \endentry
+    \entry{Kok2010_2}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=1d4bec18ad9a3f984f1ff9f38131833c}{Kokurin}{K\bibinitperiod}{M.Y.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=1d4bec18ad9a3f984f1ff9f38131833c}{Kokurin}{K\bibinitperiod}{M.Y.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{1d4bec18ad9a3f984f1ff9f38131833c}
+      \strng{fullhash}{1d4bec18ad9a3f984f1ff9f38131833c}
+      \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
+      \field{labeltitle}{Convexity of the Tikhonov Functional and Iterativly Regularized Methods of Solution Irregular Operator Equations}
+      \field{journaltitle}{Computational Mathematics and Mathematical Physics}
+      \field{number}{4}
+      \field{title}{Convexity of the Tikhonov Functional and Iterativly Regularized Methods of Solution Irregular Operator Equations}
+      \field{volume}{50}
+      \field{year}{2010}
+      \field{pages}{620\bibrangedash 632}
+      \keyw{own}
+    \endentry
+    \entry{Kok2010_1}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=1d4bec18ad9a3f984f1ff9f38131833c}{Kokurin}{K\bibinitperiod}{M.Y.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=1d4bec18ad9a3f984f1ff9f38131833c}{Kokurin}{K\bibinitperiod}{M.Y.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{1d4bec18ad9a3f984f1ff9f38131833c}
+      \strng{fullhash}{1d4bec18ad9a3f984f1ff9f38131833c}
+      \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
+      \field{labeltitle}{On Organizing Global Search under Implementation of Tikhonov Scheme}
+      \field{journaltitle}{Russian Mathematics (Izvestiya VUZ. Matematika)}
+      \field{number}{12}
+      \field{title}{On Organizing Global Search under Implementation of Tikhonov Scheme}
+      \field{volume}{54}
+      \field{year}{2010}
+      \field{pages}{17\bibrangedash 26}
+      \keyw{own}
+    \endentry
+    \entry{Lan1951}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e4d73a7ea23539ab290ccc71097abd28}{Landweber}{L\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e4d73a7ea23539ab290ccc71097abd28}{Landweber}{L\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e4d73a7ea23539ab290ccc71097abd28}
+      \strng{fullhash}{e4d73a7ea23539ab290ccc71097abd28}
+      \field{sortinit}{L}
+      \field{sortinithash}{c41a2b5886eeae464e75d1a9df4cd13e}
+      \field{labeltitle}{An Iteration Formula for Fredholm Integral Equations of the First Kind}
+      \field{journaltitle}{American Journal of Mathematics}
+      \field{number}{3}
+      \field{title}{An Iteration Formula for Fredholm Integral Equations of the First Kind}
+      \field{volume}{73}
+      \field{year}{1951}
+      \field{pages}{615\bibrangedash 624}
+      \keyw{own}
+    \endentry
+    \entry{Neu2000}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{9908cdefaf45125fb64e6ba7b7021f96}
+      \strng{fullhash}{9908cdefaf45125fb64e6ba7b7021f96}
+      \field{sortinit}{N}
+      \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
+      \field{labeltitle}{On Landweber iteration for nonlinear ill-posed problems in Hilbert scales}
+      \field{journaltitle}{Numerische Mathematik}
+      \field{number}{2}
+      \field{title}{On Landweber iteration for nonlinear ill-posed problems in Hilbert scales}
+      \field{volume}{85}
+      \field{year}{2000}
+      \field{pages}{309\bibrangedash 328}
+      \keyw{own}
+    \endentry
+    \entry{NeuSch1995_1}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{8bcb8b13fa23eda2db22e342457b099b}
+      \strng{fullhash}{8bcb8b13fa23eda2db22e342457b099b}
+      \field{sortinit}{N}
+      \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
+      \field{labeltitle}{A convergence rate result for a steepest descent method and a minimal error method for the solution of nonlinear ill-posed problems}
+      \field{journaltitle}{Zeitschrift f¨ur Analysis und ihre Anwendungen}
+      \field{number}{2}
+      \field{title}{A convergence rate result for a steepest descent method and a minimal error method for the solution of nonlinear ill-posed problems}
+      \field{volume}{14}
+      \field{year}{1995}
+      \field{pages}{369\bibrangedash 377}
+      \keyw{own}
+    \endentry
+    \entry{NeuSch1995_2}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{8bcb8b13fa23eda2db22e342457b099b}
+      \strng{fullhash}{8bcb8b13fa23eda2db22e342457b099b}
+      \field{sortinit}{N}
+      \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
+      \field{labeltitle}{Convergence criteria of iterative methods based on Landweber iteration for solving nonlinear problems}
+      \field{journaltitle}{J. Anal. Appl.}
+      \field{title}{Convergence criteria of iterative methods based on Landweber iteration for solving nonlinear problems}
+      \field{volume}{194}
+      \field{year}{1995}
+      \field{pages}{911\bibrangedash 933}
+    \endentry
+    \entry{NocWri2006}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=f4db7b8fcb0d0c051ae414940a50d4e8}{Nocedal}{N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=89f88e80b2a50f5885543ecd3fdd86ce}{Wright}{W\bibinitperiod}{S.J.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=f4db7b8fcb0d0c051ae414940a50d4e8}{Nocedal}{N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=89f88e80b2a50f5885543ecd3fdd86ce}{Wright}{W\bibinitperiod}{S.J.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{47302a6c97c68a77f29c8006dcba2c4d}
+      \strng{fullhash}{47302a6c97c68a77f29c8006dcba2c4d}
+      \field{sortinit}{N}
+      \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
+      \field{labeltitle}{Numerical Optimization}
+      \field{title}{Numerical Optimization}
+      \field{year}{2006}
+    \endentry
+    \entry{OrtRhe1970}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=c1bcb452c611f527a094df3b9bb24f19}{Ortega}{O\bibinitperiod}{J.M.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=a31f478e8892e70996614bdf540cd639}{Rheinboldt}{R\bibinitperiod}{W.C.}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=c1bcb452c611f527a094df3b9bb24f19}{Ortega}{O\bibinitperiod}{J.M.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=a31f478e8892e70996614bdf540cd639}{Rheinboldt}{R\bibinitperiod}{W.C.}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Siam}%
+      }
+      \strng{namehash}{1b4c4e00b1db3f6e70027bb6819e4e45}
+      \strng{fullhash}{1b4c4e00b1db3f6e70027bb6819e4e45}
+      \field{sortinit}{O}
+      \field{sortinithash}{59512cfd31be1dcef4def024230bdc1d}
+      \field{labeltitle}{Iterative solution of nonlinear equations in several variables}
+      \field{title}{Iterative solution of nonlinear equations in several variables}
+      \field{year}{1970}
+    \endentry
+    \entry{Pow1970}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=20608e5f9a7f8b63216739ef1613bbce}{Powell}{P\bibinitperiod}{M.J.D.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=20608e5f9a7f8b63216739ef1613bbce}{Powell}{P\bibinitperiod}{M.J.D.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{20608e5f9a7f8b63216739ef1613bbce}
+      \strng{fullhash}{20608e5f9a7f8b63216739ef1613bbce}
+      \field{sortinit}{P}
+      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
+      \field{labeltitle}{A hybrid method for nonlinear equations}
+      \field{journaltitle}{Numerical methods for nonlinear algebraic equations}
+      \field{title}{A hybrid method for nonlinear equations}
+      \field{volume}{7}
+      \field{year}{1970}
+      \field{pages}{87\bibrangedash 114}
+    \endentry
+    \entry{Sch1995}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b726d0cb6d2b71c4fafdb813e89376e6}
+      \strng{fullhash}{b726d0cb6d2b71c4fafdb813e89376e6}
+      \field{sortinit}{S}
+      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
+      \field{labeltitle}{A convergent rate result for steepest descent method and a minimal error method for the solution of nonlinear ill-posed problems}
+      \field{journaltitle}{J. Anal. Appl.}
+      \field{title}{A convergent rate result for steepest descent method and a minimal error method for the solution of nonlinear ill-posed problems}
+      \field{volume}{14}
+      \field{year}{1995}
+      \field{pages}{369\bibrangedash 377}
+    \endentry
+    \entry{SchEngKun1993}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=7cd188d2b1f98e279df0482f9b4b630f}{Engl}{E\bibinitperiod}{H.W.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=fab252d00af6c5f34f7174068197fa96}{Kunisch}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=7cd188d2b1f98e279df0482f9b4b630f}{Engl}{E\bibinitperiod}{H.W.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=fab252d00af6c5f34f7174068197fa96}{Kunisch}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d0a24b886ab2dd288b9d7dddc58c8bf9}
+      \strng{fullhash}{d0a24b886ab2dd288b9d7dddc58c8bf9}
+      \field{sortinit}{S}
+      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
+      \field{labeltitle}{Optimal a posteriori parameter choice for Tikhonov regularization for solving nonlinear ill-posed problems}
+      \field{journaltitle}{SIAM Journal on Numerical Analysis}
+      \field{title}{Optimal a posteriori parameter choice for Tikhonov regularization for solving nonlinear ill-posed problems}
+      \field{volume}{30}
+      \field{year}{1993}
+      \field{pages}{1796\bibrangedash 1838}
+      \keyw{own}
+    \endentry
+    \entry{SchnFra1983}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=db6add9aed90cf8aa48f151234fe21fc}{Schnabel}{S\bibinitperiod}{Robert\bibnamedelima B.}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=c3555bc2118bf4bea4990cf97166f229}{Frank}{F\bibinitperiod}{Paul\bibnamedelima D.}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=db6add9aed90cf8aa48f151234fe21fc}{Schnabel}{S\bibinitperiod}{Robert\bibnamedelima B.}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=c3555bc2118bf4bea4990cf97166f229}{Frank}{F\bibinitperiod}{Paul\bibnamedelima D.}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{791865d27a2a672c69ccccfa89300714}
+      \strng{fullhash}{791865d27a2a672c69ccccfa89300714}
+      \field{sortinit}{S}
+      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
+      \field{labeltitle}{Tensor Methods for Nonlinear Equations}
+      \field{journaltitle}{SIAM Journal on Numerical Analysis}
+      \field{number}{5}
+      \field{title}{Tensor Methods for Nonlinear Equations}
+      \field{volume}{21}
+      \field{year}{1983}
+      \field{pages}{815\bibrangedash 843}
+    \endentry
+    \entry{Skur2017_2}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e56c11641110c38bbc95e5ec0010ae17}{Skurydina}{S\bibinitperiod}{A\bibnamedelima F}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e56c11641110c38bbc95e5ec0010ae17}{Skurydina}{S\bibinitperiod}{A\bibnamedelima F}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e56c11641110c38bbc95e5ec0010ae17}
+      \strng{fullhash}{e56c11641110c38bbc95e5ec0010ae17}
+      \field{sortinit}{S}
+      \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
+      \field{labeltitle}{Regularized Levenberg –- Marquardt Type Method Applied to the Structural Inverse Gravity Problem in a Multilayer Medium and its Parallel Realization}
+      \field{journaltitle}{Вестник Южно-Уральского государственного университета}
+      \field{number}{3}
+      \field{title}{Regularized Levenberg –- Marquardt Type Method Applied to the Structural Inverse Gravity Problem in a Multilayer Medium and its Parallel Realization}
+      \field{volume}{6}
+      \field{year}{2017}
+      \field{pages}{5\bibrangedash 15}
+    \endentry
+    \entry{Tau2002}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=3034ab844c8c69a9f441a1af958862e6}{Tautenhahn}{T\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=3034ab844c8c69a9f441a1af958862e6}{Tautenhahn}{T\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{3034ab844c8c69a9f441a1af958862e6}
+      \strng{fullhash}{3034ab844c8c69a9f441a1af958862e6}
+      \field{sortinit}{T}
+      \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
+      \field{labeltitle}{On the method of Lavrentiev regularization for nonlinear ill-posed problems}
+      \field{journaltitle}{Inverse Problems}
+      \field{title}{On the method of Lavrentiev regularization for nonlinear ill-posed problems}
+      \field{volume}{18}
+      \field{year}{2002}
+      \field{pages}{191\bibrangedash 207}
+      \keyw{own}
+    \endentry
+    \entry{Tau2004}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=3034ab844c8c69a9f441a1af958862e6}{Tautenhahn}{T\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=3034ab844c8c69a9f441a1af958862e6}{Tautenhahn}{T\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{3034ab844c8c69a9f441a1af958862e6}
+      \strng{fullhash}{3034ab844c8c69a9f441a1af958862e6}
+      \field{sortinit}{T}
+      \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
+      \field{labeltitle}{Lavrentiev regularization of nonlinear ill-posed problems}
+      \field{journaltitle}{Vietnam Journal of Mathematics}
+      \field{title}{Lavrentiev regularization of nonlinear ill-posed problems}
+      \field{volume}{32}
+      \field{year}{2004}
+      \field{pages}{29\bibrangedash 41}
+      \keyw{own}
+    \endentry
+    \entry{Vasin2014}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=72f66ca039b18489bd6d748d6e07655f}{Vasin}{V\bibinitperiod}{V.V.}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=72f66ca039b18489bd6d748d6e07655f}{Vasin}{V\bibinitperiod}{V.V.}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{72f66ca039b18489bd6d748d6e07655f}
+      \strng{fullhash}{72f66ca039b18489bd6d748d6e07655f}
+      \field{sortinit}{V}
+      \field{sortinithash}{63562d1af2cd68fb37e2e14e0c6d5c96}
+      \field{labeltitle}{Modified Newton type processes generating Fejer approximations of regularized solutions to nonlinear equations}
+      \field{journaltitle}{Proc. Steklov Inst. Math.}
+      \field{title}{Modified Newton type processes generating Fejer approximations of regularized solutions to nonlinear equations}
+      \field{volume}{284}
+      \field{year}{2014}
+      \field{pages}{145\bibrangedash 158}
+    \endentry
+    \entry{Vasin2016}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=72f66ca039b18489bd6d748d6e07655f}{Vasin}{V\bibinitperiod}{V.V.}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=72f66ca039b18489bd6d748d6e07655f}{Vasin}{V\bibinitperiod}{V.V.}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{72f66ca039b18489bd6d748d6e07655f}
+      \strng{fullhash}{72f66ca039b18489bd6d748d6e07655f}
+      \field{sortinit}{V}
+      \field{sortinithash}{63562d1af2cd68fb37e2e14e0c6d5c96}
+      \field{labeltitle}{Regularized modified alpha-processes for nonlinear equations with monotone operators}
+      \field{journaltitle}{Dokl. Math.}
+      \field{title}{Regularized modified alpha-processes for nonlinear equations with monotone operators}
+      \field{volume}{469}
+      \field{year}{2016}
+      \field{pages}{13\bibrangedash 16}
+    \endentry
+    \entry{VasEre2009}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=72f66ca039b18489bd6d748d6e07655f}{Vasin}{V\bibinitperiod}{V.V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=041a15aaa17e76053cae7e4f48c888b8}{Eremin}{E\bibinitperiod}{I.I.}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=72f66ca039b18489bd6d748d6e07655f}{Vasin}{V\bibinitperiod}{V.V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=041a15aaa17e76053cae7e4f48c888b8}{Eremin}{E\bibinitperiod}{I.I.}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Berlin/New York}%
+      }
+      \list{publisher}{1}{%
+        {Walter de Gruyter}%
+      }
+      \strng{namehash}{d22292d38c8cb1d666600883af3ef974}
+      \strng{fullhash}{d22292d38c8cb1d666600883af3ef974}
+      \field{sortinit}{V}
+      \field{sortinithash}{63562d1af2cd68fb37e2e14e0c6d5c96}
+      \field{labeltitle}{Operators and Iterative Processes of Fejer Type. Theory and Application}
+      \field{title}{Operators and Iterative Processes of Fejer Type. Theory and Application}
+      \field{year}{2009}
+    \endentry
+    \entry{Ag1980}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=751a660f16b9ee700db90b55eafdfc74}{Агеев}{А\bibinitperiod}{А\bibnamedelima Л}{А\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=751a660f16b9ee700db90b55eafdfc74}{Агеев}{А\bibinitperiod}{А\bibnamedelima Л}{А\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{751a660f16b9ee700db90b55eafdfc74}
+      \strng{fullhash}{751a660f16b9ee700db90b55eafdfc74}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Регуляризация нелинейных операторных уравнений на классе функций ограниченной вариации}
+      \field{journaltitle}{Журнал вычислительной математики и математичекой физики}
+      \field{number}{4}
+      \field{title}{Регуляризация нелинейных операторных уравнений на классе функций ограниченной вариации}
+      \field{volume}{20}
+      \field{year}{1980}
+      \field{pages}{819\bibrangedash 826}
+    \endentry
+    \entry{Aki1994}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{21539a07f5584d4dce7dcacec260c91f}
+      \strng{fullhash}{21539a07f5584d4dce7dcacec260c91f}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Распараллеливание алгоритма матричной прогонки}
+      \field{journaltitle}{Математическое моделирование}
+      \field{number}{9}
+      \field{title}{Распараллеливание алгоритма матричной прогонки}
+      \field{volume}{6}
+      \field{year}{1994}
+      \field{pages}{61\bibrangedash 67}
+    \endentry
+    \entry{Aki2009}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{21539a07f5584d4dce7dcacec260c91f}
+      \strng{fullhash}{21539a07f5584d4dce7dcacec260c91f}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Параллельные алгоритмы решения обратных задач гравиметрии и магнитометрии на МВС-1000}
+      \field{journaltitle}{Вестник ННГУ}
+      \field{number}{4}
+      \field{title}{Параллельные алгоритмы решения обратных задач гравиметрии и магнитометрии на МВС-1000}
+      \field{year}{2009}
+      \field{pages}{181\bibrangedash 189}
+    \endentry
+    \entry{AkiBel2011}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=bcbbf6f4e87e66d55a67a889b1bfac6d}{Белоусов}{Б\bibinitperiod}{Д\bibnamedelima В}{Д\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=bcbbf6f4e87e66d55a67a889b1bfac6d}{Белоусов}{Б\bibinitperiod}{Д\bibnamedelima В}{Д\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{46646f9ada2ddd484c4212e15029abae}
+      \strng{fullhash}{46646f9ada2ddd484c4212e15029abae}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Параллельные алгоритмы решения СЛАУ с блочно-трехдиагональными матрицами на многопроцессорных вычислителях}
+      \field{journaltitle}{Вестник УГАТУ}
+      \field{number}{5}
+      \field{title}{Параллельные алгоритмы решения СЛАУ с блочно-трехдиагональными матрицами на многопроцессорных вычислителях}
+      \field{volume}{15}
+      \field{year}{2011}
+      \field{pages}{87\bibrangedash 93}
+    \endentry
+    \entry{AkMarMis2013}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{0fb79b7b17e7b6dd9cbb35fbb09635c4}
+      \strng{fullhash}{0fb79b7b17e7b6dd9cbb35fbb09635c4}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Методы решения структурной задачи гравиметрии в многослойной среде}
+      \field{journaltitle}{Доклады Академии наук}
+      \field{title}{Методы решения структурной задачи гравиметрии в многослойной среде}
+      \field{volume}{453}
+      \field{year}{2013}
+      \field{pages}{1278\bibrangedash 1281}
+    \endentry
+    \entry{AkMisDer2014}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=58ff2e26976e846dfaee4ac4b7f8a4b9}{Дергачев}{Д\bibinitperiod}{Е\bibnamedelima А.}{Е\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=58ff2e26976e846dfaee4ac4b7f8a4b9}{Дергачев}{Д\bibinitperiod}{Е\bibnamedelima А.}{Е\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fc5d6cfdef6559e5c7a60a6d3b0bd6f1}
+      \strng{fullhash}{fc5d6cfdef6559e5c7a60a6d3b0bd6f1}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Алгоритмы решения структурной обратной задачи магнитометрии}
+      \field{booktitle}{Труды 41-й сессии Международного семинара им. Д.Г. Успенского, Екатеринбург, 2014}
+      \field{title}{Алгоритмы решения структурной обратной задачи магнитометрии}
+      \field{year}{1968}
+      \field{pages}{4\bibrangedash 6}
+    \endentry
+    \entry{AkiMisKos2015}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=d1395b0238c9dacf57753db5d36b5081}{Косивец}{К\bibinitperiod}{Р\bibnamedelima А}{Р\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=d1395b0238c9dacf57753db5d36b5081}{Косивец}{К\bibinitperiod}{Р\bibnamedelima А}{Р\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{d65efb735212724a977ceca33a20af26}
+      \strng{fullhash}{d65efb735212724a977ceca33a20af26}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Оптимизированный алгоритм решения задачи гравиметрии о нахождении плотности в горизонтальном слое}
+      \field{booktitle}{Восьмые научные чтения Ю. П. Булашевича}
+      \field{title}{Оптимизированный алгоритм решения задачи гравиметрии о нахождении плотности в горизонтальном слое}
+      \field{year}{2015}
+    \endentry
+    \entry{AkiMisMin2014}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{d3a558c49c15d25513fef7716520d151}
+      \strng{fullhash}{d3a558c49c15d25513fef7716520d151}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Параллельные алгоритмы решения структурной обратной задачи магнитометрии на многопроцессорных вычислительных системах}
+      \field{booktitle}{Труды международной конференции <<Параллельные вычислительные технологии (ПАВТ'2014)>>}
+      \field{title}{Параллельные алгоритмы решения структурной обратной задачи магнитометрии на многопроцессорных вычислительных системах}
+      \field{year}{2014}
+    \endentry
+    \entry{AkSkur2014}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=c322374babc9b6e8210d2b9629b668eb}{Мартышко}{М\bibinitperiod}{М\bibnamedelima П}{М\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=c322374babc9b6e8210d2b9629b668eb}{Мартышко}{М\bibinitperiod}{М\bibnamedelima П}{М\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Kiev, Ukraine}%
+      }
+      \strng{namehash}{d9a957c52e4b19b170cd45674c6b6bc1}
+      \strng{fullhash}{d9a957c52e4b19b170cd45674c6b6bc1}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии}
+      \field{booktitle}{XIIIth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
+      \field{title}{Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии}
+      \field{year}{2014}
+    \endentry
+    \entry{Akidiss2009}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=78c252a96f37d0adca0309765fe39b66}{Акимова}{А\bibinitperiod}{Елена\bibnamedelima Николаевна}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=78c252a96f37d0adca0309765fe39b66}{Акимова}{А\bibinitperiod}{Елена\bibnamedelima Николаевна}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {ИММ УрО РАН}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{78c252a96f37d0adca0309765fe39b66}
+      \strng{fullhash}{78c252a96f37d0adca0309765fe39b66}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Параллельные алгоритмы решения задач грави-магнитометрии и упругости на многопроцессорных системах с распределенной памятью}
+      \field{title}{Параллельные алгоритмы решения задач грави-магнитометрии и упругости на многопроцессорных системах с распределенной памятью}
+      \field{type}{Дисс. д-ра физ.-мат. наук}
+      \field{year}{2009}
+    \endentry
+    \entry{Bak1992}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9f1723ac2a3652918c633632396d50be}{Бакушинский}{Б\bibinitperiod}{А\bibnamedelima Б}{А\bibinitperiod\bibinitdelim Б\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9f1723ac2a3652918c633632396d50be}{Бакушинский}{Б\bibinitperiod}{А\bibnamedelima Б}{А\bibinitperiod\bibinitdelim Б\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{9f1723ac2a3652918c633632396d50be}
+      \strng{fullhash}{9f1723ac2a3652918c633632396d50be}
+      \field{sortinit}{Б}
+      \field{sortinithash}{8f918f8686258589a227d5aaf265a9bb}
+      \field{labeltitle}{К проблеме сходимости интеративно-регуляризованного метода Гаусса-Ньютона}
+      \field{journaltitle}{Журнал вычислительной математики и математической физики}
+      \field{number}{9}
+      \field{title}{К проблеме сходимости интеративно-регуляризованного метода Гаусса-Ньютона}
+      \field{volume}{32}
+      \field{year}{1992}
+      \field{pages}{1503\bibrangedash 1509}
+    \endentry
+    \entry{BakGon1989}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=9f1723ac2a3652918c633632396d50be}{Бакушинский}{Б\bibinitperiod}{А\bibnamedelima Б}{А\bibinitperiod\bibinitdelim Б\bibinitperiod}{}{}{}{}}%
+        {{hash=12b1fd0c27be06254e751a569ea29e31}{Гончарский}{Г\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=9f1723ac2a3652918c633632396d50be}{Бакушинский}{Б\bibinitperiod}{А\bibnamedelima Б}{А\bibinitperiod\bibinitdelim Б\bibinitperiod}{}{}{}{}}%
+        {{hash=12b1fd0c27be06254e751a569ea29e31}{Гончарский}{Г\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{0571562db43e581e4aeb61163de76718}
+      \strng{fullhash}{0571562db43e581e4aeb61163de76718}
+      \field{sortinit}{Б}
+      \field{sortinithash}{8f918f8686258589a227d5aaf265a9bb}
+      \field{labeltitle}{Итеративные методы решения некорректных задач}
+      \field{title}{Итеративные методы решения некорректных задач}
+      \field{year}{1978}
+    \endentry
+    \entry{BakPol1974}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=9f1723ac2a3652918c633632396d50be}{Бакушинский}{Б\bibinitperiod}{А\bibnamedelima Б}{А\bibinitperiod\bibinitdelim Б\bibinitperiod}{}{}{}{}}%
+        {{hash=b696a0daa63da59a5b33c71b88281472}{Поляк}{П\bibinitperiod}{Б\bibnamedelima Т}{Б\bibinitperiod\bibinitdelim Т\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=9f1723ac2a3652918c633632396d50be}{Бакушинский}{Б\bibinitperiod}{А\bibnamedelima Б}{А\bibinitperiod\bibinitdelim Б\bibinitperiod}{}{}{}{}}%
+        {{hash=b696a0daa63da59a5b33c71b88281472}{Поляк}{П\bibinitperiod}{Б\bibnamedelima Т}{Б\bibinitperiod\bibinitdelim Т\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{3db2fa8642a317948dd207fdb1cabfc9}
+      \strng{fullhash}{3db2fa8642a317948dd207fdb1cabfc9}
+      \field{sortinit}{Б}
+      \field{sortinithash}{8f918f8686258589a227d5aaf265a9bb}
+      \field{labeltitle}{О решении вариационных неравенств}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{5}
+      \field{title}{О решении вариационных неравенств}
+      \field{volume}{219}
+      \field{year}{1974}
+      \field{pages}{1038\bibrangedash 1041}
+    \endentry
+    \entry{BachZhid1987}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=6828dd9d10ff22886840fa566cadcbd6}{Бахвалов}{Б\bibinitperiod}{Н\bibnamedelima С}{Н\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=24b6f67e2fd40dbc6231c4cc310fe670}{Жидков}{Ж\bibinitperiod}{Н\bibnamedelima П}{Н\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+        {{hash=bb5f1c163dc1a74c83b911d8b6d0ecd8}{Кобельков}{К\bibinitperiod}{Г\bibnamedelima М}{Г\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=6828dd9d10ff22886840fa566cadcbd6}{Бахвалов}{Б\bibinitperiod}{Н\bibnamedelima С}{Н\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=24b6f67e2fd40dbc6231c4cc310fe670}{Жидков}{Ж\bibinitperiod}{Н\bibnamedelima П}{Н\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+        {{hash=bb5f1c163dc1a74c83b911d8b6d0ecd8}{Кобельков}{К\bibinitperiod}{Г\bibnamedelima М}{Г\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{6be433610067d2ebf2c2cf1fcd0c860f}
+      \strng{fullhash}{6be433610067d2ebf2c2cf1fcd0c860f}
+      \field{sortinit}{Б}
+      \field{sortinithash}{8f918f8686258589a227d5aaf265a9bb}
+      \field{labeltitle}{Численные методы}
+      \field{title}{Численные методы}
+      \field{year}{1987}
+    \endentry
+    \entry{Vas1982}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Уральск. научн. центр, Ин-т матем. и механ.}%
+      }
+      \strng{namehash}{c14eb3fa1458d33e2871dc391726159e}
+      \strng{fullhash}{c14eb3fa1458d33e2871dc391726159e}
+      \field{sortinit}{В}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitle}{Проксимальный алгоритм с проектированием в задачах выпуклого программирования}
+      \field{title}{Проксимальный алгоритм с проектированием в задачах выпуклого программирования}
+      \field{year}{1982}
+    \endentry
+    \entry{Vas1988}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{c14eb3fa1458d33e2871dc391726159e}
+      \strng{fullhash}{c14eb3fa1458d33e2871dc391726159e}
+      \field{sortinit}{В}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitle}{Итерационные методы решения некорректных задач с априорной информацией в гильбертовых пространствах}
+      \field{journaltitle}{Журнал вычислительной математики и математичекой физики}
+      \field{number}{7}
+      \field{title}{Итерационные методы решения некорректных задач с априорной информацией в гильбертовых пространствах}
+      \field{volume}{28}
+      \field{year}{1988}
+      \field{pages}{971\bibrangedash 980}
+    \endentry
+    \entry{Vasin_2012}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{c14eb3fa1458d33e2871dc391726159e}
+      \strng{fullhash}{c14eb3fa1458d33e2871dc391726159e}
+      \field{sortinit}{В}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitle}{Метод Левенберга---Марквардта для аппроксимации решений нерегулярных операторных уравнений}
+      \field{journaltitle}{Автоматика и телемеханика}
+      \field{title}{Метод Левенберга---Марквардта для аппроксимации решений нерегулярных операторных уравнений}
+      \field{volume}{73}
+      \field{year}{2012}
+      \field{pages}{28\bibrangedash 38}
+    \endentry
+    \entry{VasAge1993}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=751a660f16b9ee700db90b55eafdfc74}{Агеев}{А\bibinitperiod}{А\bibnamedelima Л}{А\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=751a660f16b9ee700db90b55eafdfc74}{Агеев}{А\bibinitperiod}{А\bibnamedelima Л}{А\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Уральская изд. фирма <<Наука>>}%
+      }
+      \strng{namehash}{a9da65610450bdc356a62b634c188eac}
+      \strng{fullhash}{a9da65610450bdc356a62b634c188eac}
+      \field{sortinit}{В}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitle}{Некорректные задачи с априорной информацией}
+      \field{title}{Некорректные задачи с априорной информацией}
+      \field{year}{1993}
+    \endentry
+    \entry{VasAkiMin2013}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{cb82d63f58c67f57e18e0a7d25675436}
+      \strng{fullhash}{cb82d63f58c67f57e18e0a7d25675436}
+      \field{sortinit}{В}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitle}{Итерационные алгоритмы ньютоновского типа и их приложения к обратной задаче гравиметрии}
+      \field{journaltitle}{Вестник Южно-Уральского государственного университета}
+      \field{number}{3}
+      \field{title}{Итерационные алгоритмы ньютоновского типа и их приложения к обратной задаче гравиметрии}
+      \field{volume}{6}
+      \field{year}{2013}
+      \field{pages}{26\bibrangedash 37}
+    \endentry
+    \entry{VasPer_2011}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=03ce59719877e87bc541e47bf217ea94}{Пересторонина}{П\bibinitperiod}{Г\bibnamedelima Я}{Г\bibinitperiod\bibinitdelim Я\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=03ce59719877e87bc541e47bf217ea94}{Пересторонина}{П\bibinitperiod}{Г\bibnamedelima Я}{Г\bibinitperiod\bibinitdelim Я\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{5aa21e97740538aecd2665c34b1dcc94}
+      \strng{fullhash}{5aa21e97740538aecd2665c34b1dcc94}
+      \field{sortinit}{В}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitle}{Метод Левенберга--–Марквардта и его модифицированные варианты для решения нелинейных уравнений с приложением к обратной задаче гравиметрии}
+      \field{journaltitle}{Труды ИММ УрО РАН}
+      \field{title}{Метод Левенберга--–Марквардта и его модифицированные варианты для решения нелинейных уравнений с приложением к обратной задаче гравиметрии}
+      \field{volume}{17}
+      \field{year}{2011}
+      \field{pages}{174\bibrangedash 182}
+    \endentry
+    \entry{VasSkur2015}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{0b51491807d8aeae28adf2dc243a897e}
+      \strng{fullhash}{0b51491807d8aeae28adf2dc243a897e}
+      \field{sortinit}{В}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitle}{Регуляризованные модифицированные процессы градиентного типа для нелинейных обратных задач}
+      \field{booktitle}{Тезисы докладов международного научного семинара по обратным и некорректно поставленным задачам}
+      \field{title}{Регуляризованные модифицированные процессы градиентного типа для нелинейных обратных задач}
+      \field{year}{2015}
+    \endentry
+    \entry{VasSkur2017}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{0b51491807d8aeae28adf2dc243a897e}
+      \strng{fullhash}{0b51491807d8aeae28adf2dc243a897e}
+      \field{sortinit}{В}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitle}{Двухэтапный метод регуляризации для нелинейных некорректных задач}
+      \field{journaltitle}{Труды ИММ УрО РАН}
+      \field{number}{1}
+      \field{title}{Двухэтапный метод регуляризации для нелинейных некорректных задач}
+      \field{volume}{23}
+      \field{year}{2017}
+      \field{pages}{57\bibrangedash 74}
+    \endentry
+    \entry{VoeVoe2002}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=d1e81405ea3362363868f096e4b2318a}{Воеводин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=fb4b7050cb10bc7a88739a5a0ba4c769}{Воеводин}{В\bibinitperiod}{Вл\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=d1e81405ea3362363868f096e4b2318a}{Воеводин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=fb4b7050cb10bc7a88739a5a0ba4c769}{Воеводин}{В\bibinitperiod}{Вл\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Санкт-Петербург}%
+      }
+      \list{publisher}{1}{%
+        {БХВ-Петербург}%
+      }
+      \strng{namehash}{5704b7f6d38ba9f5b9a9eaccf185e3d4}
+      \strng{fullhash}{5704b7f6d38ba9f5b9a9eaccf185e3d4}
+      \field{sortinit}{В}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitle}{Параллельные вычисления}
+      \field{title}{Параллельные вычисления}
+      \field{year}{2002}
+    \endentry
+    \entry{GlaOstFil1970}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=e5a843b91641a70e837de2343e115e6a}{Гласко}{Г\bibinitperiod}{В\bibnamedelima Б.}{В\bibinitperiod\bibinitdelim Б\bibinitperiod}{}{}{}{}}%
+        {{hash=1823bdc97966607787b908a5111d38d1}{Остромогильский}{О\bibinitperiod}{А\bibnamedelima Х}{А\bibinitperiod\bibinitdelim Х\bibinitperiod}{}{}{}{}}%
+        {{hash=68b741f8ba5190346e5a08f4b75d3f65}{Филатов}{Ф\bibinitperiod}{В\bibnamedelima Г}{В\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e5a843b91641a70e837de2343e115e6a}{Гласко}{Г\bibinitperiod}{В\bibnamedelima Б.}{В\bibinitperiod\bibinitdelim Б\bibinitperiod}{}{}{}{}}%
+        {{hash=1823bdc97966607787b908a5111d38d1}{Остромогильский}{О\bibinitperiod}{А\bibnamedelima Х}{А\bibinitperiod\bibinitdelim Х\bibinitperiod}{}{}{}{}}%
+        {{hash=68b741f8ba5190346e5a08f4b75d3f65}{Филатов}{Ф\bibinitperiod}{В\bibnamedelima Г}{В\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{857012567822922829031401fa44f361}
+      \strng{fullhash}{857012567822922829031401fa44f361}
+      \field{sortinit}{Г}
+      \field{sortinithash}{6a6be5d07cf3b5b7cff33b504a4e3f68}
+      \field{labeltitle}{О восстановлении глубины и формы контактной поверхности на основе регуляризации}
+      \field{journaltitle}{Журнал вычислительной математики и математической физики}
+      \field{number}{5}
+      \field{title}{О восстановлении глубины и формы контактной поверхности на основе регуляризации}
+      \field{volume}{10}
+      \field{year}{1970}
+      \field{pages}{1292\bibrangedash 1297}
+    \endentry
+    \entry{GonLeoYag1973}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=12b1fd0c27be06254e751a569ea29e31}{Гончарский}{Г\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=701fe796e4c714652e0afbac34e38e03}{Леонов}{Л\bibinitperiod}{А\bibnamedelima С}{А\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=cac2281d94a2654059ec3c037264b94f}{Ягола}{Я\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=12b1fd0c27be06254e751a569ea29e31}{Гончарский}{Г\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=701fe796e4c714652e0afbac34e38e03}{Леонов}{Л\bibinitperiod}{А\bibnamedelima С}{А\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=cac2281d94a2654059ec3c037264b94f}{Ягола}{Я\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{d462d3ad77f8a14df6b9537294fa0f8f}
+      \strng{fullhash}{d462d3ad77f8a14df6b9537294fa0f8f}
+      \field{sortinit}{Г}
+      \field{sortinithash}{6a6be5d07cf3b5b7cff33b504a4e3f68}
+      \field{labeltitle}{Обобщенный принцип невязки}
+      \field{journaltitle}{Журнал вычислительной математики и математичекой физики}
+      \field{number}{2}
+      \field{title}{Обобщенный принцип невязки}
+      \field{volume}{13}
+      \field{year}{1973}
+      \field{pages}{294\bibrangedash 302}
+    \endentry
+    \entry{GonSte1979}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=12b1fd0c27be06254e751a569ea29e31}{Гончарский}{Г\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=4251295d2825a98a7400238f825508d8}{Степанов}{С\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=12b1fd0c27be06254e751a569ea29e31}{Гончарский}{Г\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=4251295d2825a98a7400238f825508d8}{Степанов}{С\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{f8724d6d3c9e66a2b0d591064c39db32}
+      \strng{fullhash}{f8724d6d3c9e66a2b0d591064c39db32}
+      \field{sortinit}{Г}
+      \field{sortinithash}{6a6be5d07cf3b5b7cff33b504a4e3f68}
+      \field{labeltitle}{О равномерном приближении с ограниченной вариацией некорректно поставленных задач}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{1}
+      \field{title}{О равномерном приближении с ограниченной вариацией некорректно поставленных задач}
+      \field{volume}{248}
+      \field{year}{1979}
+      \field{pages}{20\bibrangedash 22}
+    \endentry
+    \entry{AkMisSkTr2015}{inproceedings}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=c31ca1b93fb3a85c183477a20d691bb2}{А}{А\bibinitperiod}{Третьяков}{Т\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \field{sortinit}{Г}
+      \field{sortinithash}{6a6be5d07cf3b5b7cff33b504a4e3f68}
+      \field{labeltitle}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере “Уран”}
+      \field{booktitle}{Труды международной конференции <<Параллельные вычислительные технологии (ПАВТ'2015)>>}
+      \field{title}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере “Уран”}
+      \field{year}{2015}
+    \endentry
+    \entry{DmiPol1972}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=4792f29bdeaa7a44dbcd79a6d8163f7d}{Дмитриев}{Д\bibinitperiod}{М\bibnamedelima Г}{М\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+        {{hash=a0194b8675b27a1cd826762bb1c89098}{Полещук}{П\bibinitperiod}{В\bibnamedelima С}{В\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=4792f29bdeaa7a44dbcd79a6d8163f7d}{Дмитриев}{Д\bibinitperiod}{М\bibnamedelima Г}{М\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+        {{hash=a0194b8675b27a1cd826762bb1c89098}{Полещук}{П\bibinitperiod}{В\bibnamedelima С}{В\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{4c8dfd5f9221a62ede5f2c053ebb755e}
+      \strng{fullhash}{4c8dfd5f9221a62ede5f2c053ebb755e}
+      \field{sortinit}{Д}
+      \field{sortinithash}{1b7ddf82ad674a4705c0178bee90015c}
+      \field{labeltitle}{Обобщенный принцип невязки}
+      \field{journaltitle}{Журнал вычислительной математики и математичекой физики}
+      \field{number}{2}
+      \field{title}{Обобщенный принцип невязки}
+      \field{volume}{13}
+      \field{year}{1973}
+      \field{pages}{1316\bibrangedash 1318}
+    \endentry
+    \entry{Dor1979}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=d342b79f2c3b3aa1cb7d4ddc4ec8abed}{Дорофеев}{Д\bibinitperiod}{И\bibnamedelima Ф}{И\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d342b79f2c3b3aa1cb7d4ddc4ec8abed}{Дорофеев}{Д\bibinitperiod}{И\bibnamedelima Ф}{И\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{d342b79f2c3b3aa1cb7d4ddc4ec8abed}
+      \strng{fullhash}{d342b79f2c3b3aa1cb7d4ddc4ec8abed}
+      \field{sortinit}{Д}
+      \field{sortinithash}{1b7ddf82ad674a4705c0178bee90015c}
+      \field{labeltitle}{О решении интегральных уравнений 1 рода в классе функций с ограниченной вариацией}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{6}
+      \field{title}{О решении интегральных уравнений 1 рода в классе функций с ограниченной вариацией}
+      \field{volume}{244}
+      \field{year}{1979}
+      \field{pages}{1303\bibrangedash 1311}
+    \endentry
+    \entry{Ere1965}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=bd5e727f0bcdd393c052782cf01995e0}{Еремин}{Е\bibinitperiod}{И\bibnamedelima И}{И\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bd5e727f0bcdd393c052782cf01995e0}{Еремин}{Е\bibinitperiod}{И\bibnamedelima И}{И\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{bd5e727f0bcdd393c052782cf01995e0}
+      \strng{fullhash}{bd5e727f0bcdd393c052782cf01995e0}
+      \field{sortinit}{Е}
+      \field{sortinithash}{c5ab51d6ce367b3dc1b9e750a53a0d16}
+      \field{labeltitle}{Обобщение релаксационного метода Моцкина --- Агмона}
+      \field{journaltitle}{УМН}
+      \field{number}{2}
+      \field{title}{Обобщение релаксационного метода Моцкина --- Агмона}
+      \field{volume}{20}
+      \field{year}{1965}
+      \field{pages}{183\bibrangedash 187}
+    \endentry
+    \entry{Ere1966}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=bd5e727f0bcdd393c052782cf01995e0}{Еремин}{Е\bibinitperiod}{И\bibnamedelima И}{И\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bd5e727f0bcdd393c052782cf01995e0}{Еремин}{Е\bibinitperiod}{И\bibnamedelima И}{И\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{bd5e727f0bcdd393c052782cf01995e0}
+      \strng{fullhash}{bd5e727f0bcdd393c052782cf01995e0}
+      \field{sortinit}{Е}
+      \field{sortinithash}{c5ab51d6ce367b3dc1b9e750a53a0d16}
+      \field{labeltitle}{О системах неравенств с выпуклыми функциями в левых частях}
+      \field{journaltitle}{Известия АН СССР. Математика}
+      \field{number}{2}
+      \field{title}{О системах неравенств с выпуклыми функциями в левых частях}
+      \field{volume}{30}
+      \field{year}{1966}
+      \field{pages}{265\bibrangedash 278}
+    \endentry
+    \entry{Ere1968}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=bd5e727f0bcdd393c052782cf01995e0}{Еремин}{Е\bibinitperiod}{И\bibnamedelima И}{И\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bd5e727f0bcdd393c052782cf01995e0}{Еремин}{Е\bibinitperiod}{И\bibnamedelima И}{И\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{bd5e727f0bcdd393c052782cf01995e0}
+      \strng{fullhash}{bd5e727f0bcdd393c052782cf01995e0}
+      \field{sortinit}{Е}
+      \field{sortinithash}{c5ab51d6ce367b3dc1b9e750a53a0d16}
+      \field{labeltitle}{Методы фейеровских приближений в выпуклом программировании}
+      \field{journaltitle}{Математические заметки}
+      \field{number}{2}
+      \field{title}{Методы фейеровских приближений в выпуклом программировании}
+      \field{volume}{3}
+      \field{year}{1968}
+      \field{pages}{217\bibrangedash 234}
+    \endentry
+    \entry{Iv1962_2}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e6de42534eb25695a6bd07fdb782b56a}{Иванов}{И\bibinitperiod}{В\bibnamedelima К}{В\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e6de42534eb25695a6bd07fdb782b56a}{Иванов}{И\bibinitperiod}{В\bibnamedelima К}{В\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{e6de42534eb25695a6bd07fdb782b56a}
+      \strng{fullhash}{e6de42534eb25695a6bd07fdb782b56a}
+      \field{sortinit}{И}
+      \field{sortinithash}{b1b3e45e490ac88fd50f3d3902adb600}
+      \field{labeltitle}{О линейных некорректных задачах}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{2}
+      \field{title}{О линейных некорректных задачах}
+      \field{volume}{145}
+      \field{year}{1962}
+      \field{pages}{270\bibrangedash 272}
+    \endentry
+    \entry{Iv1963}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e6de42534eb25695a6bd07fdb782b56a}{Иванов}{И\bibinitperiod}{В\bibnamedelima К}{В\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e6de42534eb25695a6bd07fdb782b56a}{Иванов}{И\bibinitperiod}{В\bibnamedelima К}{В\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{e6de42534eb25695a6bd07fdb782b56a}
+      \strng{fullhash}{e6de42534eb25695a6bd07fdb782b56a}
+      \field{sortinit}{И}
+      \field{sortinithash}{b1b3e45e490ac88fd50f3d3902adb600}
+      \field{labeltitle}{О линейных некорректных задачах}
+      \field{journaltitle}{Математический сборник}
+      \field{number}{2}
+      \field{title}{О линейных некорректных задачах}
+      \field{volume}{161}
+      \field{year}{1963}
+      \field{pages}{211\bibrangedash 223}
+    \endentry
+    \entry{Iv1966}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e6de42534eb25695a6bd07fdb782b56a}{Иванов}{И\bibinitperiod}{В\bibnamedelima К}{В\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e6de42534eb25695a6bd07fdb782b56a}{Иванов}{И\bibinitperiod}{В\bibnamedelima К}{В\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{e6de42534eb25695a6bd07fdb782b56a}
+      \strng{fullhash}{e6de42534eb25695a6bd07fdb782b56a}
+      \field{sortinit}{И}
+      \field{sortinithash}{b1b3e45e490ac88fd50f3d3902adb600}
+      \field{labeltitle}{О приближенном решении операторных уравнений первого рода}
+      \field{journaltitle}{Журнал вычислительной математики и математичекой физики}
+      \field{number}{6}
+      \field{title}{О приближенном решении операторных уравнений первого рода}
+      \field{volume}{6}
+      \field{year}{1966}
+      \field{pages}{1089\bibrangedash 1094}
+    \endentry
+    \entry{Iv1967}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e6de42534eb25695a6bd07fdb782b56a}{Иванов}{И\bibinitperiod}{В\bibnamedelima К}{В\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e6de42534eb25695a6bd07fdb782b56a}{Иванов}{И\bibinitperiod}{В\bibnamedelima К}{В\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{e6de42534eb25695a6bd07fdb782b56a}
+      \strng{fullhash}{e6de42534eb25695a6bd07fdb782b56a}
+      \field{sortinit}{И}
+      \field{sortinithash}{b1b3e45e490ac88fd50f3d3902adb600}
+      \field{labeltitle}{Об интегральных уравнениях Фредгольма 1 рода}
+      \field{journaltitle}{Дифференциальные уравнения}
+      \field{number}{3}
+      \field{title}{Об интегральных уравнениях Фредгольма 1 рода}
+      \field{volume}{3}
+      \field{year}{1967}
+      \field{pages}{410\bibrangedash 421}
+    \endentry
+    \entry{Kan1947}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=d9725247940d26a33b1e9626a0df34c7}{Канторович}{К\bibinitperiod}{Л\bibnamedelima В}{Л\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d9725247940d26a33b1e9626a0df34c7}{Канторович}{К\bibinitperiod}{Л\bibnamedelima В}{Л\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{d9725247940d26a33b1e9626a0df34c7}
+      \strng{fullhash}{d9725247940d26a33b1e9626a0df34c7}
+      \field{sortinit}{К}
+      \field{sortinithash}{63d3bbd575ebadbdb48d1b2fe67b8a28}
+      \field{labeltitle}{О методе наискорейшего спуска}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{title}{О методе наискорейшего спуска}
+      \field{volume}{56}
+      \field{year}{1947}
+      \field{pages}{233\bibrangedash 236}
+    \endentry
+    \entry{Kok_2010}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=5d188484ce3a065fb77f19e9357aa753}{Кокурин}{К\bibinitperiod}{М\bibnamedelima Ю}{М\bibinitperiod\bibinitdelim Ю\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5d188484ce3a065fb77f19e9357aa753}{Кокурин}{К\bibinitperiod}{М\bibnamedelima Ю}{М\bibinitperiod\bibinitdelim Ю\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{5d188484ce3a065fb77f19e9357aa753}
+      \strng{fullhash}{5d188484ce3a065fb77f19e9357aa753}
+      \field{sortinit}{К}
+      \field{sortinithash}{63d3bbd575ebadbdb48d1b2fe67b8a28}
+      \field{labeltitle}{О выпуклости функционала Тихонова и итеративного регуляризованных методах решения нерегулярных нелинейных операторных уравнений}
+      \field{journaltitle}{Журнал вычислительной математики и математичекой физики}
+      \field{title}{О выпуклости функционала Тихонова и итеративного регуляризованных методах решения нерегулярных нелинейных операторных уравнений}
+      \field{volume}{50}
+      \field{year}{2010}
+      \field{pages}{651\bibrangedash 664}
+    \endentry
+    \entry{KraVayZab1969}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=43c56c16a8f9b5d84441ab5fe7e89eda}{Красносельский}{К\bibinitperiod}{М\bibnamedelima А}{М\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+        {{hash=7f570f004f2e8a2113992ff644d653d8}{Вайникко}{В\bibinitperiod}{Г\bibnamedelima М}{Г\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+        {{hash=e37c890f98e028060051def1a4ce6818}{Забрейко}{З\bibinitperiod}{П\bibnamedelima П}{П\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=43c56c16a8f9b5d84441ab5fe7e89eda}{Красносельский}{К\bibinitperiod}{М\bibnamedelima А}{М\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+        {{hash=7f570f004f2e8a2113992ff644d653d8}{Вайникко}{В\bibinitperiod}{Г\bibnamedelima М}{Г\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+        {{hash=e37c890f98e028060051def1a4ce6818}{Забрейко}{З\bibinitperiod}{П\bibnamedelima П}{П\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{f22011a79a44f474b23b88061eb11805}
+      \strng{fullhash}{f22011a79a44f474b23b88061eb11805}
+      \field{sortinit}{К}
+      \field{sortinithash}{63d3bbd575ebadbdb48d1b2fe67b8a28}
+      \field{labeltitle}{Приближенное решение операторных уравнений}
+      \field{title}{Приближенное решение операторных уравнений}
+      \field{year}{1969}
+    \endentry
+    \entry{KufFuch1988}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=d3f2d8d5c554a47f4c8e09745768abfa}{Куфнер}{К\bibinitperiod}{А}{А\bibinitperiod}{}{}{}{}}%
+        {{hash=5abc4bf2e51ec4b81f701faf37dc64cc}{Фучик}{Ф\bibinitperiod}{С}{С\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=d3f2d8d5c554a47f4c8e09745768abfa}{Куфнер}{К\bibinitperiod}{А}{А\bibinitperiod}{}{}{}{}}%
+        {{hash=5abc4bf2e51ec4b81f701faf37dc64cc}{Фучик}{Ф\bibinitperiod}{С}{С\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{54ce8db79f160f78d6ee88a8e59995b2}
+      \strng{fullhash}{54ce8db79f160f78d6ee88a8e59995b2}
+      \field{sortinit}{К}
+      \field{sortinithash}{63d3bbd575ebadbdb48d1b2fe67b8a28}
+      \field{labeltitle}{Нелинейные дифференциальные уравнения}
+      \field{title}{Нелинейные дифференциальные уравнения}
+      \field{year}{1988}
+    \endentry
+    \entry{Lavr1956}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{5b163d50b02ae552c6da66c657c53777}
+      \strng{fullhash}{5b163d50b02ae552c6da66c657c53777}
+      \field{sortinit}{Л}
+      \field{sortinithash}{e1a400a399c836b73357768d84025239}
+      \field{labeltitle}{К вопросу об обратной задаче теории потенциала}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{3}
+      \field{title}{К вопросу об обратной задаче теории потенциала}
+      \field{volume}{106}
+      \field{year}{1956}
+      \field{pages}{389\bibrangedash 390}
+    \endentry
+    \entry{Lavr1959}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{5b163d50b02ae552c6da66c657c53777}
+      \strng{fullhash}{5b163d50b02ae552c6da66c657c53777}
+      \field{sortinit}{Л}
+      \field{sortinithash}{e1a400a399c836b73357768d84025239}
+      \field{labeltitle}{Об интегральных уравнениях первого рода}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{1}
+      \field{title}{Об интегральных уравнениях первого рода}
+      \field{volume}{127}
+      \field{year}{1959}
+      \field{pages}{31\bibrangedash 33}
+    \endentry
+    \entry{Lavr1962}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Новосибирск: Изд-во Сибирского отд-ния АН СССР}%
+      }
+      \strng{namehash}{5b163d50b02ae552c6da66c657c53777}
+      \strng{fullhash}{5b163d50b02ae552c6da66c657c53777}
+      \field{sortinit}{Л}
+      \field{sortinithash}{e1a400a399c836b73357768d84025239}
+      \field{labeltitle}{О некоторых некорректных задачах математической физики}
+      \field{title}{О некоторых некорректных задачах математической физики}
+      \field{year}{1962}
+      \field{pages}{92}
+    \endentry
+    \entry{Lavr1963}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{5b163d50b02ae552c6da66c657c53777}
+      \strng{fullhash}{5b163d50b02ae552c6da66c657c53777}
+      \field{sortinit}{Л}
+      \field{sortinithash}{e1a400a399c836b73357768d84025239}
+      \field{labeltitle}{Об одном классе нелинейных интегральных уравнений}
+      \field{journaltitle}{Сибирский математический журнал}
+      \field{number}{4}
+      \field{title}{Об одном классе нелинейных интегральных уравнений}
+      \field{volume}{4}
+      \field{year}{1963}
+      \field{pages}{837\bibrangedash 844}
+    \endentry
+    \entry{LavrVas1966}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+        {{hash=0437b45a72c51b99f40d88342df8bd0f}{Васильев}{В\bibinitperiod}{В\bibnamedelima Г}{В\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+        {{hash=0437b45a72c51b99f40d88342df8bd0f}{Васильев}{В\bibinitperiod}{В\bibnamedelima Г}{В\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{2862df88df67f0e9cb512cb176cd5c2a}
+      \strng{fullhash}{2862df88df67f0e9cb512cb176cd5c2a}
+      \field{sortinit}{Л}
+      \field{sortinithash}{e1a400a399c836b73357768d84025239}
+      \field{labeltitle}{О постановке некоторых некорректных задач математической физики}
+      \field{journaltitle}{Сибирский математический журнал}
+      \field{number}{3}
+      \field{title}{О постановке некоторых некорректных задач математической физики}
+      \field{volume}{7}
+      \field{year}{1966}
+      \field{pages}{559\bibrangedash 576}
+    \endentry
+    \entry{LavrRomShi1980}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+        {{hash=7049e547a353216b9ca27ae7b732af8e}{Романов}{Р\bibinitperiod}{В\bibnamedelima Г}{В\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+        {{hash=d24ff329f4b314ba27086b502ea07879}{Шишатский}{Ш\bibinitperiod}{С\bibnamedelima П}{С\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=5b163d50b02ae552c6da66c657c53777}{Лаврентьев}{Л\bibinitperiod}{М\bibnamedelima М}{М\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+        {{hash=7049e547a353216b9ca27ae7b732af8e}{Романов}{Р\bibinitperiod}{В\bibnamedelima Г}{В\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+        {{hash=d24ff329f4b314ba27086b502ea07879}{Шишатский}{Ш\bibinitperiod}{С\bibnamedelima П}{С\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{9352e5356e1dad8e9841258fddb41ce0}
+      \strng{fullhash}{9352e5356e1dad8e9841258fddb41ce0}
+      \field{sortinit}{Л}
+      \field{sortinithash}{e1a400a399c836b73357768d84025239}
+      \field{labeltitle}{Некорректные задачи математической физики и анализа}
+      \field{title}{Некорректные задачи математической физики и анализа}
+      \field{year}{1980}
+    \endentry
+    \entry{Mal1931}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=d167c78a08de0616675deaf19b14ce14}{Малкин}{М\bibinitperiod}{Н\bibnamedelima Р}{Н\bibinitperiod\bibinitdelim Р\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d167c78a08de0616675deaf19b14ce14}{Малкин}{М\bibinitperiod}{Н\bibnamedelima Р}{Н\bibinitperiod\bibinitdelim Р\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{d167c78a08de0616675deaf19b14ce14}
+      \strng{fullhash}{d167c78a08de0616675deaf19b14ce14}
+      \field{sortinit}{М}
+      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
+      \field{labeltitle}{О решении обратной магнитометрической задачи для случая одной контактной поверхности (случай пластообразно залегающих масс)}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{title}{О решении обратной магнитометрической задачи для случая одной контактной поверхности (случай пластообразно залегающих масс)}
+      \field{volume}{9}
+      \field{year}{1931}
+      \field{pages}{232\bibrangedash 235}
+    \endentry
+    \entry{MarPru1982}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=53f1af4388a2bdcff7ed18824a37e1e5}{Пруткин}{П\bibinitperiod}{И\bibnamedelima Л}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=53f1af4388a2bdcff7ed18824a37e1e5}{Пруткин}{П\bibinitperiod}{И\bibnamedelima Л}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{3ee427077bda38baa4dc484c6587ef0f}
+      \strng{fullhash}{3ee427077bda38baa4dc484c6587ef0f}
+      \field{sortinit}{М}
+      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
+      \field{labeltitle}{О решении прямой и обратной задач магниторазведки}
+      \field{journaltitle}{Геофизический журнал}
+      \field{number}{6}
+      \field{title}{О решении прямой и обратной задач магниторазведки}
+      \field{volume}{4}
+      \field{year}{1982}
+      \field{pages}{39\bibrangedash 49}
+    \endentry
+    \entry{MarPrut2003}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=53f1af4388a2bdcff7ed18824a37e1e5}{Пруткин}{П\bibinitperiod}{И\bibnamedelima Л}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=53f1af4388a2bdcff7ed18824a37e1e5}{Пруткин}{П\bibinitperiod}{И\bibnamedelima Л}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{3ee427077bda38baa4dc484c6587ef0f}
+      \strng{fullhash}{3ee427077bda38baa4dc484c6587ef0f}
+      \field{sortinit}{М}
+      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
+      \field{labeltitle}{Технология разделения источников гравитационного поля по глубине}
+      \field{journaltitle}{Геофизический журнал}
+      \field{number}{3}
+      \field{title}{Технология разделения источников гравитационного поля по глубине}
+      \field{volume}{25}
+      \field{year}{2003}
+      \field{pages}{159\bibrangedash 168}
+    \endentry
+    \entry{MarTsi2008}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=922d11b817c0d7d32f0dc869e22a9492}{Цидаев}{Ц\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=922d11b817c0d7d32f0dc869e22a9492}{Цидаев}{Ц\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Екатеринбург}%
+      }
+      \list{publisher}{1}{%
+        {ИГФ УрО РАН}%
+      }
+      \strng{namehash}{acbdd5605fcc26c8a66c33967b68ad33}
+      \strng{fullhash}{acbdd5605fcc26c8a66c33967b68ad33}
+      \field{sortinit}{М}
+      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
+      \field{labeltitle}{О решении прямой и обратной задач магниторазведки}
+      \field{booktitle}{Материалы Международной конференции, посвященной 50-летию Института геофизики УрО РАН.}
+      \field{title}{О решении прямой и обратной задач магниторазведки}
+      \field{year}{2008}
+      \field{pages}{167\bibrangedash 170}
+    \endentry
+    \entry{Menih1978}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=aaad97015a1f1f73dc828b67b571fced}{Менихес}{М\bibinitperiod}{Л\bibnamedelima Д}{Л\bibinitperiod\bibinitdelim Д\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=aaad97015a1f1f73dc828b67b571fced}{Менихес}{М\bibinitperiod}{Л\bibnamedelima Д}{Л\bibinitperiod\bibinitdelim Д\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{aaad97015a1f1f73dc828b67b571fced}
+      \strng{fullhash}{aaad97015a1f1f73dc828b67b571fced}
+      \field{sortinit}{М}
+      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
+      \field{labeltitle}{О регуляризуемости отображений, обратных к интегральным операторам}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{2}
+      \field{title}{О регуляризуемости отображений, обратных к интегральным операторам}
+      \field{volume}{241}
+      \field{year}{1978}
+      \field{pages}{625\bibrangedash 629}
+    \endentry
+    \entry{MisMinDer2013}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=b00e029df3d803d512853e644e7203ec}{Дергачев}{Д\bibinitperiod}{Е\bibnamedelima А}{Е\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=b00e029df3d803d512853e644e7203ec}{Дергачев}{Д\bibinitperiod}{Е\bibnamedelima А}{Е\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{e6e3d2bb09726963341dfa0c45599a57}
+      \strng{fullhash}{e6e3d2bb09726963341dfa0c45599a57}
+      \field{sortinit}{М}
+      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
+      \field{labeltitle}{Решение обратной задачи гравиметрии итерационными методами на суперкомпьютере <<Уран>>}
+      \field{booktitle}{Труды XIV Уральской молодежной научной школы по геофизике}
+      \field{title}{Решение обратной задачи гравиметрии итерационными методами на суперкомпьютере <<Уран>>}
+      \field{year}{2013}
+    \endentry
+    \entry{Nov1938}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=eeca16b6798d24cc288161c5ad6f9c35}{Новиков}{Н\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=eeca16b6798d24cc288161c5ad6f9c35}{Новиков}{Н\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{eeca16b6798d24cc288161c5ad6f9c35}
+      \strng{fullhash}{eeca16b6798d24cc288161c5ad6f9c35}
+      \field{sortinit}{Н}
+      \field{sortinithash}{ff8719eecc07ad86054c52cb97637aff}
+      \field{labeltitle}{Об единственности решения обратной задачи теории потенциала}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{3}
+      \field{title}{Об единственности решения обратной задачи теории потенциала}
+      \field{volume}{18}
+      \field{year}{1938}
+      \field{pages}{165\bibrangedash 168}
+    \endentry
+    \entry{Num1930}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9b113355155d8c567ac371d05c61f733}{Нумеров}{Н\bibinitperiod}{Б\bibnamedelima В}{Б\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9b113355155d8c567ac371d05c61f733}{Нумеров}{Н\bibinitperiod}{Б\bibnamedelima В}{Б\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{9b113355155d8c567ac371d05c61f733}
+      \strng{fullhash}{9b113355155d8c567ac371d05c61f733}
+      \field{sortinit}{Н}
+      \field{sortinithash}{ff8719eecc07ad86054c52cb97637aff}
+      \field{labeltitle}{Интерпретация гравитационных наблюдений в случае одной контактной поверхности}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{title}{Интерпретация гравитационных наблюдений в случае одной контактной поверхности}
+      \field{volume}{21}
+      \field{year}{1930}
+      \field{pages}{569\bibrangedash 574}
+    \endentry
+    \entry{Ort1991}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=53b2edf3cd2cd0ec95616ee882053489}{Ортега}{О\bibinitperiod}{Д}{Д\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=53b2edf3cd2cd0ec95616ee882053489}{Ортега}{О\bibinitperiod}{Д}{Д\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Мир}%
+      }
+      \strng{namehash}{53b2edf3cd2cd0ec95616ee882053489}
+      \strng{fullhash}{53b2edf3cd2cd0ec95616ee882053489}
+      \field{sortinit}{О}
+      \field{sortinithash}{c51357d0a284308c76469eb1da1de8b4}
+      \field{labeltitle}{Введение в параллельные и векторные методы решения линейных систем}
+      \field{title}{Введение в параллельные и векторные методы решения линейных систем}
+      \field{year}{1991}
+    \endentry
+    \entry{PetPlich1980}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=83565d0fdd59f13497bf5f1df9e082e0}{Петунин}{П\bibinitperiod}{Ю\bibnamedelima И}{Ю\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+        {{hash=e6916dde446373f66158e2da32128cc6}{Пличко}{П\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=83565d0fdd59f13497bf5f1df9e082e0}{Петунин}{П\bibinitperiod}{Ю\bibnamedelima И}{Ю\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+        {{hash=e6916dde446373f66158e2da32128cc6}{Пличко}{П\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Киев Вища шк.}%
+      }
+      \strng{namehash}{1fc5b2491d2f75160b26c80fefd47b86}
+      \strng{fullhash}{1fc5b2491d2f75160b26c80fefd47b86}
+      \field{sortinit}{П}
+      \field{sortinithash}{dd49c1a2cbe3228d2a16ae6100f0784f}
+      \field{labeltitle}{Теория характеристик подпространств и ее приложения}
+      \field{title}{Теория характеристик подпространств и ее приложения}
+      \field{year}{1980}
+    \endentry
+    \entry{Pol1969}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=b7e429b7d32b13a6e2a1955a4d29ac2c}{Поляк}{П\bibinitperiod}{Борис\bibnamedelima Теодорович}{Б\bibinitperiod\bibinitdelim Т\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=b7e429b7d32b13a6e2a1955a4d29ac2c}{Поляк}{П\bibinitperiod}{Борис\bibnamedelima Теодорович}{Б\bibinitperiod\bibinitdelim Т\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{b7e429b7d32b13a6e2a1955a4d29ac2c}
+      \strng{fullhash}{b7e429b7d32b13a6e2a1955a4d29ac2c}
+      \field{sortinit}{П}
+      \field{sortinithash}{dd49c1a2cbe3228d2a16ae6100f0784f}
+      \field{labeltitle}{Метод сопряженных градиентов в задачах на экстремум}
+      \field{journaltitle}{Журнал вычислительной математики и математичекой физики}
+      \field{number}{4}
+      \field{title}{Метод сопряженных градиентов в задачах на экстремум}
+      \field{volume}{9}
+      \field{year}{1969}
+      \field{pages}{807\bibrangedash 821}
+    \endentry
+    \entry{Pri1965}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=3bd43478dabb113cf9da995b592f2c1b}{Прилепко}{П\bibinitperiod}{А\bibnamedelima И}{А\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=3bd43478dabb113cf9da995b592f2c1b}{Прилепко}{П\bibinitperiod}{А\bibnamedelima И}{А\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{3bd43478dabb113cf9da995b592f2c1b}
+      \strng{fullhash}{3bd43478dabb113cf9da995b592f2c1b}
+      \field{sortinit}{П}
+      \field{sortinithash}{dd49c1a2cbe3228d2a16ae6100f0784f}
+      \field{labeltitle}{Об единственности определения формы тела по значениям внешнего потенциала}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{1}
+      \field{title}{Об единственности определения формы тела по значениям внешнего потенциала}
+      \field{volume}{160}
+      \field{year}{1965}
+      \field{pages}{40\bibrangedash 43}
+    \endentry
+    \entry{Pru1983}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=53f1af4388a2bdcff7ed18824a37e1e5}{Пруткин}{П\bibinitperiod}{И\bibnamedelima Л}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=53f1af4388a2bdcff7ed18824a37e1e5}{Пруткин}{П\bibinitperiod}{И\bibnamedelima Л}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{53f1af4388a2bdcff7ed18824a37e1e5}
+      \strng{fullhash}{53f1af4388a2bdcff7ed18824a37e1e5}
+      \field{sortinit}{П}
+      \field{sortinithash}{dd49c1a2cbe3228d2a16ae6100f0784f}
+      \field{labeltitle}{О приближенном решении трехмерных обратных задач гравиметрии и магнитометрии методом локальных поправок}
+      \field{journaltitle}{Известия АН СССР. Физика Земли}
+      \field{title}{О приближенном решении трехмерных обратных задач гравиметрии и магнитометрии методом локальных поправок}
+      \field{volume}{1}
+      \field{year}{1983}
+      \field{pages}{53\bibrangedash 58}
+    \endentry
+    \entry{Pru1986}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=53f1af4388a2bdcff7ed18824a37e1e5}{Пруткин}{П\bibinitperiod}{И\bibnamedelima Л}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=53f1af4388a2bdcff7ed18824a37e1e5}{Пруткин}{П\bibinitperiod}{И\bibnamedelima Л}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{53f1af4388a2bdcff7ed18824a37e1e5}
+      \strng{fullhash}{53f1af4388a2bdcff7ed18824a37e1e5}
+      \field{sortinit}{П}
+      \field{sortinithash}{dd49c1a2cbe3228d2a16ae6100f0784f}
+      \field{labeltitle}{О решении трехмерной обратной задачи гравиметрии в классе контактных поверхностей методом локальных поправок}
+      \field{journaltitle}{Известия АН СССР. Физика Земли}
+      \field{title}{О решении трехмерной обратной задачи гравиметрии в классе контактных поверхностей методом локальных поправок}
+      \field{volume}{1}
+      \field{year}{1986}
+      \field{pages}{67\bibrangedash 77}
+    \endentry
+    \entry{Prutdiss1998}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=748e88c982da74960c084887a0ae452d}{Пруткин}{П\bibinitperiod}{Илья\bibnamedelima Леонидович}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=748e88c982da74960c084887a0ae452d}{Пруткин}{П\bibinitperiod}{Илья\bibnamedelima Леонидович}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {ИГФ УрО РАН}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{748e88c982da74960c084887a0ae452d}
+      \strng{fullhash}{748e88c982da74960c084887a0ae452d}
+      \field{sortinit}{П}
+      \field{sortinithash}{dd49c1a2cbe3228d2a16ae6100f0784f}
+      \field{labeltitle}{Восстановление геометрии трехмерных объектов произвольной формы по измерениям потенциальных геофизических полей}
+      \field{title}{Восстановление геометрии трехмерных объектов произвольной формы по измерениям потенциальных геофизических полей}
+      \field{type}{Дисс. д-ра физ.-мат. наук}
+      \field{year}{1998}
+    \endentry
+    \entry{Str1967}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=7b872bbe1c2a698706a515cd690c33f4}{Страхов}{С\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=7b872bbe1c2a698706a515cd690c33f4}{Страхов}{С\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{7b872bbe1c2a698706a515cd690c33f4}
+      \strng{fullhash}{7b872bbe1c2a698706a515cd690c33f4}
+      \field{sortinit}{С}
+      \field{sortinithash}{60e1570c1297a70b3d5e02bbecc5842c}
+      \field{labeltitle}{О решении некорректных задач магнито- и гравиметрии, представляемых интегральными уравнениями типа свертки}
+      \field{journaltitle}{Известия АН СССР. Физика Земли}
+      \field{number}{4}
+      \field{title}{О решении некорректных задач магнито- и гравиметрии, представляемых интегральными уравнениями типа свертки}
+      \field{year}{1967}
+      \field{pages}{36\bibrangedash 54}
+    \endentry
+    \entry{Str1969}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=7b872bbe1c2a698706a515cd690c33f4}{Страхов}{С\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=7b872bbe1c2a698706a515cd690c33f4}{Страхов}{С\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{7b872bbe1c2a698706a515cd690c33f4}
+      \strng{fullhash}{7b872bbe1c2a698706a515cd690c33f4}
+      \field{sortinit}{С}
+      \field{sortinithash}{60e1570c1297a70b3d5e02bbecc5842c}
+      \field{labeltitle}{Теория приближенного решения линейных некорректных задач в гильбертовом пространстве и ее использование в разведочной геофизике}
+      \field{journaltitle}{Известия АН СССР. Физика Земли}
+      \field{number}{8}
+      \field{title}{Теория приближенного решения линейных некорректных задач в гильбертовом пространстве и ее использование в разведочной геофизике}
+      \field{year}{1969}
+      \field{pages}{64\bibrangedash 97}
+    \endentry
+    \entry{Str1974_2}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=7b872bbe1c2a698706a515cd690c33f4}{Страхов}{С\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=7b872bbe1c2a698706a515cd690c33f4}{Страхов}{С\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{7b872bbe1c2a698706a515cd690c33f4}
+      \strng{fullhash}{7b872bbe1c2a698706a515cd690c33f4}
+      \field{sortinit}{С}
+      \field{sortinithash}{60e1570c1297a70b3d5e02bbecc5842c}
+      \field{labeltitle}{К теории обратной задачи логарифмического потенциала для контактной поверхности}
+      \field{journaltitle}{Известия АН СССР. Физика Земли}
+      \field{number}{6}
+      \field{title}{К теории обратной задачи логарифмического потенциала для контактной поверхности}
+      \field{year}{1974}
+      \field{pages}{39\bibrangedash 60}
+    \endentry
+    \entry{Str1974_1}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=7b872bbe1c2a698706a515cd690c33f4}{Страхов}{С\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=7b872bbe1c2a698706a515cd690c33f4}{Страхов}{С\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{7b872bbe1c2a698706a515cd690c33f4}
+      \strng{fullhash}{7b872bbe1c2a698706a515cd690c33f4}
+      \field{sortinit}{С}
+      \field{sortinithash}{60e1570c1297a70b3d5e02bbecc5842c}
+      \field{labeltitle}{Об обратной задаче логарифмического потенциала для контактной поверхности}
+      \field{journaltitle}{Известия АН СССР. Физика Земли}
+      \field{number}{2}
+      \field{title}{Об обратной задаче логарифмического потенциала для контактной поверхности}
+      \field{year}{1974}
+      \field{pages}{34\bibrangedash 40}
+    \endentry
+    \entry{Str1976}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=7b872bbe1c2a698706a515cd690c33f4}{Страхов}{С\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=0e2db6f36b006b63b64a3e1272b151f6}{Лапина}{Л\bibinitperiod}{М\bibnamedelima И}{М\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=7b872bbe1c2a698706a515cd690c33f4}{Страхов}{С\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=0e2db6f36b006b63b64a3e1272b151f6}{Лапина}{Л\bibinitperiod}{М\bibnamedelima И}{М\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{a662025c1e3c53ab2216989a79f489c1}
+      \strng{fullhash}{a662025c1e3c53ab2216989a79f489c1}
+      \field{sortinit}{С}
+      \field{sortinithash}{60e1570c1297a70b3d5e02bbecc5842c}
+      \field{labeltitle}{Монтажный метод решения обратной задачи гравиметрии}
+      \field{journaltitle}{Доклады АН СССР}
+      \field{number}{2}
+      \field{title}{Монтажный метод решения обратной задачи гравиметрии}
+      \field{volume}{227}
+      \field{year}{1976}
+      \field{pages}{344\bibrangedash 347}
+    \endentry
+    \entry{Tan1977}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=efda4bc9d62c077ecc80a13b6b4e686f}{Танана}{Т\bibinitperiod}{В\bibnamedelima П}{В\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=efda4bc9d62c077ecc80a13b6b4e686f}{Танана}{Т\bibinitperiod}{В\bibnamedelima П}{В\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{efda4bc9d62c077ecc80a13b6b4e686f}
+      \strng{fullhash}{efda4bc9d62c077ecc80a13b6b4e686f}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{О решении операторных уравнений первого рода с многозначными операторами и их приложение}
+      \field{journaltitle}{Известия вузов. Математика}
+      \field{title}{О решении операторных уравнений первого рода с многозначными операторами и их приложение}
+      \field{volume}{7}
+      \field{year}{1977}
+      \field{pages}{87\bibrangedash 93}
+      \keyw{own}
+    \endentry
+    \entry{Tan1981}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=efda4bc9d62c077ecc80a13b6b4e686f}{Танана}{Т\bibinitperiod}{В\bibnamedelima П}{В\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=efda4bc9d62c077ecc80a13b6b4e686f}{Танана}{Т\bibinitperiod}{В\bibnamedelima П}{В\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{efda4bc9d62c077ecc80a13b6b4e686f}
+      \strng{fullhash}{efda4bc9d62c077ecc80a13b6b4e686f}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{Методы решения операторных уравнений}
+      \field{title}{Методы решения операторных уравнений}
+      \field{year}{1987}
+    \endentry
+    \entry{Tan1997}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=efda4bc9d62c077ecc80a13b6b4e686f}{Танана}{Т\bibinitperiod}{В\bibnamedelima П}{В\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=efda4bc9d62c077ecc80a13b6b4e686f}{Танана}{Т\bibinitperiod}{В\bibnamedelima П}{В\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{efda4bc9d62c077ecc80a13b6b4e686f}
+      \strng{fullhash}{efda4bc9d62c077ecc80a13b6b4e686f}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{Об аппроксимации регуляризованного решения нелинейного уравнения}
+      \field{journaltitle}{Сибирский математический журнал}
+      \field{title}{Об аппроксимации регуляризованного решения нелинейного уравнения}
+      \field{volume}{2}
+      \field{year}{1997}
+      \field{pages}{416\bibrangedash 423}
+    \endentry
+    \entry{Tan2003_1}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=efda4bc9d62c077ecc80a13b6b4e686f}{Танана}{Т\bibinitperiod}{В\bibnamedelima П}{В\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=efda4bc9d62c077ecc80a13b6b4e686f}{Танана}{Т\bibinitperiod}{В\bibnamedelima П}{В\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{efda4bc9d62c077ecc80a13b6b4e686f}
+      \strng{fullhash}{efda4bc9d62c077ecc80a13b6b4e686f}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{О приближенном решении нелинейных операторных уравнений}
+      \field{journaltitle}{Известия Челябинского научного центра}
+      \field{number}{4}
+      \field{title}{О приближенном решении нелинейных операторных уравнений}
+      \field{volume}{21}
+      \field{year}{2003}
+      \field{pages}{6\bibrangedash 8}
+    \endentry
+    \entry{Tan2003_2}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9e52100a25937cece323b7de38daedf0}{Танана}{Т\bibinitperiod}{Валерий\bibnamedelima Павлович}{В\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9e52100a25937cece323b7de38daedf0}{Танана}{Т\bibinitperiod}{Валерий\bibnamedelima Павлович}{В\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{9e52100a25937cece323b7de38daedf0}
+      \strng{fullhash}{9e52100a25937cece323b7de38daedf0}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{О сходимости регуляризованных решений нелинейных операторных уравнений}
+      \field{journaltitle}{Сибирский журнал индустриальной математики}
+      \field{number}{3}
+      \field{title}{О сходимости регуляризованных решений нелинейных операторных уравнений}
+      \field{volume}{6}
+      \field{year}{2003}
+      \field{pages}{119\bibrangedash 133}
+      \keyw{own}
+    \endentry
+    \entry{Tikh1943}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{e2bd3d9c486bcda0627087275e2a0307}
+      \strng{fullhash}{e2bd3d9c486bcda0627087275e2a0307}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{Об устойчивости обратных задач}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{5}
+      \field{title}{Об устойчивости обратных задач}
+      \field{volume}{39}
+      \field{year}{1943}
+      \field{pages}{195\bibrangedash 198}
+      \keyw{own}
+    \endentry
+    \entry{Tikh1963_2}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{e2bd3d9c486bcda0627087275e2a0307}
+      \strng{fullhash}{e2bd3d9c486bcda0627087275e2a0307}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{О регуляризации некорректно поставленных задач}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{1}
+      \field{title}{О регуляризации некорректно поставленных задач}
+      \field{volume}{153}
+      \field{year}{1963}
+      \field{pages}{49\bibrangedash 52}
+      \keyw{own}
+    \endentry
+    \entry{Tikh1963_1}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{e2bd3d9c486bcda0627087275e2a0307}
+      \strng{fullhash}{e2bd3d9c486bcda0627087275e2a0307}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{О решении некорректно поставленных задач}
+      \field{journaltitle}{Доклады Академии наук СССР}
+      \field{number}{3}
+      \field{title}{О решении некорректно поставленных задач}
+      \field{volume}{151}
+      \field{year}{1963}
+      \field{pages}{791\bibrangedash 794}
+      \keyw{own}
+    \endentry
+    \entry{TikhArs1986}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=950c2922982633d2fc0fb599a4ea1601}{Арсенин}{А\bibinitperiod}{В\bibnamedelima Я}{В\bibinitperiod\bibinitdelim Я\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=950c2922982633d2fc0fb599a4ea1601}{Арсенин}{А\bibinitperiod}{В\bibnamedelima Я}{В\bibinitperiod\bibinitdelim Я\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{652e2e37e160d5e9fb6527c1ccc61bc4}
+      \strng{fullhash}{652e2e37e160d5e9fb6527c1ccc61bc4}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{Приближенное решение операторных уравнений}
+      \field{title}{Приближенное решение операторных уравнений}
+      \field{year}{1986}
+    \endentry
+    \entry{TikhGlas1965}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=eed8a309457c1357bec6e40149f618be}{Гласко}{Г\bibinitperiod}{В\bibnamedelima Б}{В\bibinitperiod\bibinitdelim Б\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=eed8a309457c1357bec6e40149f618be}{Гласко}{Г\bibinitperiod}{В\bibnamedelima Б}{В\bibinitperiod\bibinitdelim Б\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{5a70e2c3cd65dffd2bd0275ffefbb413}
+      \strng{fullhash}{5a70e2c3cd65dffd2bd0275ffefbb413}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{Применение методов регуляризации в нелинейных задачах}
+      \field{journaltitle}{Журнал вычислительной математики и математической физики}
+      \field{number}{3}
+      \field{title}{Применение методов регуляризации в нелинейных задачах}
+      \field{volume}{5}
+      \field{year}{1965}
+      \field{pages}{463\bibrangedash 473}
+    \endentry
+    \entry{FadFad1977}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=44e505e2226e95ad86694f87b732eba5}{Фаддеева}{Ф\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=c8fba16c0d7122b9df37733018fbdc22}{Фаддеев}{Ф\bibinitperiod}{Д\bibnamedelima К}{Д\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=44e505e2226e95ad86694f87b732eba5}{Фаддеева}{Ф\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=c8fba16c0d7122b9df37733018fbdc22}{Фаддеев}{Ф\bibinitperiod}{Д\bibnamedelima К}{Д\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{4cc8fa7c36b2612f9f0370b8c32aa316}
+      \strng{fullhash}{4cc8fa7c36b2612f9f0370b8c32aa316}
+      \field{sortinit}{Ф}
+      \field{sortinithash}{744cae1bfd24975a90d688c851f40df7}
+      \field{labeltitle}{Параллельные вычисления в линейной алгебре}
+      \field{journaltitle}{Кибернетика}
+      \field{number}{3}
+      \field{title}{Параллельные вычисления в линейной алгебре}
+      \field{year}{1977}
+      \field{pages}{28\bibrangedash 40}
+    \endentry
+    \entry{FedTsi1976}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=13161c5bcbfc4dbe6b24883d61e2b33d}{Федорова}{Ф\bibinitperiod}{Н\bibnamedelima В}{Н\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=0107e1688cb347741f35abef9bcfc00a}{Цирульский}{Ц\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=13161c5bcbfc4dbe6b24883d61e2b33d}{Федорова}{Ф\bibinitperiod}{Н\bibnamedelima В}{Н\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=0107e1688cb347741f35abef9bcfc00a}{Цирульский}{Ц\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{aaae4720adedba40dba6b5880084c933}
+      \strng{fullhash}{aaae4720adedba40dba6b5880084c933}
+      \field{sortinit}{Ф}
+      \field{sortinithash}{744cae1bfd24975a90d688c851f40df7}
+      \field{labeltitle}{К вопросу о разрешимости обратной задачи логарифмического потенциала для контактной поверхности в конечном виде}
+      \field{journaltitle}{Известия АН СССР, Физика Земли}
+      \field{title}{К вопросу о разрешимости обратной задачи логарифмического потенциала для контактной поверхности в конечном виде}
+      \field{volume}{10}
+      \field{year}{1976}
+      \field{pages}{61\bibrangedash 72}
+    \endentry
+    \entry{TsiKor1990}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=9d2f906dc9fdb1e7a4304a0d10a8baf6}{Цирульский}{Ц\bibinitperiod}{А\bibnamedelima В.}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=b74d4bdccfcf339d364009766c3697fb}{Кормильцев}{К\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=9d2f906dc9fdb1e7a4304a0d10a8baf6}{Цирульский}{Ц\bibinitperiod}{А\bibnamedelima В.}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=b74d4bdccfcf339d364009766c3697fb}{Кормильцев}{К\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Свердловск}%
+      }
+      \list{publisher}{1}{%
+        {Академия наук СССР, Уральское отделение}%
+      }
+      \strng{namehash}{55505ceb933fed57bc675a42b9f57632}
+      \strng{fullhash}{55505ceb933fed57bc675a42b9f57632}
+      \field{sortinit}{Ц}
+      \field{sortinithash}{fb78e64022e5ab41137fc104bb27b2f2}
+      \field{labeltitle}{Функции комплексного переменного в теории и методах потенциальных геофизических полей}
+      \field{title}{Функции комплексного переменного в теории и методах потенциальных геофизических полей}
+      \field{year}{1987}
+    \endentry
+    \entry{TikhGonSteYag1990}{book}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=12b1fd0c27be06254e751a569ea29e31}{Гончарский}{Г\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=4251295d2825a98a7400238f825508d8}{Степанов}{С\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=cac2281d94a2654059ec3c037264b94f}{Ягола}{Я\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \field{sortinit}{Ч}
+      \field{sortinithash}{c79e7b2759d44f9e9d9428270377cf53}
+      \field{labeltitle}{Численные методы решения некорректных задач}
+      \field{title}{Численные методы решения некорректных задач}
+      \field{year}{1990}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
