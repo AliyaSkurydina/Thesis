@@ -44,7 +44,6 @@
       \verb{url}
       \verb http://dx.doi.org/10.1063/1.4913118
       \endverb
-      \warn{\item Datamodel: Entry 'Mis2014' (thesis.bib): Invalid format '19.12.2016' of date field 'urldate' - ignoring}
     \endentry
     \entry{AkiMinMis2014}{inproceedings}{}
       \name{labelname}{3}{}{%
