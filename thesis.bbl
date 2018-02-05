@@ -67,6 +67,7 @@
       \field{booktitle}{International conference "Advanced Mathematics, Computations & Applications -- 2014"}
       \field{title}{Fast stable parallel algorithms for solving gravimetry and magnetometry inverse problems}
       \field{year}{2014}
+      \keyw{nohac}
     \endentry
     \entry{Mis2015}{inproceedings}{}
       \name{labelname}{2}{}{%
@@ -112,6 +113,7 @@
       \field{booktitle}{XIVth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
       \field{title}{A Componentwise Newton Type Method for Solving the Structural Inverse Gravity Problem}
       \field{year}{2015}
+      \keyw{hac}
     \endentry
     \entry{AkSkur2016}{inproceedings}{}
       \name{labelname}{2}{}{%
@@ -136,6 +138,7 @@
       \field{booktitle}{XVth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
       \field{title}{On Solving the Three-Dimensional Structural Gravity Problem for the Case of a Multilayered Medium by the Componentwise Levenberg--Marquardt Method}
       \field{year}{2016}
+      \keyw{hac}
     \endentry
     \entry{BlaNeuSch1997}{article}{}
       \name{labelname}{3}{}{%
@@ -162,7 +165,6 @@
       \field{volume}{17}
       \field{year}{1997}
       \field{pages}{421\bibrangedash 436}
-      \keyw{own}
     \endentry
     \entry{DenSchn1996}{book}{}
       \name{labelname}{2}{}{%
@@ -232,7 +234,6 @@
       \field{volume}{13}
       \field{year}{1902}
       \field{pages}{49\bibrangedash 52}
-      \keyw{own}
     \endentry
     \entry{Han1997}{article}{}
       \name{labelname}{1}{}{%
@@ -255,7 +256,6 @@
       \field{volume}{13}
       \field{year}{1997}
       \field{pages}{79\bibrangedash 96}
-      \keyw{own}
     \endentry
     \entry{Han2010}{article}{}
       \name{labelname}{1}{}{%
@@ -278,7 +278,6 @@
       \field{volume}{22}
       \field{year}{2010}
       \field{pages}{259\bibrangedash 283}
-      \keyw{own}
     \endentry
     \entry{HanNeuSch1995}{article}{}
       \name{labelname}{3}{}{%
@@ -305,7 +304,6 @@
       \field{volume}{72}
       \field{year}{1995}
       \field{pages}{21\bibrangedash 37}
-      \keyw{own}
     \endentry
     \entry{JinZon1997}{article}{}
       \name{labelname}{2}{}{%
@@ -329,7 +327,6 @@
       \field{volume}{13}
       \field{year}{1997}
       \field{pages}{815\bibrangedash 827}
-      \keyw{own}
     \endentry
     \entry{JinZon1999}{article}{}
       \name{labelname}{2}{}{%
@@ -353,7 +350,6 @@
       \field{volume}{83}
       \field{year}{1999}
       \field{pages}{139\bibrangedash 159}
-      \keyw{own}
     \endentry
     \entry{KalNeuRam2002}{article}{}
       \name{labelname}{3}{}{%
@@ -380,7 +376,6 @@
       \field{volume}{10}
       \field{year}{1995}
       \field{pages}{261\bibrangedash 280}
-      \keyw{own}
     \endentry
     \entry{Kel1995}{book}{}
       \name{labelname}{1}{}{%
@@ -424,7 +419,6 @@
       \field{volume}{50}
       \field{year}{2010}
       \field{pages}{620\bibrangedash 632}
-      \keyw{own}
     \endentry
     \entry{Kok2010_1}{article}{}
       \name{labelname}{1}{}{%
@@ -447,7 +441,6 @@
       \field{volume}{54}
       \field{year}{2010}
       \field{pages}{17\bibrangedash 26}
-      \keyw{own}
     \endentry
     \entry{Lan1951}{article}{}
       \name{labelname}{1}{}{%
@@ -470,7 +463,6 @@
       \field{volume}{73}
       \field{year}{1951}
       \field{pages}{615\bibrangedash 624}
-      \keyw{own}
     \endentry
     \entry{Neu2000}{article}{}
       \name{labelname}{1}{}{%
@@ -493,7 +485,6 @@
       \field{volume}{85}
       \field{year}{2000}
       \field{pages}{309\bibrangedash 328}
-      \keyw{own}
     \endentry
     \entry{NeuSch1995_1}{article}{}
       \name{labelname}{2}{}{%
@@ -518,7 +509,6 @@
       \field{volume}{14}
       \field{year}{1995}
       \field{pages}{369\bibrangedash 377}
-      \keyw{own}
     \endentry
     \entry{NeuSch1995_2}{article}{}
       \name{labelname}{2}{}{%
@@ -655,7 +645,6 @@
       \field{volume}{30}
       \field{year}{1993}
       \field{pages}{1796\bibrangedash 1838}
-      \keyw{own}
     \endentry
     \entry{SchnFra1983}{article}{}
       \name{labelname}{2}{}{%
@@ -702,6 +691,7 @@
       \field{volume}{6}
       \field{year}{2017}
       \field{pages}{5\bibrangedash 15}
+      \keyw{hac}
     \endentry
     \entry{Tau2002}{article}{}
       \name{labelname}{1}{}{%
@@ -723,7 +713,6 @@
       \field{volume}{18}
       \field{year}{2002}
       \field{pages}{191\bibrangedash 207}
-      \keyw{own}
     \endentry
     \entry{Tau2004}{article}{}
       \name{labelname}{1}{}{%
@@ -745,7 +734,6 @@
       \field{volume}{32}
       \field{year}{2004}
       \field{pages}{29\bibrangedash 41}
-      \keyw{own}
     \endentry
     \entry{Vasin2014}{article}{}
       \name{labelname}{1}{}{%
@@ -995,6 +983,7 @@
       \field{booktitle}{Труды международной конференции <<Параллельные вычислительные технологии (ПАВТ'2014)>>}
       \field{title}{Параллельные алгоритмы решения структурной обратной задачи магнитометрии на многопроцессорных вычислительных системах}
       \field{year}{2014}
+      \keyw{nohac}
     \endentry
     \entry{AkSkur2014}{inproceedings}{}
       \name{labelname}{3}{}{%
@@ -1021,6 +1010,7 @@
       \field{booktitle}{XIIIth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
       \field{title}{Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии}
       \field{year}{2014}
+      \keyw{hac}
     \endentry
     \entry{Akidiss2009}{thesis}{}
       \name{labelname}{1}{}{%
@@ -1256,6 +1246,7 @@
       \field{volume}{6}
       \field{year}{2013}
       \field{pages}{26\bibrangedash 37}
+      \keyw{hac}
     \endentry
     \entry{VasPer_2011}{article}{}
       \name{labelname}{2}{}{%
@@ -1300,6 +1291,7 @@
       \field{booktitle}{Тезисы докладов международного научного семинара по обратным и некорректно поставленным задачам}
       \field{title}{Регуляризованные модифицированные процессы градиентного типа для нелинейных обратных задач}
       \field{year}{2015}
+      \keyw{nohac}
     \endentry
     \entry{VasSkur2017}{article}{}
       \name{labelname}{2}{}{%
@@ -1324,6 +1316,7 @@
       \field{volume}{23}
       \field{year}{2017}
       \field{pages}{57\bibrangedash 74}
+      \keyw{hac}
     \endentry
     \entry{VoeVoe2002}{book}{}
       \name{labelname}{2}{}{%
@@ -1443,6 +1436,7 @@
       \field{booktitle}{Труды международной конференции <<Параллельные вычислительные технологии (ПАВТ'2015)>>}
       \field{title}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере “Уран”}
       \field{year}{2015}
+      \keyw{nohac}
     \endentry
     \entry{DmiPol1972}{article}{}
       \name{labelname}{2}{}{%
@@ -2021,6 +2015,7 @@
       \field{booktitle}{Труды XIV Уральской молодежной научной школы по геофизике}
       \field{title}{Решение обратной задачи гравиметрии итерационными методами на суперкомпьютере <<Уран>>}
       \field{year}{2013}
+      \keyw{nohac}
     \endentry
     \entry{Nov1938}{article}{}
       \name{labelname}{1}{}{%
@@ -2348,7 +2343,6 @@
       \field{volume}{7}
       \field{year}{1977}
       \field{pages}{87\bibrangedash 93}
-      \keyw{own}
     \endentry
     \entry{Tan1981}{book}{}
       \name{labelname}{1}{}{%
@@ -2438,7 +2432,6 @@
       \field{volume}{6}
       \field{year}{2003}
       \field{pages}{119\bibrangedash 133}
-      \keyw{own}
     \endentry
     \entry{Tikh1943}{article}{}
       \name{labelname}{1}{}{%
@@ -2461,7 +2454,6 @@
       \field{volume}{39}
       \field{year}{1943}
       \field{pages}{195\bibrangedash 198}
-      \keyw{own}
     \endentry
     \entry{Tikh1963_2}{article}{}
       \name{labelname}{1}{}{%
@@ -2484,7 +2476,6 @@
       \field{volume}{153}
       \field{year}{1963}
       \field{pages}{49\bibrangedash 52}
-      \keyw{own}
     \endentry
     \entry{Tikh1963_1}{article}{}
       \name{labelname}{1}{}{%
@@ -2507,7 +2498,6 @@
       \field{volume}{151}
       \field{year}{1963}
       \field{pages}{791\bibrangedash 794}
-      \keyw{own}
     \endentry
     \entry{TikhArs1986}{book}{}
       \name{labelname}{2}{}{%

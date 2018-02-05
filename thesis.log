@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  2 FEB 2018 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  5 FEB 2018 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1165,24 +1165,24 @@ File: russian.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1193,7 +1193,7 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 69.
+Package hyperref Info: Link coloring ON on input line 67.
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1204,9 +1204,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count320
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
@@ -1266,7 +1266,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 69.
+(lastpage)             ! on input line 67.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1275,8 +1275,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
 (./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 69.
-Package biblatex Info: Reference segment=0 on input line 69.
+Package biblatex Info: Reference section=0 on input line 67.
+Package biblatex Info: Reference segment=0 on input line 67.
  (./common.tex)
 \firstskip=\skip72
 \secondskip=\skip73
@@ -1285,17 +1285,17 @@ Package biblatex Info: Reference segment=0 on input line 69.
 \fifthskip=\skip76
 \sixthskip=\skip77
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 95.
+LaTeX Font Info:    Try loading font information for U+msa on input line 93.
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+LaTeX Font Info:    Try loading font information for U+msb on input line 93.
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+euex on input line 95.
+LaTeX Font Info:    Try loading font information for U+euex on input line 93.
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/amsfonts/ueuex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
@@ -1355,17 +1355,17 @@ Overfull \hbox (6.0626pt too wide) in paragraph at lines 18--18
  [4] (./intro.tex
 Overfull \hbox (8.40256pt too wide) in paragraph at lines 12--13
 []\T2A/cmr/bx/n/14.4 Степень раз^^?ра^^?бо^^?тан^^?но^^?сти те^^?мы ис^^?сле^^?
-до^^?ва^^?ния.  \T2A/cmr/m/n/14.4 Ж. Ада^^?мар в 1902 г. [[][]9[][]]
+до^^?ва^^?ния.  \T2A/cmr/m/n/14.4 Ж. Ада^^?мар в 1902 г. [[][]6[][]]
  []
 
 [5
 
 
 ] [6]
-Overfull \hbox (38.22914pt too wide) in paragraph at lines 13--13
-\T2A/cmr/m/n/14.4 ты В.П. Та^^?на^^?ны [[][]101[][]; [][]103[][]] и мо^^?но^^?г
-ра^^?фия [[][]102[][]]. Был пред^^?ло^^?жен ме^^?тод $\OML/cmm/m/it/14.4 L$\T2A
-/cmr/m/n/14.4 -регуляризации,
+Overfull \hbox (17.6686pt too wide) in paragraph at lines 13--13
+\T2A/cmr/m/n/14.4 ты В.П. Та^^?на^^?ны [[][]91[][]; [][]93[][]] и мо^^?но^^?гра
+^^?фия [[][]92[][]]. Был пред^^?ло^^?жен ме^^?тод $\OML/cmm/m/it/14.4 L$\T2A/cm
+r/m/n/14.4 -регуляризации,
  []
 
 [7] [8] [9] [10]
@@ -1402,7 +1402,7 @@ Overfull \hbox (2.77051pt too wide) in paragraph at lines 275--277
 MS/cmsy/m/n/14.4 k ^^T
  []
 
-<fig/mmn_ch1.png, id=820, 365.11406pt x 306.39468pt>
+<fig/mmn_ch1.png, id=830, 365.11406pt x 306.39468pt>
 File: fig/mmn_ch1.png Graphic file (type png)
  <use fig/mmn_ch1.png>
 Package pdftex.def Info: fig/mmn_ch1.png used on input line 281.
@@ -1437,7 +1437,7 @@ erted-to.pdf fig/Twolaymodgrav.eps>
 (epstopdf)             \includegraphics on input line 259.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/Twolaymodgrav-eps-converted-to.pdf, id=1256, 287.0725pt x 232.87pt>
+<fig/Twolaymodgrav-eps-converted-to.pdf, id=1265, 287.0725pt x 232.87pt>
 File: fig/Twolaymodgrav-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/Twolaymodgrav-eps-converted-to.pdf>
@@ -1463,7 +1463,7 @@ Package epstopdf Info: Source file: <fig/Twolaymodmag.eps>
 rted-to.pdf fig/Twolaymodmag.eps>
 (epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
- <fig/Twolaymodmag-eps-converted-to.pdf, id=1348, 257.96375pt x 208.78pt>
+ <fig/Twolaymodmag-eps-converted-to.pdf, id=1357, 257.96375pt x 208.78pt>
 File: fig/Twolaymodmag-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/Twolaymodmag-eps-converted-to.pdf>
@@ -1503,7 +1503,7 @@ Package epstopdf Info: Source file: <fig/Matrix.eps>
 o.pdf fig/Matrix.eps>
 (epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
- <fig/Matrix-eps-converted-to.pdf, id=1498, 607.26875pt x 606.265pt>
+ <fig/Matrix-eps-converted-to.pdf, id=1507, 607.26875pt x 606.265pt>
 File: fig/Matrix-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/Matrix-eps-converted-to.pdf>
@@ -1528,7 +1528,7 @@ nverted-to.pdf fig/MultilayerModel.eps>
 (epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/MultilayerModel-eps-converted-to.pdf, id=1513, 230.8625pt x 305.14pt>
+<fig/MultilayerModel-eps-converted-to.pdf, id=1522, 230.8625pt x 305.14pt>
 File: fig/MultilayerModel-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/MultilayerModel-eps-converted-to.pdf>
@@ -1545,7 +1545,7 @@ t/14.4 ; ::; L\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 скач^^?ки плот^^?но^^?сти,
 4 x[]; y[]\OT1/cmr/m/n/14.4 ) =
  []
 
-[64] [65] [66] [67] [68] <fig/omp.png, id=1575, 314.67563pt x 246.9225pt>
+[64] [65] [66] [67] [68] <fig/omp.png, id=1584, 314.67563pt x 246.9225pt>
 File: fig/omp.png Graphic file (type png)
 
 <use fig/omp.png>
@@ -1557,7 +1557,7 @@ Package pdftex.def Info: fig/omp.png used on input line 292.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.296 
-      ] [70 <./fig/omp.png>] <fig/cuda.png, id=1592, 471.7625pt x 471.7625pt>
+      ] [70 <./fig/omp.png>] <fig/cuda.png, id=1601, 471.7625pt x 471.7625pt>
 File: fig/cuda.png Graphic file (type png)
 
 <use fig/cuda.png>
@@ -1587,28 +1587,28 @@ with the same identifier (name{equation.3.14}) has been already used, duplicate
                    \relax 
 l.315 \begin{equation}
                       \label{exact_exp3.4.1}
-<fig/gravy_kiev2014_exact.png, id=1602, 293.59688pt x 170.88844pt>
+<fig/gravy_kiev2014_exact.png, id=1611, 293.59688pt x 170.88844pt>
 File: fig/gravy_kiev2014_exact.png Graphic file (type png)
 
 <use fig/gravy_kiev2014_exact.png>
 Package pdftex.def Info: fig/gravy_kiev2014_exact.png used on input line 326.
 (pdftex.def)             Requested size: 497.92325pt x 289.8181pt.
 
-<fig/gravy_kiev2014_app.png, id=1604, 279.29344pt x 182.93344pt>
+<fig/gravy_kiev2014_app.png, id=1613, 279.29344pt x 182.93344pt>
 File: fig/gravy_kiev2014_app.png Graphic file (type png)
 
 <use fig/gravy_kiev2014_app.png>
 Package pdftex.def Info: fig/gravy_kiev2014_app.png used on input line 333.
 (pdftex.def)             Requested size: 497.92325pt x 326.14525pt.
  [72 <./fig/gravy_kiev2014_exact.png>]
-<fig/magne_kiev2014_exact.png, id=1612, 761.84625pt x 383.93437pt>
+<fig/magne_kiev2014_exact.png, id=1621, 761.84625pt x 383.93437pt>
 File: fig/magne_kiev2014_exact.png Graphic file (type png)
 
 <use fig/magne_kiev2014_exact.png>
 Package pdftex.def Info: fig/magne_kiev2014_exact.png used on input line 348.
 (pdftex.def)             Requested size: 497.92325pt x 250.92523pt.
  [73 <./fig/gravy_kiev2014_app.png>]
-<fig/magne_kiev2014_app.png, id=1621, 747.54282pt x 383.18156pt>
+<fig/magne_kiev2014_app.png, id=1630, 747.54282pt x 383.18156pt>
 File: fig/magne_kiev2014_app.png Graphic file (type png)
 
 <use fig/magne_kiev2014_app.png>
@@ -1639,7 +1639,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 393--393
  []
 
 [74 <./fig/magne_kiev2014_exact.png> <./fig/magne_kiev2014_app.png>] [75]
-<fig/exp341_mmn_gravy_field.png, id=1641, 409.53pt x 264.23718pt>
+<fig/exp341_mmn_gravy_field.png, id=1650, 409.53pt x 264.23718pt>
 File: fig/exp341_mmn_gravy_field.png Graphic file (type png)
 
 <use fig/exp341_mmn_gravy_field.png>
@@ -1647,7 +1647,7 @@ Package pdftex.def Info: fig/exp341_mmn_gravy_field.png used on input line 428.
 
 (pdftex.def)             Requested size: 497.92325pt x 321.29236pt.
 
-<fig/exp341_mmn_magne_field.png, id=1642, 390.70969pt x 234.1247pt>
+<fig/exp341_mmn_magne_field.png, id=1651, 390.70969pt x 234.1247pt>
 File: fig/exp341_mmn_magne_field.png Graphic file (type png)
 
 <use fig/exp341_mmn_magne_field.png>
@@ -1655,14 +1655,14 @@ Package pdftex.def Info: fig/exp341_mmn_magne_field.png used on input line 434.
 
 (pdftex.def)             Requested size: 497.92325pt x 298.38535pt.
  [76]
-<fig/exp341_mmn_gravy_app.png, id=1651, 414.04688pt x 264.23718pt>
+<fig/exp341_mmn_gravy_app.png, id=1660, 414.04688pt x 264.23718pt>
 File: fig/exp341_mmn_gravy_app.png Graphic file (type png)
 
 <use fig/exp341_mmn_gravy_app.png>
 Package pdftex.def Info: fig/exp341_mmn_gravy_app.png used on input line 440.
 (pdftex.def)             Requested size: 497.92325pt x 317.7765pt.
 
-<fig/exp341_mmn_magne_app.png, id=1652, 392.21532pt x 226.59656pt>
+<fig/exp341_mmn_magne_app.png, id=1661, 392.21532pt x 226.59656pt>
 File: fig/exp341_mmn_magne_app.png Graphic file (type png)
 
 <use fig/exp341_mmn_magne_app.png>
@@ -1673,80 +1673,81 @@ Package pdftex.def Info: fig/exp341_mmn_magne_app.png used on input line 446.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fig/gravy_kiev2015_methods_mmn.png, id=1673, 293.59688pt x 172.39406pt>
+[79] <fig/gravy_kiev2015_methods_mmn.png, id=1687, 293.59688pt x 172.39406pt>
 File: fig/gravy_kiev2015_methods_mmn.png Graphic file (type png)
 
 <use fig/gravy_kiev2015_methods_mmn.png>
 Package pdftex.def Info: fig/gravy_kiev2015_methods_mmn.png used on input line 
-489.
+490.
 (pdftex.def)             Requested size: 497.92325pt x 292.37155pt.
- [79]
-<fig/gravy_kiev2015_methods_cmn.png, id=1679, 280.79906pt x 169.38281pt>
+
+<fig/gravy_kiev2015_methods_cmn.png, id=1688, 280.79906pt x 169.38281pt>
 File: fig/gravy_kiev2015_methods_cmn.png Graphic file (type png)
 
 <use fig/gravy_kiev2015_methods_cmn.png>
 Package pdftex.def Info: fig/gravy_kiev2015_methods_cmn.png used on input line 
-495.
+496.
 (pdftex.def)             Requested size: 497.92325pt x 300.37357pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[80 <./fig/gravy_kiev2015_methods_mmn.png>]
-<fig/exp342_mmn_noise.png, id=1692, 415.5525pt x 289.08pt>
+ [80] [81 <./fig/gravy_kiev2015_methods_mmn.png> <./fig/gravy_kiev2015_methods_
+cmn.png>]
+<fig/exp342_mmn_noise.png, id=1705, 415.5525pt x 289.08pt>
 File: fig/exp342_mmn_noise.png Graphic file (type png)
 
 <use fig/exp342_mmn_noise.png>
-Package pdftex.def Info: fig/exp342_mmn_noise.png used on input line 528.
+Package pdftex.def Info: fig/exp342_mmn_noise.png used on input line 529.
 (pdftex.def)             Requested size: 497.92325pt x 346.39581pt.
- [81 <./fig/gravy_kiev2015_methods_cmn.png>]
-<fig/exp342_cmn_noise.png, id=1700, 466.74374pt x 280.04625pt>
+
+<fig/exp342_cmn_noise.png, id=1706, 466.74374pt x 280.04625pt>
 File: fig/exp342_cmn_noise.png Graphic file (type png)
 
 <use fig/exp342_cmn_noise.png>
-Package pdftex.def Info: fig/exp342_cmn_noise.png used on input line 534.
+Package pdftex.def Info: fig/exp342_cmn_noise.png used on input line 535.
 (pdftex.def)             Requested size: 497.92325pt x 298.76624pt.
- [82 <./fig/exp342_mmn_noise.png>] [83 <./fig/exp342_cmn_noise.png>]
-<fig/gravy_nov2014_cmn.png, id=1711, 395.22656pt x 256.70906pt>
-File: fig/gravy_nov2014_cmn.png Graphic file (type png)
-
-<use fig/gravy_nov2014_cmn.png>
-Package pdftex.def Info: fig/gravy_nov2014_cmn.png used on input line 566.
-(pdftex.def)             Requested size: 497.92325pt x 323.41594pt.
-
-<fig/gravy_nov2014_clm.png, id=1712, 390.70969pt x 250.68657pt>
-File: fig/gravy_nov2014_clm.png Graphic file (type png)
-
-<use fig/gravy_nov2014_clm.png>
-Package pdftex.def Info: fig/gravy_nov2014_clm.png used on input line 572.
-(pdftex.def)             Requested size: 497.92325pt x 319.49298pt.
- [84 <./fig/gravy_nov2014_cmn.png>]
+ [82]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[85 <./fig/gravy_nov2014_clm.png>]
-<fig/field_sum_exact.png, id=1730, 402.00188pt x 261.22594pt>
+[83 <./fig/exp342_mmn_noise.png> <./fig/exp342_cmn_noise.png>] [84]
+<fig/gravy_nov2014_cmn.png, id=1724, 395.22656pt x 256.70906pt>
+File: fig/gravy_nov2014_cmn.png Graphic file (type png)
+
+<use fig/gravy_nov2014_cmn.png>
+Package pdftex.def Info: fig/gravy_nov2014_cmn.png used on input line 568.
+(pdftex.def)             Requested size: 497.92325pt x 323.41594pt.
+
+<fig/gravy_nov2014_clm.png, id=1725, 390.70969pt x 250.68657pt>
+File: fig/gravy_nov2014_clm.png Graphic file (type png)
+
+<use fig/gravy_nov2014_clm.png>
+Package pdftex.def Info: fig/gravy_nov2014_clm.png used on input line 574.
+(pdftex.def)             Requested size: 497.92325pt x 319.49298pt.
+ [85 <./fig/gravy_nov2014_cmn.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[86 <./fig/gravy_nov2014_clm.png>]
+<fig/field_sum_exact.png, id=1743, 402.00188pt x 261.22594pt>
 File: fig/field_sum_exact.png Graphic file (type png)
 
 <use fig/field_sum_exact.png>
-Package pdftex.def Info: fig/field_sum_exact.png used on input line 617.
+Package pdftex.def Info: fig/field_sum_exact.png used on input line 620.
 (pdftex.def)             Requested size: 497.92325pt x 323.55406pt.
 
-<fig/field_gauss_noise22.png, id=1731, 405.76593pt x 280.04625pt>
+<fig/field_gauss_noise22.png, id=1744, 405.76593pt x 280.04625pt>
 File: fig/field_gauss_noise22.png Graphic file (type png)
 
 <use fig/field_gauss_noise22.png>
-Package pdftex.def Info: fig/field_gauss_noise22.png used on input line 623.
+Package pdftex.def Info: fig/field_gauss_noise22.png used on input line 626.
 (pdftex.def)             Requested size: 497.92325pt x 343.66002pt.
- [86 <./fig/field_sum_exact.png>]
-<fig/exact_ver.png, id=1741, 431.36156pt x 740.7675pt>
+ [87 <./fig/field_sum_exact.png>]
+<fig/exact_ver.png, id=1755, 431.36156pt x 740.7675pt>
 File: fig/exact_ver.png Graphic file (type png)
  <use fig/exact_ver.png>
-Package pdftex.def Info: fig/exact_ver.png used on input line 637.
+Package pdftex.def Info: fig/exact_ver.png used on input line 640.
 (pdftex.def)             Requested size: 404.52553pt x 694.67181pt.
 
-[87 <./fig/field_gauss_noise22.png>] [88 <./fig/exact_ver.png>]
-Overfull \hbox (21.0798pt too wide) in paragraph at lines 647--649
+[88 <./fig/field_gauss_noise22.png>] [89 <./fig/exact_ver.png>]
+Overfull \hbox (21.0798pt too wide) in paragraph at lines 650--652
 \T2A/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 b \OMS/cmsy/m/n/14.4 ^^Q \OT1/cmr/m/n
 /14.4 [\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u[]\OT1/cmr/
 m/n/14.4 )[]\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u[]\OT1
@@ -1761,409 +1762,268 @@ mr/m/n/14.4 ) \OMS/cmsy/m/n/14.4 ^^@
  []
 
 
-Overfull \hbox (6.74698pt too wide) in paragraph at lines 650--651
+Overfull \hbox (6.74698pt too wide) in paragraph at lines 653--654
 \T2A/cmr/m/n/14.4 ми^^?за^^?ции с ис^^?поль^^?зо^^?ва^^?ни^^?ем средств ком^^?п
 и^^?ля^^?то^^?ра Intel Xeon и ди^^?рек^^?ти^^?вы #pragma
  []
 
-<fig/levmar_ver.png, id=1759, 251.43938pt x 497.60907pt>
+<fig/levmar_ver.png, id=1772, 251.43938pt x 497.60907pt>
 File: fig/levmar_ver.png Graphic file (type png)
 
 <use fig/levmar_ver.png>
-Package pdftex.def Info: fig/levmar_ver.png used on input line 655.
+Package pdftex.def Info: fig/levmar_ver.png used on input line 658.
 (pdftex.def)             Requested size: 351.04587pt x 694.67181pt.
- <fig/clm_ver.png, id=1760, 437.38406pt x 719.68875pt>
+ <fig/clm_ver.png, id=1773, 437.38406pt x 719.68875pt>
 File: fig/clm_ver.png Graphic file (type png)
 
 <use fig/clm_ver.png>
-Package pdftex.def Info: fig/clm_ver.png used on input line 661.
+Package pdftex.def Info: fig/clm_ver.png used on input line 664.
 (pdftex.def)             Requested size: 422.21312pt x 694.67181pt.
- [89] [90 <./fig/levmar_ver.png>]
-<fig/lm_noise_ver.png, id=1775, 237.13594pt x 441.90094pt>
+ [90] [91 <./fig/levmar_ver.png>]
+<fig/lm_noise_ver.png, id=1789, 237.13594pt x 441.90094pt>
 File: fig/lm_noise_ver.png Graphic file (type png)
 
 <use fig/lm_noise_ver.png>
-Package pdftex.def Info: fig/lm_noise_ver.png used on input line 669.
+Package pdftex.def Info: fig/lm_noise_ver.png used on input line 672.
 (pdftex.def)             Requested size: 333.55841pt x 621.55492pt.
- [91 <./fig/clm_ver.png>]
-<fig/clm_noise_ver.png, id=1781, 437.38406pt x 719.68875pt>
+ [92 <./fig/clm_ver.png>]
+<fig/clm_noise_ver.png, id=1794, 437.38406pt x 719.68875pt>
 File: fig/clm_noise_ver.png Graphic file (type png)
 
 <use fig/clm_noise_ver.png>
-Package pdftex.def Info: fig/clm_noise_ver.png used on input line 675.
+Package pdftex.def Info: fig/clm_noise_ver.png used on input line 678.
 (pdftex.def)             Requested size: 422.21312pt x 694.67181pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 679.
+               Default added (so using `tbp') on input line 682.
 
-[92 <./fig/lm_noise_ver.png>] [93 <./fig/clm_noise_ver.png>]
+[93 <./fig/lm_noise_ver.png>] [94 <./fig/clm_noise_ver.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 696.
+               Default added (so using `tbp') on input line 699.
 
-[94] [95] [96] [97] <fig/prog_complex.png, id=1818, 555.57562pt x 761.09344pt>
+[95] [96] [97] [98] <fig/prog_complex.png, id=1831, 555.57562pt x 761.09344pt>
 File: fig/prog_complex.png Graphic file (type png)
 
 <use fig/prog_complex.png>
-Package pdftex.def Info: fig/prog_complex.png used on input line 756.
+Package pdftex.def Info: fig/prog_complex.png used on input line 759.
 (pdftex.def)             Requested size: 497.92325pt x 682.12091pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (11.99232pt too wide) in paragraph at lines 769--770
+Overfull \hbox (11.99232pt too wide) in paragraph at lines 772--773
 \T2A/cmr/m/n/14.4 зуль^^?та^^?тов мо^^?жет быть осу^^?ществ^^?ле^^?на с по^^?мо
 ^^?щью кар^^?то^^?гра^^?фи^^?че^^?ско^^?го па^^?ке^^?та Golden
  []
 
-[98]) (./concl.tex [99] [100 <./fig/prog_complex.png>]) [101
+[99]) (./concl.tex [100] [101 <./fig/prog_complex.png>]) [102
+
+] [103]
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 167
+.
+
+(c:/Program Files/texlive/2014/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Overfull \hbox (3.10735pt too wide) in paragraph at lines 170--170
+\T2A/cmr/m/n/14.4 Scientific GeoConference Surveying Geology and Mining Ecology
+ Management-^^?
+ []
+
+
+Overfull \hbox (2.58429pt too wide) in paragraph at lines 170--170
+[]\T2A/cmr/m/it/14.4 Blaschke B.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Neubauer
+ A.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Scherzer O. \T2A/cmr/m/n/14.4 On conv
+ergence rates for the iteratively
+ []
+
+
+Overfull \hbox (3.28702pt too wide) in paragraph at lines 170--170
+[]\T2A/cmr/m/it/14.4 Dennis J.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Schnabel R
+. B. \T2A/cmr/m/n/14.4 Numerical Methods for Unconstrained Optimization
+ []
+
+
+Overfull \hbox (3.58829pt too wide) in paragraph at lines 170--170
+[]\T2A/cmr/m/it/14.4 Hanke M. \T2A/cmr/m/n/14.4 The regularizing Levenberg-^^?M
+arquardt scheme is of optimal order []
+ []
+
+
+Overfull \hbox (0.78503pt too wide) in paragraph at lines 170--170
+[]\T2A/cmr/m/it/14.4 Hanke M.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Neubauer A.
+\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Scherzer O. \T2A/cmr/m/n/14.4 A converge
+nce analysis of the Landweber
+ []
+
+
+Overfull \hbox (11.3262pt too wide) in paragraph at lines 170--170
+\T2A/cmr/m/n/14.4 iteration for nonlinear ill-^^?posed problems [] Numerische M
+athematik. ^^V 1995. ^^V
+ []
+
+[104
 
 ]
+Overfull \hbox (15.248pt too wide) in paragraph at lines 170--170
+[]\T2A/cmr/m/it/14.4 Kaltenbacher B.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Neub
+auer A.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Ramm A. G. \T2A/cmr/m/n/14.4 Conv
+ergence rates of the continuous
+ []
 
+
+Overfull \hbox (31.56pt too wide) in paragraph at lines 170--170
+\T2A/cmr/m/n/14.4 regularized Gauss^^VNewton method [] Journal of Inverse and I
+ll-^^?Posed Problems. ^^V
+ []
+
+
+Overfull \hbox (14.96333pt too wide) in paragraph at lines 170--170
+[]\T2A/cmr/m/it/14.4 Kelley C. \T2A/cmr/m/n/14.4 Iterative Methods for Linear a
+nd Nonlinear Equations. ^^V Philadelphia:
+ []
+
+
+Overfull \hbox (24.8549pt too wide) in paragraph at lines 170--170
+\T2A/cmr/m/n/14.4 Methods of Solution Irregular Operator Equations [] Computati
+onal Mathematics
+ []
+
+[105]
+
+! Package inputenc Error: Unicode char \u8:ВЁ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 	]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[106] [107] [108] [109] [110]
+Overfull \hbox (22.46846pt too wide) in paragraph at lines 170--170
+[]\T2A/cmr/m/it/14.4 Куфнер А.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Фу^^?чик С
+. \T2A/cmr/m/n/14.4 Нели^^?ней^^?ные диф^^?фе^^?рен^^?ци^^?аль^^?ные урав^^?не^
+^?ния. ^^V Москва :
+ []
+
+[111] [112]
+Overfull \hbox (2.40349pt too wide) in paragraph at lines 170--170
+\T2A/cmr/m/n/14.4 Жур^^?нал вы^^?чис^^?ли^^?тель^^?ной ма^^?те^^?ма^^?ти^^?ки и
+ ма^^?те^^?ма^^?ти^^?че^^?кой фи^^?зи^^?ки. ^^V 1969. ^^V
+ []
+
+[113] [114]
+Overfull \hbox (2.94594pt too wide) in paragraph at lines 170--170
+[]\T2A/cmr/m/n/14.4 Численные ме^^?то^^?ды ре^^?ше^^?ния некор^^?рект^^?ных за^
+^?дач / А. Н. Ти^^?хо^^?нов [и др.]. ^^V
+ []
+
+[115]
+! Misplaced alignment tab character &.
+<argument> ...Advanced Mathematics, Computations &
+                                                   Applications -- 2014"
+l.175 	]
+        
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (4.47438pt too wide) in paragraph at lines 175--175
+\T2A/cmr/m/n/14.4 International conference "Advanced Mathematics, Computations 
+ Applications
+ []
+
+
+Overfull \hbox (5.01338pt too wide) in paragraph at lines 175--175
+[]\T2A/cmr/m/it/14.4 Akimova E.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Skurydina
+ A. \T2A/cmr/m/n/14.4 A Componentwise Newton Type Method for Solving
+ []
+
+
+Overfull \hbox (21.06924pt too wide) in paragraph at lines 175--175
+\T2A/cmr/m/n/14.4 the Structural Inverse Gravity Problem [] XIVth EAGE Internat
+ional Conference
+ []
+
+
+Overfull \hbox (3.92068pt too wide) in paragraph at lines 175--175
+\T2A/cmr/m/n/14.4 Gravity Problem for the Case of a Multilayered Medium by the 
+Componentwise
+ []
+
+
+! Package inputenc Error: Unicode char \u8:В  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 	]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:В  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 	]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (13.3172pt too wide) in paragraph at lines 175--175
+\T2A/cmr/m/n/14.4 Conference - Geoinformatics: Theoretical and Applied Aspects.
+ ^^V Kiev, Ukraine,
+ []
+
+[116
+
+] 
 AED: lastpage setting LastPage
-[102]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
+[117]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A3500149556C8323D7DC82B4448755ED;8034.
+(rerunfilecheck)             Checksum: C949938645197D28B64252F76786651B;8396.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
  ) 
 Here is how much of TeX's memory you used:
- 20229 strings out of 493109
- 314523 string characters out of 6132291
- 878404 words of memory out of 5000000
- 22913 multiletter control sequences out of 15000+600000
- 24404 words of font info for 72 fonts, out of 8000000 for 9000
+ 20404 strings out of 493109
+ 318138 string characters out of 6132291
+ 879845 words of memory out of 5000000
+ 23056 multiletter control sequences out of 15000+600000
+ 24714 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,18n,40p,2733b,2308s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.0@BachZhid1987} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
-, replaced by a fixed one
+ 46i,18n,48p,2733b,2308s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Kok_2010} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@AkMarMis2013} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@MarPrut2003} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@AkMisDer2014} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Vasin2016} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@KufFuch1988} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Vasin2014} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@VasSkur2015} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@AkiMinMis2014} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@AkMisSkTr2015} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@MisMinDer2013} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@AkiMisMin2014} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@AkSkur2014} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@AkSkur2016} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@AkSkur2015} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@VasSkur2017} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@VasAkiMin2013} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Skur2017_2} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Akidiss2009} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@AkiMisKos2015} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@AkiBel2011} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Aki1994} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@FadFad1977} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Ort1991} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@VoeVoe2002} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Mis2015} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Mis2014} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Prutdiss1998} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Pru1983} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@MarTsi2008} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@MarPru1982} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Str1976} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Str1967} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@GlaOstFil1970} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@TsiKor1990} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@FedTsi1976} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Pri1965} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Nov1938} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Num1930} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Mal1931} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@SchEngKun1993} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@JinZon1999} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@JinZon1997} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Tau2004} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Tau2002} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Vasin_2012} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@VasPer_2011} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Ere1968} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Ere1965} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@VasAge1993} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@VasEre2009} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Vas1988} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Vas1982} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Han2010} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Han1997} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Kok2010_1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Kok2010_2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Neu2000} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@HanNeuSch1995} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Lan1951} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@NeuSch1995_2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@KraVayZab1969} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@NocWri2006} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@GilNoc1991} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@SchnFra1983} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Kel1995} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@DenSchn1996} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Pow1970} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Sch1995} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@NeuSch1995_1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@OrtRhe1970} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Pol1969} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Kan1947} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@TikhGonSteYag1990} has been referenced but d
-oes not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Ag1980} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@GonSte1979} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Dor1979} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@DmiPol1972} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Tan2003_2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Tan2003_1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Tan1981} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Tan1997} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Tan1977} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@KalNeuRam2002} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@BlaNeuSch1997} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Bak1992} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@BakGon1989} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@GonLeoYag1973} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@BakPol1974} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@PetPlich1980} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Menih1978} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Iv1967} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Iv1966} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Iv1963} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Iv1962_2} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@LavrRomShi1980} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Lavr1963} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Lavr1959} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Lavr1956} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Lavr1962} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@TikhGlas1965} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Tikh1963_2} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Tikh1943} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@Hadamar1902} has been referenced but does no
-t exist, replaced by a fixed one
 
 {c:/Program Files/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a
 .enc}<c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
@@ -2189,11 +2049,12 @@ r/sfrm1200.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/cm-
 super/sfrm1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public
 /cm-super/sfrm1728.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm2074.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type
-1/public/cm-super/sfti1440.pfb>
-Output written on thesis.pdf (102 pages, 4329829 bytes).
+1/public/cm-super/sfti1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/
+type1/public/cm-super/sftt1440.pfb>
+Output written on thesis.pdf (117 pages, 4400599 bytes).
 PDF statistics:
- 1999 PDF objects out of 2073 (max. 8388607)
- 1268 compressed objects within 13 object streams
- 391 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2093 PDF objects out of 2487 (max. 8388607)
+ 1345 compressed objects within 14 object streams
+ 417 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

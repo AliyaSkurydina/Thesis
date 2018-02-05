@@ -32,14 +32,12 @@ colorlinks,  % цветные гиперссылки
   language=auto,
   hyperref=auto,
   autolang=other,
-  sorting=nyt
+  sorting=nyt,
+  defernumbers=true
 ]{biblatex}
-%\usepackage{multibib}
 
-%\addbibresource{thesis.bib}
-%\bibliography{thesis.bib,mybib.bib}
 \addbibresource{thesis.bib}
-\bibliography{thesis}
+%\bibliography{thesis}
 
 
 % Номера страниц снизу и по центру
@@ -132,6 +130,8 @@ colorlinks,  % цветные гиперссылки
 \input{defs}
 
 % Содержание
+%\addcontentsline{toc}{section}{{\bf Список литературы}}
+%\addcontentsline{toc}{section}{{\bf Публикации автора}}
 \tableofcontents
 
 % Введение
@@ -160,11 +160,19 @@ colorlinks,  % цветные гиперссылки
 % Выделять курсивом
 \let\BibEmph=\emph
 %\bibliographystyle{gost705s}
+%\bibliographystyle{utf8gost705u}
 %\bibliography{thesis}
+%\printbibliography
 
-%\bibliographystylemybib{gost705}
-
-%\bibliographymybib{mybib}
+\printbibliography[
+	notkeyword=own,
+	heading=bibintoc
+	]
+\printbibliography[
+	keyword=own,
+	heading=bibintoc,
+	title={Публикации автора}
+	]
 
 % Список иллюстративного материала
 %\listoffigures
