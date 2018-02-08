@@ -464,6 +464,30 @@
       \field{year}{1951}
       \field{pages}{615\bibrangedash 624}
     \endentry
+    \entry{LukYag2016}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=c13f6538eb2292aa382e465d9999f681}{Lukyanenko}{L\bibinitperiod}{D\bibnamedelima V}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=ad561e9664b6964cdb2c7c7c897d7670}{Yagola}{Y\bibinitperiod}{A\bibnamedelima G}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=c13f6538eb2292aa382e465d9999f681}{Lukyanenko}{L\bibinitperiod}{D\bibnamedelima V}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=ad561e9664b6964cdb2c7c7c897d7670}{Yagola}{Y\bibinitperiod}{A\bibnamedelima G}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{babac11cefa8cb3b123004df506a3f6b}
+      \strng{fullhash}{babac11cefa8cb3b123004df506a3f6b}
+      \field{sortinit}{L}
+      \field{sortinithash}{c41a2b5886eeae464e75d1a9df4cd13e}
+      \field{labeltitle}{Some methods for solving of 3D inverse problem of magnetometry}
+      \field{journaltitle}{Eurasian Journal of Mathematical and Computer Applications}
+      \field{number}{3}
+      \field{title}{Some methods for solving of 3D inverse problem of magnetometry}
+      \field{volume}{4}
+      \field{year}{2016}
+      \field{pages}{4\bibrangedash 14}
+    \endentry
     \entry{Neu2000}{article}{}
       \name{labelname}{1}{}{%
         {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
@@ -555,6 +579,29 @@
       \field{labeltitle}{Numerical Optimization}
       \field{title}{Numerical Optimization}
       \field{year}{2006}
+    \endentry
+    \entry{KliKosLiYag2016}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=fe2863d238b6a1950405d49c2f4d7c71}{Klibanov}{K\bibinitperiod}{M\bibnamedelima V}{M\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=50e574a881e97bf422759ecf1d21f415}{Koshev}{K\bibinitperiod}{N\bibnamedelima A}{N\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=ef065b28c31984323fd6d3483d29aafd}{Li}{L\bibinitperiod}{J}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=ad561e9664b6964cdb2c7c7c897d7670}{Yagola}{Y\bibinitperiod}{A\bibnamedelima G}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
+      \field{labeltitle}{Numerical solution of an ill-posed Cauchy problem for a quasilinear parabolic equation using a Carleman weight function}
+      \field{journaltitle}{Journal of Inverse and Ill-Posed Problems}
+      \field{number}{6}
+      \field{title}{Numerical solution of an ill-posed Cauchy problem for a quasilinear parabolic equation using a Carleman weight function}
+      \field{volume}{24}
+      \field{year}{2016}
+      \field{pages}{761\bibrangedash 776}
+      \verb{url}
+      \verb https://doi.org/10.1515/jiip-2016-0039
+      \endverb
     \endentry
     \entry{OrtRhe1970}{book}{}
       \name{labelname}{2}{}{%
@@ -685,12 +732,15 @@
       \field{sortinit}{S}
       \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
       \field{labeltitle}{Regularized Levenberg –- Marquardt Type Method Applied to the Structural Inverse Gravity Problem in a Multilayer Medium and its Parallel Realization}
-      \field{journaltitle}{Вестник Южно-Уральского государственного университета}
+      \field{journaltitle}{Bulletin of South Ural State University. Series: Computational Mathematics and Software Engineering}
       \field{number}{3}
       \field{title}{Regularized Levenberg –- Marquardt Type Method Applied to the Structural Inverse Gravity Problem in a Multilayer Medium and its Parallel Realization}
       \field{volume}{6}
       \field{year}{2017}
       \field{pages}{5\bibrangedash 15}
+      \verb{url}
+      \verb http://dx.doi.org/10.14529/cmse170301
+      \endverb
       \keyw{own,hac}
     \endentry
     \entry{Tau2002}{article}{}
@@ -985,6 +1035,33 @@
       \field{year}{2014}
       \keyw{own,nohac}
     \endentry
+    \entry{AkiMisSkur2014}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{dada7a2d3b6661510c8e2e744c8ee912}
+      \strng{fullhash}{dada7a2d3b6661510c8e2e744c8ee912}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Параллельные алгоритмы решения структурной обратной задачи магнитометрии на многопроцессорных вычислительных системах}
+      \field{journaltitle}{Вестник УГАТУ}
+      \field{number}{4}
+      \field{title}{Параллельные алгоритмы решения структурной обратной задачи магнитометрии на многопроцессорных вычислительных системах}
+      \field{volume}{18}
+      \field{year}{2014}
+      \field{pages}{19\bibrangedash 29}
+      \keyw{own,hac}
+    \endentry
     \entry{AkSkur2014}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
@@ -1033,6 +1110,26 @@
       \field{title}{Параллельные алгоритмы решения задач грави-магнитометрии и упругости на многопроцессорных системах с распределенной памятью}
       \field{type}{Дисс. д-ра физ.-мат. наук}
       \field{year}{2009}
+    \endentry
+    \entry{IsaLukTihYag2017}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=2b603f96131cb377f9c71c5b6ae859ff}{Исаев}{И\bibinitperiod}{Т\bibnamedelima Ф}{Т\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=706882757b403f4b40c94682814bbcc4}{Лукьяненко}{Л\bibinitperiod}{Д\bibnamedelima В}{Д\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=433957c47360f8e63c64bd5ddb9b4a06}{Тихонравов}{Т\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=fac1ede92174e042d453a076ab080c81}{Ягола}{Я\bibinitperiod}{А.Г.}{А\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Алгоритмы решения обратных задач оптики слоистых сред на основе сравнения экстремумов спектральных характеристик}
+      \field{journaltitle}{Журнал вычислительной математики и математической физики}
+      \field{number}{5}
+      \field{title}{Алгоритмы решения обратных задач оптики слоистых сред на основе сравнения экстремумов спектральных характеристик}
+      \field{volume}{57}
+      \field{year}{2017}
+      \field{pages}{867\bibrangedash 875}
     \endentry
     \entry{Bak1992}{article}{}
       \name{labelname}{1}{}{%
@@ -1437,6 +1534,27 @@
       \field{title}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере “Уран”}
       \field{year}{2015}
       \keyw{own,nohac}
+    \endentry
+    \entry{AkiMisSkurTre2015}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=abcdedee47bbd96e4040ff0fb0a23983}{Третьяков}{Т\bibinitperiod}{А\bibnamedelima И}{А\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \field{sortinit}{Г}
+      \field{sortinithash}{6a6be5d07cf3b5b7cff33b504a4e3f68}
+      \field{labeltitle}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере <<Уран>>}
+      \field{journaltitle}{Вычислительные методы и программирование}
+      \field{number}{1}
+      \field{title}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере <<Уран>>}
+      \field{volume}{16}
+      \field{year}{2015}
+      \field{pages}{155\bibrangedash 164}
+      \keyw{own,hac}
     \endentry
     \entry{DmiPol1972}{article}{}
       \name{labelname}{2}{}{%
@@ -2060,6 +2178,28 @@
       \field{year}{1930}
       \field{pages}{569\bibrangedash 574}
     \endentry
+    \entry{KocKurPenYag2017}{book}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=a6153a2e9882e0d9e3b8230041b68dab}{Кочиков}{К\bibinitperiod}{И\bibnamedelima В}{И\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=051dd1da4f7673e0690013cd99316c16}{Курамшина}{К\bibinitperiod}{Г\bibnamedelima М}{Г\bibinitperiod\bibinitdelim М\bibinitperiod}{}{}{}{}}%
+        {{hash=50bd840340fd848e171581f2acbb2b00}{Пентин}{П\bibinitperiod}{Ю\bibnamedelima А}{Ю\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+        {{hash=cac2281d94a2654059ec3c037264b94f}{Ягола}{Я\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Курс}%
+      }
+      \field{sortinit}{О}
+      \field{sortinithash}{c51357d0a284308c76469eb1da1de8b4}
+      \field{labeltitle}{Обратные задачи колебательной спектроскопии}
+      \field{title}{Обратные задачи колебательной спектроскопии}
+      \field{year}{2017}
+    \endentry
     \entry{Ort1991}{book}{}
       \name{labelname}{1}{}{%
         {{hash=53b2edf3cd2cd0ec95616ee882053489}{Ортега}{О\bibinitperiod}{Д}{Д\bibinitperiod}{}{}{}{}}%
@@ -2548,6 +2688,34 @@
       \field{volume}{5}
       \field{year}{1965}
       \field{pages}{463\bibrangedash 473}
+    \endentry
+    \entry{TihLeoYag2017}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=701fe796e4c714652e0afbac34e38e03}{Леонов}{Л\bibinitperiod}{А\bibnamedelima С}{А\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=cac2281d94a2654059ec3c037264b94f}{Ягола}{Я\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=701fe796e4c714652e0afbac34e38e03}{Леонов}{Л\bibinitperiod}{А\bibnamedelima С}{А\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=cac2281d94a2654059ec3c037264b94f}{Ягола}{Я\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Курс}%
+      }
+      \strng{namehash}{02875c5c9ef302139a78e716d5b0eb4f}
+      \strng{fullhash}{02875c5c9ef302139a78e716d5b0eb4f}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{Нелинейные некорректные задачи}
+      \field{title}{Нелинейные некорректные задачи}
+      \field{year}{2017}
     \endentry
     \entry{FadFad1977}{article}{}
       \name{labelname}{2}{}{%
