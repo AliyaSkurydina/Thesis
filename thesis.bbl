@@ -1517,7 +1517,7 @@
       \field{year}{1979}
       \field{pages}{20\bibrangedash 22}
     \endentry
-    \entry{AkMisSkTr2015}{inproceedings}{useauthor=false}
+    \entry{AkMisSkurTre2015_1}{inproceedings}{useauthor=false}
       \name{author}{4}{}{%
         {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
         {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
@@ -1529,13 +1529,13 @@
       }
       \field{sortinit}{Г}
       \field{sortinithash}{6a6be5d07cf3b5b7cff33b504a4e3f68}
-      \field{labeltitle}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере “Уран”}
+      \field{labeltitle}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере <<Уран>>}
       \field{booktitle}{Труды международной конференции <<Параллельные вычислительные технологии (ПАВТ'2015)>>}
-      \field{title}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере “Уран”}
+      \field{title}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере <<Уран>>}
       \field{year}{2015}
       \keyw{own,nohac}
     \endentry
-    \entry{AkiMisSkurTre2015}{article}{useauthor=false}
+    \entry{AkMisSkurTre2015_2}{article}{useauthor=false}
       \name{author}{4}{}{%
         {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
         {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
