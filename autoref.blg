@@ -1,14 +1,8 @@
-[0] Config.pm:320> INFO - This is Biber 1.9
-[0] Config.pm:323> INFO - Logfile is 'autoref.blg'
-[46] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
-[47] Biber.pm:333> INFO - Reading 'autoref.bcf'
-[186] Biber.pm:635> INFO - Found 13 citekeys in bib section 0
-[227] Biber.pm:3051> INFO - Processing section 0
-[265] Biber.pm:3189> INFO - Looking for bibtex format file 'thesis.bib' for section 0
-[281] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
-[294] bibtex.pm:864> INFO - Found BibTeX data source 'thesis.bib'
-[533] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[533] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[534] Biber.pm:2928> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'ru-RU'
-[574] bbl.pm:517> INFO - Writing 'autoref.bbl' with encoding 'UTF-8'
-[578] bbl.pm:606> INFO - Output to autoref.bbl
+[3] Config.pm:354> INFO - This is Biber 2.7
+[4] Config.pm:357> INFO - Logfile is 'autoref.blg'
+[313] biber-MSWIN64:303> INFO - === 
+[531] Biber.pm:359> INFO - Reading 'autoref.bcf'
+[2139] Utils.pm:180> ERROR - Error: Found biblatex control file version 3.4, expected version 3.3.
+This means that your biber (2.7) and biblatex (3.10) versions are incompatible.
+See compat matrix in biblatex or biber PDF documentation.
+[2140] Biber.pm:113> INFO - ERRORS: 1
