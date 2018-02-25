@@ -43,6 +43,12 @@ colorlinks,  % цветные гиперссылки
 % Путь к файлам с иллюстрациями
 \graphicspath{{fig/}}
 
+\newtheorem{theorem}{Теорема}[chapter] 
+\newtheorem{cor}{Следствие} 
+\newtheorem{lemma}{Лемма}[chapter]
+\newtheorem{fact}{Утверждение}[chapter]
+\newtheorem{remark}{Замечание}[chapter]
+
 \begin{document}
 % Включение файла с общим текстом диссертации и автореферата
 % (текст титульного листа и характеристика работы).
@@ -188,6 +194,61 @@ u^{k+1}=u^k-\gamma\frac{\langle (A'(u^k)+\bar\alpha I)^{\varkappa}S_\alpha(u^k),
 Так как оператор $A$ --- монотонный, то его производная $A'(u^k)$ --- неотрицательно определенный оператор. Следовательно, операторы $(A'(u^k)+\bar\alpha I)^{-1}$ существуют и ограничены, следовательно, процессы $\eqref{equ_rmn}$, $\eqref{equ_alphaproc}$ определены корректно.
 \scriptsize
 \let\thefootnote\relax\let\thefootnote\relax\footnotetext{\footnotesize 1. А. Б. Бакушинский. Регуляризующий алгоритм на основе метода Ньютона -- Канторовича для решения вариационных неравенств // ЖВМиМФ, 16:6 (1976). С. 1397--1604.}
+
+Пусть имеются следующие условия
+\begin{equation}\label{cond1.1}
+\|A(u)-A(v)\|\le N_1\|u-v\|, \quad \forall u, v \in U,
+\end{equation}
+\begin{equation}\label{cond1.2}
+\|A'(u)-A'(v)\|\le N_2\|u-v\|, \quad \forall u, v \in U.
+\end{equation}
+и известна оценка для нормы производной в точке $u^0$ (начальном приближении), т.е.
+\begin{equation}\label{cond1.3}
+\|A'(u^0)\| \le N_0\le N_1, \quad \|u^0-u_\alpha\| \le r.
+\end{equation}
+
+\begin{theorem}\label{teo2.1} Пусть $A$ --- монотонный оператор, для которого выполнены условия $\eqref{cond1.1}$, $\eqref{cond1.2}$ для $u, v \in S_r(u_\alpha)$, $r\le \alpha/N_2$, $0<\alpha \le \bar\alpha$, $u^0 \in S_r(u_\alpha)$. 
+	
+	Тогда для процесса $\eqref{equ_rmn}$ c $\gamma=1$ имеет место линейная скорость сходимости метода при аппроксимации единственного решения $u_\alpha$ регуляризованного уравнения $\eqref{equ2}$
+	\begin{equation}\label{nwt_conv}
+	\| u^k-u_\alpha \| \le q^kr, \quad q=(1-\frac{\alpha}{2\bar\alpha}).
+	\end{equation}
+\end{theorem}
+
+Усиленное свойство Фейера [?] для оператора $T$ означает, что для некоторого $\nu>0$ выполнено соотношение
+\begin{equation}\label{fejer_prop_uni}
+{\|T(u)-z\|}^2\le{\|u-z\|}^2-\nu{\|u-T(u)\|}^2,
+\end{equation}
+где $z\in Fix(T)$ --- множество неподвижных точек оператора $T$. Это влечет для итерационных точек $u^k$, порождаемых процессом $u^{k+1}=T(u^k)$, выполнение неравенства
+\begin{equation}\label{fejer_prop_it}
+{\|u^{k+1}-z\|}^2\le{\|u^k-z\|}^2-\nu{\|u^k-u^{k+1}\|}^2.
+\end{equation}
+\scriptsize
+\let\thefootnote\relax\let\thefootnote\relax\footnotetext{\footnotesize * В. В. Васин, И. И. Еремин. Операторы и итерационные процессы фейеровского типа. Теория и приложения. Екатеринбург: УрО РАН, 2005.}
+Важным свойством фейеровских операторов является замкнутость относительно операций произведения и взятия выпуклой суммы. Располагая итерационными процессами с фейеровским оператором шага и общим множеством неподвижных точек, можно конструировать разнообразные гибридные методы, а также учитывать в итерационном алгоритме априорные ограничения на решение в виде системы линейных или выпуклых неравенств.
+
+\begin{theorem} \label{teo2.3}
+	Пусть выполнены условия $\eqref{cond1.1}$--$\eqref{cond1.3}$, $A'(u^0)$ --- самосопряженный оператор, $\|u_\alpha-u^0\|\leqslant r$ 
+$0\leqslant\alpha\leqslant\bar\alpha$, $\bar\alpha\geqslant 4N_1$, $r\leqslant\alpha/8N_2$. Тогда при
+	$\gamma<\frac{\alpha\bar\alpha}{2(N_1+\alpha)^2}$
+	оператор шага $T$ процесса $\eqref{equ_rmn}$ при
+	$$\nu=\frac{\alpha\bar\alpha}{2\gamma(N_1+\alpha)^2}-1$$
+	удовлетворяет неравенству $\eqref{fejer_prop_uni}$, для итераций $u^k$ справедливо соотношение $\eqref{fejer_prop_it}$ и имеет место сходимость
+	$$\lim_{k\to\infty}\|u^k-u_\alpha\|=0.$$
+	Если параметр $\gamma$ принимает значение ${\gamma}_{opt}=\frac{\alpha\bar\alpha}{4(N_1+\alpha)^2},$ то справедлива оценка $$\|u^k-u_\alpha\|\leqslant q^k r, \quad q=\sqrt{1-\frac{{\alpha}^2}  {16(N_1+\alpha)^2}}.$$
+\end{theorem}
+
+Далее приводится оценка скорости сходимости нелинейных $\alpha$-процессов.
+\begin{theorem}\label{teo3.2}
+	Пусть выполнены условия $\eqref{cond1.1}$--$\eqref{cond1.3}$, $A'(u^0)$ --- самосопряженный оператор, для ММО $\alpha \leqslant \bar\alpha$,  $r\leqslant \alpha/8N_2$, $\bar\alpha \geqslant N_0$.  Тогда при
+	$$\gamma _\varkappa <\frac{2}{\mu _\varkappa}\quad (\varkappa=-1,0,1)$$
+	для последовательности $\{u^k\}$, порождаемой $\alpha$-процессом при соответствующем $\varkappa$, имеет место сходимость $\lim_{k\to\infty}\|u^k-u_\alpha\|=0, $ а при 
+	$\gamma{_\varkappa^{opt}}=\frac{1}{\mu_\varkappa}$
+	справедлива оценка $\|u^k-u_\alpha\|\leqslant q{_\varkappa^k}r,$ где
+	$$
+	q_{-1}=\sqrt{1-\frac{\alpha^2}{16(N_1+\alpha)^2}}, \quad q_0=\sqrt{1-\frac{\alpha^2\bar\alpha^2}{(N_1+\alpha)^2(N_1+\bar\alpha)^2}}, \quad $$$$q_1=\sqrt{1-\frac{\alpha^2\bar\alpha^4}{(N_1+\bar\alpha)^4}}.
+	$$
+\end{theorem}
 
 Результаты первой главы опубликованы в работе~\cite{VasSkur2017,}.
 
