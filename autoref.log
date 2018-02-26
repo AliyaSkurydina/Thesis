@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  26 FEB 2018 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  26 FEB 2018 19:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1294,21 +1294,46 @@ ine 120.
 (pdftex.def)             Requested size: 85.35826pt x 18.03339pt.
  [2
 
- <./fig/sec-facsimile-eps-converted-to.pdf>] [3
+ <./fig/sec-facsimile-eps-converted-to.pdf>]
+
+Package hyperref Warning: Ignoring empty anchor on input line 144.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 145.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 146.
+
+
+Overfull \hbox (12.79068pt too wide) in paragraph at lines 140--148
+\T2A/cmr/m/n/14.4 Марк^^?вард^^?та раз^^?ра^^?ба^^?ты^^?ва^^?лись в ИММ УрО РАН
+ В. В. Васиным$[]$, Е. Н. Акимовой$[]$,
+ []
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 152.
+
+
+Overfull \hbox (0.42177pt too wide) in paragraph at lines 149--154
+\T2A/cmr/m/n/14.4 пра^^?вок раз^^?ра^^?ба^^?ты^^?ва^^?лись в ИГФ УрО РАН И. Л. 
+Пруткиным$[]$, П. С. Мартышко$[]$,
+ []
+
+[3
 
 ] [4] [5] [6]
 
-Package hyperref Warning: Ignoring empty anchor on input line 209.
+Package hyperref Warning: Ignoring empty anchor on input line 217.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 210.
+Package hyperref Warning: Ignoring empty anchor on input line 218.
 
 [7]
 
-Package hyperref Warning: Ignoring empty anchor on input line 241.
+Package hyperref Warning: Ignoring empty anchor on input line 249.
 
 [8]
-Overfull \hbox (1.92798pt too wide) in paragraph at lines 274--276
+Overfull \hbox (1.92798pt too wide) in paragraph at lines 282--284
 \T2A/cmr/m/n/14.4 где столб^^?цы мат^^?ри^^?цы $\OML/cmm/m/it/14.4 S\OT1/cmr/m/
 n/14.4 (\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 со^^?став^^?
 ле^^?ны из соб^^?ствен^^?ных век^^?то^^?ров мат^^?ри^^?цы $\OML/cmm/m/it/14.4 A
@@ -1316,7 +1341,7 @@ n/14.4 (\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 со^^?став^^?
  []
 
 [9]
-Overfull \hbox (48.07883pt too wide) in paragraph at lines 299--306
+Overfull \hbox (48.07883pt too wide) in paragraph at lines 307--314
 \OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4
  0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1)$ \T2A/cmr/m/it/14.4 для по^^?сле^^?
 до^^?ва^^?тель^^?но^^?сти $\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 u[]\OMS/cmsy/
@@ -1326,33 +1351,63 @@ m/n/14.4 g$\T2A/cmr/m/it/14.4 , по^^?рож^^?да^^?е^^?мой мо^^?ди^^?фи^^?ци^^?ро^
 
 [10]
 
-Package hyperref Warning: Ignoring empty anchor on input line 316.
+Package hyperref Warning: Ignoring empty anchor on input line 324.
 
 
-Overfull \hbox (15.18079pt too wide) detected at line 322
+Overfull \hbox (15.18079pt too wide) detected at line 330
 [] []
  []
 
 [11] [12]
 
-Package hyperref Warning: Ignoring empty anchor on input line 365.
+Package hyperref Warning: Ignoring empty anchor on input line 373.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 370.
+
+Package hyperref Warning: Ignoring empty anchor on input line 374.
+
+
+! Package inputenc Error: Unicode char \u8:В  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.374 ...јРµС‚СЂРёРё // EAGE Geoinformatics 2014.}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:В  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.374 ...јРµС‚СЂРёРё // EAGE Geoinformatics 2014.}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 380.
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 370.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 380.
  [13]
 
-Package hyperref Warning: Ignoring empty anchor on input line 403.
+Package hyperref Warning: Ignoring empty anchor on input line 413.
 
+[14]
 
-Package hyperref Warning: Ignoring empty anchor on input line 418.
+Package hyperref Warning: Ignoring empty anchor on input line 428.
 
-[14] [15] [16]
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 444
+[15] [16]
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 454
 .
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
@@ -1365,7 +1420,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.448 ]
+l.458 ]
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1378,14 +1433,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.448 ]
+l.458 ]
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (6.46368pt too wide) in paragraph at lines 448--448
+Overfull \hbox (6.46368pt too wide) in paragraph at lines 458--458
 \T2A/cmr/m/n/14.4 Conference - Geoinformatics: Theoretical and Applied Aspects.
  ^^V Kiev, Ukraine,
  []
@@ -1393,25 +1448,25 @@ Overfull \hbox (6.46368pt too wide) in paragraph at lines 448--448
 [17
 
 ]
-Overfull \hbox (14.21573pt too wide) in paragraph at lines 448--448
+Overfull \hbox (14.21573pt too wide) in paragraph at lines 458--458
 \T2A/cmr/m/n/14.4 the Structural Inverse Gravity Problem [] XIVth EAGE Internat
 ional Conference
  []
 
 
-Overfull \hbox (8.32687pt too wide) in paragraph at lines 448--448
+Overfull \hbox (8.32687pt too wide) in paragraph at lines 458--458
 []\T2A/cmr/m/it/14.4 Akimova E.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Skurydina
  A. \T2A/cmr/m/n/14.4 On Solving the Three-^^?Dimensional Structural Gravity
  []
 
 
-Overfull \hbox (83.97475pt too wide) in paragraph at lines 448--448
+Overfull \hbox (83.97475pt too wide) in paragraph at lines 458--458
 \T2A/cmr/m/n/14.4 Problem for the Case of a Multilayered Medium by the Componen
 twise Levenberg--Marquardt
  []
 
 
-Overfull \hbox (1.099pt too wide) in paragraph at lines 448--448
+Overfull \hbox (1.099pt too wide) in paragraph at lines 458--458
 \T2A/cmr/m/n/14.4 Method [] XVth EAGE International Conference - Geoinformatics
 : Theoretical
  []
@@ -1419,7 +1474,7 @@ Overfull \hbox (1.099pt too wide) in paragraph at lines 448--448
 ! Misplaced alignment tab character &.
 <argument> ...Advanced Mathematics, Computations &
                                                    Applications -- 2014"
-l.454 ]
+l.464 ]
        
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1429,7 +1484,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (42.23814pt too wide) in paragraph at lines 454--454
+Overfull \hbox (42.23814pt too wide) in paragraph at lines 464--464
 \T2A/cmr/m/n/14.4 algorithms for solving gravimetry and magnetometry inverse pr
 oblems [] International
  []
@@ -1439,11 +1494,11 @@ AED: lastpage setting LastPage
 [20
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 483.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 483.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 493.
  (./autoref.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 483.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 483.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 493.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 493.
 Package rerunfilecheck Info: File `autoref.out' has not changed.
 (rerunfilecheck)             Checksum: AB4F8A73B02EEBBA43368E8599F25073;729.
 
@@ -1453,16 +1508,16 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package logreq Info: Writing requests to 'autoref.run.xml'.
 \openout1 = `autoref.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 483.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
  ) 
 Here is how much of TeX's memory you used:
  18376 strings out of 493109
  282623 string characters out of 6132291
- 837395 words of memory out of 5000000
+ 838398 words of memory out of 5000000
  21447 multiletter control sequences out of 15000+600000
  26386 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,11n,48p,2783b,2110s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,48p,2737b,2110s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Program Files/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
 2a.enc}<c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmex10.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/amsfon
@@ -1487,7 +1542,7 @@ c/cm-super/sfrm1728.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/p
 ublic/cm-super/sfti1200.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/typ
 e1/public/cm-super/sfti1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts
 /type1/public/cm-super/sftt1440.pfb>
-Output written on autoref.pdf (20 pages, 394205 bytes).
+Output written on autoref.pdf (20 pages, 396071 bytes).
 PDF statistics:
  360 PDF objects out of 1000 (max. 8388607)
  244 compressed objects within 3 object streams
