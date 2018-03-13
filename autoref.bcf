@@ -604,24 +604,6 @@
   <bcf:sourcemap>
     <bcf:maps datatype="bibtex" level="style">
       <bcf:map map_overwrite="1">
-        <bcf:map_step map_field_source="author" map_match="(.+\s+and\s+){3,}|and\s+others\s*$" map_final="1"/>
-        <bcf:map_step map_field_source="options" map_match="(.+)" map_replace="useauthor=false,$1"/>
-        <bcf:map_step map_field_source="options" map_match="^$" map_replace="useauthor=false"/>
-      </bcf:map>
-      <bcf:map>
-        <bcf:map_step map_field_source="author" map_match="(.+\s+and\s+){3,}|and\s+others\s*$" map_final="1"/>
-        <bcf:map_step map_field_set="options" map_field_value="useauthor=false"/>
-      </bcf:map>
-      <bcf:map map_overwrite="1">
-        <bcf:map_step map_field_source="editor" map_match="(.+\s+and\s+){3,}|and\s+others\s*$" map_final="1"/>
-        <bcf:map_step map_field_source="options" map_match="(.+)" map_replace="useeditor=false,$1"/>
-        <bcf:map_step map_field_source="options" map_match="^$" map_replace="useeditor=false"/>
-      </bcf:map>
-      <bcf:map>
-        <bcf:map_step map_field_source="editor" map_match="(.+\s+and\s+){3,}|and\s+others\s*$" map_final="1"/>
-        <bcf:map_step map_field_set="options" map_field_value="useeditor=false"/>
-      </bcf:map>
-      <bcf:map map_overwrite="1">
         <bcf:per_type>patent</bcf:per_type>
         <bcf:map_step map_field_source="options" map_final="1"/>
         <bcf:map_step map_field_set="options" map_field_value="useauthor=false,"/>
@@ -2677,18 +2659,23 @@
     <bcf:citekey order="2">AkSkur2014</bcf:citekey>
     <bcf:citekey order="2">AkSkur2015</bcf:citekey>
     <bcf:citekey order="2">AkSkur2016</bcf:citekey>
-    <bcf:citekey order="3">VasSkur2017</bcf:citekey>
-    <bcf:citekey order="4">VasAkiMin2013</bcf:citekey>
-    <bcf:citekey order="4">MisMinDer2013</bcf:citekey>
-    <bcf:citekey order="4">AkiMisMin2014</bcf:citekey>
-    <bcf:citekey order="4">AkiMisSkur2014</bcf:citekey>
-    <bcf:citekey order="5">AkMisSkurTre2015_1</bcf:citekey>
-    <bcf:citekey order="6">AkMisSkurTre2015_2</bcf:citekey>
-    <bcf:citekey order="7">AkSkur2014</bcf:citekey>
-    <bcf:citekey order="8">AkiMinMis2014</bcf:citekey>
-    <bcf:citekey order="8">AkSkur2015</bcf:citekey>
-    <bcf:citekey order="8">AkSkur2016</bcf:citekey>
-    <bcf:citekey order="9">VasSkur2015</bcf:citekey>
+    <bcf:citekey order="3">MisMinDer2013</bcf:citekey>
+    <bcf:citekey order="3">AkiMisMin2014</bcf:citekey>
+    <bcf:citekey order="3">AkMisSkurTre2015_1</bcf:citekey>
+    <bcf:citekey order="3">AkiMinMis2014</bcf:citekey>
+    <bcf:citekey order="3">VasSkur2015</bcf:citekey>
+    <bcf:citekey order="4">VasSkur2017</bcf:citekey>
+    <bcf:citekey order="5">VasAkiMin2013</bcf:citekey>
+    <bcf:citekey order="5">MisMinDer2013</bcf:citekey>
+    <bcf:citekey order="5">AkiMisMin2014</bcf:citekey>
+    <bcf:citekey order="5">AkiMisSkur2014</bcf:citekey>
+    <bcf:citekey order="6">AkMisSkurTre2015_1</bcf:citekey>
+    <bcf:citekey order="7">AkMisSkurTre2015_2</bcf:citekey>
+    <bcf:citekey order="8">AkSkur2014</bcf:citekey>
+    <bcf:citekey order="9">AkiMinMis2014</bcf:citekey>
+    <bcf:citekey order="9">AkSkur2015</bcf:citekey>
+    <bcf:citekey order="9">AkSkur2016</bcf:citekey>
+    <bcf:citekey order="10">VasSkur2015</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none" type="entry" sortscheme="none">
   <bcf:sorting>

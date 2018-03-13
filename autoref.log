@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  26 FEB 2018 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  28 FEB 2018 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -318,9 +318,25 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen126
 \Gm@dimlist=\toks20
 )
+(c:/Program Files/texlive/2014/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip51
+\thm@postskip=\skip52
+\thm@headsep=\skip53
+\dth@everypar=\toks26
+)
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
+(c:/Program Files/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/cyrillic/t2aenc.def
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 )
@@ -332,8 +348,8 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>>) (c:/Program Files/texlive/2014/texmf-dist/tex/latex/base/inputen
 c.sty
 Package: inputenc 2014/04/30 v1.2b Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
@@ -761,19 +777,7 @@ File: babel.def 2014/09/25 3.9l Babel common definitions
 f
 Language: russianb 2014/10/21 1.3f Russian support for the Babel system
 Package babel Info: Making " an active character on input line 111.
-)) (c:/Program Files/texlive/2014/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2009/07/02 v2.20.1
-\thm@style=\toks23
-\thm@bodyfont=\toks24
-\thm@headfont=\toks25
-\thm@notefont=\toks26
-\thm@headpunct=\toks27
-\thm@preskip=\skip51
-\thm@postskip=\skip52
-\thm@headsep=\skip53
-\dth@everypar=\toks28
-)
-(c:/Program Files/texlive/2014/texmf-dist/tex/latex/tools/tabularx.sty
+)) (c:/Program Files/texlive/2014/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/tools/array.sty
@@ -1089,13 +1093,7 @@ Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
  (c:/Program Files/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-))
-
-Package biblatex-gost Warning: You set maxbibnames or maxcitenames
-(biblatex-gost)                different from their default value 3.
-(biblatex-gost)                Make sure that sorting works as expected.
-
-)
+)))
 \c@theorem=\count307
 \c@cor=\count308
 \c@lemma=\count309
@@ -1120,26 +1118,26 @@ File: russian.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
 (./autoref.aux)
 \openout1 = `autoref.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring ON on input line 52.
+Package hyperref Info: Link coloring ON on input line 53.
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1150,9 +1148,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count312
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
  (./autoref.out) (./autoref.out)
 \@outlinefile=\write4
 \openout4 = `autoref.out'.
@@ -1212,7 +1210,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 52.
+(lastpage)             ! on input line 53.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1221,8 +1219,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'autoref.bbl' found.
 (./autoref.bbl)
-Package biblatex Info: Reference section=0 on input line 52.
-Package biblatex Info: Reference segment=0 on input line 52.
+Package biblatex Info: Reference section=0 on input line 53.
+Package biblatex Info: Reference segment=0 on input line 53.
  (./common.tex)
 \firstskip=\skip70
 \secondskip=\skip71
@@ -1237,7 +1235,7 @@ Package epstopdf Info: Source file: <fig/facsimile.eps>
 (epstopdf)                    size: 6030 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/facsimile-eps-converte
 d-to.pdf fig/facsimile.eps>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig/facsimile-eps-converted-to.pdf, id=17, 71.26625pt x 15.05624pt>
@@ -1245,18 +1243,18 @@ File: fig/facsimile-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/facsimile-eps-converted-to.pdf>
 Package pdftex.def Info: fig/facsimile-eps-converted-to.pdf used on input line 
-66.
+67.
 (pdftex.def)             Requested size: 85.35826pt x 18.03339pt.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
  (c:/Program Files/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+euex on input line 66.
+LaTeX Font Info:    Try loading font information for U+euex on input line 67.
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/amsfonts/ueuex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
@@ -1264,13 +1262,13 @@ File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 
 {c:/Program Files/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <.
 /fig/facsimile-eps-converted-to.pdf>]
-Underfull \hbox (badness 1688) in paragraph at lines 91--91
+Underfull \hbox (badness 1688) in paragraph at lines 92--92
 \T2A/cmr/m/it/12 стем^^?но^^?го про^^?грам^^?ми^^?ро^^?ва^^?ния ФГА^^?ОУ ВО <<Ю
 жно-^^?
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 91--91
+Underfull \hbox (badness 5302) in paragraph at lines 92--92
 \T2A/cmr/m/it/12 Ураль^^?ский го^^?су^^?дар^^?ствен^^?ный уни^^?вер^^?си^^?тет 
 (на^^?ци^^?о^^?
  []
@@ -1283,14 +1281,14 @@ Package epstopdf Info: Source file: <fig/sec-facsimile.eps>
 (epstopdf)                    size: 6030 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/sec-facsimile-eps-conv
 erted-to.pdf fig/sec-facsimile.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
 <fig/sec-facsimile-eps-converted-to.pdf, id=33, 71.26625pt x 15.05624pt>
 File: fig/sec-facsimile-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/sec-facsimile-eps-converted-to.pdf>
 Package pdftex.def Info: fig/sec-facsimile-eps-converted-to.pdf used on input l
-ine 120.
+ine 121.
 (pdftex.def)             Requested size: 85.35826pt x 18.03339pt.
  [2
 
@@ -1302,41 +1300,33 @@ Package hyperref Warning: Ignoring empty anchor on input line 144.
 Package hyperref Warning: Ignoring empty anchor on input line 145.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 146.
-
-
-Overfull \hbox (12.79068pt too wide) in paragraph at lines 140--148
-\T2A/cmr/m/n/14.4 Марк^^?вард^^?та раз^^?ра^^?ба^^?ты^^?ва^^?лись в ИММ УрО РАН
- В. В. Васиным$[]$, Е. Н. Акимовой$[]$,
- []
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 152.
-
-
-Overfull \hbox (0.42177pt too wide) in paragraph at lines 149--154
-\T2A/cmr/m/n/14.4 пра^^?вок раз^^?ра^^?ба^^?ты^^?ва^^?лись в ИГФ УрО РАН И. Л. 
-Пруткиным$[]$, П. С. Мартышко$[]$,
- []
+Package hyperref Warning: Ignoring empty anchor on input line 148.
 
 [3
 
 ] [4] [5] [6]
 
-Package hyperref Warning: Ignoring empty anchor on input line 210.
+Package hyperref Warning: Ignoring empty anchor on input line 219.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 211.
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 212.
+Package hyperref Warning: Ignoring empty anchor on input line 221.
 
 [7]
+Overfull \hbox (5.68858pt too wide) in paragraph at lines 231--232
+[]\T2A/cmr/m/n/14.4 Впервые ите^^?ра^^?ци^^?он^^?ные $\OML/cmm/m/it/14.4 $\T2A
+/cmr/m/n/14.4 -процессы бы^^?ли пред^^?ло^^?же^^?ны в ра^^?бо^^?тах М. А. Крас-
 
-Package hyperref Warning: Ignoring empty anchor on input line 253.
+ []
 
-[8] [9]
-Overfull \hbox (1.92798pt too wide) in paragraph at lines 286--288
+
+Package hyperref Warning: Ignoring empty anchor on input line 234.
+
+[8]
+
+Package hyperref Warning: Ignoring empty anchor on input line 269.
+
+[9]
+Overfull \hbox (1.92798pt too wide) in paragraph at lines 302--304
 \T2A/cmr/m/n/14.4 где столб^^?цы мат^^?ри^^?цы $\OML/cmm/m/it/14.4 S\OT1/cmr/m/
 n/14.4 (\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 со^^?став^^?
 ле^^?ны из соб^^?ствен^^?ных век^^?то^^?ров мат^^?ри^^?цы $\OML/cmm/m/it/14.4 A
@@ -1344,7 +1334,7 @@ n/14.4 (\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 со^^?став^^?
  []
 
 [10]
-Overfull \hbox (48.07883pt too wide) in paragraph at lines 311--318
+Overfull \hbox (48.07883pt too wide) in paragraph at lines 327--334
 \OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4
  0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1)$ \T2A/cmr/m/it/14.4 для по^^?сле^^?
 до^^?ва^^?тель^^?но^^?сти $\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 u[]\OMS/cmsy/
@@ -1353,19 +1343,27 @@ m/n/14.4 g$\T2A/cmr/m/it/14.4 , по^^?рож^^?да^^?е^^?мой мо^^?ди^^?фи^^?ци^^?ро^
  []
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 328.
+Overfull \hbox (1.01848pt too wide) in paragraph at lines 336--338
+\T2A/cmr/m/it/14.4 мат^^?ри^^?цы $\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML
+/cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/it/14.4 , со^^?сто^^?я^^?щий и
+з раз^^?лич^^?ных ве^^?ще^^?ствен^^?ных зна^^?че^^?ний, со^^?дер^^?жит
+ []
+
+[11]
+
+Package hyperref Warning: Ignoring empty anchor on input line 351.
 
 
-Overfull \hbox (15.18079pt too wide) detected at line 334
+Overfull \hbox (15.18079pt too wide) detected at line 357
 [] []
  []
 
-[11] [12]
+[12] [13]
 
-Package hyperref Warning: Ignoring empty anchor on input line 377.
+Package hyperref Warning: Ignoring empty anchor on input line 398.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 378.
+Package hyperref Warning: Ignoring empty anchor on input line 399.
 
 
 ! Package inputenc Error: Unicode char \u8:В  not set up for use with LaTeX.
@@ -1374,7 +1372,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.378 ...јРµС‚СЂРёРё // EAGE Geoinformatics 2014.}
+l.399 ...јРµС‚СЂРёРё // EAGE Geoinformatics 2014.}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1387,34 +1385,28 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.378 ...јРµС‚СЂРёРё // EAGE Geoinformatics 2014.}
+l.399 ...јРµС‚СЂРёРё // EAGE Geoinformatics 2014.}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 384.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 405.
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 384.
- [13]
-[14]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 405.
+ [14]
 
-Package hyperref Warning: Ignoring empty anchor on input line 417.
+Package hyperref Warning: Ignoring empty anchor on input line 440.
 
+[15]
 
-Package hyperref Warning: Ignoring empty anchor on input line 432.
+Package hyperref Warning: Ignoring empty anchor on input line 455.
 
-[15] [16]
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 458
-.
-
-(c:/Program Files/texlive/2014/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
+[16] [17]
 
 ! Package inputenc Error: Unicode char \u8:В  not set up for use with LaTeX.
 
@@ -1422,7 +1414,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.462 ]
+l.494 ]
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1435,48 +1427,47 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.462 ]
+l.494 ]
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (6.46368pt too wide) in paragraph at lines 462--462
+Overfull \hbox (6.46368pt too wide) in paragraph at lines 494--494
 \T2A/cmr/m/n/14.4 Conference - Geoinformatics: Theoretical and Applied Aspects.
  ^^V Kiev, Ukraine,
  []
 
-[17
 
-]
-Overfull \hbox (14.21573pt too wide) in paragraph at lines 462--462
+Overfull \hbox (14.21573pt too wide) in paragraph at lines 494--494
 \T2A/cmr/m/n/14.4 the Structural Inverse Gravity Problem [] XIVth EAGE Internat
 ional Conference
  []
 
 
-Overfull \hbox (8.32687pt too wide) in paragraph at lines 462--462
+Overfull \hbox (8.32687pt too wide) in paragraph at lines 494--494
 []\T2A/cmr/m/it/14.4 Akimova E.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Skurydina
  A. \T2A/cmr/m/n/14.4 On Solving the Three-^^?Dimensional Structural Gravity
  []
 
 
-Overfull \hbox (83.97475pt too wide) in paragraph at lines 462--462
+Overfull \hbox (12.3933pt too wide) in paragraph at lines 494--494
 \T2A/cmr/m/n/14.4 Problem for the Case of a Multilayered Medium by the Componen
-twise Levenberg--Marquardt
+twise Levenberg
  []
 
 
-Overfull \hbox (1.099pt too wide) in paragraph at lines 462--462
-\T2A/cmr/m/n/14.4 Method [] XVth EAGE International Conference - Geoinformatics
-: Theoretical
+Overfull \hbox (7.94913pt too wide) in paragraph at lines 494--494
+\T2A/cmr/m/n/14.4 -- Marquardt Method [] XVth EAGE International Conference - G
+eoinformatics:
  []
 
+[18]
 ! Misplaced alignment tab character &.
 <argument> ...Advanced Mathematics, Computations &
                                                    Applications -- 2014"
-l.468 ]
+l.501 ]
        
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1486,36 +1477,34 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (42.23814pt too wide) in paragraph at lines 468--468
+Overfull \hbox (42.23814pt too wide) in paragraph at lines 501--501
 \T2A/cmr/m/n/14.4 algorithms for solving gravimetry and magnetometry inverse pr
 oblems [] International
  []
 
-[18] [19] 
-AED: lastpage setting LastPage
-[20
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 497.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 497.
- (./autoref.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 497.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 497.
+AED: lastpage setting LastPage
+[19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 528.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 528.
+ (./autoref.aux<<t1.cmap>>)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 528.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 528.
 Package rerunfilecheck Info: File `autoref.out' has not changed.
-(rerunfilecheck)             Checksum: AB4F8A73B02EEBBA43368E8599F25073;729.
+(rerunfilecheck)             Checksum: 789C49F9FA411CD898109E2838EE6B4E;783.
 Package logreq Info: Writing requests to 'autoref.run.xml'.
 \openout1 = `autoref.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 497.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 528.
  ) 
 Here is how much of TeX's memory you used:
- 18375 strings out of 493109
- 282609 string characters out of 6132291
- 837337 words of memory out of 5000000
- 21446 multiletter control sequences out of 15000+600000
- 26386 words of font info for 75 fonts, out of 8000000 for 9000
+ 18365 strings out of 493109
+ 282189 string characters out of 6132291
+ 833990 words of memory out of 5000000
+ 21437 multiletter control sequences out of 15000+600000
+ 26844 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,11n,48p,2737b,2110s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,48p,2659b,2111s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Program Files/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
 2a.enc}<c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmex10.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/amsfon
@@ -1538,12 +1527,11 @@ er/sfrm1200.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/public/cm
 -super/sfrm1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/publi
 c/cm-super/sfrm1728.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/type1/p
 ublic/cm-super/sfti1200.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts/typ
-e1/public/cm-super/sfti1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts
-/type1/public/cm-super/sftt1440.pfb>
-Output written on autoref.pdf (20 pages, 396680 bytes).
+e1/public/cm-super/sfti1440.pfb>
+Output written on autoref.pdf (19 pages, 379239 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
+ 366 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
  63 named destinations out of 1000 (max. 500000)
- 55 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 59 words of extra memory for PDF output out of 10000 (max. 10000000)
 

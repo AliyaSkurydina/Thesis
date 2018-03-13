@@ -342,25 +342,28 @@ $$\|(F'(u)-F'(v))h\|\le\|F(u)-F(v)\|\|h\|\le c_0 max\{e^{\|u\|},e^{\|v\|}\}\|h\|
 \newpage
 {\bfseries 1.3.3. Эксперимент для задачи с возмущенной правой частью с начальным приближением, далеким от точного решения.} 
 
-Точное решение такое же, как в эксперименте 1.3.1. Правая часть $y^\delta(t)=y(t)e^{\frac{\delta}{5} sin(t/{\delta}^2)}$, $\delta=0.1$, $\|y-y^{\delta}\|=0.07<\delta$. Начальное приближение $x^0(t)=0$, $\gamma$, $\bar\alpha=1$, $\alpha=10^{-3}$, критерий останова $\frac{\|x^k-z\|}{\|z\|}\le\varepsilon=0.25$, где $x^k$ --- приближение на $k$-й итерации. Ниже в таблице \ref{table1.3} приведены результаты расчетов.
-\begin{table}[H]
-	\centering
-%	\renewcommand{\arraystretch}{1.5}
-	\caption{Результаты для задачи с шумом}
-	\label{table1.3}
-	\begin{tabular}{|l|c|c|}
-		\hline
-		\textbf{Метод}                   & \multicolumn{1}{l|}{\textbf{$\Delta$}} & \multicolumn{1}{l|}{\textbf{Число итераций, N}} \\ \hline
-		ММО                              & 0.042                                  & 9                                               \\ \hline
-		\multicolumn{1}{|r|}{ММО модиф.} & 0.042                                  & 9                                               \\ \hline
-		МНС                              & 0.041                                  & 9                                               \\ \hline
-		МНС модиф.                       & 0.040                                  & 9                                               \\ \hline
-		ММН                              & 0.045                                  & 9                                               \\ \hline
-		ММН модиф.                       & 0.045                                  & 9                                               \\ \hline
-		РМН                              & 0.042                                  & 9                                               \\ \hline
-		РМН модиф.                       & 0.042                                  & 8                                               \\ \hline
-	\end{tabular}
-\end{table}
+Точное решение такое же, как в эксперименте 1.3.1. Правая часть $y^\delta(t)=y(t)e^{\frac{\delta}{5} sin(t/{\delta}^2)}$, $\delta=0.1$, $\|y-y^{\delta}\|=0.07<\delta$. Начальное приближение $x^0(t)=0$, $\gamma$, $\bar\alpha=1$, $\alpha=10^{-3}$, критерий останова $\frac{\|x^k-z\|}{\|z\|}\le\varepsilon=0.25$, где $x^k$ --- приближение на $k$-й итерации. 
+
+Методы сходятся к $\varepsilon$ за 8--9 итераций, $\Delta\approx 0.04$.
+%Ниже в таблице \ref{table1.3} приведены результаты расчетов.
+%\begin{table}[H]
+%	\centering
+%%	\renewcommand{\arraystretch}{1.5}
+%	\caption{Результаты для задачи с шумом}
+%	\label{table1.3}
+%	\begin{tabular}{|l|c|c|}
+%		\hline
+%		\textbf{Метод}                   & \multicolumn{1}{l|}{\textbf{$\Delta$}} & \multicolumn{1}{l|}{\textbf{Число итераций, N}} \\ \hline
+%		ММО                              & 0.042                                  & 9                                               \\ \hline
+%		\multicolumn{1}{|r|}{ММО модиф.} & 0.042                                  & 9                                               \\ \hline
+%		МНС                              & 0.041                                  & 9                                               \\ \hline
+%		МНС модиф.                       & 0.040                                  & 9                                               \\ \hline
+%		ММН                              & 0.045                                  & 9                                               \\ \hline
+%		ММН модиф.                       & 0.045                                  & 9                                               \\ \hline
+%		РМН                              & 0.042                                  & 9                                               \\ \hline
+%		РМН модиф.                       & 0.042                                  & 8                                               \\ \hline
+%	\end{tabular}
+%\end{table}
 
 В статье \cite{VasSkur2017} приводятся оценки погрешности двухэтапного метода для $\|u^{\delta}-\hat{u}\|$ сверху ($u^{\delta}$ --- решение уравнения с возмущенной правой частью, $\hat{u}$ --- решение уравнения $\eqref{equ1}$), устанавливается сходимость $$\lim_{\delta\to 0}\|A(u_{\alpha(\delta)}^{\delta})-f_\delta\|=0,$$ при $\alpha(\delta)\to 0$, $\delta\to 0$. 
 

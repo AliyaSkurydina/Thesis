@@ -134,9 +134,9 @@
       \strng{fullhash}{28a23870613be6f4c8aa60ab3861654c}
       \field{sortinit}{A}
       \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
-      \field{labeltitle}{On Solving the Three-Dimensional Structural Gravity Problem for the Case of a Multilayered Medium by the Componentwise Levenberg--Marquardt Method}
+      \field{labeltitle}{On Solving the Three-Dimensional Structural Gravity Problem for the Case of a Multilayered Medium by the Componentwise Levenberg -- Marquardt Method}
       \field{booktitle}{XVth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
-      \field{title}{On Solving the Three-Dimensional Structural Gravity Problem for the Case of a Multilayered Medium by the Componentwise Levenberg--Marquardt Method}
+      \field{title}{On Solving the Three-Dimensional Structural Gravity Problem for the Case of a Multilayered Medium by the Componentwise Levenberg -- Marquardt Method}
       \field{year}{2016}
       \keyw{own,hac}
     \endentry
@@ -738,9 +738,6 @@
       \field{volume}{6}
       \field{year}{2017}
       \field{pages}{5\bibrangedash 15}
-      \verb{url}
-      \verb http://dx.doi.org/10.14529/cmse170301
-      \endverb
       \keyw{own,hac}
     \endentry
     \entry{Tau2002}{article}{}

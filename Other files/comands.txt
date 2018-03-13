@@ -1,9 +1,0 @@
-pdflatex thesis.tex
-bibtex8 -H -c cp1251.csf thesis.aux
-bibtex8 -H -c cp1251.csf mybib.aux
-pdflatex thesis.tex
-pdflatex thesis.tex
-
-
-https://tex.stackexchange.com/questions/294531/texstudio-biber-claims-biblatex-version-is-wrong
-http://www.academia.edu/23010879/%D0%9E%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%B8_%D0%B2_L_A_T_E_X
