@@ -153,12 +153,12 @@
     \entry{AkSkur2014}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
-        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
         {{hash=c322374babc9b6e8210d2b9629b668eb}{Мартышко}{М\bibinitperiod}{М\bibnamedelima П}{М\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{3}{}{%
         {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
-        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
         {{hash=c322374babc9b6e8210d2b9629b668eb}{Мартышко}{М\bibinitperiod}{М\bibnamedelima П}{М\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
       }
       \list{language}{1}{%
@@ -167,8 +167,8 @@
       \list{location}{1}{%
         {Kiev, Ukraine}%
       }
-      \strng{namehash}{d9a957c52e4b19b170cd45674c6b6bc1}
-      \strng{fullhash}{d9a957c52e4b19b170cd45674c6b6bc1}
+      \strng{namehash}{f51dbbce5481d100370317c6969f824d}
+      \strng{fullhash}{f51dbbce5481d100370317c6969f824d}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии}
@@ -227,30 +227,28 @@
       \field{year}{2016}
       \keyw{own,hac}
     \endentry
-    \entry{AkMisSkurTre2015_1}{inproceedings}{}
-      \name{labelname}{4}{}{%
-        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+    \entry{MisMinDer2013}{inproceedings}{}
+      \name{labelname}{3}{}{%
         {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
-        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
-        {{hash=c31ca1b93fb3a85c183477a20d691bb2}{А}{А\bibinitperiod}{Третьяков}{Т\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=b00e029df3d803d512853e644e7203ec}{Дергачев}{Д\bibinitperiod}{Е\bibnamedelima А}{Е\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{4}{}{%
-        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      \name{author}{3}{}{%
         {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
-        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
-        {{hash=c31ca1b93fb3a85c183477a20d691bb2}{А}{А\bibinitperiod}{Третьяков}{Т\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=b00e029df3d803d512853e644e7203ec}{Дергачев}{Д\bibinitperiod}{Е\bibnamedelima А}{Е\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
       }
       \list{language}{1}{%
         {russian}%
       }
-      \strng{namehash}{c731a8d5b328be6729ccc29ee94461a6}
-      \strng{fullhash}{13a4be4dace26f3ff690201a9c4b6d73}
+      \strng{namehash}{e6e3d2bb09726963341dfa0c45599a57}
+      \strng{fullhash}{e6e3d2bb09726963341dfa0c45599a57}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере <<Уран>>}
-      \field{booktitle}{Труды международной конференции <<Параллельные вычислительные технологии (ПАВТ'2015)>>}
-      \field{title}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере <<Уран>>}
-      \field{year}{2015}
+      \field{labeltitle}{Решение обратной задачи гравиметрии итерационными методами на суперкомпьютере <<Уран>>}
+      \field{booktitle}{Труды XIV Уральской молодежной научной школы по геофизике}
+      \field{title}{Решение обратной задачи гравиметрии итерационными методами на суперкомпьютере <<Уран>>}
+      \field{year}{2013}
       \keyw{own,nohac}
     \endentry
     \entry{AkiMisMin2014}{inproceedings}{}
@@ -277,28 +275,30 @@
       \field{year}{2014}
       \keyw{own,nohac}
     \endentry
-    \entry{MisMinDer2013}{inproceedings}{}
-      \name{labelname}{3}{}{%
+    \entry{AkMisSkurTre2015_1}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
         {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
-        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
-        {{hash=b00e029df3d803d512853e644e7203ec}{Дергачев}{Д\bibinitperiod}{Е\bibnamedelima А}{Е\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=4a061e3e5054699fff016e9bc6dcef1b}{Третьяков}{Т\bibinitperiod}{А}{А\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{3}{}{%
+      \name{author}{4}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
         {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
-        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
-        {{hash=b00e029df3d803d512853e644e7203ec}{Дергачев}{Д\bibinitperiod}{Е\bibnamedelima А}{Е\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=4a061e3e5054699fff016e9bc6dcef1b}{Третьяков}{Т\bibinitperiod}{А}{А\bibinitperiod}{}{}{}{}}%
       }
       \list{language}{1}{%
         {russian}%
       }
-      \strng{namehash}{e6e3d2bb09726963341dfa0c45599a57}
-      \strng{fullhash}{e6e3d2bb09726963341dfa0c45599a57}
+      \strng{namehash}{c731a8d5b328be6729ccc29ee94461a6}
+      \strng{fullhash}{d0247ea9127e1e093b6ccdd77289cd28}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{Решение обратной задачи гравиметрии итерационными методами на суперкомпьютере <<Уран>>}
-      \field{booktitle}{Труды XIV Уральской молодежной научной школы по геофизике}
-      \field{title}{Решение обратной задачи гравиметрии итерационными методами на суперкомпьютере <<Уран>>}
-      \field{year}{2013}
+      \field{labeltitle}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере <<Уран>>}
+      \field{booktitle}{Труды международной конференции <<Параллельные вычислительные технологии (ПАВТ'2015)>>}
+      \field{title}{Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере <<Уран>>}
+      \field{year}{2015}
       \keyw{own,nohac}
     \endentry
     \entry{AkiMinMis2014}{inproceedings}{}

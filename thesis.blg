@@ -2,13 +2,13 @@
 [0] Config.pm:323> INFO - Logfile is 'thesis.blg'
 [44] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
 [45] Biber.pm:333> INFO - Reading 'thesis.bcf'
-[191] Biber.pm:635> INFO - Found 121 citekeys in bib section 0
-[231] Biber.pm:3051> INFO - Processing section 0
-[268] Biber.pm:3189> INFO - Looking for bibtex format file 'thesis.bib' for section 0
-[284] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
-[295] bibtex.pm:864> INFO - Found BibTeX data source 'thesis.bib'
-[2183] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2183] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2183] Biber.pm:2928> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'ru-RU'
-[2971] bbl.pm:517> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[2995] bbl.pm:606> INFO - Output to thesis.bbl
+[192] Biber.pm:635> INFO - Found 121 citekeys in bib section 0
+[233] Biber.pm:3051> INFO - Processing section 0
+[270] Biber.pm:3189> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[285] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[296] bibtex.pm:864> INFO - Found BibTeX data source 'thesis.bib'
+[2177] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2177] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2178] Biber.pm:2928> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'ru-RU'
+[2969] bbl.pm:517> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[2992] bbl.pm:606> INFO - Output to thesis.bbl

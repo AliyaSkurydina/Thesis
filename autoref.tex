@@ -471,14 +471,16 @@ K'_u(x, y, x', y', u_l^k(x',y'))dxdy\bigg] \notag \\ \times\bigg[f\Delta\sigma\i
 u_{l,i}^{k+1}=u_{l,i}^k-\gamma\frac{1}{\varphi_{l,i}+\bar{\alpha}}w_{l,i}\bigg[ \{A'(u_l^k)^T(A(u^k)-f_\delta)\}_i\bigg],
 \end{equation*}
 где $w_{l,i}$ --- $i$-й весовой множитель, зависящий от $l$-й границы раздела,
-\begin{equation*}
-\begin{aligned}
+%\begin{equation*}
+%\begin{aligned}
+$
 \varphi_{l,i}=\bigg[ f\Delta\sigma\sum\limits_{k=1}^{N}
 \sum\limits_{m=1}^{M}
 K'_u(x'_k,y'_m, \{x, y\}_i, u_{l,i}^k) \Delta x' \Delta y'\bigg] \notag \\ \times\bigg[f\Delta\sigma\sum\limits_{k=1}^{N}
 \sum\limits_{m=1}^{M}K'_u(x_k,y_m, \{x',y'\}_i,u_l^k(x_k,y_m))\Delta x \Delta y\bigg]. 
-\end{aligned}
-\end{equation*}
+$
+%\end{aligned}
+%\end{equation*}
 {\scriptsize
 \let\thefootnote\relax\let\thefootnote\relax\footnotetext{\footnotesize 14. Е. Н. Акимова, В. Е. Мисилов, А. Ф. Скурыдина, А. И. Третьяков. Градиентные методы решения структурных обратных задач гравиметрии и магнитометрии на суперкомпьютере “Уран” // Вычислительные методы и программирование, 2015. Т. 16, 155–164.}}
 Весовые множители выбираются по формулам из работы$^{14}$. 
@@ -499,7 +501,7 @@ K'_u(x'_k,y'_m, \{x, y\}_i, u_{l,i}^k) \Delta x' \Delta y'\bigg] \notag \\ \time
 Ньютона для задач, где матрица производной имеет диагональное преобладание. 
 
 3. Разработан комплекс параллельных программ для многоядерных и графических процессоров (видеокарт) решения обратных задач гравиметрии и магнитометрии на сетках большой размерности методами ньютоновского типа и покомпонентными методами.
-\vskip -5 mm 
+%\vskip -1 mm 
 %В дальнейшей научной работе автора предполагается исследование на сходимость покомпонентных методов типа Ньютона и Левенберга -- Марквардта.
 % ----------------------------------------------------------------
 

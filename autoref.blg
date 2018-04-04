@@ -2,13 +2,13 @@
 [0] Config.pm:323> INFO - Logfile is 'autoref.blg'
 [45] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
 [45] Biber.pm:333> INFO - Reading 'autoref.bcf'
-[173] Biber.pm:635> INFO - Found 13 citekeys in bib section 0
-[212] Biber.pm:3051> INFO - Processing section 0
-[249] Biber.pm:3189> INFO - Looking for bibtex format file 'thesis.bib' for section 0
-[264] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[174] Biber.pm:635> INFO - Found 13 citekeys in bib section 0
+[213] Biber.pm:3051> INFO - Processing section 0
+[250] Biber.pm:3189> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[265] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
 [276] bibtex.pm:864> INFO - Found BibTeX data source 'thesis.bib'
-[485] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
 [485] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[485] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
 [485] Biber.pm:2928> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'ru-RU'
-[524] bbl.pm:517> INFO - Writing 'autoref.bbl' with encoding 'UTF-8'
-[528] bbl.pm:606> INFO - Output to autoref.bbl
+[521] bbl.pm:517> INFO - Writing 'autoref.bbl' with encoding 'UTF-8'
+[525] bbl.pm:606> INFO - Output to autoref.bbl

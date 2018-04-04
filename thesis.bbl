@@ -964,6 +964,33 @@
       \field{year}{2013}
       \field{pages}{1278\bibrangedash 1281}
     \endentry
+    \entry{AkSkur2014}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=c322374babc9b6e8210d2b9629b668eb}{Мартышко}{М\bibinitperiod}{М\bibnamedelima П}{М\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=017da3b51d01308bb392f0712b36a95a}{Миниахметова}{М\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
+        {{hash=c322374babc9b6e8210d2b9629b668eb}{Мартышко}{М\bibinitperiod}{М\bibnamedelima П}{М\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Kiev, Ukraine}%
+      }
+      \strng{namehash}{f51dbbce5481d100370317c6969f824d}
+      \strng{fullhash}{f51dbbce5481d100370317c6969f824d}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии}
+      \field{booktitle}{XIIIth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
+      \field{title}{Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии}
+      \field{year}{2014}
+      \keyw{own,hac}
+    \endentry
     \entry{AkMisDer2014}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
@@ -1057,33 +1084,6 @@
       \field{volume}{18}
       \field{year}{2014}
       \field{pages}{19\bibrangedash 29}
-      \keyw{own,hac}
-    \endentry
-    \entry{AkSkur2014}{inproceedings}{}
-      \name{labelname}{3}{}{%
-        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
-        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
-        {{hash=c322374babc9b6e8210d2b9629b668eb}{Мартышко}{М\bibinitperiod}{М\bibnamedelima П}{М\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
-        {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
-        {{hash=c322374babc9b6e8210d2b9629b668eb}{Мартышко}{М\bibinitperiod}{М\bibnamedelima П}{М\bibinitperiod\bibinitdelim П\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {russian}%
-      }
-      \list{location}{1}{%
-        {Kiev, Ukraine}%
-      }
-      \strng{namehash}{d9a957c52e4b19b170cd45674c6b6bc1}
-      \strng{fullhash}{d9a957c52e4b19b170cd45674c6b6bc1}
-      \field{sortinit}{А}
-      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
-      \field{labeltitle}{Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии}
-      \field{booktitle}{XIIIth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
-      \field{title}{Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии}
-      \field{year}{2014}
       \keyw{own,hac}
     \endentry
     \entry{Akidiss2009}{thesis}{}
@@ -1519,7 +1519,7 @@
         {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
         {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
         {{hash=b703177a2898ee0ac9c566ce55d8e231}{Скурыдина}{С\bibinitperiod}{А\bibnamedelima Ф}{А\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
-        {{hash=c31ca1b93fb3a85c183477a20d691bb2}{А}{А\bibinitperiod}{Третьяков}{Т\bibinitperiod}{}{}{}{}}%
+        {{hash=4a061e3e5054699fff016e9bc6dcef1b}{Третьяков}{Т\bibinitperiod}{А}{А\bibinitperiod}{}{}{}{}}%
       }
       \list{language}{1}{%
         {russian}%
