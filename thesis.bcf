@@ -2856,10 +2856,9 @@
     <bcf:citekey order="90">AkMarMis2013</bcf:citekey>
     <bcf:citekey order="91">Vasin_2012</bcf:citekey>
     <bcf:citekey order="92">VasPer_2011</bcf:citekey>
-    <bcf:citekey order="93">Kok_2010</bcf:citekey>
-    <bcf:citekey order="94">VasEre2009</bcf:citekey>
-    <bcf:citekey order="95">BachZhid1987</bcf:citekey>
-    <bcf:citekey order="96">AkMarMis2013</bcf:citekey>
+    <bcf:citekey order="93">VasEre2009</bcf:citekey>
+    <bcf:citekey order="94">BachZhid1987</bcf:citekey>
+    <bcf:citekey order="95">AkMarMis2013</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt" type="entry" sortscheme="nyt">
   <bcf:sorting>
