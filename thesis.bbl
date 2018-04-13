@@ -305,6 +305,34 @@
       \field{year}{1995}
       \field{pages}{21\bibrangedash 37}
     \endentry
+    \entry{IvaVasTan2002}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=56b020f66354c3fd6548b2314a17b832}{Ivanov}{I\bibinitperiod}{V.\bibnamedelimi K.}{V\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=18c78550e2b14f28e6a81bdd285c0f1c}{Vasin}{V\bibinitperiod}{V.\bibnamedelimi V.}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=230088bc6e35b9bed079e2f8a3083275}{Tanana}{T\bibinitperiod}{V.P.}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=56b020f66354c3fd6548b2314a17b832}{Ivanov}{I\bibinitperiod}{V.\bibnamedelimi K.}{V\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=18c78550e2b14f28e6a81bdd285c0f1c}{Vasin}{V\bibinitperiod}{V.\bibnamedelimi V.}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=230088bc6e35b9bed079e2f8a3083275}{Tanana}{T\bibinitperiod}{V.P.}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Utrecht}%
+      }
+      \list{publisher}{1}{%
+        {VSP}%
+      }
+      \strng{namehash}{bb611feb832a513965b265edc2e5a466}
+      \strng{fullhash}{bb611feb832a513965b265edc2e5a466}
+      \field{sortinit}{I}
+      \field{sortinithash}{b2e302e575c74beffcc96ef7059003aa}
+      \field{labeltitle}{Theory of Linear Ill-Posed Problems and Its Applications}
+      \field{title}{Theory of Linear Ill-Posed Problems and Its Applications}
+      \field{year}{2002}
+    \endentry
     \entry{JinZon1997}{article}{}
       \name{labelname}{2}{}{%
         {{hash=baf1474820591c12616648dd8689027a}{Jin}{J\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
@@ -781,6 +809,28 @@
       \field{volume}{32}
       \field{year}{2004}
       \field{pages}{29\bibrangedash 41}
+    \endentry
+    \entry{Vasin2015}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=18c78550e2b14f28e6a81bdd285c0f1c}{Vasin}{V\bibinitperiod}{V.\bibnamedelimi V.}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=18c78550e2b14f28e6a81bdd285c0f1c}{Vasin}{V\bibinitperiod}{V.\bibnamedelimi V.}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{18c78550e2b14f28e6a81bdd285c0f1c}
+      \strng{fullhash}{18c78550e2b14f28e6a81bdd285c0f1c}
+      \field{sortinit}{V}
+      \field{sortinithash}{63562d1af2cd68fb37e2e14e0c6d5c96}
+      \field{labeltitle}{Modified steepest descent method for nonlinear irregular operator equation}
+      \field{journaltitle}{Dokl. Math.}
+      \field{number}{3}
+      \field{title}{Modified steepest descent method for nonlinear irregular operator equation}
+      \field{volume}{91}
+      \field{year}{2015}
+      \field{pages}{300\bibrangedash 303}
     \endentry
     \entry{Vasin2014}{article}{}
       \name{labelname}{1}{}{%
@@ -1753,6 +1803,28 @@
       \field{year}{1967}
       \field{pages}{410\bibrangedash 421}
     \endentry
+    \entry{Ivanov1974}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=130e2a76707591ad4ed9aeee7e25ea45}{Иванов}{И\bibinitperiod}{В.\bibnamedelimi К.}{В\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=130e2a76707591ad4ed9aeee7e25ea45}{Иванов}{И\bibinitperiod}{В.\bibnamedelimi К.}{В\bibinitperiod\bibinitdelim К\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{130e2a76707591ad4ed9aeee7e25ea45}
+      \strng{fullhash}{130e2a76707591ad4ed9aeee7e25ea45}
+      \field{sortinit}{И}
+      \field{sortinithash}{b1b3e45e490ac88fd50f3d3902adb600}
+      \field{labeltitle}{Об оценке устойчивости квазирешений на некомпактных множествах}
+      \field{journaltitle}{Известия вузов. Математика}
+      \field{number}{5}
+      \field{title}{Об оценке устойчивости квазирешений на некомпактных множествах}
+      \field{volume}{144}
+      \field{year}{1974}
+      \field{pages}{97\bibrangedash 103}
+    \endentry
     \entry{Kan1947}{article}{}
       \name{labelname}{1}{}{%
         {{hash=d9725247940d26a33b1e9626a0df34c7}{Канторович}{К\bibinitperiod}{Л\bibnamedelima В}{Л\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
@@ -1773,27 +1845,6 @@
       \field{volume}{56}
       \field{year}{1947}
       \field{pages}{233\bibrangedash 236}
-    \endentry
-    \entry{Kok_2010}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=5d188484ce3a065fb77f19e9357aa753}{Кокурин}{К\bibinitperiod}{М\bibnamedelima Ю}{М\bibinitperiod\bibinitdelim Ю\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=5d188484ce3a065fb77f19e9357aa753}{Кокурин}{К\bibinitperiod}{М\bibnamedelima Ю}{М\bibinitperiod\bibinitdelim Ю\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {russian}%
-      }
-      \strng{namehash}{5d188484ce3a065fb77f19e9357aa753}
-      \strng{fullhash}{5d188484ce3a065fb77f19e9357aa753}
-      \field{sortinit}{К}
-      \field{sortinithash}{63d3bbd575ebadbdb48d1b2fe67b8a28}
-      \field{labeltitle}{О выпуклости функционала Тихонова и итеративного регуляризованных методах решения нерегулярных нелинейных операторных уравнений}
-      \field{journaltitle}{Журнал вычислительной математики и математичекой физики}
-      \field{title}{О выпуклости функционала Тихонова и итеративного регуляризованных методах решения нерегулярных нелинейных операторных уравнений}
-      \field{volume}{50}
-      \field{year}{2010}
-      \field{pages}{651\bibrangedash 664}
     \endentry
     \entry{KraVayZab1969}{book}{}
       \name{labelname}{3}{}{%
