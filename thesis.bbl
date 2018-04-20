@@ -1224,7 +1224,7 @@
       \field{sortinithash}{8f918f8686258589a227d5aaf265a9bb}
       \field{labeltitle}{Итеративные методы решения некорректных задач}
       \field{title}{Итеративные методы решения некорректных задач}
-      \field{year}{1978}
+      \field{year}{1989}
     \endentry
     \entry{BakPol1974}{article}{}
       \name{labelname}{2}{}{%
@@ -2061,6 +2061,31 @@
       \field{year}{1931}
       \field{pages}{232\bibrangedash 235}
     \endentry
+    \entry{MarAkiMis2016}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{edfe41a9dd6c2f58b31caa9f546bff38}
+      \strng{fullhash}{edfe41a9dd6c2f58b31caa9f546bff38}
+      \field{sortinit}{М}
+      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
+      \field{labeltitle}{О решении структурной обратной задачи гравиметрии модифицированными методами градиентного типа}
+      \field{journaltitle}{Физика Земли}
+      \field{number}{5}
+      \field{title}{О решении структурной обратной задачи гравиметрии модифицированными методами градиентного типа}
+      \field{year}{2016}
+      \field{pages}{82\bibrangedash 86}
+    \endentry
     \entry{MarPru1982}{article}{}
       \name{labelname}{2}{}{%
         {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
@@ -2108,34 +2133,6 @@
       \field{volume}{25}
       \field{year}{2003}
       \field{pages}{159\bibrangedash 168}
-    \endentry
-    \entry{MarTsi2008}{inproceedings}{}
-      \name{labelname}{2}{}{%
-        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
-        {{hash=922d11b817c0d7d32f0dc869e22a9492}{Цидаев}{Ц\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
-        {{hash=922d11b817c0d7d32f0dc869e22a9492}{Цидаев}{Ц\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {russian}%
-      }
-      \list{location}{1}{%
-        {Екатеринбург}%
-      }
-      \list{publisher}{1}{%
-        {ИГФ УрО РАН}%
-      }
-      \strng{namehash}{acbdd5605fcc26c8a66c33967b68ad33}
-      \strng{fullhash}{acbdd5605fcc26c8a66c33967b68ad33}
-      \field{sortinit}{М}
-      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
-      \field{labeltitle}{О решении прямой и обратной задач магниторазведки}
-      \field{booktitle}{Материалы Международной конференции, посвященной 50-летию Института геофизики УрО РАН.}
-      \field{title}{О решении прямой и обратной задач магниторазведки}
-      \field{year}{2008}
-      \field{pages}{167\bibrangedash 170}
     \endentry
     \entry{Menih1978}{article}{}
       \name{labelname}{1}{}{%
