@@ -2762,6 +2762,30 @@
       \field{title}{Нелинейные некорректные задачи}
       \field{year}{2017}
     \endentry
+    \entry{Tre1993}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=d17ea6c9c03849b9d399f506ed7568fa}{Треногин}{Т\bibinitperiod}{В\bibnamedelima А}{В\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d17ea6c9c03849b9d399f506ed7568fa}{Треногин}{Т\bibinitperiod}{В\bibnamedelima А}{В\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{d17ea6c9c03849b9d399f506ed7568fa}
+      \strng{fullhash}{d17ea6c9c03849b9d399f506ed7568fa}
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{Функциональный анализ}
+      \field{title}{Функциональный анализ}
+      \field{year}{1993}
+    \endentry
     \entry{FadFad1977}{article}{}
       \name{labelname}{2}{}{%
         {{hash=44e505e2226e95ad86694f87b732eba5}{Фаддеева}{Ф\bibinitperiod}{В\bibnamedelima Н}{В\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
