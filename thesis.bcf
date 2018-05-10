@@ -3344,22 +3344,21 @@
     <bcf:citekey order="86">Tau2002</bcf:citekey>
     <bcf:citekey order="87">Vasin2016</bcf:citekey>
     <bcf:citekey order="88">VasSkur2017</bcf:citekey>
-    <bcf:citekey order="89">VasSkur2017</bcf:citekey>
-    <bcf:citekey order="90">VasAkiMin2013</bcf:citekey>
+    <bcf:citekey order="89">VasAkiMin2013</bcf:citekey>
+    <bcf:citekey order="89">Vasin2014</bcf:citekey>
+    <bcf:citekey order="89">Vasin2016</bcf:citekey>
     <bcf:citekey order="90">Vasin2014</bcf:citekey>
     <bcf:citekey order="90">Vasin2016</bcf:citekey>
-    <bcf:citekey order="91">Vasin2014</bcf:citekey>
-    <bcf:citekey order="91">Vasin2016</bcf:citekey>
-    <bcf:citekey order="92">AkMisDer2014</bcf:citekey>
-    <bcf:citekey order="93">VasEre2009</bcf:citekey>
-    <bcf:citekey order="94">MarPrut2003</bcf:citekey>
-    <bcf:citekey order="95">AkMarMis2013</bcf:citekey>
-    <bcf:citekey order="96">Vasin_2012</bcf:citekey>
-    <bcf:citekey order="97">VasPer_2011</bcf:citekey>
-    <bcf:citekey order="98">MarAkiMis2016</bcf:citekey>
-    <bcf:citekey order="99">VasEre2009</bcf:citekey>
-    <bcf:citekey order="100">BachZhid1987</bcf:citekey>
-    <bcf:citekey order="101">AkMarMis2013</bcf:citekey>
+    <bcf:citekey order="91">AkMisDer2014</bcf:citekey>
+    <bcf:citekey order="92">VasEre2009</bcf:citekey>
+    <bcf:citekey order="93">MarPrut2003</bcf:citekey>
+    <bcf:citekey order="94">AkMarMis2013</bcf:citekey>
+    <bcf:citekey order="95">Vasin_2012</bcf:citekey>
+    <bcf:citekey order="96">VasPer_2011</bcf:citekey>
+    <bcf:citekey order="97">MarAkiMis2016</bcf:citekey>
+    <bcf:citekey order="98">VasEre2009</bcf:citekey>
+    <bcf:citekey order="99">BachZhid1987</bcf:citekey>
+    <bcf:citekey order="100">AkMarMis2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

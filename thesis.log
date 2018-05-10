@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.9)  10 MAY 2018 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.9)  10 MAY 2018 20:50
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2547,12 +2547,6 @@ LaTeX Warning: Citation 'IvaVasTan2002' on page 33 undefined on input line 351.
 
 LaTeX Warning: Citation 'Tau2002' on page 34 undefined on input line 356.
 
-
-Overfull \hbox (18.94719pt too wide) in paragraph at lines 356--357
-\T2A/cmr/m/n/14.4 грального уравнения с монотонным оператором. Приме
-р задачи взят из [[]]. 
- []
-
 [34]
 Overfull \hbox (27.13553pt too wide) in paragraph at lines 375--377
 \T2A/cmr/m/n/14.4 Также оценим норму производной оператора в начально
@@ -2561,22 +2555,27 @@ Overfull \hbox (27.13553pt too wide) in paragraph at lines 375--377
  k 
  []
 
-<fig/mmn2_ch1.png, id=797, 372.64218pt x 294.34969pt>
+<fig/mmn2_ch1.png, id=785, 372.64218pt x 294.34969pt>
 File: fig/mmn2_ch1.png Graphic file (type png)
 <use fig/mmn2_ch1.png>
 Package pdftex.def Info: fig/mmn2_ch1.png  used on input line 383. on input lin
 e 383.
 Package pdftex.def Info: Requested size: 432.25386pt x 341.43306pt on input lin
 e 383.
-[35 <./fig/mmn2_ch1.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35]
 
 LaTeX Warning: Citation 'Vasin2016' on page 36 undefined on input line 411.
 
-[36]
 
-LaTeX Warning: Citation 'VasSkur2017' on page 37 undefined on input line 466.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37]) (2.tex [38] [39
+[36 <./fig/mmn2_ch1.png>]) (2.tex [37] [38] [39
 
 ]
 
@@ -2606,7 +2605,7 @@ LaTeX Warning: Citation 'Vasin2014' on page 55 undefined on input line 269.
 
 LaTeX Warning: Citation 'Vasin2016' on page 55 undefined on input line 269.
 
-<fig/Twolaymodgrav.png, id=1289, 413.29407pt x 322.95656pt>
+<fig/Twolaymodgrav.png, id=1273, 413.29407pt x 322.95656pt>
 File: fig/Twolaymodgrav.png Graphic file (type png)
 <use fig/Twolaymodgrav.png>
 Package pdftex.def Info: fig/Twolaymodgrav.png  used on input line 285. on inpu
@@ -2619,7 +2618,7 @@ Overfull \hbox (11.86327pt too wide) in paragraph at lines 285--286
  []
 
 [55] [56 <./fig/Twolaymodgrav.png>] [57] [58]
-<fig/Twolaymodmag.png, id=1359, 413.29407pt x 322.95656pt>
+<fig/Twolaymodmag.png, id=1343, 413.29407pt x 322.95656pt>
 File: fig/Twolaymodmag.png Graphic file (type png)
 <use fig/Twolaymodmag.png>
 Package pdftex.def Info: fig/Twolaymodmag.png  used on input line 364. on input
@@ -2652,7 +2651,7 @@ Package epstopdf Info: Source file: <fig/Matrix.eps>
 .pdf fig/Matrix.eps>
 (epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
-<fig/Matrix-eps-converted-to.pdf, id=1498, pagebox=cropbox, 607.26875pt x 606.2
+<fig/Matrix-eps-converted-to.pdf, id=1482, pagebox=cropbox, 607.26875pt x 606.2
 65pt>
 File: fig/Matrix-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Matrix-eps-converted-to.pdf>
@@ -2677,7 +2676,7 @@ Package epstopdf Info: Source file: <fig/MultilayerModel.eps>
 verted-to.pdf fig/MultilayerModel.eps>
 (epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
-<fig/MultilayerModel-eps-converted-to.pdf, id=1513, pagebox=cropbox, 230.8625pt
+<fig/MultilayerModel-eps-converted-to.pdf, id=1497, pagebox=cropbox, 230.8625pt
  x 305.14pt>
 File: fig/MultilayerModel-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/MultilayerModel-eps-converted-to.pdf>
@@ -2724,7 +2723,7 @@ r/m/n/14.4 (\OML/cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 ) +
  []
 
 [73] [74]
-<fig/omp.png, id=1565, 314.67563pt x 246.9225pt>
+<fig/omp.png, id=1549, 314.67563pt x 246.9225pt>
 File: fig/omp.png Graphic file (type png)
 <use fig/omp.png>
 Package pdftex.def Info: fig/omp.png  used on input line 200. on input line 200
@@ -2738,7 +2737,7 @@ e 200.
                                                   \fi \fi 
 l.204 
       ] [76 <./fig/omp.png>]
-<fig/cuda.png, id=1582, 471.7625pt x 471.7625pt>
+<fig/cuda.png, id=1566, 471.7625pt x 471.7625pt>
 File: fig/cuda.png Graphic file (type png)
 <use fig/cuda.png>
 Package pdftex.def Info: fig/cuda.png  used on input line 209. on input line 20
@@ -2751,14 +2750,14 @@ me identifier (name{equation.3.14}) has been already used, duplicate ignored
                    \relax 
 l.227 \begin{equation}
                       \label{exact_exp3.4.1}
-<fig/gravy_kiev2014_exact.png, id=1591, 293.59688pt x 170.88844pt>
+<fig/gravy_kiev2014_exact.png, id=1575, 293.59688pt x 170.88844pt>
 File: fig/gravy_kiev2014_exact.png Graphic file (type png)
 <use fig/gravy_kiev2014_exact.png>
 Package pdftex.def Info: fig/gravy_kiev2014_exact.png  used on input line 238. 
 on input line 238.
 Package pdftex.def Info: Requested size: 497.92325pt x 289.8181pt on input line
  238.
-<fig/gravy_kiev2014_app.png, id=1593, 279.29344pt x 182.93344pt>
+<fig/gravy_kiev2014_app.png, id=1577, 279.29344pt x 182.93344pt>
 File: fig/gravy_kiev2014_app.png Graphic file (type png)
 <use fig/gravy_kiev2014_app.png>
 Package pdftex.def Info: fig/gravy_kiev2014_app.png  used on input line 245. on
@@ -2772,7 +2771,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fig/magne_kiev2014_exact.png, id=1599, 761.84625pt x 383.93437pt>
+<fig/magne_kiev2014_exact.png, id=1583, 761.84625pt x 383.93437pt>
 File: fig/magne_kiev2014_exact.png Graphic file (type png)
 <use fig/magne_kiev2014_exact.png>
 Package pdftex.def Info: fig/magne_kiev2014_exact.png  used on input line 259. 
@@ -2780,7 +2779,7 @@ on input line 259.
 Package pdftex.def Info: Requested size: 497.92325pt x 250.92523pt on input lin
 e 259.
 [78]
-<fig/magne_kiev2014_app.png, id=1608, 747.54282pt x 383.18156pt>
+<fig/magne_kiev2014_app.png, id=1592, 747.54282pt x 383.18156pt>
 File: fig/magne_kiev2014_app.png Graphic file (type png)
 <use fig/magne_kiev2014_app.png>
 Package pdftex.def Info: fig/magne_kiev2014_app.png  used on input line 266. on
@@ -2842,14 +2841,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 308--308
  []
 
 [80 <./fig/gravy_kiev2014_app.png> <./fig/magne_kiev2014_app.png>]
-<fig/exp341_mmn_gravy_field.png, id=1629, 409.53pt x 264.23718pt>
+<fig/exp341_mmn_gravy_field.png, id=1613, 409.53pt x 264.23718pt>
 File: fig/exp341_mmn_gravy_field.png Graphic file (type png)
 <use fig/exp341_mmn_gravy_field.png>
 Package pdftex.def Info: fig/exp341_mmn_gravy_field.png  used on input line 343
 . on input line 343.
 Package pdftex.def Info: Requested size: 497.92325pt x 321.29236pt on input lin
 e 343.
-<fig/exp341_mmn_magne_field.png, id=1630, 390.70969pt x 234.1247pt>
+<fig/exp341_mmn_magne_field.png, id=1614, 390.70969pt x 234.1247pt>
 File: fig/exp341_mmn_magne_field.png Graphic file (type png)
 <use fig/exp341_mmn_magne_field.png>
 Package pdftex.def Info: fig/exp341_mmn_magne_field.png  used on input line 349
@@ -2857,7 +2856,7 @@ Package pdftex.def Info: fig/exp341_mmn_magne_field.png  used on input line 349
 Package pdftex.def Info: Requested size: 497.92325pt x 298.38535pt on input lin
 e 349.
  [81]
-<fig/exp341_mmn_gravy_app.png, id=1638, 414.04688pt x 264.23718pt>
+<fig/exp341_mmn_gravy_app.png, id=1622, 414.04688pt x 264.23718pt>
 File: fig/exp341_mmn_gravy_app.png Graphic file (type png)
 <use fig/exp341_mmn_gravy_app.png>
 Package pdftex.def Info: fig/exp341_mmn_gravy_app.png  used on input line 355. 
@@ -2866,7 +2865,7 @@ Package pdftex.def Info: Requested size: 497.92325pt x 317.7765pt on input line
  355.
 
 [82 <./fig/exp341_mmn_gravy_field.png>]
-<fig/exp341_mmn_magne_app.png, id=1644, 392.21532pt x 226.59656pt>
+<fig/exp341_mmn_magne_app.png, id=1628, 392.21532pt x 226.59656pt>
 File: fig/exp341_mmn_magne_app.png Graphic file (type png)
 <use fig/exp341_mmn_magne_app.png>
 Package pdftex.def Info: fig/exp341_mmn_magne_app.png  used on input line 361. 
@@ -2880,14 +2879,14 @@ e 361.
 LaTeX Warning: Citation 'MarAkiMis2016' on page 86 undefined on input line 489.
 
 
-<fig/field_sum_exact.png, id=1669, 402.00188pt x 261.22594pt>
+<fig/field_sum_exact.png, id=1653, 402.00188pt x 261.22594pt>
 File: fig/field_sum_exact.png Graphic file (type png)
 <use fig/field_sum_exact.png>
 Package pdftex.def Info: fig/field_sum_exact.png  used on input line 498. on in
 put line 498.
 Package pdftex.def Info: Requested size: 448.12788pt x 291.19586pt on input lin
 e 498.
-<fig/field_gauss_noise22.png, id=1670, 405.76593pt x 280.04625pt>
+<fig/field_gauss_noise22.png, id=1654, 405.76593pt x 280.04625pt>
 File: fig/field_gauss_noise22.png Graphic file (type png)
 <use fig/field_gauss_noise22.png>
 Package pdftex.def Info: fig/field_gauss_noise22.png  used on input line 504. o
@@ -2895,7 +2894,7 @@ n input line 504.
 Package pdftex.def Info: Requested size: 497.92325pt x 343.66002pt on input lin
 e 504.
 [86 <./fig/field_sum_exact.png>]
-<fig/exact_ver.png, id=1679, 431.36156pt x 740.7675pt>
+<fig/exact_ver.png, id=1663, 431.36156pt x 740.7675pt>
 File: fig/exact_ver.png Graphic file (type png)
 <use fig/exact_ver.png>
 Package pdftex.def Info: fig/exact_ver.png  used on input line 518. on input li
@@ -2909,14 +2908,14 @@ LaTeX Warning: Citation 'VasEre2009' on page 89 undefined on input line 529.
 
 LaTeX Warning: Citation 'BachZhid1987' on page 89 undefined on input line 529.
 
-<fig/levmar_ver.png, id=1694, 251.43938pt x 497.60907pt>
+<fig/levmar_ver.png, id=1678, 251.43938pt x 497.60907pt>
 File: fig/levmar_ver.png Graphic file (type png)
 <use fig/levmar_ver.png>
 Package pdftex.def Info: fig/levmar_ver.png  used on input line 536. on input l
 ine 536.
 Package pdftex.def Info: Requested size: 351.04587pt x 694.67181pt on input lin
 e 536.
-<fig/clm_ver.png, id=1695, 437.38406pt x 719.68875pt>
+<fig/clm_ver.png, id=1679, 437.38406pt x 719.68875pt>
 File: fig/clm_ver.png Graphic file (type png)
 <use fig/clm_ver.png>
 Package pdftex.def Info: fig/clm_ver.png  used on input line 542. on input line
@@ -2924,7 +2923,7 @@ Package pdftex.def Info: fig/clm_ver.png  used on input line 542. on input line
 Package pdftex.def Info: Requested size: 422.21312pt x 694.67181pt on input lin
 e 542.
 [89] [90 <./fig/levmar_ver.png>]
-<fig/lm_noise_ver.png, id=1709, 237.13594pt x 441.90094pt>
+<fig/lm_noise_ver.png, id=1693, 237.13594pt x 441.90094pt>
 File: fig/lm_noise_ver.png Graphic file (type png)
 <use fig/lm_noise_ver.png>
 Package pdftex.def Info: fig/lm_noise_ver.png  used on input line 550. on input
@@ -2932,7 +2931,7 @@ Package pdftex.def Info: fig/lm_noise_ver.png  used on input line 550. on input
 Package pdftex.def Info: Requested size: 333.55841pt x 621.55492pt on input lin
 e 550.
  [91 <./fig/clm_ver.png>]
-<fig/clm_noise_ver.png, id=1715, 437.38406pt x 719.68875pt>
+<fig/clm_noise_ver.png, id=1699, 437.38406pt x 719.68875pt>
 File: fig/clm_noise_ver.png Graphic file (type png)
 <use fig/clm_noise_ver.png>
 Package pdftex.def Info: fig/clm_noise_ver.png  used on input line 556. on inpu
@@ -2958,7 +2957,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 607.
  [96] [97]
-<fig/prog_complex.png, id=1751, 555.57562pt x 761.09344pt>
+<fig/prog_complex.png, id=1735, 555.57562pt x 761.09344pt>
 File: fig/prog_complex.png Graphic file (type png)
 <use fig/prog_complex.png>
 Package pdftex.def Info: fig/prog_complex.png  used on input line 637. on input
@@ -3014,7 +3013,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
 Here is how much of TeX's memory you used:
  21804 strings out of 493312
  345779 string characters out of 3138900
- 1022742 words of memory out of 3000000
+ 1022730 words of memory out of 3000000
  24662 multiletter control sequences out of 15000+200000
  22980 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3047,9 +3046,9 @@ cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on thesis.pdf (100 pages, 3971982 bytes).
+Output written on thesis.pdf (100 pages, 3970183 bytes).
 PDF statistics:
- 2437 PDF objects out of 2487 (max. 8388607)
+ 2421 PDF objects out of 2487 (max. 8388607)
  294 named destinations out of 1000 (max. 500000)
  296 words of extra memory for PDF output out of 10000 (max. 10000000)
 
