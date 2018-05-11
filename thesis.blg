@@ -1,8 +1,14 @@
-[3] Config.pm:354> INFO - This is Biber 2.7
-[4] Config.pm:357> INFO - Logfile is 'thesis.blg'
-[335] biber-MSWIN64:303> INFO - === 
-[572] Biber.pm:359> INFO - Reading 'thesis.bcf'
-[2356] Utils.pm:180> ERROR - Error: Found biblatex control file version 3.4, expected version 3.3.
-This means that your biber (2.7) and biblatex (3.10) versions are incompatible.
-See compat matrix in biblatex or biber PDF documentation.
-[2358] Biber.pm:113> INFO - ERRORS: 1
+[0] Config.pm:320> INFO - This is Biber 1.9
+[0] Config.pm:323> INFO - Logfile is 'thesis.blg'
+[47] biber-MSWIN:274> INFO - === %a %b %e, %Y, %H:%M:%S
+[48] Biber.pm:333> INFO - Reading 'thesis.bcf'
+[200] Biber.pm:635> INFO - Found 127 citekeys in bib section 0
+[245] Biber.pm:3051> INFO - Processing section 0
+[288] Biber.pm:3189> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[315] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[337] bibtex.pm:864> INFO - Found BibTeX data source 'thesis.bib'
+[2489] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2489] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2489] Biber.pm:2928> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'ru-RU'
+[3388] bbl.pm:517> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[3413] bbl.pm:606> INFO - Output to thesis.bbl

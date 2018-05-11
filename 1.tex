@@ -192,7 +192,7 @@ $$ {\|u^{k+1}-u_\alpha\|}^2={\|u^k-u_\alpha\|}^2-2\gamma\langle F(u^k), u^k-u_\a
 \newpage
 \section{Нелинейные аналоги альфа-процессов}
 
-В работе \cite{Vasin2016} для монотонных операторных уравнений были предложены регуляризованные модифицированные процессы с самосопряженным оператором $A'(u^0)$ ($-\infty \le \varkappa <\infty$)
+В работе \cite{Vasin2016} для монотонных нелинейных операторных уравнений были предложены регуляризованные модифицированные процессы с самосопряженным оператором $A'(u^0)$ ($-\infty \le \varkappa <\infty$)
 $$
 u^{k+1}=u^k-\gamma\frac{\langle (A'(u^0)+\bar\alpha I)^{\varkappa}S_\alpha(u^k), S_\alpha(u^k)\rangle }{\langle(A'(u^0)+\bar\alpha I)^{\varkappa+1}S_\alpha(u^k), S_\alpha(u^k)\rangle }S_\alpha(u^k),
 $$
@@ -229,8 +229,8 @@ $$\min_{\beta}\{\langle A'(u^k)u^{k+1},u^{k+1}\rangle-2\langle u^{k+1},F(u^k)\ra
 $$B(u)=A'(u)+\bar\alpha I, \quad S_\alpha (u)=A(u)+\alpha(u-u^0)-f_\delta,
 $$
 а также введем новый оператор
-$$F^\varkappa(u)=\beta^\varkappa S_\alpha(u), \quad \beta ^\varkappa =\frac{\langle B^\varkappa(u)S_\alpha(u), S_\alpha (u)\rangle}{\langle B^{\varkappa +1}(u)S_\alpha(u), S_\alpha(u)\rangle}$$ 
-где $\varkappa$ --- верхний индекс, при $\varkappa=1$ в $\beta^\varkappa$ следует заменить знаменатель на $\|B(u)S_\alpha(u)\|^2$.% (см. замечание 1.2).
+$$F_\varkappa(u)=\beta^\varkappa S_\alpha(u), \quad \beta _\varkappa =\frac{\langle B^\varkappa(u)S_\alpha(u), S_\alpha (u)\rangle}{\langle B^{\varkappa +1}(u)S_\alpha(u), S_\alpha(u)\rangle}$$ 
+где при $\varkappa=1$ в $\beta_\varkappa$ следует заменить знаменатель на $\|B(u)S_\alpha(u)\|^2$.% (см. замечание 1.2).
 \begin{theorem}\label{teo3.1}
 	Пусть для монотонного оператора $A$ выполнены условия $\eqref{cond1.1}$ --- $\eqref{cond1.3}$ и $A'(u^0)$ --- самосопряженный оператор. Кроме того, для ММО параметры $\alpha$, $\bar\alpha$, $r$ удовлетворяют дополнительным соотношениям:
 	\begin{equation}\label{cond3.3}
@@ -238,52 +238,52 @@ $$F^\varkappa(u)=\beta^\varkappa S_\alpha(u), \quad \beta ^\varkappa =\frac{\lan
 	\end{equation}
 	Тогда справедливы соотношения
 	\begin{equation}\label{ineq3.4}
-	\|F^\varkappa(u)\|^2 \le \mu_\varkappa\langle F^\varkappa(u), u-u_\alpha\rangle, \quad \varkappa=-1,0,1,
+	\|F_\varkappa(u)\|^2 \le \mu_\varkappa\langle F_\varkappa(u), u-u_\alpha\rangle, \quad \varkappa=-1,0,1,
 	\end{equation} где
 	\begin{equation}\label{cond3.5}
 	\mu _{-1}=\frac{4(N_1+\alpha)^2}{\alpha\bar\alpha}, \quad \mu _0= \frac{(N_1+\alpha)^2(N_1+\bar\alpha)}{\alpha{\bar\alpha}^2}, \quad \mu_1= \frac{(N_1+\alpha)^2(N_1+\bar\alpha)^2}{\alpha{\bar\alpha}^3},
 	\end{equation}
 	соответственно для ММО, МНС, ММН.
 \end{theorem}
-\begin{proof} Рассмотрим  ММО, т.е. $\eqref{equ_alphaproc}$ при $\varkappa=-1$. Принимая во внимание монотонность оператора $A$, самосопряженность и неотрицательность $A'(u^0)$ и условия на параметры $\eqref{cond3.3}$, получим (ниже $F^{-1}(u)$, $B^{-1}(u)$, означает $F^\varkappa(u)$, $B^\varkappa(u)$ при $\varkappa=-1$)
-$$ \langle F^{-1}(u), u-u_\alpha\rangle=\beta^{-1}(u)\langle A(u)-A(u_\alpha)+ \alpha(u-u_\alpha),u-u_\alpha\rangle\ge\alpha\beta^{-1}(u)\|u-u_\alpha\|^2
+\begin{proof} Рассмотрим  ММО, т.е. $\eqref{equ_alphaproc}$ при $\varkappa=-1$. Принимая во внимание монотонность оператора $A$, самосопряженность и неотрицательность $A'(u^0)$ и условия на параметры $\eqref{cond3.3}$, получим (ниже $F_{-1}(u)$, $B^{-1}(u)$, означает $F_\varkappa(u)$, $B^\varkappa(u)$ при $\varkappa=-1$)
+$$ \langle F_{-1}(u), u-u_\alpha\rangle=\beta_{-1}(u)\langle A(u)-A(u_\alpha)+ \alpha(u-u_\alpha),u-u_\alpha\rangle\ge\alpha\beta_{-1}(u)\|u-u_\alpha\|^2
 $$ $$\ge\alpha\left(\frac{\langle B^{-1}(u^0)S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha (u)\|^2}-\frac{\mid\langle (B^{-1}(u)-B^{-1}(u^0))S_\alpha(u), S_\alpha (u)\rangle \mid}{\|S_\alpha (u)\|^2}\right)$$
 $$\times \|u-u_\alpha\|^2 \ge\left(\frac{\alpha}{N_0+\bar\alpha}-\alpha\|B^{-1}(u)\|\|B^{-1}(u^0)\|\|A'(u)-A'(u^0)\|\right)\|u-u_\alpha\|^2$$ 
 \begin{equation}\label{ineq3.6}
 \ge\left(\frac{\alpha}{N_0+\bar\alpha}-\frac{2\alpha N_2r}{\bar\alpha ^2}\right)\|u-u_\alpha\|^2\ge\frac{\alpha}{4\bar\alpha}\|u-u_\alpha\|^2,\end{equation}
-где учтено, что $\|u-u^0\|\le\|u-u_\alpha\|+\|u_\alpha-u^0\|\le 2r.$ Кроме того, выполнены неравенства $$\|F^{-1}(u)\|^2=\mid\beta^{-1}(u)\mid^2\|A(u)-A(u_\alpha)+\alpha(u-u_\alpha)\|^2\le(N_1+\alpha)^2\|B^{-1}(u)\|^2\|u-u_\alpha\|^2 $$
+где учтено, что $\|u-u^0\|\le\|u-u_\alpha\|+\|u_\alpha-u^0\|\le 2r.$ Кроме того, выполнены неравенства $$\|F_{-1}(u)\|^2=\mid\beta_{-1}(u)\mid^2\|A(u)-A(u_\alpha)+\alpha(u-u_\alpha)\|^2\le(N_1+\alpha)^2\|B^{-1}(u)\|^2\|u-u_\alpha\|^2 $$
 \begin{equation}\label{ineq3.7}
 \le\frac{(N_1+\alpha)^2}{\bar\alpha^2}\|u-u_\alpha\|^2 .
 \end{equation}
 Объединяя $\eqref{ineq3.6}$ и $\eqref{ineq3.7}$, получаем
 \begin{equation}\label{ineq3.8}
-\|F^{-1}(u)\|^2\le\frac{4(N_1+\alpha)^2}{\alpha\bar\alpha}\langle F^{-1}(u), u-u_\alpha\rangle.
+\|F_{-1}(u)\|^2\le\frac{4(N_1+\alpha)^2}{\alpha\bar\alpha}\langle F_{-1}(u), u-u_\alpha\rangle.
 \end{equation}
 
 Перейдем к оценке МНС ($\varkappa=0$). Из соотношений
-$$\langle F^0(u), u-u_\alpha\rangle=\beta^0(u)\langle A(u)-A(u_\alpha)+\alpha(u-u_\alpha), u-u_\alpha\rangle\ge\alpha\beta^0(u)\|u-u_\alpha\|^2$$ 
+$$\langle F_0(u), u-u_\alpha\rangle=\beta_0(u)\langle A(u)-A(u_\alpha)+\alpha(u-u_\alpha), u-u_\alpha\rangle\ge\alpha\beta_0(u)\|u-u_\alpha\|^2$$ 
 \begin{equation}\label{ineq3.9}
 =\alpha\frac{\|S_\alpha (u)\|^2}{\langle A'(u)S_\alpha (u),S_\alpha (u)\rangle +\bar\alpha\|S_\alpha (u)\|^2}|u-u_\alpha\|^2\ge \frac{\alpha}{N_1+\bar\alpha}\|u-u_\alpha\|^2,\end{equation}
 $$
-\|F^0(u)\|^2=\|\beta^0(u)\|^2\|S_\alpha(u)-S_\alpha(u_\alpha)\|^2 $$
+\|F_0(u)\|^2=\|\beta_0(u)\|^2\|S_\alpha(u)-S_\alpha(u_\alpha)\|^2 $$
 \begin{equation}\label{ineq3.10}\le\frac{(N_1+\alpha)^2\|S_\alpha (u)\|^4\|u-u_\alpha\|^2}{\mid\langle A'(u)S_\alpha (u),S_\alpha (u)\rangle +\bar\alpha\|S_\alpha (u)\|^2\mid ^2}\le\frac{(N_1+\alpha)^2}{\bar\alpha^2}\|u-u_\alpha\|^2,
 \end{equation}
 приходим к неравенству
-$$\|F^0(u)\|^2\le\frac{(N_1+\alpha)^2(N_1+\bar\alpha)}{\alpha\bar\alpha^2}\langle F^0(u), u-u_\alpha\rangle.$$
+$$\|F_0(u)\|^2\le\frac{(N_1+\alpha)^2(N_1+\bar\alpha)}{\alpha\bar\alpha^2}\langle F_0(u), u-u_\alpha\rangle.$$
 
 Обратимся теперь к ММН $\eqref{equ_mmn}$. Получим неравенства:
-$$\langle F^1(u), u-u_\alpha\rangle\ge\alpha\beta^1(u)\|u-u_\alpha\|^2= \alpha\frac{\langle (A'(u)+\bar\alpha I)S_\alpha (u),S_\alpha (u)\rangle }{\|B(u)S_\alpha (u)\|^2}\|u-u_\alpha\|^2$$
+$$\langle F_1(u), u-u_\alpha\rangle\ge\alpha\beta_1(u)\|u-u_\alpha\|^2= \alpha\frac{\langle (A'(u)+\bar\alpha I)S_\alpha (u),S_\alpha (u)\rangle }{\|B(u)S_\alpha (u)\|^2}\|u-u_\alpha\|^2$$
 \begin{equation}\label{ineq3.11}
 \ge\frac{\alpha\bar\alpha}{\|B(u)\|^2}\|u-u_\alpha\|^2\ge\frac{\alpha\bar\alpha}{(N_1+\bar\alpha)^2}\|u-u_\alpha\|^2,
 \end{equation}
-$$\|F^1(u)\|\le\frac{(N_1+\alpha)\langle B(u)S_\alpha (u),S_\alpha (u)\rangle }{\|B(u)S_\alpha (u)\|^2}\|u-u_\alpha\|$$
+$$\|F_1(u)\|\le\frac{(N_1+\alpha)\langle B(u)S_\alpha (u),S_\alpha (u)\rangle }{\|B(u)S_\alpha (u)\|^2}\|u-u_\alpha\|$$
 $$\le\frac{(N_1+\alpha)\langle B(u)S_\alpha (u),S_\alpha (u)\rangle }{\langle B(u)S_\alpha (u), B(u)S_\alpha (u)\rangle }\|u-u_\alpha\|$$ 
 $$=\frac{(N_1+\alpha)\langle B(u)S_\alpha (u),S_\alpha (u)\rangle \|u-u_\alpha\|}{\|A'(u)S_\alpha (u)\|^2+\alpha\langle A'(u)S_\alpha (u),S_\alpha (u)\rangle +\bar\alpha\langle B(u)S_\alpha (u), S_\alpha (u)\rangle }$$
 \begin{equation}\label{ineq3.12}
 \le\frac{N_1+\alpha}{\bar\alpha}\|u-u_\alpha\|
 \end{equation}
 из которых вытекает оценка
-$$\|F^1(u)\|^2\le\frac{(N_1+\alpha)^2(N_1+\bar\alpha)^2}{\alpha\bar\alpha^3}\langle F^1(u), u-u_\alpha\rangle.$$
+$$\|F_1(u)\|^2\le\frac{(N_1+\alpha)^2(N_1+\bar\alpha)^2}{\alpha\bar\alpha^3}\langle F_1(u), u-u_\alpha\rangle.$$
 
 Таким образом, доказана справедливость неравенства $\eqref{ineq3.4}$ при значениях $\mu_\varkappa$ из $\eqref{cond3.5}$.
 \end{proof}
@@ -303,7 +303,7 @@ $$\|F^1(u)\|^2\le\frac{(N_1+\alpha)^2(N_1+\bar\alpha)^2}{\alpha\bar\alpha^3}\lan
 	q_1=\sqrt{1-\frac{\alpha^2\bar\alpha^4}{(N_1+\bar\alpha)^4}}.
 	\end{equation}
 \end{theorem}
-\begin{proof} Сопоставляя неравенство $\eqref{ineq2.19}$ при $F(u)=F^\varkappa(u) \quad (\varkappa=-1,0,1)$ с соотношением $\eqref{ineq3.4}$, находим, что при $\gamma_\varkappa$, удовлетворяющем  $\eqref{ineq3.13}$, условие фейеровости выполняется для всех трех процессов. Поэтому сходимость итераций при выполнении условия $\eqref{ineq3.13}$ устанавливается аналогично теореме $(\ref{teo2.3})$, касающейся метода Ньютона. Подставляя в $\eqref{ineq2.20}$ $F^\varkappa(u^k)$ и используя оценки $\eqref{ineq3.7}$, $\eqref{ineq3.8}$ (при $\varkappa=-1$), $\eqref{ineq3.9}$, $\eqref{ineq3.10}$ (при $\varkappa=0$), $\eqref{ineq3.11}$, $\eqref{ineq3.12}$ (при $\varkappa=1$), вычисляем выражение в круглых скобках в правой части неравенства $\eqref{ineq2.20}$ для каждого метода. Минимизируя это выражение по $\gamma$, получаем значение $\gamma{_\varkappa^{opt}}$, определяемое формулой $\eqref{eq3.14}$ и вычисляем коэффициенты $q_\varkappa$, которые принимают вид из $\eqref{eq3.15}$.
+\begin{proof} Сопоставляя неравенство $\eqref{ineq2.19}$ при $F(u)=F_\varkappa(u) \quad (\varkappa=-1,0,1)$ с соотношением $\eqref{ineq3.4}$, находим, что при $\gamma_\varkappa$, удовлетворяющем  $\eqref{ineq3.13}$, условие фейеровости выполняется для всех трех процессов. Поэтому сходимость итераций при выполнении условия $\eqref{ineq3.13}$ устанавливается аналогично теореме $(\ref{teo2.3})$, касающейся метода Ньютона. Подставляя в $\eqref{ineq2.20}$ $F_\varkappa(u^k)$ и используя оценки $\eqref{ineq3.7}$, $\eqref{ineq3.8}$ (при $\varkappa=-1$), $\eqref{ineq3.9}$, $\eqref{ineq3.10}$ (при $\varkappa=0$), $\eqref{ineq3.11}$, $\eqref{ineq3.12}$ (при $\varkappa=1$), вычисляем выражение в круглых скобках в правой части неравенства $\eqref{ineq2.20}$ для каждого метода. Минимизируя это выражение по $\gamma$, получаем значение $\gamma{_\varkappa^{opt}}$, определяемое формулой $\eqref{eq3.14}$ и вычисляем коэффициенты $q_\varkappa$, которые принимают вид из $\eqref{eq3.15}$.
 \end{proof}
 
 \begin{remark}
@@ -369,15 +369,16 @@ F(x)=y,
 \begin{equation}\label{taut_3}
 [F'(x)h](t)=[F(x)](t)\int_{0}^{t}h(\tau)d\tau.
 \end{equation}
-Так как в силу $\eqref{taut_1}$, $[F(x)](t)\ge 0$ и $\langle\int_{0}^{t}h(\tau)d\tau, h\rangle\ge 0$, то производная оператора неотрицательно определена $\langle F'(x)h, h\rangle\ge 0$. Оператор $F$ монотонен. Для проверки условий Липшица для операторов $F, F'(x)$ в шаре $S_r(u_\alpha, r)$ используем оценки: $\|\int_{0}^{1}h(\tau)d\tau\|\le\|h\|$, $|e^\lambda-e^\mu|\le|\lambda-\mu|max\{e^\lambda, e^\mu\}$
+Так как в силу $\eqref{taut_1}$, $[F(x)](t)\ge 0$ и $\langle\int_{0}^{t}h(\tau)d\tau, h\rangle\ge 0$, то производная оператора неотрицательно определена $\langle F'(x)h, h\rangle\ge 0$. Оператор $F$ монотонен. Для проверки условий Липшица для операторов $F, F'(x)$ в шаре $S(u^0, r)$ используем оценки: $\|\int_{0}^{1}h(\tau)d\tau\|\le\|h\|$, $|e^\lambda-e^\mu|\le|\lambda-\mu|max\{e^\lambda, e^\mu\}$.
 $$\|F(u)-F(v)\|\le c_0\|e^{\int_{0}^{1}u(\tau)d\tau}-e^{\int_{0}^{1}v(\tau)d\tau}\|
 \le c_0 max\{e^{\|u\|},e^{\|v\|}\}\|u-v\|,$$
 $$\|(F'(u)-F'(v))h\|\le\|F(u)-F(v)\|\|h\|\le c_0 max\{e^{\|u\|},e^{\|v\|}\}\|h\|\|u-v\|.$$
-Также оценим норму производной оператора в начальном приближении $\|F'(x^0)h\|\le c_0 e^{\|x^0\|}\|h\|,$ т.е. $\|F'(x^0)\|\le c_0 e^{\|x^0\|}$, $\|x^0-u_\alpha\|\le r$.
+Также оценим норму производной оператора в начальном приближении $\|F'(x^0)h\|\le c_0 e^{\|x^0\|}\|h\|,$ т.е. $\|F'(x^0)\|\le c_0 e^{\|x^0\|}$.%, $\|x^0-u_\alpha\|\le r$.
 
 {\bfseries 1.3.1. Эксперимент без использования шума} 
 
- В качестве точного решения взяли функция $z(t)=t^2$, по точному решению построили правую часть $y(t)$.  Начальное приближение $x^0(t)=t^3$, $\bar\alpha=\alpha=10^{-2}$, критерий останова $\frac{\|x^k-z\|}{\|z\|}\le\varepsilon=10^{-2}$, где $x^k$ --- приближение на $k$-й итерации. Выбор начального приближения, достаточно близкого к точному решению, обусловлен условиями теорем 1.1, 1.5 для сходимости немодифицированных вариантов методов $\eqref{equ_rmn}$, $\eqref{equ_alphaproc}$, $\eqref{equ_mmn}$. На рис.~\ref{fig:mmn_ch1} изображено восстановленное решение ММН. Точное решение отмечено сплошной линией, начальное приближение --- штрихпунктирной, ММН --- пунктирной. 
+ Точное решение $z(t)=t^2$, по точному решению построили правую часть $y(t)$. Начальное приближение $x^0(t)=t^3$, $\bar\alpha=\alpha=10^{-2}$, критерий останова $\frac{\|x^k-z\|}{\|z\|}\le\varepsilon=10^{-2}$, где $x^k$ --- приближение на $k$-й итерации. Выбор начального приближения, близкого к точному решению, обусловлен условиями теорем 1.1, 1.5 для сходимости к регуляризованному решению немодифицированных вариантов методов $\eqref{equ_rmn}$, $\eqref{equ_alphaproc}$, $\eqref{equ_mmn}$. 
+ На рис.~\ref{fig:mmn_ch1} изображено восстановленное решение ММН. Точное решение отмечено сплошной линией, начальное приближение --- штрихпунктирной, ММН --- пунктирной. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[height=12.0cm]{mmn2_ch1}
@@ -385,9 +386,9 @@ $$\|(F'(u)-F'(v))h\|\le\|F(u)-F(v)\|\|h\|\le c_0 max\{e^{\|u\|},e^{\|v\|}\}\|h\|
 	\label{fig:mmn_ch1}
 \end{figure}
 Ниже в таблице \ref{table1.1} показаны результаты расчетов методами $\eqref{equ_rmn}$, $\eqref{equ_alphaproc}$, $\Delta=\frac{\|F(x^k)+\alpha(x^k-x^0)-y\|}{\|y\|}$ --- относительная норма невязки. 
-\begin{table}[h]
+\begin{table}[H]
 	\centering
-	\renewcommand{\arraystretch}{1.5}
+	%\renewcommand{\arraystretch}{1.5}
 	\caption{Результаты для правой части без шума}
 	\label{table1.1}
 	\begin{tabular}{|l|c|c|c|}
@@ -404,8 +405,6 @@ $$\|(F'(u)-F'(v))h\|\le\|F(u)-F(v)\|\|h\|\le c_0 max\{e^{\|u\|},e^{\|v\|}\}\|h\|
 	\end{tabular}
 \end{table}
 
-{\bfseries\large Вывод.} Теорема 1.5 не гарантирует, что при $\gamma=1$ итерационный процессы $\eqref{equ_alphaproc}$ будут сходиться к точному решению, так же как и модифицированный вариант метода Ньютона. Поэтому относительная погрешность некоторых этих методов в рамках эксперимента была достигнута при выборе $\gamma<1$, тогда как для метода Ньютона немодифицированного варианта сходимость при $\gamma=1$ доказана теоремой 1.1. Для достижения необходимой точности решения модифицированным вариантом МНС параметр $\gamma$ потребовалось уменьшать на 30-й итерации $\gamma=0.005$ и на 32-й итерации $\gamma=0.002$.
-
 {\bfseries 1.3.2. Эксперимент для задачи без использования шума с начальным приближением, далеким от точного решения.} 
 
 Точное решение и правая часть такие же, как в эксперименте 1.3.1.  Начальное приближение $x^0(t)=0$, $\bar\alpha=\alpha=10^{-2}$, критерий останова $\frac{\|x^k-z\|}{\|z\|}\le\varepsilon=10^{-1}$, где $x^k$ --- приближение на $k$-й итерации. Выбор начального приближения обусловлен фактом, установленным в статье \cite{Vasin2016}, где для модифицированных вариантов методов $\eqref{equ_alphaproc}$ доказывается глобальная сходимость итерационных процессов.%%На рис.~\ref{fig:mmn_ch1_const} изображено восстановленное решение методом ММН. Точное решение отмечено голубым цветом, начальное приближение --- малиновым, ММН --- зеленым. 
@@ -416,9 +415,9 @@ $$\|(F'(u)-F'(v))h\|\le\|F(u)-F(v)\|\|h\|\le c_0 max\{e^{\|u\|},e^{\|v\|}\}\|h\|
 %	\label{fig:mmn_ch1_const}
 %\end{figure}
 Ниже в таблице \ref{table1.2} показаны результаты расчетов методами $\eqref{equ_rmn}$, $\eqref{equ_alphaproc}$, $\Delta$ --- относительная норма невязки. 
-\begin{table}[h]
+\begin{table}[H]
 	\centering
-	\renewcommand{\arraystretch}{1.5}
+	%\renewcommand{\arraystretch}{1.5}
 	\caption{Результаты для правой части без шума, с начальным приближением, равным константе}
 	\label{table1.2}
 	\begin{tabular}{|l|c|c|c|}
@@ -435,14 +434,14 @@ $$\|(F'(u)-F'(v))h\|\le\|F(u)-F(v)\|\|h\|\le c_0 max\{e^{\|u\|},e^{\|v\|}\}\|h\|
 	\end{tabular}
 \end{table}
 
-{\bfseries\large Вывод.} %Локальная сходимость модифицированного метода Ньютона оговаривается в статье \cite{VasAkiMin2013}, но в данном случае была достигнута требуемая точность, как и для немодифицированных методов, рассматриваемых в данной главе. 
-Согласно теореме 1.5, при выборе $\gamma<1$, достигнута относительная погрешность $\varepsilon$ итераций $\eqref{equ_rmn}$, $\eqref{equ_alphaproc}$, $\eqref{equ_mmn}$.
-
 {\bfseries 1.3.3. Эксперимент для задачи с возмущенной правой частью с начальным приближением, далеким от точного решения.} 
 
-Точное решение такое же, как в эксперименте 1.3.1. Правая часть $y^\delta(t)=y(t)e^{\frac{\delta}{5} sin(t/{\delta}^2)}$, $\delta=0.1$, $\|y-y^{\delta}\|=0.07<\delta$. Начальное приближение $x^0(t)=0$, $\gamma$, $\bar\alpha=1$, $\alpha=10^{-3}$, критерий останова $\frac{\|x^k-z\|}{\|z\|}\le\varepsilon=0.25$, где $x^k$ --- приближение на $k$-й итерации. 
+Точное решение такое же, как в эксперименте 1.3.1. Правая часть $y^\delta(t)=y(t)e^{\frac{\delta}{5} sin(t/{\delta}^2)}$, $\delta=0.1$, $\|y-y^{\delta}\|=0.07<\delta$. Начальное приближение $x^0(t)=0$, $\gamma$, $\bar\alpha=1$, $\alpha=10^{-3}$, критерий останова $\frac{\|x^k-z\|}{\|z\|}\le\varepsilon=0.25$, где $x^k$ --- приближение на $k$-й итерации.
 
-Относительные погрешности итераций рассмотренных методов сходятся к $\varepsilon$ за 8--9 итераций, $\Delta\approx 0.04$.
+{\bfseries\large Вывод.} В эксперименте 1.3.1. относительная погрешность некоторых методов $\eqref{equ_alphaproc}$ в рамках эксперимента была достигнута при выборе $\gamma<1$ в силу теоремы 1.5, тогда как для метода Ньютона немодифицированного варианта сходимость при $\gamma=1$ доказана теоремой 1.1. Для достижения необходимой точности решения модифицированным МНС параметр $\gamma$ потребовалось уменьшать на 30-й итерации $\gamma=0.005$ и на 32-й итерации $\gamma=0.002$.
+%Локальная сходимость модифицированного метода Ньютона оговаривается в статье \cite{VasAkiMin2013}, но в данном случае была достигнута требуемая точность, как и для немодифицированных методов, рассматриваемых в данной главе. 
+В эксперименте 1.3.2., согласно теореме 1.5, при выборе $\gamma<1$, достигнута относительная погрешность $\varepsilon$ итераций $\eqref{equ_rmn}$, $\eqref{equ_alphaproc}$, $\eqref{equ_mmn}$. 
+В последнем эксперименте  достигнута точность $\varepsilon$ за 8--9 итераций, $\Delta\approx 0.04$.
 
 %В статье \cite{VasSkur2017} приводятся оценки погрешности двухэтапного метода для $\|u^{\delta}-\hat{u}\|$ сверху ($u^{\delta}$ --- решение уравнения с возмущенной правой частью, $\hat{u}$ --- решение уравнения $\eqref{equ1}$), устанавливается сходимость $$\lim_{\delta\to 0}\|A(u_{\alpha(\delta)}^{\delta, k})-f_\delta\|=0,$$ при $\alpha(\delta)\to 0$, $\delta\to 0$. 
 %
