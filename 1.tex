@@ -39,11 +39,15 @@
 	\end{equation}
 	где $z\in Fix(T)$.
 \end{definition}
+\begin{definition}
+	Пусть $\{x^k\}$ --- сходящаяся последовательность приближений итерационного метода с начальным приближением $x^0$ к $z$ --- решению операторного уравнения. 
+	Итерационный метод обладает линейной скоростью сходимости, если $$\exists q\in (0,1): \|x^k-z\|<q^k\|z-x^0\|.$$ 
+\end{definition}
 Рассматривается нелинейное уравнение
 \begin{equation}\label{equ1}A(u)=f\end{equation}
 в гильбертовом пространстве $H$ с монотонным непрерывно дифференцируемым по Фреше оператором $A$, для которого обратные операторы $A'(u)^{-1}$, $A^{-1}$ разрывны, что влечет некорректность задачи $\eqref{equ1}$. Для построения регуляризующего алгоритма (РА) используется двухэтапный метод, в котором на первом этапе проводится регуляризация по схеме Лаврентьева
 \begin{equation}\label{equ2}A(u)+\alpha(u-u^0)-f_\delta=0,\end{equation}
-где $\|f-f_\delta\|\le\delta$, $u^0$ --- некоторое приближение к решению; а на втором этапе для аппроксимации регуляризованного решения $u_\alpha$ уравнения $\eqref{equ2}$ применяется либо регуляризованный метод Ньютона (РМН)
+где $\|f-f_\delta\|\le\delta$, $u^0$ --- начальное приближение к решению; а на втором этапе для аппроксимации регуляризованного решения $u_\alpha$ уравнения $\eqref{equ2}$ применяется либо регуляризованный метод Ньютона (РМН)
 \begin{equation}\label{equ_rmn}
 u^{k+1}=u^k-\gamma(A'(u^k)+\bar\alpha I)^{-1}(A(u^k)+\alpha(u^k-u^0)-f_\delta)\equiv{T(u^k)},
 \end{equation}
@@ -323,7 +327,11 @@ u^0-\hat{u}=A'(\hat{u})v,
 \begin{equation}\label{est5.2}
 \|u_\alpha^{\delta}-\hat{u}\|\le\|u_\alpha^{\delta}-u_\alpha\|+\|u_\alpha-\hat{u}\|\le\frac{\delta}{\alpha}+k_0\alpha,
 \end{equation}
-где $k_0=(1+N_2\|v\|/2)\|v\|$, $u_\alpha^{\delta}$, $u_\alpha$ -- решения уравнения $\eqref{equ2}$ с возмущенной $f_\delta$ и точной $f$ правой частью уравнения $\eqref{equ1}$ соответственно. Минимизируя правую часть соотношения $\eqref{est5.2}$ по $\alpha$, имеем $\alpha(\delta)=\sqrt{\delta /k_0}$, что дает оценку
+где $k_0=(1+N_2\|v\|/2)\|v\|$, $u_\alpha^{\delta}$, $u_\alpha$ -- решения уравнения $\eqref{equ2}$ с возмущенной $f_\delta$ и точной $f$ правой частью уравнения $\eqref{equ1}$ соответственно. Минимизируя правую часть соотношения $\eqref{est5.2}$ по $\alpha$, имеем 
+\begin{equation}\label{est5.21}
+	\alpha(\delta)=\sqrt{\delta /k_0},
+\end{equation}
+что дает оценку
 \begin{equation}\label{est5.3}
 \|u_{\alpha(\delta)}^{\delta}-\hat{u}\|\le 2\sqrt{\delta k_0}
 \end{equation}
@@ -341,8 +349,9 @@ u^0-\hat{u}=A'(\hat{u})v,
 	\end{equation}
 	справедлива оптимальная по порядку оценка погрешности двухэтапного метода
 	\begin{equation}\label{est5.6}
-	\|u_{\alpha(\delta)}^{\delta, k}-\hat{u}\|\le 4\sqrt{k_0 \delta}
+	\|u_{\alpha(\delta)}^{\delta, k}-\hat{u}\|\le 4\sqrt{k_0 \delta},
 	\end{equation}
+	где $\alpha(\delta)$ определяется из $\eqref{est5.21}$.
 \end{theorem}
 \proof Объединяя $\eqref{est5.3}$, $\eqref{est5.4}$, получаем
 \begin{equation}\label{est5.7}
@@ -365,11 +374,11 @@ u^0-\hat{u}=A'(\hat{u})v,
 F(x)=y,
 \end{equation}
 где $$[F(x)](t)=c_0 e^{\int_{0}^{t}x(\tau)d\tau}$$
-действует из $L^2[0,1]$ в $L^2[0,1]$. В случае, когда правая часть задана с шумом $y^\delta(t)=y(t)e^{\frac{\delta}{5} sin(t/{\delta}^2)}$, при $y^\delta\to y$ в $L^2[0,1]$, величина $\|x-x^\delta\|=\|\frac{1}{5 \delta}cos(t/{\delta}^2)\|\to\infty$ при $\delta\to 0$. Это показывает, что задача $\eqref{taut_2}$ поставлена некорректно. Запишем производную оператора $F$
+действует из $L^2[0,1]$ в $L^2[0,1]$. В случае, когда правая часть задана с шумом $y^\delta(t)=y(t)e^{\frac{\delta}{5} sin(t/{\delta}^2)}$, при $y^\delta\to y$ в $L^2[0,1]$, величина \\ $\|x-x^\delta\|=\|\frac{1}{5 \delta}cos(t/{\delta}^2)\|\to\infty$ при $\delta\to 0$. Это показывает, что задача $\eqref{taut_2}$ поставлена некорректно. Запишем производную оператора $F$
 \begin{equation}\label{taut_3}
 [F'(x)h](t)=[F(x)](t)\int_{0}^{t}h(\tau)d\tau.
 \end{equation}
-Так как в силу $\eqref{taut_1}$, $[F(x)](t)\ge 0$ и $\langle\int_{0}^{t}h(\tau)d\tau, h\rangle\ge 0$, то производная оператора неотрицательно определена $\langle F'(x)h, h\rangle\ge 0$. Оператор $F$ монотонен. Для проверки условий Липшица для операторов $F, F'(x)$ в шаре $S(u^0, r)$ используем оценки: $\|\int_{0}^{1}h(\tau)d\tau\|\le\|h\|$, $|e^\lambda-e^\mu|\le|\lambda-\mu|max\{e^\lambda, e^\mu\}$.
+Так как в силу $\eqref{taut_1}$, $[F(x)](t)\ge 0$ и $\langle\int_{0}^{t}h(\tau)d\tau, h\rangle\ge 0$, то производная оператора неотрицательно определена $\langle F'(x)h, h\rangle\ge 0$. Оператор $F$ монотонен. Для проверки условий Липшица для операторов $F, F'(x)$ в шаре $S(u^0, r)$ используем оценки: $$\|\int_{0}^{1}h(\tau)d\tau\|\le\|h\|,\quad |e^\lambda-e^\mu|\le|\lambda-\mu|max\{e^\lambda, e^\mu\},$$
 $$\|F(u)-F(v)\|\le c_0\|e^{\int_{0}^{1}u(\tau)d\tau}-e^{\int_{0}^{1}v(\tau)d\tau}\|
 \le c_0 max\{e^{\|u\|},e^{\|v\|}\}\|u-v\|,$$
 $$\|(F'(u)-F'(v))h\|\le\|F(u)-F(v)\|\|h\|\le c_0 max\{e^{\|u\|},e^{\|v\|}\}\|h\|\|u-v\|.$$
