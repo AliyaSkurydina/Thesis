@@ -19,32 +19,6 @@
 
 \refsection{0}
   \sortlist{nyt}{nyt}
-    \entry{Mis2014}{inproceedings}{}
-      \name{labelname}{3}{}{%
-        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=4c4f42a9f6a60306ae39de6e70642267}{Martyshko}{M\bibinitperiod}{P\bibnamedelima S}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=4c4f42a9f6a60306ae39de6e70642267}{Martyshko}{M\bibinitperiod}{P\bibnamedelima S}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \strng{namehash}{9545335d9e8aebf1f7dd90c9428b11a9}
-      \strng{fullhash}{9545335d9e8aebf1f7dd90c9428b11a9}
-      \field{sortinit}{A}
-      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
-      \field{labeltitle}{A fast parallel gradient algorithm for solving structural inverse gravity problem [Электронный ресурс]}
-      \field{booktitle}{AIP Conference Proceedings 1648, 850063}
-      \field{title}{A fast parallel gradient algorithm for solving structural inverse gravity problem [Электронный ресурс]}
-      \field{year}{2015}
-      \verb{url}
-      \verb http://dx.doi.org/10.1063/1.4913118
-      \endverb
-    \endentry
     \entry{AkiMinMis2014}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
@@ -68,27 +42,6 @@
       \field{title}{Fast stable parallel algorithms for solving gravimetry and magnetometry inverse problems}
       \field{year}{2014}
       \keyw{own,nohac}
-    \endentry
-    \entry{Mis2015}{inproceedings}{}
-      \name{labelname}{2}{}{%
-        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \strng{namehash}{5fa7ecd5fe570ec52383d235bcd73ca6}
-      \strng{fullhash}{5fa7ecd5fe570ec52383d235bcd73ca6}
-      \field{sortinit}{A}
-      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
-      \field{labeltitle}{A fast componentwise gradient method for solving structural inverse gravity problem}
-      \field{booktitle}{International Multidisciplinary Scientific GeoConference Surveying Geology and Mining Ecology Management-SGEM}
-      \field{title}{A fast componentwise gradient method for solving structural inverse gravity problem}
-      \field{year}{2015}
     \endentry
     \entry{AkSkur2015}{inproceedings}{}
       \name{labelname}{2}{}{%
