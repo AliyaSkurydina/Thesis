@@ -840,7 +840,7 @@
         {{hash=72f66ca039b18489bd6d748d6e07655f}{Vasin}{V\bibinitperiod}{V.V.}{V\bibinitperiod}{}{}{}{}}%
       }
       \list{language}{1}{%
-        {russian}%
+        {english}%
       }
       \strng{namehash}{72f66ca039b18489bd6d748d6e07655f}
       \strng{fullhash}{72f66ca039b18489bd6d748d6e07655f}
@@ -1337,6 +1337,28 @@
       \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
       \field{labeltitle}{Итерационные методы решения некорректных задач с априорной информацией в гильбертовых пространствах}
       \field{journaltitle}{Журнал вычислительной математики и математичекой физики}
+      \field{number}{7}
+      \field{title}{Итерационные методы решения некорректных задач с априорной информацией в гильбертовых пространствах}
+      \field{volume}{28}
+      \field{year}{1988}
+      \field{pages}{971\bibrangedash 980}
+    \endentry
+    \entry{Vasin1988}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{c14eb3fa1458d33e2871dc391726159e}
+      \strng{fullhash}{c14eb3fa1458d33e2871dc391726159e}
+      \field{sortinit}{В}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitle}{Итерационные методы решения некорректных задач с априорной информацией в гильбертовых пространствах}
+      \field{journaltitle}{Журнал вычислительной математики и математической физики}
       \field{number}{7}
       \field{title}{Итерационные методы решения некорректных задач с априорной информацией в гильбертовых пространствах}
       \field{volume}{28}
