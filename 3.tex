@@ -23,7 +23,7 @@ g\Delta\sigma\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y))\Delta u^k(x,y) dx
 \end{equation}
 %{\remark В задаче гравиметиии на изменение гравитационного поля в правой части \eqref{equ_grav_nwt} наибольшее влияние оказывает отклонение искомой функции точного решения $z$ от асимптотической плоскости в точке $(x',y')$. }
 
-Полагая $\Delta u^k(x,y)=\Delta u^k(x',y')=const$ относительно переменных интегрирования, запишем
+В предположении, что изменение гравитационного поля в правой части \eqref{equ_grav_nwt} в точке $(x',y')$  зависит от поправки $\Delta u^k(x',y')$, то, полагая $\Delta u^k(x,y)=\Delta u^k(x',y')=const$ относительно переменных интегрирования, запишем
 \begin{equation}\label{comp_newt_meth_step1}
 g\Delta\sigma(\Delta u^k(x',y'))\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y)) dxdy\approx -\big[A(u(x',y'))-f(x',y')\big].
 \end{equation}
@@ -34,7 +34,7 @@ $$\Delta u^k=\bigg[[A(u)](x',y')-f(x',y')\bigg]\bigg/g\Delta\sigma\int_{a}^{b}\i
 u^{k+1}(x',y')=u^k(x',y')-\frac{1}{\psi^k(x',y')}([A(u^k)](x',y')-f(x',y')),
 \end{equation}
 где $$\psi^k(x',y')=g\Delta\sigma\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y)) dxdy.$$
-Для решения некорректной обратной задачи гравиметрии, предлагается регуляризованный покомпонентный метод
+Для решения обратной задачи гравиметрии, которая является некорректной, предлагается регуляризованный покомпонентный метод
 \begin{equation}\label{rcomp_newt_meth}
 u^{k+1}(x',y')=u^k(x',y')-\frac{1}{\psi^k(x',y')+\bar\alpha}([A(u^k)](x',y') + \alpha(u^k-u^0)-f_\delta(x',y')),
 \end{equation}
