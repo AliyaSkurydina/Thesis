@@ -8,6 +8,9 @@
 	Оператор $A$ называется монотонным, если $\forall u,v\in H$ $$\langle A(u)-A(v), u-v\rangle \ge 0.$$
 \end{definition}
 \begin{definition}
+	Оператор $A$ называется равномерно монотонным, если $\forall u,v\in H$ $\exists \vartheta >0\colon$ $$\langle A(u)-A(v), u-v\rangle \ge \vartheta\|u-v\|^2.$$
+\end{definition}
+\begin{definition}
 	Оператор $A$ называется неотрицательно определенным, если выполняется неравенство $\langle A(u), u \rangle \ge 0$ $\forall u\in H$.
 \end{definition}
 \begin{definition}
@@ -72,6 +75,8 @@ u^{k+1} =u^k - \gamma\frac{\langle [A'(u^k)+\bar{\alpha}I]S_\alpha(u^k), S_\alph
 \section{Метод Ньютона}
 Ранее РМН исследовался в работах А. Б. Бакушинского \cite{Bak1976,Bak1992} и совместной работе с А. В. Гончарским \cite{BakGon1989} при значениях параметров $\gamma=1$, $\alpha=\bar{\alpha}=\alpha_k$. Подход основан на том, что априори выбирается подходящим образом последовательность параметров $\alpha_k$ и при некоторых условиях, в том числе на вторую производную оператора $A$ доказывается сходимость итераций к решению уравнения $\eqref{equ1}$ без анализа фейеровости процесса и оценки погрешности. 
 
+В данной работе используется двухэтапный метод, где на первом этапе производится регуляризация методом Лаврентьева, а на втором этапе --- аппроксимация регуляризованного решения итерационными процессами, где вводятся два параметра регуляризации и параметр, отвечающий за регулировку шага. Это позволяет при согласовании параметров регуляризации и регулировки шага получить оценку погрешности двухэтапного метода, оптимальную по порядку. В отличие от подхода А. Б. Бакушинского, выбор управляемых параметров выбирается другим способом, в явном виде. 
+
 Ранее в рамках двухэтапного подхода в работах В.В. Васина \cite{VasAkiMin2013, Vasin2014} исследовался модифицированный метод Ньютона, когда вместо $A'(u^k)$ в $\eqref{equ_rmn}$ используется производная в начальной точке $A'(u^0)$ в ходе всего итерационного процесса, где $A'(u^0)$ --- самосопряженный неотрицательно определенный оператор  
 $$
 u^{k+1}=u^k-\gamma(A'(u^0)+\bar\alpha I)^{-1}(A(u^k)+\alpha(u^k-u^0)-f_\delta)\equiv{T(u^k)}.
@@ -85,7 +90,7 @@ $$
 \end{equation}
 и известна оценка для нормы производной в точке $u^0$ (начальном приближении), т.е.
 \begin{equation}\label{cond1.3}
-\|A'(u^0)\| \le N_0 \le N_1.
+\|A'(u^0)\|\le N_1.
 \end{equation}
 %Шар $S(u^0, r)$ также содержит решение уравнения $\eqref{equ1}$. 
 \begin{remark}
@@ -131,13 +136,13 @@ $$
 \langle F(u), u-u_\alpha\rangle=\langle F(u)-F(u_\alpha), u-u_\alpha\rangle=\alpha\langle B^{-1}(u)(u-u_\alpha), u-u_\alpha\rangle$$ \begin{equation}\label{ineq2.9}+\langle B^{-1}(u)(A(u)-A(u_\alpha)), u-u_\alpha\rangle.
 \end{equation}
 Учитывая, что $A'(u^0)$ --- самосопряженный и, ввиду монотонности $A$, неотрицательно определенный оператор, для первого слагаемого в правой части равенства $\eqref{ineq2.9}$, получаем
-$$\alpha\langle B^{-1}(u)(u-u_\alpha), u-u_\alpha\rangle=\alpha\langle B^{-1}(u^0)(u-u_\alpha), u-u_\alpha\rangle$$ $$+\alpha\langle (B^{-1}(u)-B^{-1}(u^0))(u-u_\alpha), u-u_\alpha\rangle \ge \frac{\alpha}{\bar\alpha+N_0}{\|u-u_\alpha\|}^2$$
+$$\alpha\langle B^{-1}(u)(u-u_\alpha), u-u_\alpha\rangle=\alpha\langle B^{-1}(u^0)(u-u_\alpha), u-u_\alpha\rangle$$ $$+\alpha\langle (B^{-1}(u)-B^{-1}(u^0))(u-u_\alpha), u-u_\alpha\rangle \ge \frac{\alpha}{\bar\alpha+N_1}{\|u-u_\alpha\|}^2$$
 $$ - \alpha|\langle B^{-1}(u)(B(u^0)-B(u))B^{-1}(u^0)(u-u_\alpha), u-u_\alpha\rangle| $$
-$$\ge \left( \frac{\alpha}{\bar\alpha+N_0}-\frac{\alpha N_2\|u-u^0\|}{{\bar\alpha}^2}\right)\|u-u_\alpha\|^2$$
+$$\ge \left( \frac{\alpha}{\bar\alpha+N_1}-\frac{\alpha N_2\|u-u^0\|}{{\bar\alpha}^2}\right)\|u-u_\alpha\|^2$$
 \begin{equation}\label{ineq2.10}
-\ge\left(\frac{\alpha}{\bar\alpha+N_0}-\frac{2\alpha N_2r}{{\bar\alpha}^2}\right)\|u-u_\alpha\|^2,
+\ge\left(\frac{\alpha}{\bar\alpha+N_1}-\frac{2\alpha N_2r}{{\bar\alpha}^2}\right)\|u-u_\alpha\|^2,
 \end{equation} где использовано неравенство $\|u-u^0\|\le\|u-u_\alpha\|+\|u_\alpha-u^0\|\le 2r$.
-Для второго слагаемого в правой части $\eqref{ineq2.9}$ запишем
+Для второго слагаемого в правой части $\eqref{ineq2.9}$ запишем, используя формулу Лагранжа \cite{Tre1993}
 $$ \langle B^{-1}(u)(A(u)-A(u_\alpha)), u-u_\alpha\rangle= \langle B^{-1}(u^0)(A(u)-A(u_\alpha)), u-u_\alpha\rangle$$
 $$+\langle (B^{-1}(u)-B^{-1}(u^0))(A(u)-A(u_\alpha)), u-u_\alpha\rangle$$
 $$=\langle B^{-1}(u^0)\int\limits_0^1 (A'(u_\alpha+\theta(u-u_\alpha))-A'(u^0))d\theta (u-u_\alpha), u-u_\alpha\rangle$$
@@ -149,7 +154,7 @@ $$-\frac{1}{{\bar\alpha}^2}\left ( \|A'(u)-A'(u^0)\|\|A(u)-A(u_\alpha)\|\|(u-u_\
 \ge -\frac{3N_2r}{2\bar\alpha}{\|u-u_\alpha\|}^2-\frac{2rN_1 N_2}{{\bar\alpha}^2}{\|u-u_\alpha\|}^2.\end{equation}
 
 Объединяя $\eqref{ineq2.10}$,$\eqref{ineq2.11}$, приходим к неравенству $$
-\langle F(u), u-u_\alpha\rangle\ge\left (\frac{\alpha}{\bar\alpha+N_0}-\frac{2N_2 r \alpha}{{\bar\alpha}^2}-\frac{3N_2r}{2\bar\alpha}-\frac{2rN_1 N_2}{{\bar\alpha}^2}\right ){\|u-u_\alpha\|}^2, $$ откуда с учетом условий $\eqref{cond2.7}$ на параметры $\alpha$, $\bar\alpha$, $r$, а также неравенства $N_1\ge N_0$, приходим к оценке $\eqref{est2.8}$.
+\langle F(u), u-u_\alpha\rangle\ge\left (\frac{\alpha}{\bar\alpha+N_1}-\frac{2N_2 r \alpha}{{\bar\alpha}^2}-\frac{3N_2r}{2\bar\alpha}-\frac{2rN_1 N_2}{{\bar\alpha}^2}\right ){\|u-u_\alpha\|}^2, $$ откуда с учетом условий $\eqref{cond2.7}$ на параметры $\alpha$, $\bar\alpha$, $r$, приходим к оценке $\eqref{est2.8}$.
 \end{proof}
 \begin{theorem} \label{teo2.3} 
 	Пусть выполнены условия теоремы $\ref{teo2.2}$. Тогда, если
@@ -238,7 +243,7 @@ $$F_\varkappa(u)=\beta_\varkappa(u) S_\alpha(u), \quad \beta _\varkappa(u) =\fra
 \begin{theorem}\label{teo3.1}
 	Пусть для монотонного оператора $A$ выполнены условия $\eqref{cond1.1}$ --- $\eqref{cond1.3}$ и $A'(u^0)$ --- самосопряженный оператор. Кроме того, для ММО параметры $\alpha$, $\bar\alpha$, $r$ удовлетворяют дополнительным соотношениям:
 	\begin{equation}\label{cond3.3}
-	\alpha \le \bar\alpha, \quad r\le \alpha/8N_2, \quad \bar\alpha \ge N_0.
+	\alpha \le \bar\alpha, \quad r\le \alpha/8N_2, \quad \bar\alpha \ge N_1.
 	\end{equation}
 	Тогда справедливы соотношения
 	\begin{equation}\label{ineq3.4}
@@ -252,9 +257,9 @@ $$F_\varkappa(u)=\beta_\varkappa(u) S_\alpha(u), \quad \beta _\varkappa(u) =\fra
 \begin{proof} Рассмотрим  ММО, т.е. $\eqref{equ_alphaproc}$ при $\varkappa=-1$. Принимая во внимание монотонность оператора $A$, самосопряженность и неотрицательность $A'(u^0)$ и условия на параметры $\eqref{cond3.3}$, получим (ниже $F_{-1}(u)$, $B^{-1}(u)$, означает $F_\varkappa(u)$, $B^\varkappa(u)$ при $\varkappa=-1$)
 $$ \langle F_{-1}(u), u-u_\alpha\rangle=\beta_{-1}(u)\langle A(u)-A(u_\alpha)+ \alpha(u-u_\alpha),u-u_\alpha\rangle\ge\alpha\beta_{-1}(u)\|u-u_\alpha\|^2
 $$ $$\ge\alpha\left(\frac{\langle B^{-1}(u^0)S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha (u)\|^2}-\frac{\mid\langle (B^{-1}(u)-B^{-1}(u^0))S_\alpha(u), S_\alpha (u)\rangle \mid}{\|S_\alpha (u)\|^2}\right)$$
-$$\times \|u-u_\alpha\|^2 \ge\left(\frac{\alpha}{N_0+\bar\alpha}-\alpha\|B^{-1}(u)\|\|B^{-1}(u^0)\|\|A'(u)-A'(u^0)\|\right)\|u-u_\alpha\|^2$$ 
+$$\times \|u-u_\alpha\|^2 \ge\left(\frac{\alpha}{N_1+\bar\alpha}-\alpha\|B^{-1}(u)\|\|B^{-1}(u^0)\|\|A'(u)-A'(u^0)\|\right)\|u-u_\alpha\|^2$$ 
 \begin{equation}\label{ineq3.6}
-\ge\left(\frac{\alpha}{N_0+\bar\alpha}-\frac{2\alpha N_2r}{\bar\alpha ^2}\right)\|u-u_\alpha\|^2\ge\frac{\alpha}{4\bar\alpha}\|u-u_\alpha\|^2,\end{equation}
+\ge\left(\frac{\alpha}{N_1+\bar\alpha}-\frac{2\alpha N_2r}{\bar\alpha ^2}\right)\|u-u_\alpha\|^2\ge\frac{\alpha}{4\bar\alpha}\|u-u_\alpha\|^2,\end{equation}
 где учтено, что $\|u-u^0\|\le\|u-u_\alpha\|+\|u_\alpha-u^0\|\le 2r.$ Кроме того, выполнены неравенства $$\|F_{-1}(u)\|^2=\mid\beta_{-1}(u)\mid^2\|A(u)-A(u_\alpha)+\alpha(u-u_\alpha)\|^2\le(N_1+\alpha)^2\|B^{-1}(u)\|^2\|u-u_\alpha\|^2 $$
 \begin{equation}\label{ineq3.7}
 \le\frac{(N_1+\alpha)^2}{\bar\alpha^2}\|u-u_\alpha\|^2 .

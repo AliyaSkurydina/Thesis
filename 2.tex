@@ -18,7 +18,7 @@
 \sup\{\mu(S(u)): u\in S(u_\alpha, r)\}\le\bar S <\infty .
 \end{equation}
 \begin{theorem}\label{teo4.1}
-	Пусть выполнены условия $\eqref{cond4.3}$, $\eqref{cond1.1}$--$\eqref{cond1.3}$, $A'(u^0)$ --- симметричная матрица, и для параметров $\alpha$, $\bar{\alpha}$, $r$ справедливы соотношения: $0<\alpha\le\bar\alpha$, $\bar\alpha\ge 4N_0$, $r\le\alpha/8N_2\bar S$, $\|u_\alpha-u^0\|\le r$.
+	Пусть выполнены условия $\eqref{cond4.3}$, $\eqref{cond1.1}$--$\eqref{cond1.3}$, $A'(u^0)$ --- симметричная матрица, и для параметров $\alpha$, $\bar{\alpha}$, $r$ справедливы соотношения:\\ $0<\alpha\le\bar\alpha$, $\bar\alpha\ge 4N_1$, $r\le\alpha/8N_2\bar S$, $\|u_\alpha-u^0\|\le r$.
 	Тогда для метода $\eqref{equ_rmn}$ справедливо заключение теоремы $\ref{teo2.3}$, где соотношения $\eqref{ineq2.12}$, $\eqref{eq2.13}$ для $\gamma$ и выражение для $q$ в $\eqref{est2.16}$ соответственно принимает вид
 	$$\gamma < \frac{\alpha\bar\alpha}{2(N_1+\alpha)^2\bar S^2}, \quad \gamma _{opt}=\frac{\alpha\bar\alpha}{4(N_1+\alpha)^2\bar S^2}, \quad q=\sqrt{1-\frac{\alpha ^2}{16(N_1+\alpha)^2\bar S^2}}$$
 \end{theorem}
@@ -34,7 +34,7 @@
 \begin{theorem}\label{teo4.2}
 	Пусть выполнены условия $\eqref{cond1.1}$--$\eqref{cond1.3}$. Пусть при $u \in S(u^0, r)$ матрица $A'(u)$ имеет спектр, состоящий из неотрицательных различных собственных значений, $A'(u^0)$ --- симметричная неотрицательно определенная матрица. Пусть параметры $\alpha$, $\bar{\alpha}$, $r$ удовлетворяют условиям: 
 	\begin{equation}\label{cond4.4}
-	MMO:\qquad 0<\alpha\le\bar\alpha, \quad r\le\alpha /6\bar SN_2, \quad \bar\alpha \ge N_0
+	MMO:\qquad 0<\alpha\le\bar\alpha, \quad r\le\alpha /6\bar SN_2, \quad \bar\alpha \ge N_1
 	\end{equation}
 	\begin{equation}\label{cond4.5}
 	MHC:\qquad 0<\alpha\le\bar\alpha, \quad r\le\alpha /3N_2,
@@ -54,9 +54,9 @@ $$\langle A(u)-A(u_\alpha), u-u_\alpha\rangle+\alpha\|u-u_\alpha\|^2=\alpha\|u-u
 \begin{equation}\label {est4.8}
 \ge\left ( \alpha-\frac{3N_2 r}{2}\right )\|u-u_\alpha\|^2\ge\frac{3\alpha}{4}\|u-u_\alpha\|^2
 \end{equation}
-$$\beta _{-1}(u)=\frac{\langle (A'(u)+\bar\alpha I)^{-1}S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha(u)\|^2}=\frac{\langle (A'(u^0)+\bar\alpha I)^{-1}S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha(u)\|^2}$$ $$+\frac{\langle (B^{-1}(u)-B^{-1}(u^0))S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha(u)\|^2}\ge\frac{1}{N_0+\bar\alpha}-\frac{\bar S N_2\|u-u^0\|}{\bar\alpha^2}$$
+$$\beta _{-1}(u)=\frac{\langle (A'(u)+\bar\alpha I)^{-1}S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha(u)\|^2}=\frac{\langle (A'(u^0)+\bar\alpha I)^{-1}S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha(u)\|^2}$$ $$+\frac{\langle (B^{-1}(u)-B^{-1}(u^0))S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha(u)\|^2}\ge\frac{1}{N_1+\bar\alpha}-\frac{\bar S N_2\|u-u^0\|}{\bar\alpha^2}$$
 \begin{equation}\label{est4.9}
-\ge\frac{1}{N_0+\bar\alpha}-\frac{2\bar S N_2 r}{\bar\alpha^2}\ge\frac{1}{6\bar\alpha},
+\ge\frac{1}{N_1+\bar\alpha}-\frac{2\bar S N_2 r}{\bar\alpha^2}\ge\frac{1}{6\bar\alpha},
 \end{equation}
 где учтены условия $\eqref{cond4.4}$ и соотношение $\|u-u^0\|\le\|u-u_\alpha\|+\|u_\alpha-u^0\|\le 2r$.
 
@@ -153,7 +153,7 @@ u^{k+1}=u^k-\gamma\frac{\langle (A'(u^0)+\bar\alpha I)^{\varkappa}S_\alpha(u^k),
 	Пусть выполнены условия $\eqref{cond1.1}$--$\eqref{cond1.3}$,
 $A'(u^0)$ --- самосопряженный оператор, спектр которого состоит из неотрицательных различных собственных значений, параметры $\alpha$, $\bar{\alpha}$, $r$ удовлетворяют условиям
 	\begin{equation}\label{cond2.4}
-	0\le\alpha\le\bar{\alpha}, \quad r=\alpha/6N_2, \quad \bar{\alpha}\ge N_0.
+	0\le\alpha\le\bar{\alpha}, \quad r=\alpha/6N_2, \quad \bar{\alpha}\ge N_1.
 	\end{equation}
 	
 	Тогда для оператора
@@ -172,9 +172,9 @@ $$\times\int_{0}^{1}\|(1-\theta)(u_\alpha-u^0)+\theta(u-u_\alpha)\|d\theta\ge-N_
 где $r=\|u_\alpha-u^0\|,\quad \|u-u^0\|\le 2r$.
 
 Получим оценку снизу для множителя $\beta_{-1}^0(u)$, воспользовавшись спектральным разложением резольвенты самосопряженного оператора $A'(u^0)$:
-$$\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle=\int_{0}^{N_0}\frac{d\langle E_\lambda S_\alpha(u), S_\alpha(u)\rangle}{\lambda+\bar{\alpha}}\ge\frac{\|S_\alpha(u)\|^2}{N_0+\bar{\alpha}},$$
-$$\beta_{-1}^0(u)=\frac{\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha(u)\|^2}\ge\frac{1}{N_0+\bar{\alpha}}.$$ 
-Таким образом, $$\langle F_{-1}^0(u),u-u_\alpha\rangle\ge\frac{1}{N_0+\bar{\alpha}}\Big[\alpha-\frac{3N_2r}{2}\Big]\|u-u_\alpha\|^2.$$
+$$\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle=\int_{0}^{N_1}\frac{d\langle E_\lambda S_\alpha(u), S_\alpha(u)\rangle}{\lambda+\bar{\alpha}}\ge\frac{\|S_\alpha(u)\|^2}{N_1+\bar{\alpha}},$$
+$$\beta_{-1}^0(u)=\frac{\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle}{\|S_\alpha(u)\|^2}\ge\frac{1}{N_1+\bar{\alpha}}.$$ 
+Таким образом, $$\langle F_{-1}^0(u),u-u_\alpha\rangle\ge\frac{1}{N_1+\bar{\alpha}}\Big[\alpha-\frac{3N_2r}{2}\Big]\|u-u_\alpha\|^2.$$
 Применяя условия (\ref{cond2.4}) теоремы, получаем оценку
 \begin{equation}\label{estmodif2.6}
 \langle F_{-1}^0(u),u-u_\alpha\rangle\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
@@ -184,7 +184,7 @@ $$\|F_{-1}^0(u)\|=|\beta_{-1}^0(u)|\cdot\|A(u)+\alpha(u-u^0)-f_\delta\|=|\beta_{
 \begin{equation}\label{estmodif2.7}
 \|A(u)+\alpha(u-u^0)-f_\delta\|\le(N_1+\alpha)\|u-u_\alpha\|.
 \end{equation}
-$$\beta_{-1}^0(u)=\frac{1}{\|S_\alpha(u)\|^2}\int_{0}^{N_0}\frac{d\langle E_\lambda S_\alpha(u), S_\alpha(u)\rangle}{\lambda + \bar{\alpha}}\le\frac{1}{\bar{\alpha}},$$
+$$\beta_{-1}^0(u)=\frac{1}{\|S_\alpha(u)\|^2}\int_{0}^{N_1}\frac{d\langle E_\lambda S_\alpha(u), S_\alpha(u)\rangle}{\lambda + \bar{\alpha}}\le\frac{1}{\bar{\alpha}},$$
 \begin{equation}\label{estmodif2.8}
 \|F_{-1}^0(u)\|^2\le\frac{(N_1+\alpha)^2}{\bar{\alpha}^2}\|u-u_\alpha\|^2.
 \end{equation}
@@ -193,8 +193,8 @@ $$\|F_{-1}^0(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}\langle F_{-1}^
 
 Рассмотрим модифицированный вариант МНС ($\varkappa=0$).
 $$\langle F_0^0(u), u-u_\alpha\rangle=\beta_0^0(u)[\langle A(u)-A(u_\alpha), u-u_\alpha\rangle+\alpha\|u-u_\alpha\|^2].$$
-Учитывая, что $\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle\le(N_0+\bar{\alpha})\|S_\alpha(u)\|^2$, имеем
-$$\beta_0^0(u)=\frac{\|S_\alpha(u)\|^2}{\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle}\ge\frac{1}{N_0+\bar{\alpha}}.$$
+Учитывая, что $\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle\le(N_1+\bar{\alpha})\|S_\alpha(u)\|^2$, имеем
+$$\beta_0^0(u)=\frac{\|S_\alpha(u)\|^2}{\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(u), S_\alpha(u)\rangle}\ge\frac{1}{N_1+\bar{\alpha}}.$$
 Воспользовавшись ранее полученной оценкой (\ref{estmodif2.5}), имеем
 \begin{equation}\label{estmodif2.11}
 \langle F_0^0(u), u-u_\alpha\rangle\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
@@ -207,7 +207,7 @@ $$\beta_0^0(u)=\frac{\|S_\alpha(u)\|^2}{\langle (A'(u^0)+\bar{\alpha}I)S_\alpha(
 $$\|F_0^0(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}\langle F_0^0(u), u-u_\alpha\rangle$$ для модифицированного варианта МНС.
 
 Для модифицированного ММН ($\varkappa=1$), по аналогии, оценим сверху и снизу параметр $\beta_1^0(u)$. Обозначим $B_0(u)=A'(u^0)+\bar{\alpha}I,$
-$$\beta_1^0(u)=\frac{\langle B_0(u)S_\alpha(u), S_\alpha(u)\rangle}{\|B_0(u)S_\alpha(u)\|^2}=\frac{\|B_0^{1/2}(u)S_\alpha(u)\|^2}{\|B_0^{1/2}\|^2\|B_0^{1/2}S_\alpha(u)\|^2}\ge\frac{1}{\|B_0(u)\|}\ge\frac{1}{N_0+\bar{\alpha}}.$$
+$$\beta_1^0(u)=\frac{\langle B_0(u)S_\alpha(u), S_\alpha(u)\rangle}{\|B_0(u)S_\alpha(u)\|^2}=\frac{\|B_0^{1/2}(u)S_\alpha(u)\|^2}{\|B_0^{1/2}\|^2\|B_0^{1/2}S_\alpha(u)\|^2}\ge\frac{1}{\|B_0(u)\|}\ge\frac{1}{N_1+\bar{\alpha}}.$$
 Объединяя эту оценку и оценку (\ref{estmodif2.5}), имеем соотношение
 \begin{equation}\label{estmodif2.13}
 \langle F_1^0(u), u-u_\alpha\rangle\ge\frac{3\alpha}{8\bar{\alpha}}\|u-u_\alpha\|^2.
