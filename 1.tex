@@ -47,7 +47,7 @@
 \begin{equation}\label{equ1}A(u)=f\end{equation}
 в гильбертовом пространстве $H$ с монотонным непрерывно дифференцируемым по Фреше оператором $A$, для которого обратные операторы $A'(u)^{-1}$, $A^{-1}$ разрывны, что влечет некорректность задачи $\eqref{equ1}$. Для построения регуляризующего алгоритма (РА) используется двухэтапный метод, в котором на первом этапе проводится регуляризация по схеме Лаврентьева
 \begin{equation}\label{equ2}A(u)+\alpha(u-u^0)-f_\delta=0,\end{equation}
-где $\|f-f_\delta\|\le\delta$, $u^0$ --- начальное приближение к решению; а на втором этапе для аппроксимации регуляризованного решения $u_\alpha$ уравнения $\eqref{equ2}$ применяется либо метод Ньютона c параметрами регуляризации $\bar\alpha$, $\alpha$ (РМН)
+где $\|f-f_\delta\|\le\delta$, $u^0$ --- начальное приближение к решению; а на втором этапе для аппроксимации регуляризованного решения $u_\alpha$ уравнения $\eqref{equ2}$ применяется либо метод Ньютона c демпфирующим множителем $\gamma$ и параметрами регуляризации $\bar\alpha$, $\alpha$ (РМН)
 \begin{equation}\label{equ_rmn}
 u^{k+1}=u^k-\gamma(A'(u^k)+\bar\alpha I)^{-1}(A(u^k)+\alpha(u^k-u^0)-f_\delta)\equiv{T(u^k)},
 \end{equation}
@@ -62,7 +62,7 @@ u^{k+1}=u^k-\gamma\frac{\langle (A'(u^k)+\bar\alpha I)^{\varkappa}S_\alpha(u^k),
 %$$ u^{k+1} =u^k - \gamma\frac{\langle S_\alpha(u^k), S_\alpha (u^k)\rangle}{\langle B(u^k)S_\alpha(u^k), S_\alpha(u^k)\rangle}(A(u^k)+\alpha(u^k-u^0)-f_\delta)$$
 В случае, когда оператор $A'(u^k)$ не является самосопряженным, метод минимальных невязок имеет вид:
 \begin{equation}\label{equ_mmn}
-u^{k+1} =u^k - \gamma\frac{\langle [A'(u^k)+\bar{\alpha}I]S_\alpha(u^k), S_\alpha (u^k)\rangle}{\|[A'(u^k)+\bar{\alpha}I]S_\alpha(u^k)\|^2}S_\alpha (u^k).
+u^{k+1} =u^k - \gamma\frac{\langle [A'(u^k)+\bar{\alpha}I]S_\alpha(u^k), S_\alpha (u^k)\rangle}{\|[A'(u^k)+\bar{\alpha}I]S_\alpha(u^k)\|^2}S_\alpha (u^k)\equiv{T(u^k)}.
 \end{equation}
 Далее в тексте диссертации обозначения при $\varkappa=1$ относятся к $\eqref{equ_mmn}$.
 
@@ -76,7 +76,7 @@ u^{k+1} =u^k - \gamma\frac{\langle [A'(u^k)+\bar{\alpha}I]S_\alpha(u^k), S_\alph
 $$
 u^{k+1}=u^k-\gamma(A'(u^0)+\bar\alpha I)^{-1}(A(u^k)+\alpha(u^k-u^0)-f_\delta)\equiv{T(u^k)}.
 $$
-Перейдем к исследованию процесса $\eqref{equ_rmn}$. Пусть имеются следующие условия в шаре $S(u^0, r)$, $\|u^0-u_\alpha\| \le r$:
+Перейдем к исследованию процесса $\eqref{equ_rmn}$. Пусть выполнены следующие условия в шаре $S(u^0, r)$, $\|u^0-u_\alpha\| \le r$:
 \begin{equation}\label{cond1.1}
 \forall u, v \in S(u^0, r) \quad \|A(u)-A(v)\|\le N_1\|u-v\|,
 \end{equation}
@@ -87,7 +87,7 @@ $$
 \begin{equation}\label{cond1.3}
 \|A'(u^0)\| \le N_0 \le N_1.
 \end{equation}
-Шар $S(u^0, r)$ также содержит решение уравнения $\eqref{equ1}$. 
+%Шар $S(u^0, r)$ также содержит решение уравнения $\eqref{equ1}$. 
 \begin{remark}
 	Начальное приближение в неравенстве $\eqref{cond1.3}$ в общем случае не обязано совпадать с $u^0$ в схеме $\eqref{equ2}$. Однако, для простоты изложения, будем считать, что это один и тот же элемент. Кроме того, для монотонного оператора $A$ оператор $A+\alpha I$ --- равномерно монотонный, поэтому при выполнении условия $\ref{cond1.1}$ согласно (\cite{KufFuch1988},~теорема 43.7), регуляризованное уравнение (\ref{equ2}) имеет единственное решение.
 \end{remark}

@@ -43,6 +43,30 @@
       \field{year}{2014}
       \keyw{own,nohac}
     \endentry
+    \entry{AkiVas2004}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=7ecf465ac65ff2f702fcf14bb0bee13a}{Vasin}{V\bibinitperiod}{V\bibnamedelima V}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=7ecf465ac65ff2f702fcf14bb0bee13a}{Vasin}{V\bibinitperiod}{V\bibnamedelima V}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d9f2b94bdd51af98ac1c8e94e9685736}
+      \strng{fullhash}{d9f2b94bdd51af98ac1c8e94e9685736}
+      \field{sortinit}{A}
+      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
+      \field{labeltitle}{Stable parallel algorithms for solving the inverse gravimetry and magnetometry problems}
+      \field{journaltitle}{International Journal of Engineering Modelling}
+      \field{number}{1-2}
+      \field{title}{Stable parallel algorithms for solving the inverse gravimetry and magnetometry problems}
+      \field{volume}{17}
+      \field{year}{2004}
+      \field{pages}{13\bibrangedash 19}
+    \endentry
     \entry{AkSkur2015}{inproceedings}{}
       \name{labelname}{2}{}{%
         {{hash=2438b7d4b9a65b7cddff6db27e7d2add}{Akimova}{A\bibinitperiod}{E}{E\bibinitperiod}{}{}{}{}}%
@@ -180,10 +204,10 @@
       \strng{fullhash}{e9fc6edde2a078dc5a21d220a004c3c2}
       \field{sortinit}{H}
       \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
-      \field{labeltitle}{Sur les probl`emes aux derivees partielles et leur signification physique}
+      \field{labeltitle}{Sur les probl{é}mes aux derivees partielles et leur signification physique}
       \field{journaltitle}{Bull. Univ. Princeton}
       \field{number}{1}
-      \field{title}{Sur les probl`emes aux derivees partielles et leur signification physique}
+      \field{title}{Sur les probl{é}mes aux derivees partielles et leur signification physique}
       \field{volume}{13}
       \field{year}{1902}
       \field{pages}{49\bibrangedash 52}
@@ -508,7 +532,7 @@
       \field{sortinit}{N}
       \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
       \field{labeltitle}{A convergence rate result for a steepest descent method and a minimal error method for the solution of nonlinear ill-posed problems}
-      \field{journaltitle}{Zeitschrift f¨ur Analysis und ihre Anwendungen}
+      \field{journaltitle}{Zeitschrift f{ü}r Analysis und ihre Anwendungen}
       \field{number}{2}
       \field{title}{A convergence rate result for a steepest descent method and a minimal error method for the solution of nonlinear ill-posed problems}
       \field{volume}{14}
@@ -897,6 +921,28 @@
       \field{year}{1994}
       \field{pages}{61\bibrangedash 67}
     \endentry
+    \entry{Aki2001}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{21539a07f5584d4dce7dcacec260c91f}
+      \strng{fullhash}{21539a07f5584d4dce7dcacec260c91f}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Параллельные алгоритмы для решения трехмерной задачи упругости и разреженных линейных систем}
+      \field{journaltitle}{Дальневосточный математический журнал}
+      \field{number}{2}
+      \field{title}{Параллельные алгоритмы для решения трехмерной задачи упругости и разреженных линейных систем}
+      \field{volume}{2}
+      \field{year}{2001}
+      \field{pages}{10\bibrangedash 28}
+    \endentry
     \entry{Aki2009}{article}{}
       \name{labelname}{1}{}{%
         {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
@@ -941,6 +987,55 @@
       \field{volume}{15}
       \field{year}{2011}
       \field{pages}{87\bibrangedash 93}
+    \endentry
+    \entry{AkiVas2002}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{452fc57886248ee484370ba2d676c42c}
+      \strng{fullhash}{452fc57886248ee484370ba2d676c42c}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Параллельный алгоритм решения обратной задачи гравиметрии на основе регуляризованного Ньютона}
+      \field{journaltitle}{Алгоритмы и программные средства параллельных вычислений. Екатеринбург, ИММ УрО РАН}
+      \field{title}{Параллельный алгоритм решения обратной задачи гравиметрии на основе регуляризованного Ньютона}
+      \field{volume}{6}
+      \field{year}{2002}
+      \field{pages}{51\bibrangedash 64}
+    \endentry
+    \entry{AkiGorPop2005}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=b0b08689eed05edee1b600bf0839beb1}{Горбачев}{Г\bibinitperiod}{И\bibnamedelima И}{И\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+        {{hash=1c9200d354554f065254975b1610ad67}{Попов}{П\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
+        {{hash=b0b08689eed05edee1b600bf0839beb1}{Горбачев}{Г\bibinitperiod}{И\bibnamedelima И}{И\bibinitperiod\bibinitdelim И\bibinitperiod}{}{}{}{}}%
+        {{hash=1c9200d354554f065254975b1610ad67}{Попов}{П\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{9d2589388e3e4e852338fd03e1dc7a0e}
+      \strng{fullhash}{9d2589388e3e4e852338fd03e1dc7a0e}
+      \field{sortinit}{А}
+      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
+      \field{labeltitle}{Решение задач многокомпонентной диффузии с помощью алгоритма матричной прогонки}
+      \field{journaltitle}{Математическое моделирование}
+      \field{number}{9}
+      \field{title}{Решение задач многокомпонентной диффузии с помощью алгоритма матричной прогонки}
+      \field{volume}{17}
+      \field{year}{2005}
+      \field{pages}{85\bibrangedash 92}
     \endentry
     \entry{AkMarMis2013}{article}{}
       \name{labelname}{3}{}{%
@@ -2104,6 +2199,31 @@
       \field{title}{О решении структурной обратной задачи гравиметрии модифицированными методами градиентного типа}
       \field{year}{2016}
       \field{pages}{82\bibrangedash 86}
+    \endentry
+    \entry{MarLadTsi2010}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=bc272f99f0b2b06e20a5b62e48b70696}{Ладовский}{Л\bibinitperiod}{И\bibnamedelima В}{И\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=922d11b817c0d7d32f0dc869e22a9492}{Цидаев}{Ц\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=bc272f99f0b2b06e20a5b62e48b70696}{Ладовский}{Л\bibinitperiod}{И\bibnamedelima В}{И\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=922d11b817c0d7d32f0dc869e22a9492}{Цидаев}{Ц\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{21370bfebe44b2fa4c64d72f756781fb}
+      \strng{fullhash}{21370bfebe44b2fa4c64d72f756781fb}
+      \field{sortinit}{М}
+      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
+      \field{labeltitle}{Построение региональных геофизических моделей на основе комплексной интерпретации гравитационных и сейсмических данных}
+      \field{journaltitle}{Физика Земли}
+      \field{number}{11}
+      \field{title}{Построение региональных геофизических моделей на основе комплексной интерпретации гравитационных и сейсмических данных}
+      \field{year}{2010}
+      \field{pages}{23\bibrangedash 35}
     \endentry
     \entry{MarPru1982}{article}{}
       \name{labelname}{2}{}{%
