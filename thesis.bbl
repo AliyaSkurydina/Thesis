@@ -737,7 +737,7 @@
       \field{sortinit}{S}
       \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
       \field{labeltitle}{Regularized Levenberg –- Marquardt Type Method Applied to the Structural Inverse Gravity Problem in a Multilayer Medium and its Parallel Realization}
-      \field{journaltitle}{Bulletin of South Ural State University. Series: Computational Mathematics and Software Engineering}
+      \field{journaltitle}{Bulletin of South Ural State University. Series: \\ Computational Mathematics and Software Engineering}
       \field{number}{3}
       \field{title}{Regularized Levenberg –- Marquardt Type Method Applied to the Structural Inverse Gravity Problem in a Multilayer Medium and its Parallel Realization}
       \field{volume}{6}
@@ -2783,6 +2783,26 @@
       \field{year}{2003}
       \field{pages}{119\bibrangedash 133}
     \endentry
+    \entry{MarLadFedByzTsi2016}{book}{useauthor=false}
+      \name{author}{5}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=bc272f99f0b2b06e20a5b62e48b70696}{Ладовский}{Л\bibinitperiod}{И\bibnamedelima В}{И\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=13161c5bcbfc4dbe6b24883d61e2b33d}{Федорова}{Ф\bibinitperiod}{Н\bibnamedelima В}{Н\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=ab2b05ee4cac3bf9cb193c8e179f8e0d}{Бызов}{Б\bibinitperiod}{Д\bibnamedelima Д}{Д\bibinitperiod\bibinitdelim Д\bibinitperiod}{}{}{}{}}%
+        {{hash=922d11b817c0d7d32f0dc869e22a9492}{Цидаев}{Ц\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{publisher}{1}{%
+        {Екатеринбург: УрО РАН}%
+      }
+      \field{sortinit}{Т}
+      \field{sortinithash}{dd1d256ddba9264bf2e7bfd653a00835}
+      \field{labeltitle}{Теория и методы комплексной интерпретации геофизических данных}
+      \field{title}{Теория и методы комплексной интерпретации геофизических данных}
+      \field{year}{2016}
+    \endentry
     \entry{Tikh1943}{article}{}
       \name{labelname}{1}{}{%
         {{hash=e2bd3d9c486bcda0627087275e2a0307}{Тихонов}{Т\bibinitperiod}{А\bibnamedelima Н}{А\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
@@ -2997,14 +3017,12 @@
       \field{year}{1976}
       \field{pages}{61\bibrangedash 72}
     \endentry
-    \entry{TsiKor1990}{book}{}
-      \name{labelname}{2}{}{%
-        {{hash=9d2f906dc9fdb1e7a4304a0d10a8baf6}{Цирульский}{Ц\bibinitperiod}{А\bibnamedelima В.}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
-        {{hash=b74d4bdccfcf339d364009766c3697fb}{Кормильцев}{К\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+    \entry{Tsi1990}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=0107e1688cb347741f35abef9bcfc00a}{Цирульский}{Ц\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{2}{}{%
-        {{hash=9d2f906dc9fdb1e7a4304a0d10a8baf6}{Цирульский}{Ц\bibinitperiod}{А\bibnamedelima В.}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
-        {{hash=b74d4bdccfcf339d364009766c3697fb}{Кормильцев}{К\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      \name{author}{1}{}{%
+        {{hash=0107e1688cb347741f35abef9bcfc00a}{Цирульский}{Ц\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
       }
       \list{language}{1}{%
         {russian}%
@@ -3015,13 +3033,13 @@
       \list{publisher}{1}{%
         {Академия наук СССР, Уральское отделение}%
       }
-      \strng{namehash}{55505ceb933fed57bc675a42b9f57632}
-      \strng{fullhash}{55505ceb933fed57bc675a42b9f57632}
+      \strng{namehash}{0107e1688cb347741f35abef9bcfc00a}
+      \strng{fullhash}{0107e1688cb347741f35abef9bcfc00a}
       \field{sortinit}{Ц}
       \field{sortinithash}{fb78e64022e5ab41137fc104bb27b2f2}
       \field{labeltitle}{Функции комплексного переменного в теории и методах потенциальных геофизических полей}
       \field{title}{Функции комплексного переменного в теории и методах потенциальных геофизических полей}
-      \field{year}{1987}
+      \field{year}{1990}
     \endentry
     \entry{TikhGonSteYag1990}{book}{useauthor=false}
       \name{author}{4}{}{%

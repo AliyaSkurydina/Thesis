@@ -81,23 +81,23 @@ u^{k+1} =u^k - \gamma\frac{\langle [A'(u^k)+\bar{\alpha}I]S_\alpha(u^k), S_\alph
 $$
 u^{k+1}=u^k-\gamma(A'(u^0)+\bar\alpha I)^{-1}(A(u^k)+\alpha(u^k-u^0)-f_\delta)\equiv{T(u^k)}.
 $$
-Перейдем к исследованию процесса $\eqref{equ_rmn}$. Пусть выполнены следующие условия в шаре $S(u^0, r)$, $\|u^0-u_\alpha\| \le r$:
+Перейдем к исследованию процесса $\eqref{equ_rmn}$. Пусть выполнены следующие условия в шаре $S(u^0; R)$:
 \begin{equation}\label{cond1.1}
-\forall u, v \in S(u^0, r) \quad \|A(u)-A(v)\|\le N_1\|u-v\|,
+\forall u, v \in S(u^0; R) \quad \|A(u)-A(v)\|\le N_1\|u-v\|,
 \end{equation}
 \begin{equation}\label{cond1.2}
-\forall u, v \in S(u^0, r) \quad \|A'(u)-A'(v)\|\le N_2\|u-v\|.
+\forall u, v \in S(u^0; R) \quad \|A'(u)-A'(v)\|\le N_2\|u-v\|.
 \end{equation}
 и известна оценка для нормы производной в точке $u^0$ (начальном приближении), т.е.
 \begin{equation}\label{cond1.3}
 \|A'(u^0)\|\le N_1.
 \end{equation}
-%Шар $S(u^0, r)$ также содержит решение уравнения $\eqref{equ1}$. 
+Шар $S(u^0; R)$ также содержит решение уравнения $\eqref{equ2}$. 
 \begin{remark}
 	Начальное приближение в неравенстве $\eqref{cond1.3}$ в общем случае не обязано совпадать с $u^0$ в схеме $\eqref{equ2}$. Однако, для простоты изложения, будем считать, что это один и тот же элемент. Кроме того, для монотонного оператора $A$ оператор $A+\alpha I$ --- равномерно монотонный, поэтому при выполнении условия $\ref{cond1.1}$ согласно (\cite{KufFuch1988},~теорема 43.7), регуляризованное уравнение (\ref{equ2}) имеет единственное решение.
 \end{remark}
 
-\begin{theorem}\label{teo2.1} Пусть $A$ --- монотонный оператор, для которого выполнены условия $\eqref{cond1.1}$, $\eqref{cond1.2}$, $r\le \alpha/N_2$, $0<\alpha \le \bar\alpha$. Тогда для процесса $\eqref{equ_rmn}$ c \\ $\gamma=1$ имеет место линейная скорость сходимости метода при аппроксимации единственного решения $u_\alpha$ регуляризованного уравнения $\eqref{equ2}$
+\begin{theorem}\label{teo2.1} Пусть $A$ --- монотонный оператор, для которого выполнены условия $\eqref{cond1.1}$, $\eqref{cond1.2}$, $\|u^0-u_\alpha\| \le r$, $r\le \alpha/N_2$, $0<\alpha \le \bar\alpha$. Тогда для процесса $\eqref{equ_rmn}$ c $\gamma=1$ имеет место линейная скорость сходимости метода при аппроксимации единственного решения $u_\alpha$ регуляризованного уравнения $\eqref{equ2}$
 	\begin{equation}\label{nwt_conv}
 	\| u^k-u_\alpha \| \le q^kr, \quad q=(1-\frac{\alpha}{2\bar\alpha}).
 	\end{equation}
@@ -122,13 +122,14 @@ $$\le\left(1-\frac{\alpha}{\bar\alpha}+\frac{N_2}{2\bar\alpha}\|u^k-u_\alpha\|\r
 Установим усиленное свойство Фейера для оператора шага $T$ в методе $\eqref{equ_rmn}$. Для начала докажем следующую теорему.
 \begin{theorem}\label{teo2.2} Пусть для монотонного оператора $A$ выполнены условия $\eqref{cond1.1}$ -- $\eqref{cond1.3}$, $A'(u^0)$ --- самосопряженный оператор, для параметров $\alpha$, $\bar{\alpha}$, $r$ справедливы соотношения 
 	\begin{equation}\label{cond2.7}
-	0\le\alpha\le\bar\alpha,\quad\bar\alpha\ge 4N_1,\quad r\le\alpha/8N_2.
+	0<\alpha\le\bar\alpha,\quad\bar\alpha\ge 4N_1,\quad
+	\|u^0-u_\alpha\| \le r, \quad r\le\alpha/8N_2.
 	\end{equation}
 	Тогда для оператора
 	$$ F(u)=(A'(u)+\bar\alpha I)^{-1}(A(u)+\alpha(u-u^0)-f_\delta) $$
 	справедлива оценка снизу
 	\begin{equation}\label{est2.8}
-	\langle F(u), u-u_\alpha\rangle\ge\frac{\alpha}{4\bar\alpha}{\|u-u_\alpha\|}^2 \quad \forall u \in S_r(u_\alpha).
+	\langle F(u), u-u_\alpha\rangle\ge\frac{\alpha}{4\bar\alpha}{\|u-u_\alpha\|}^2 \quad \forall u \in S(u_\alpha;r).
 	\end{equation}
 \end{theorem}
 \begin{proof} Введем обозначение $B(u)=A'(u)+\bar\alpha I$. Принимая во внимание, что $u_\alpha$ --- решение уравнения $\eqref{equ2}$, имеем
@@ -209,7 +210,7 @@ $$
 
 В диссертационной работе для решения уравнения $\eqref{equ2}$ с монотонным оператором предлагаются немодифицированные $\alpha$-процессы $\eqref{equ_alphaproc}$, $\eqref{equ_mmn}$.
 
-Сначала опишем экстремальные принципы, которые используются при их  построении для нелинейного монотонного оператора $A$. Используя разложение Тейлора в точке $u^k$ до первого порядка, получим линейное уравнение
+Сначала опишем экстремальные принципы, которые используются при их  построении для нелинейного монотонного оператора $A$. Используя разложение Тейлора в точке $u^k$ до второго порядка, получим линейное уравнение
 \begin{equation*}
 A(u^k)+A'(u^k)(u-u^k)=f_{\delta}.
 \end{equation*}
@@ -243,7 +244,7 @@ $$F_\varkappa(u)=\beta_\varkappa(u) S_\alpha(u), \quad \beta _\varkappa(u) =\fra
 \begin{theorem}\label{teo3.1}
 	Пусть для монотонного оператора $A$ выполнены условия $\eqref{cond1.1}$ --- $\eqref{cond1.3}$ и $A'(u^0)$ --- самосопряженный оператор. Кроме того, для ММО параметры $\alpha$, $\bar\alpha$, $r$ удовлетворяют дополнительным соотношениям:
 	\begin{equation}\label{cond3.3}
-	\alpha \le \bar\alpha, \quad r\le \alpha/8N_2, \quad \bar\alpha \ge N_1.
+	\alpha \le \bar\alpha, \quad \bar\alpha \ge N_1,\quad \|u^0-u_\alpha\|\le r, \quad r\le \alpha/8N_2,.
 	\end{equation}
 	Тогда справедливы соотношения
 	\begin{equation}\label{ineq3.4}
