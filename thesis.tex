@@ -26,15 +26,17 @@ colorlinks,  % цветные гиперссылки
 \linespread{1.6} %1.3 для полуторного
 %\usepackage{multibib}
 \usepackage{longtable}
+%\usepackage{titlesec}
 
 \usepackage[style=gost-numeric,
+  babel=other,
   backend=biber,
-  language=auto,
+  language=autobib,
   hyperref=auto,
   autolang=other,
   sorting=nyt,
   defernumbers=true,
-  maxbibnames=4
+  maxbibnames=5
 ]{biblatex}
 
 \addbibresource{thesis.bib}
@@ -62,6 +64,7 @@ colorlinks,  % цветные гиперссылки
 \newtheorem{remark}{Замечание}[chapter]
 \newtheorem{definition}{Определение}[chapter]
 
+%\renewcommand{\thesection}{\S\arabic{section}}
 
 % Путь к файлам с иллюстрациями
 \graphicspath{{fig/}}
@@ -175,7 +178,7 @@ colorlinks,  % цветные гиперссылки
 	heading=bibintoc,
 	title={Публикации автора}
 	]
-
+	
 % Список иллюстративного материала
 %\listoffigures
 

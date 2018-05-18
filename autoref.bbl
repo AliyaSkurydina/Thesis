@@ -134,15 +134,13 @@
       \name{author}{1}{}{%
         {{hash=e56c11641110c38bbc95e5ec0010ae17}{Skurydina}{S\bibinitperiod}{A\bibnamedelima F}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{e56c11641110c38bbc95e5ec0010ae17}
       \strng{fullhash}{e56c11641110c38bbc95e5ec0010ae17}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Regularized Levenberg –- Marquardt Type Method Applied to the Structural Inverse Gravity Problem in a Multilayer Medium and its Parallel Realization}
-      \field{journaltitle}{Bulletin of South Ural State University. Series: Computational Mathematics and Software Engineering}
+      \field{journaltitle}{Bulletin of South Ural State University. Series: \\ Computational Mathematics and Software Engineering}
+      \field{langid}{english}
       \field{number}{3}
       \field{title}{Regularized Levenberg –- Marquardt Type Method Applied to the Structural Inverse Gravity Problem in a Multilayer Medium and its Parallel Realization}
       \field{volume}{6}

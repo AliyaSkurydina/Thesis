@@ -81,7 +81,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>4</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -194,7 +194,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>4</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -307,7 +307,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>4</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -420,7 +420,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>4</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -533,7 +533,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>4</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -2744,8 +2744,9 @@
     <bcf:citekey order="23">LukYag2016</bcf:citekey>
     <bcf:citekey order="24">Tan1977</bcf:citekey>
     <bcf:citekey order="24">Tan1997</bcf:citekey>
-    <bcf:citekey order="25">Tan1981</bcf:citekey>
-    <bcf:citekey order="26">Tan2003_1</bcf:citekey>
+    <bcf:citekey order="24">Tan1981</bcf:citekey>
+    <bcf:citekey order="25">Tan2003_1</bcf:citekey>
+    <bcf:citekey order="25">Tan2003_2</bcf:citekey>
     <bcf:citekey order="26">Tan2003_2</bcf:citekey>
     <bcf:citekey order="27">DmiPol1972</bcf:citekey>
     <bcf:citekey order="28">Dor1979</bcf:citekey>
@@ -2785,30 +2786,35 @@
     <bcf:citekey order="50">JinZon1997</bcf:citekey>
     <bcf:citekey order="50">JinZon1999</bcf:citekey>
     <bcf:citekey order="51">SchEngKun1993</bcf:citekey>
-    <bcf:citekey order="52">Tan2003_2</bcf:citekey>
-    <bcf:citekey order="53">Num1930</bcf:citekey>
-    <bcf:citekey order="53">Mal1931</bcf:citekey>
-    <bcf:citekey order="54">Nov1938</bcf:citekey>
-    <bcf:citekey order="55">Lavr1956</bcf:citekey>
-    <bcf:citekey order="56">Iv1962_1</bcf:citekey>
-    <bcf:citekey order="57">Pri1965</bcf:citekey>
-    <bcf:citekey order="58">Tsi1990</bcf:citekey>
-    <bcf:citekey order="59">FedTsi1976</bcf:citekey>
-    <bcf:citekey order="60">GlaOstFil1970</bcf:citekey>
-    <bcf:citekey order="61">Str1967</bcf:citekey>
-    <bcf:citekey order="61">Str1969</bcf:citekey>
-    <bcf:citekey order="61">Str1974_1</bcf:citekey>
-    <bcf:citekey order="61">Str1974_2</bcf:citekey>
-    <bcf:citekey order="61">Str1976</bcf:citekey>
-    <bcf:citekey order="62">Pru1983</bcf:citekey>
-    <bcf:citekey order="62">Pru1986</bcf:citekey>
-    <bcf:citekey order="62">Prutdiss1998</bcf:citekey>
-    <bcf:citekey order="63">MarPru1982</bcf:citekey>
-    <bcf:citekey order="63">MarPrut2003</bcf:citekey>
-    <bcf:citekey order="63">MarLadTsi2010</bcf:citekey>
-    <bcf:citekey order="63">MarLadFedByzTsi2016</bcf:citekey>
+    <bcf:citekey order="52">Num1930</bcf:citekey>
+    <bcf:citekey order="52">Mal1931</bcf:citekey>
+    <bcf:citekey order="53">Nov1938</bcf:citekey>
+    <bcf:citekey order="54">Lavr1956</bcf:citekey>
+    <bcf:citekey order="55">Iv1962_1</bcf:citekey>
+    <bcf:citekey order="56">Pri1965</bcf:citekey>
+    <bcf:citekey order="57">Tsi1990</bcf:citekey>
+    <bcf:citekey order="58">FedTsi1976</bcf:citekey>
+    <bcf:citekey order="59">GlaOstFil1970</bcf:citekey>
+    <bcf:citekey order="60">Str1967</bcf:citekey>
+    <bcf:citekey order="60">Str1969</bcf:citekey>
+    <bcf:citekey order="60">Str1974_1</bcf:citekey>
+    <bcf:citekey order="60">Str1974_2</bcf:citekey>
+    <bcf:citekey order="60">Str1976</bcf:citekey>
+    <bcf:citekey order="61">Pru1983</bcf:citekey>
+    <bcf:citekey order="61">Pru1986</bcf:citekey>
+    <bcf:citekey order="61">Prutdiss1998</bcf:citekey>
+    <bcf:citekey order="62">MarPrut2003</bcf:citekey>
+    <bcf:citekey order="62">MarLadTsi2010</bcf:citekey>
+    <bcf:citekey order="62">MarLadByz2013</bcf:citekey>
+    <bcf:citekey order="62">MarLadByz2013</bcf:citekey>
+    <bcf:citekey order="62">MarRubFed2014</bcf:citekey>
+    <bcf:citekey order="62">MarLadFedByzTsi2016</bcf:citekey>
+    <bcf:citekey order="63">VasPerPruTim2003</bcf:citekey>
+    <bcf:citekey order="63">VasPer_2011</bcf:citekey>
     <bcf:citekey order="64">AkiVas2002</bcf:citekey>
+    <bcf:citekey order="64">Akidiss2009</bcf:citekey>
     <bcf:citekey order="64">AkiVas2004</bcf:citekey>
+    <bcf:citekey order="64">AkMarMis2013</bcf:citekey>
     <bcf:citekey order="65">VoeVoe2002</bcf:citekey>
     <bcf:citekey order="66">Ort1991</bcf:citekey>
     <bcf:citekey order="67">FadFad1977</bcf:citekey>
@@ -2816,9 +2822,9 @@
     <bcf:citekey order="68">Aki2001</bcf:citekey>
     <bcf:citekey order="68">AkiGorPop2005</bcf:citekey>
     <bcf:citekey order="68">Aki2009</bcf:citekey>
-    <bcf:citekey order="68">Akidiss2009</bcf:citekey>
     <bcf:citekey order="68">AkiBel2011</bcf:citekey>
-    <bcf:citekey order="68">AkiMisKos2015</bcf:citekey>
+    <bcf:citekey order="68">AkiMarMisKos2016</bcf:citekey>
+    <bcf:citekey order="68">AkMisTre2017</bcf:citekey>
     <bcf:citekey order="69">VasAkiMin2013</bcf:citekey>
     <bcf:citekey order="69">AkiMisSkur2014</bcf:citekey>
     <bcf:citekey order="69">AkMisSkurTre2015_2</bcf:citekey>
@@ -2869,16 +2875,14 @@
     <bcf:citekey order="96">VasSkur2017</bcf:citekey>
     <bcf:citekey order="97">Vasin2014</bcf:citekey>
     <bcf:citekey order="97">Vasin2016</bcf:citekey>
-    <bcf:citekey order="98">AkMisDer2014</bcf:citekey>
-    <bcf:citekey order="99">VasEre2009</bcf:citekey>
-    <bcf:citekey order="100">MarPrut2003</bcf:citekey>
-    <bcf:citekey order="101">AkMarMis2013</bcf:citekey>
-    <bcf:citekey order="102">Vasin_2012</bcf:citekey>
-    <bcf:citekey order="103">VasPer_2011</bcf:citekey>
-    <bcf:citekey order="104">MarAkiMis2016</bcf:citekey>
-    <bcf:citekey order="105">VasEre2009</bcf:citekey>
-    <bcf:citekey order="106">BachZhid1987</bcf:citekey>
-    <bcf:citekey order="107">AkMarMis2013</bcf:citekey>
+    <bcf:citekey order="98">MarPrut2003</bcf:citekey>
+    <bcf:citekey order="99">AkMarMis2013</bcf:citekey>
+    <bcf:citekey order="100">Vasin_2012</bcf:citekey>
+    <bcf:citekey order="101">VasPer_2011</bcf:citekey>
+    <bcf:citekey order="102">MarAkiMis2016</bcf:citekey>
+    <bcf:citekey order="103">VasEre2009</bcf:citekey>
+    <bcf:citekey order="104">BachZhid1987</bcf:citekey>
+    <bcf:citekey order="105">AkMarMis2013</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt" type="entry" sortscheme="nyt">
   <bcf:sorting>

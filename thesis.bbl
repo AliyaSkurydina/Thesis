@@ -43,6 +43,30 @@
       \field{year}{2014}
       \keyw{own,nohac}
     \endentry
+    \entry{AkMisTre2017}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=c7d5f7db9f622ee584cbedf010b5c36a}{Tretyakov}{T\bibinitperiod}{A\bibnamedelima I}{A\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=c7d5f7db9f622ee584cbedf010b5c36a}{Tretyakov}{T\bibinitperiod}{A\bibnamedelima I}{A\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e0513afdd428faf1f5b544c0c20a68fd}
+      \strng{fullhash}{e0513afdd428faf1f5b544c0c20a68fd}
+      \field{sortinit}{A}
+      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
+      \field{labeltitle}{Optimized Algorithms for Solving Structural Inverse Gravimetry and Magnetometry Problems on GPUs}
+      \field{booktitle}{Communications in Computer and Information Science}
+      \field{langid}{english}
+      \field{number}{7}
+      \field{title}{Optimized Algorithms for Solving Structural Inverse Gravimetry and Magnetometry Problems on GPUs}
+      \field{volume}{753}
+      \field{year}{2017}
+      \field{pages}{144\bibrangedash 155}
+    \endentry
     \entry{AkiVas2004}{article}{}
       \name{labelname}{2}{}{%
         {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
@@ -52,15 +76,13 @@
         {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
         {{hash=7ecf465ac65ff2f702fcf14bb0bee13a}{Vasin}{V\bibinitperiod}{V\bibnamedelima V}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{d9f2b94bdd51af98ac1c8e94e9685736}
       \strng{fullhash}{d9f2b94bdd51af98ac1c8e94e9685736}
       \field{sortinit}{A}
       \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
       \field{labeltitle}{Stable parallel algorithms for solving the inverse gravimetry and magnetometry problems}
       \field{journaltitle}{International Journal of Engineering Modelling}
+      \field{langid}{english}
       \field{number}{1-2}
       \field{title}{Stable parallel algorithms for solving the inverse gravimetry and magnetometry problems}
       \field{volume}{17}
@@ -117,6 +139,24 @@
       \field{year}{2016}
       \keyw{own,hac}
     \endentry
+    \entry{AkiMarMisKos2016}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=461f6643dfcf4ca2700426141091a41b}{Akimova}{A\bibinitperiod}{E\bibnamedelima N}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=4c4f42a9f6a60306ae39de6e70642267}{Martyshko}{M\bibinitperiod}{P\bibnamedelima S}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=a15ad87a2493a0e52b9331db952cf3fd}{Misilov}{M\bibinitperiod}{V\bibnamedelima E}{V\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=b11abb72d43c7172f10dcb2991379391}{Kosivets}{K\bibinitperiod}{R\bibnamedelima A}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \field{sortinit}{A}
+      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
+      \field{labeltitle}{An efficient numerical technique for solving the inverse gravity problem of finding a lateral density}
+      \field{journaltitle}{Applied Mathematics and Information Sciences}
+      \field{langid}{english}
+      \field{number}{5}
+      \field{title}{An efficient numerical technique for solving the inverse gravity problem of finding a lateral density}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{pages}{1681\bibrangedash 1688}
+    \endentry
     \entry{BlaNeuSch1997}{article}{}
       \name{labelname}{3}{}{%
         {{hash=5f54f89a33091387d11fba48955c2809}{Blaschke}{B\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
@@ -128,15 +168,13 @@
         {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
         {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{2a7d4176862906174548208cadc8e5fb}
       \strng{fullhash}{2a7d4176862906174548208cadc8e5fb}
       \field{sortinit}{B}
       \field{sortinithash}{1a3a21dbed09540af12d49a0b14f4751}
       \field{labeltitle}{On convergence rates for the iteratively regularized Gauss-Newton method}
       \field{journaltitle}{IMA Journal of Numerical Analysis}
+      \field{langid}{english}
       \field{number}{3}
       \field{title}{On convergence rates for the iteratively regularized Gauss-Newton method}
       \field{volume}{17}
@@ -152,9 +190,6 @@
         {{hash=91c02a929cd1e55bb42dabbc20f00d89}{Dennis}{D\bibinitperiod}{Jr.}{J\bibinitperiod}{}{}{}{}}%
         {{hash=db6add9aed90cf8aa48f151234fe21fc}{Schnabel}{S\bibinitperiod}{Robert\bibnamedelima B.}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \list{publisher}{1}{%
         {Siam}%
       }
@@ -163,6 +198,7 @@
       \field{sortinit}{D}
       \field{sortinithash}{a01c54d1737685bc6dbf0ea0673fa44c}
       \field{labeltitle}{Numerical Methods for Unconstrained Optimization and Nonlinear Equations}
+      \field{langid}{english}
       \field{title}{Numerical Methods for Unconstrained Optimization and Nonlinear Equations}
       \field{year}{1996}
     \endentry
@@ -175,15 +211,13 @@
         {{hash=27641a2cfdfd77444c0d6497f02f3bdd}{Gilbert}{G\bibinitperiod}{J.C.}{J\bibinitperiod}{}{}{}{}}%
         {{hash=f4db7b8fcb0d0c051ae414940a50d4e8}{Nocedal}{N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{b7dd224791dffa4500b6a97e317b5d75}
       \strng{fullhash}{b7dd224791dffa4500b6a97e317b5d75}
       \field{sortinit}{G}
       \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
       \field{labeltitle}{Tensor Methods for Nonlinear Equations}
       \field{journaltitle}{SIAM Journal on Numerical Analysis}
+      \field{langid}{english}
       \field{number}{1}
       \field{title}{Tensor Methods for Nonlinear Equations}
       \field{volume}{2}
@@ -197,15 +231,13 @@
       \name{author}{1}{}{%
         {{hash=e9fc6edde2a078dc5a21d220a004c3c2}{Hadamard}{H\bibinitperiod}{J}{J\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{e9fc6edde2a078dc5a21d220a004c3c2}
       \strng{fullhash}{e9fc6edde2a078dc5a21d220a004c3c2}
       \field{sortinit}{H}
       \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
       \field{labeltitle}{Sur les probl{é}mes aux derivees partielles et leur signification physique}
       \field{journaltitle}{Bull. Univ. Princeton}
+      \field{langid}{english}
       \field{number}{1}
       \field{title}{Sur les probl{é}mes aux derivees partielles et leur signification physique}
       \field{volume}{13}
@@ -219,15 +251,13 @@
       \name{author}{1}{}{%
         {{hash=e2a770c1e1822efec8b8f1c69ce546ec}{Hanke}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{e2a770c1e1822efec8b8f1c69ce546ec}
       \strng{fullhash}{e2a770c1e1822efec8b8f1c69ce546ec}
       \field{sortinit}{H}
       \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
       \field{labeltitle}{A regularizing Levenberg-Marquardt scheme, with applications to inverse groundwater filtration problems}
       \field{journaltitle}{Inverse problems}
+      \field{langid}{english}
       \field{number}{1}
       \field{title}{A regularizing Levenberg-Marquardt scheme, with applications to inverse groundwater filtration problems}
       \field{volume}{13}
@@ -241,15 +271,13 @@
       \name{author}{1}{}{%
         {{hash=e2a770c1e1822efec8b8f1c69ce546ec}{Hanke}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{e2a770c1e1822efec8b8f1c69ce546ec}
       \strng{fullhash}{e2a770c1e1822efec8b8f1c69ce546ec}
       \field{sortinit}{H}
       \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
       \field{labeltitle}{The regularizing Levenberg-Marquardt scheme is of optimal order}
       \field{journaltitle}{Journal of Integral Equations and Applications}
+      \field{langid}{english}
       \field{number}{2}
       \field{title}{The regularizing Levenberg-Marquardt scheme is of optimal order}
       \field{volume}{22}
@@ -267,15 +295,13 @@
         {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
         {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{82c1bf7b024b01f99275a6c4ce864c97}
       \strng{fullhash}{82c1bf7b024b01f99275a6c4ce864c97}
       \field{sortinit}{H}
       \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
       \field{labeltitle}{A convergence analysis of the Landweber iteration for nonlinear ill-posed problems}
       \field{journaltitle}{Numerische Mathematik}
+      \field{langid}{english}
       \field{number}{1}
       \field{title}{A convergence analysis of the Landweber iteration for nonlinear ill-posed problems}
       \field{volume}{72}
@@ -293,9 +319,6 @@
         {{hash=18c78550e2b14f28e6a81bdd285c0f1c}{Vasin}{V\bibinitperiod}{V.\bibnamedelimi V.}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
         {{hash=230088bc6e35b9bed079e2f8a3083275}{Tanana}{T\bibinitperiod}{V.P.}{V\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \list{location}{1}{%
         {Utrecht}%
       }
@@ -307,6 +330,7 @@
       \field{sortinit}{I}
       \field{sortinithash}{b2e302e575c74beffcc96ef7059003aa}
       \field{labeltitle}{Theory of Linear Ill-Posed Problems and Its Applications}
+      \field{langid}{english}
       \field{title}{Theory of Linear Ill-Posed Problems and Its Applications}
       \field{year}{2002}
     \endentry
@@ -319,15 +343,13 @@
         {{hash=baf1474820591c12616648dd8689027a}{Jin}{J\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
         {{hash=010b7756840870f997f8c01803184076}{Zong-Yi}{Z\bibinithyphendelim Y\bibinitperiod}{Hou}{H\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{6065892b1dd2108a928b85125c3d3659}
       \strng{fullhash}{6065892b1dd2108a928b85125c3d3659}
       \field{sortinit}{J}
       \field{sortinithash}{f75b22df8c340a961dce37019e29107f}
       \field{labeltitle}{On the choice of the regularization parameter for ordinary and iterated Tikhonov regularization of nonlinear illposed problems}
       \field{journaltitle}{Inverse Problems}
+      \field{langid}{english}
       \field{title}{On the choice of the regularization parameter for ordinary and iterated Tikhonov regularization of nonlinear illposed problems}
       \field{volume}{13}
       \field{year}{1997}
@@ -342,15 +364,13 @@
         {{hash=baf1474820591c12616648dd8689027a}{Jin}{J\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
         {{hash=010b7756840870f997f8c01803184076}{Zong-Yi}{Z\bibinithyphendelim Y\bibinitperiod}{Hou}{H\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{6065892b1dd2108a928b85125c3d3659}
       \strng{fullhash}{6065892b1dd2108a928b85125c3d3659}
       \field{sortinit}{J}
       \field{sortinithash}{f75b22df8c340a961dce37019e29107f}
       \field{labeltitle}{On an a posteriori parameter choice strategy for Tikhonov regularization of nonlinear ill-posed problems}
       \field{journaltitle}{Numerische Mathematik}
+      \field{langid}{english}
       \field{title}{On an a posteriori parameter choice strategy for Tikhonov regularization of nonlinear ill-posed problems}
       \field{volume}{83}
       \field{year}{1999}
@@ -367,15 +387,13 @@
         {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
         {{hash=d794cb94e8145308a02a1925f6818ccf}{Ramm}{R\bibinitperiod}{A.\bibnamedelimi G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{fee58d80716db45c18bec283f200d71f}
       \strng{fullhash}{fee58d80716db45c18bec283f200d71f}
       \field{sortinit}{K}
       \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
       \field{labeltitle}{Convergence rates of the continuous regularized Gauss—Newton method}
       \field{journaltitle}{Journal of Inverse and Ill-Posed Problems}
+      \field{langid}{english}
       \field{number}{3}
       \field{title}{Convergence rates of the continuous regularized Gauss—Newton method}
       \field{volume}{10}
@@ -389,9 +407,6 @@
       \name{author}{1}{}{%
         {{hash=2bb12fa0944be33ef77f320e66a40978}{Kelley}{K\bibinitperiod}{C.T.}{C\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \list{publisher}{1}{%
         {Philadelphia: Siam}%
       }
@@ -400,6 +415,7 @@
       \field{sortinit}{K}
       \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
       \field{labeltitle}{Iterative Methods for Linear and Nonlinear Equations}
+      \field{langid}{english}
       \field{title}{Iterative Methods for Linear and Nonlinear Equations}
       \field{year}{1995}
     \endentry
@@ -410,15 +426,13 @@
       \name{author}{1}{}{%
         {{hash=1d4bec18ad9a3f984f1ff9f38131833c}{Kokurin}{K\bibinitperiod}{M.Y.}{M\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{1d4bec18ad9a3f984f1ff9f38131833c}
       \strng{fullhash}{1d4bec18ad9a3f984f1ff9f38131833c}
       \field{sortinit}{K}
       \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
       \field{labeltitle}{Convexity of the Tikhonov Functional and Iterativly Regularized Methods of Solution Irregular Operator Equations}
       \field{journaltitle}{Computational Mathematics and Mathematical Physics}
+      \field{langid}{english}
       \field{number}{4}
       \field{title}{Convexity of the Tikhonov Functional and Iterativly Regularized Methods of Solution Irregular Operator Equations}
       \field{volume}{50}
@@ -432,15 +446,13 @@
       \name{author}{1}{}{%
         {{hash=1d4bec18ad9a3f984f1ff9f38131833c}{Kokurin}{K\bibinitperiod}{M.Y.}{M\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{1d4bec18ad9a3f984f1ff9f38131833c}
       \strng{fullhash}{1d4bec18ad9a3f984f1ff9f38131833c}
       \field{sortinit}{K}
       \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
       \field{labeltitle}{On Organizing Global Search under Implementation of Tikhonov Scheme}
       \field{journaltitle}{Russian Mathematics (Izvestiya VUZ. Matematika)}
+      \field{langid}{english}
       \field{number}{12}
       \field{title}{On Organizing Global Search under Implementation of Tikhonov Scheme}
       \field{volume}{54}
@@ -454,15 +466,13 @@
       \name{author}{1}{}{%
         {{hash=e4d73a7ea23539ab290ccc71097abd28}{Landweber}{L\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{e4d73a7ea23539ab290ccc71097abd28}
       \strng{fullhash}{e4d73a7ea23539ab290ccc71097abd28}
       \field{sortinit}{L}
       \field{sortinithash}{c41a2b5886eeae464e75d1a9df4cd13e}
       \field{labeltitle}{An Iteration Formula for Fredholm Integral Equations of the First Kind}
       \field{journaltitle}{American Journal of Mathematics}
+      \field{langid}{english}
       \field{number}{3}
       \field{title}{An Iteration Formula for Fredholm Integral Equations of the First Kind}
       \field{volume}{73}
@@ -478,15 +488,13 @@
         {{hash=c13f6538eb2292aa382e465d9999f681}{Lukyanenko}{L\bibinitperiod}{D\bibnamedelima V}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
         {{hash=ad561e9664b6964cdb2c7c7c897d7670}{Yagola}{Y\bibinitperiod}{A\bibnamedelima G}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{babac11cefa8cb3b123004df506a3f6b}
       \strng{fullhash}{babac11cefa8cb3b123004df506a3f6b}
       \field{sortinit}{L}
       \field{sortinithash}{c41a2b5886eeae464e75d1a9df4cd13e}
       \field{labeltitle}{Some methods for solving of 3D inverse problem of magnetometry}
       \field{journaltitle}{Eurasian Journal of Mathematical and Computer Applications}
+      \field{langid}{english}
       \field{number}{3}
       \field{title}{Some methods for solving of 3D inverse problem of magnetometry}
       \field{volume}{4}
@@ -500,15 +508,13 @@
       \name{author}{1}{}{%
         {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{9908cdefaf45125fb64e6ba7b7021f96}
       \strng{fullhash}{9908cdefaf45125fb64e6ba7b7021f96}
       \field{sortinit}{N}
       \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
       \field{labeltitle}{On Landweber iteration for nonlinear ill-posed problems in Hilbert scales}
       \field{journaltitle}{Numerische Mathematik}
+      \field{langid}{english}
       \field{number}{2}
       \field{title}{On Landweber iteration for nonlinear ill-posed problems in Hilbert scales}
       \field{volume}{85}
@@ -524,15 +530,13 @@
         {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
         {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{8bcb8b13fa23eda2db22e342457b099b}
       \strng{fullhash}{8bcb8b13fa23eda2db22e342457b099b}
       \field{sortinit}{N}
       \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
       \field{labeltitle}{A convergence rate result for a steepest descent method and a minimal error method for the solution of nonlinear ill-posed problems}
       \field{journaltitle}{Zeitschrift f{ü}r Analysis und ihre Anwendungen}
+      \field{langid}{english}
       \field{number}{2}
       \field{title}{A convergence rate result for a steepest descent method and a minimal error method for the solution of nonlinear ill-posed problems}
       \field{volume}{14}
@@ -548,15 +552,13 @@
         {{hash=9908cdefaf45125fb64e6ba7b7021f96}{Neubauer}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
         {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{8bcb8b13fa23eda2db22e342457b099b}
       \strng{fullhash}{8bcb8b13fa23eda2db22e342457b099b}
       \field{sortinit}{N}
       \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
       \field{labeltitle}{Convergence criteria of iterative methods based on Landweber iteration for solving nonlinear problems}
       \field{journaltitle}{J. Anal. Appl.}
+      \field{langid}{english}
       \field{title}{Convergence criteria of iterative methods based on Landweber iteration for solving nonlinear problems}
       \field{volume}{194}
       \field{year}{1995}
@@ -571,9 +573,6 @@
         {{hash=f4db7b8fcb0d0c051ae414940a50d4e8}{Nocedal}{N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
         {{hash=89f88e80b2a50f5885543ecd3fdd86ce}{Wright}{W\bibinitperiod}{S.J.}{S\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \list{publisher}{1}{%
         {Springer Science \& Business Media}%
       }
@@ -582,6 +581,7 @@
       \field{sortinit}{N}
       \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
       \field{labeltitle}{Numerical Optimization}
+      \field{langid}{english}
       \field{title}{Numerical Optimization}
       \field{year}{2006}
     \endentry
@@ -592,21 +592,16 @@
         {{hash=ef065b28c31984323fd6d3483d29aafd}{Li}{L\bibinitperiod}{J}{J\bibinitperiod}{}{}{}{}}%
         {{hash=ad561e9664b6964cdb2c7c7c897d7670}{Yagola}{Y\bibinitperiod}{A\bibnamedelima G}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \field{sortinit}{N}
       \field{sortinithash}{a52ecf374d1aa02cdea5f29be4dad56c}
       \field{labeltitle}{Numerical solution of an ill-posed Cauchy problem for a quasilinear parabolic equation using a Carleman weight function}
       \field{journaltitle}{Journal of Inverse and Ill-Posed Problems}
+      \field{langid}{english}
       \field{number}{6}
       \field{title}{Numerical solution of an ill-posed Cauchy problem for a quasilinear parabolic equation using a Carleman weight function}
       \field{volume}{24}
       \field{year}{2016}
       \field{pages}{761\bibrangedash 776}
-      \verb{url}
-      \verb https://doi.org/10.1515/jiip-2016-0039
-      \endverb
     \endentry
     \entry{OrtRhe1970}{book}{}
       \name{labelname}{2}{}{%
@@ -617,9 +612,6 @@
         {{hash=c1bcb452c611f527a094df3b9bb24f19}{Ortega}{O\bibinitperiod}{J.M.}{J\bibinitperiod}{}{}{}{}}%
         {{hash=a31f478e8892e70996614bdf540cd639}{Rheinboldt}{R\bibinitperiod}{W.C.}{W\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \list{publisher}{1}{%
         {Siam}%
       }
@@ -628,6 +620,7 @@
       \field{sortinit}{O}
       \field{sortinithash}{59512cfd31be1dcef4def024230bdc1d}
       \field{labeltitle}{Iterative solution of nonlinear equations in several variables}
+      \field{langid}{english}
       \field{title}{Iterative solution of nonlinear equations in several variables}
       \field{year}{1970}
     \endentry
@@ -638,15 +631,13 @@
       \name{author}{1}{}{%
         {{hash=20608e5f9a7f8b63216739ef1613bbce}{Powell}{P\bibinitperiod}{M.J.D.}{M\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{20608e5f9a7f8b63216739ef1613bbce}
       \strng{fullhash}{20608e5f9a7f8b63216739ef1613bbce}
       \field{sortinit}{P}
       \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
       \field{labeltitle}{A hybrid method for nonlinear equations}
       \field{journaltitle}{Numerical methods for nonlinear algebraic equations}
+      \field{langid}{english}
       \field{title}{A hybrid method for nonlinear equations}
       \field{volume}{7}
       \field{year}{1970}
@@ -659,15 +650,13 @@
       \name{author}{1}{}{%
         {{hash=b726d0cb6d2b71c4fafdb813e89376e6}{Scherzer}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{b726d0cb6d2b71c4fafdb813e89376e6}
       \strng{fullhash}{b726d0cb6d2b71c4fafdb813e89376e6}
       \field{sortinit}{S}
       \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
       \field{labeltitle}{A convergent rate result for steepest descent method and a minimal error method for the solution of nonlinear ill-posed problems}
       \field{journaltitle}{J. Anal. Appl.}
+      \field{langid}{english}
       \field{title}{A convergent rate result for steepest descent method and a minimal error method for the solution of nonlinear ill-posed problems}
       \field{volume}{14}
       \field{year}{1995}
@@ -684,15 +673,13 @@
         {{hash=7cd188d2b1f98e279df0482f9b4b630f}{Engl}{E\bibinitperiod}{H.W.}{H\bibinitperiod}{}{}{}{}}%
         {{hash=fab252d00af6c5f34f7174068197fa96}{Kunisch}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{d0a24b886ab2dd288b9d7dddc58c8bf9}
       \strng{fullhash}{d0a24b886ab2dd288b9d7dddc58c8bf9}
       \field{sortinit}{S}
       \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
       \field{labeltitle}{Optimal a posteriori parameter choice for Tikhonov regularization for solving nonlinear ill-posed problems}
       \field{journaltitle}{SIAM Journal on Numerical Analysis}
+      \field{langid}{english}
       \field{title}{Optimal a posteriori parameter choice for Tikhonov regularization for solving nonlinear ill-posed problems}
       \field{volume}{30}
       \field{year}{1993}
@@ -707,15 +694,13 @@
         {{hash=db6add9aed90cf8aa48f151234fe21fc}{Schnabel}{S\bibinitperiod}{Robert\bibnamedelima B.}{R\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
         {{hash=c3555bc2118bf4bea4990cf97166f229}{Frank}{F\bibinitperiod}{Paul\bibnamedelima D.}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{791865d27a2a672c69ccccfa89300714}
       \strng{fullhash}{791865d27a2a672c69ccccfa89300714}
       \field{sortinit}{S}
       \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
       \field{labeltitle}{Tensor Methods for Nonlinear Equations}
       \field{journaltitle}{SIAM Journal on Numerical Analysis}
+      \field{langid}{english}
       \field{number}{5}
       \field{title}{Tensor Methods for Nonlinear Equations}
       \field{volume}{21}
@@ -729,15 +714,13 @@
       \name{author}{1}{}{%
         {{hash=e56c11641110c38bbc95e5ec0010ae17}{Skurydina}{S\bibinitperiod}{A\bibnamedelima F}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{e56c11641110c38bbc95e5ec0010ae17}
       \strng{fullhash}{e56c11641110c38bbc95e5ec0010ae17}
       \field{sortinit}{S}
       \field{sortinithash}{4125bb4c3a0eb3eaee3ea6da32eb70c8}
       \field{labeltitle}{Regularized Levenberg –- Marquardt Type Method Applied to the Structural Inverse Gravity Problem in a Multilayer Medium and its Parallel Realization}
       \field{journaltitle}{Bulletin of South Ural State University. Series: \\ Computational Mathematics and Software Engineering}
+      \field{langid}{english}
       \field{number}{3}
       \field{title}{Regularized Levenberg –- Marquardt Type Method Applied to the Structural Inverse Gravity Problem in a Multilayer Medium and its Parallel Realization}
       \field{volume}{6}
@@ -752,15 +735,13 @@
       \name{author}{1}{}{%
         {{hash=3034ab844c8c69a9f441a1af958862e6}{Tautenhahn}{T\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{3034ab844c8c69a9f441a1af958862e6}
       \strng{fullhash}{3034ab844c8c69a9f441a1af958862e6}
       \field{sortinit}{T}
       \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
       \field{labeltitle}{On the method of Lavrentiev regularization for nonlinear ill-posed problems}
       \field{journaltitle}{Inverse Problems}
+      \field{langid}{english}
       \field{title}{On the method of Lavrentiev regularization for nonlinear ill-posed problems}
       \field{volume}{18}
       \field{year}{2002}
@@ -773,15 +754,13 @@
       \name{author}{1}{}{%
         {{hash=3034ab844c8c69a9f441a1af958862e6}{Tautenhahn}{T\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{3034ab844c8c69a9f441a1af958862e6}
       \strng{fullhash}{3034ab844c8c69a9f441a1af958862e6}
       \field{sortinit}{T}
       \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
       \field{labeltitle}{Lavrentiev regularization of nonlinear ill-posed problems}
       \field{journaltitle}{Vietnam Journal of Mathematics}
+      \field{langid}{english}
       \field{title}{Lavrentiev regularization of nonlinear ill-posed problems}
       \field{volume}{32}
       \field{year}{2004}
@@ -794,15 +773,13 @@
       \name{author}{1}{}{%
         {{hash=18c78550e2b14f28e6a81bdd285c0f1c}{Vasin}{V\bibinitperiod}{V.\bibnamedelimi V.}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{18c78550e2b14f28e6a81bdd285c0f1c}
       \strng{fullhash}{18c78550e2b14f28e6a81bdd285c0f1c}
       \field{sortinit}{V}
       \field{sortinithash}{63562d1af2cd68fb37e2e14e0c6d5c96}
       \field{labeltitle}{Modified steepest descent method for nonlinear irregular operator equation}
       \field{journaltitle}{Dokl. Math.}
+      \field{langid}{english}
       \field{number}{3}
       \field{title}{Modified steepest descent method for nonlinear irregular operator equation}
       \field{volume}{91}
@@ -816,15 +793,13 @@
       \name{author}{1}{}{%
         {{hash=72f66ca039b18489bd6d748d6e07655f}{Vasin}{V\bibinitperiod}{V.V.}{V\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{72f66ca039b18489bd6d748d6e07655f}
       \strng{fullhash}{72f66ca039b18489bd6d748d6e07655f}
       \field{sortinit}{V}
       \field{sortinithash}{63562d1af2cd68fb37e2e14e0c6d5c96}
       \field{labeltitle}{Modified Newton type processes generating Fejer approximations of regularized solutions to nonlinear equations}
       \field{journaltitle}{Proc. Steklov Inst. Math.}
+      \field{langid}{english}
       \field{title}{Modified Newton type processes generating Fejer approximations of regularized solutions to nonlinear equations}
       \field{volume}{284}
       \field{year}{2014}
@@ -837,15 +812,13 @@
       \name{author}{1}{}{%
         {{hash=72f66ca039b18489bd6d748d6e07655f}{Vasin}{V\bibinitperiod}{V.V.}{V\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \strng{namehash}{72f66ca039b18489bd6d748d6e07655f}
       \strng{fullhash}{72f66ca039b18489bd6d748d6e07655f}
       \field{sortinit}{V}
       \field{sortinithash}{63562d1af2cd68fb37e2e14e0c6d5c96}
       \field{labeltitle}{Regularized modified alpha-processes for nonlinear equations with monotone operators}
       \field{journaltitle}{Dokl. Math.}
+      \field{langid}{english}
       \field{title}{Regularized modified alpha-processes for nonlinear equations with monotone operators}
       \field{volume}{469}
       \field{year}{2016}
@@ -860,9 +833,6 @@
         {{hash=72f66ca039b18489bd6d748d6e07655f}{Vasin}{V\bibinitperiod}{V.V.}{V\bibinitperiod}{}{}{}{}}%
         {{hash=041a15aaa17e76053cae7e4f48c888b8}{Eremin}{E\bibinitperiod}{I.I.}{I\bibinitperiod}{}{}{}{}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
       \list{location}{1}{%
         {Berlin/New York}%
       }
@@ -874,6 +844,7 @@
       \field{sortinit}{V}
       \field{sortinithash}{63562d1af2cd68fb37e2e14e0c6d5c96}
       \field{labeltitle}{Operators and Iterative Processes of Fejer Type. Theory and Application}
+      \field{langid}{english}
       \field{title}{Operators and Iterative Processes of Fejer Type. Theory and Application}
       \field{year}{2009}
     \endentry
@@ -1089,50 +1060,6 @@
       \field{year}{2014}
       \keyw{own,hac}
     \endentry
-    \entry{AkMisDer2014}{inproceedings}{}
-      \name{labelname}{3}{}{%
-        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
-        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
-        {{hash=58ff2e26976e846dfaee4ac4b7f8a4b9}{Дергачев}{Д\bibinitperiod}{Е\bibnamedelima А.}{Е\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
-        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
-        {{hash=58ff2e26976e846dfaee4ac4b7f8a4b9}{Дергачев}{Д\bibinitperiod}{Е\bibnamedelima А.}{Е\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{fc5d6cfdef6559e5c7a60a6d3b0bd6f1}
-      \strng{fullhash}{fc5d6cfdef6559e5c7a60a6d3b0bd6f1}
-      \field{sortinit}{А}
-      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
-      \field{labeltitle}{Алгоритмы решения структурной обратной задачи магнитометрии}
-      \field{booktitle}{Труды 41-й сессии Международного семинара им. Д.Г. Успенского, Екатеринбург, 2014}
-      \field{title}{Алгоритмы решения структурной обратной задачи магнитометрии}
-      \field{year}{1968}
-      \field{pages}{4\bibrangedash 6}
-    \endentry
-    \entry{AkiMisKos2015}{inproceedings}{}
-      \name{labelname}{3}{}{%
-        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
-        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
-        {{hash=d1395b0238c9dacf57753db5d36b5081}{Косивец}{К\bibinitperiod}{Р\bibnamedelima А}{Р\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
-        {{hash=9baa8afeffe6dbbf3106b8edfe09dc52}{Мисилов}{М\bibinitperiod}{В\bibnamedelima Е}{В\bibinitperiod\bibinitdelim Е\bibinitperiod}{}{}{}{}}%
-        {{hash=d1395b0238c9dacf57753db5d36b5081}{Косивец}{К\bibinitperiod}{Р\bibnamedelima А}{Р\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {russian}%
-      }
-      \strng{namehash}{d65efb735212724a977ceca33a20af26}
-      \strng{fullhash}{d65efb735212724a977ceca33a20af26}
-      \field{sortinit}{А}
-      \field{sortinithash}{d5ebf62df63408744dd6d82dcc8a6b41}
-      \field{labeltitle}{Оптимизированный алгоритм решения задачи гравиметрии о нахождении плотности в горизонтальном слое}
-      \field{booktitle}{Восьмые научные чтения Ю. П. Булашевича}
-      \field{title}{Оптимизированный алгоритм решения задачи гравиметрии о нахождении плотности в горизонтальном слое}
-      \field{year}{2015}
-    \endentry
     \entry{AkiMisMin2014}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=21539a07f5584d4dce7dcacec260c91f}{Акимова}{А\bibinitperiod}{Е\bibnamedelima Н}{Е\bibinitperiod\bibinitdelim Н\bibinitperiod}{}{}{}{}}%
@@ -1211,7 +1138,7 @@
         {{hash=2b603f96131cb377f9c71c5b6ae859ff}{Исаев}{И\bibinitperiod}{Т\bibnamedelima Ф}{Т\bibinitperiod\bibinitdelim Ф\bibinitperiod}{}{}{}{}}%
         {{hash=706882757b403f4b40c94682814bbcc4}{Лукьяненко}{Л\bibinitperiod}{Д\bibnamedelima В}{Д\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
         {{hash=433957c47360f8e63c64bd5ddb9b4a06}{Тихонравов}{Т\bibinitperiod}{А\bibnamedelima В}{А\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
-        {{hash=fac1ede92174e042d453a076ab080c81}{Ягола}{Я\bibinitperiod}{А.Г.}{А\bibinitperiod}{}{}{}{}}%
+        {{hash=cac2281d94a2654059ec3c037264b94f}{Ягола}{Я\bibinitperiod}{А\bibnamedelima Г}{А\bibinitperiod\bibinitdelim Г\bibinitperiod}{}{}{}{}}%
       }
       \list{language}{1}{%
         {russian}%
@@ -2200,6 +2127,32 @@
       \field{year}{2016}
       \field{pages}{82\bibrangedash 86}
     \endentry
+    \entry{MarLadByz2013}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=bc272f99f0b2b06e20a5b62e48b70696}{Ладовский}{Л\bibinitperiod}{И\bibnamedelima В}{И\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=ab2b05ee4cac3bf9cb193c8e179f8e0d}{Бызов}{Б\bibinitperiod}{Д\bibnamedelima Д}{Д\bibinitperiod\bibinitdelim Д\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=bc272f99f0b2b06e20a5b62e48b70696}{Ладовский}{Л\bibinitperiod}{И\bibnamedelima В}{И\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=ab2b05ee4cac3bf9cb193c8e179f8e0d}{Бызов}{Б\bibinitperiod}{Д\bibnamedelima Д}{Д\bibinitperiod\bibinitdelim Д\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{bd741f684bbdd5051d2a5cf2bb88b273}
+      \strng{fullhash}{bd741f684bbdd5051d2a5cf2bb88b273}
+      \field{sortinit}{М}
+      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
+      \field{labeltitle}{О решении обратной задачи гравиметрии на сетках большой размерности}
+      \field{journaltitle}{Доклады Академии наук}
+      \field{number}{6}
+      \field{title}{О решении обратной задачи гравиметрии на сетках большой размерности}
+      \field{volume}{450}
+      \field{year}{2013}
+      \field{pages}{702\bibrangedash 707}
+    \endentry
     \entry{MarLadTsi2010}{article}{}
       \name{labelname}{3}{}{%
         {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
@@ -2225,30 +2178,6 @@
       \field{year}{2010}
       \field{pages}{23\bibrangedash 35}
     \endentry
-    \entry{MarPru1982}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
-        {{hash=53f1af4388a2bdcff7ed18824a37e1e5}{Пруткин}{П\bibinitperiod}{И\bibnamedelima Л}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
-        {{hash=53f1af4388a2bdcff7ed18824a37e1e5}{Пруткин}{П\bibinitperiod}{И\bibnamedelima Л}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {russian}%
-      }
-      \strng{namehash}{3ee427077bda38baa4dc484c6587ef0f}
-      \strng{fullhash}{3ee427077bda38baa4dc484c6587ef0f}
-      \field{sortinit}{М}
-      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
-      \field{labeltitle}{О решении прямой и обратной задач магниторазведки}
-      \field{journaltitle}{Геофизический журнал}
-      \field{number}{6}
-      \field{title}{О решении прямой и обратной задач магниторазведки}
-      \field{volume}{4}
-      \field{year}{1982}
-      \field{pages}{39\bibrangedash 49}
-    \endentry
     \entry{MarPrut2003}{article}{}
       \name{labelname}{2}{}{%
         {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
@@ -2272,6 +2201,31 @@
       \field{volume}{25}
       \field{year}{2003}
       \field{pages}{159\bibrangedash 168}
+    \endentry
+    \entry{MarRubFed2014}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=47426cd22631a5f95ac9df92395b1542}{Рублев}{Р\bibinitperiod}{А\bibnamedelima Л}{А\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+        {{hash=13161c5bcbfc4dbe6b24883d61e2b33d}{Федорова}{Ф\bibinitperiod}{Н\bibnamedelima В}{Н\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=087c3da51e76df8ee3a4686596148a61}{Мартышко}{М\bibinitperiod}{П\bibnamedelima С}{П\bibinitperiod\bibinitdelim С\bibinitperiod}{}{}{}{}}%
+        {{hash=47426cd22631a5f95ac9df92395b1542}{Рублев}{Р\bibinitperiod}{А\bibnamedelima Л}{А\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+        {{hash=13161c5bcbfc4dbe6b24883d61e2b33d}{Федорова}{Ф\bibinitperiod}{Н\bibnamedelima В}{Н\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{58e0bc116f99cadcf43ac1630c9f0a58}
+      \strng{fullhash}{58e0bc116f99cadcf43ac1630c9f0a58}
+      \field{sortinit}{М}
+      \field{sortinithash}{0d59d2d67dac18e4a6b75e9f56dff809}
+      \field{labeltitle}{Метод нахождения поверхностей намагниченных слоев земной коры}
+      \field{journaltitle}{Уральский геофизический вестник}
+      \field{number}{1}
+      \field{title}{Метод нахождения поверхностей намагниченных слоев земной коры}
+      \field{year}{2014}
+      \field{pages}{61\bibrangedash 66}
     \endentry
     \entry{Menih1978}{article}{}
       \name{labelname}{1}{}{%
@@ -2564,6 +2518,26 @@
       \field{title}{Восстановление геометрии трехмерных объектов произвольной формы по измерениям потенциальных геофизических полей}
       \field{type}{Дисс. д-ра физ.-мат. наук}
       \field{year}{1998}
+    \endentry
+    \entry{VasPerPruTim2003}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=c14eb3fa1458d33e2871dc391726159e}{Васин}{В\bibinitperiod}{В\bibnamedelima В}{В\bibinitperiod\bibinitdelim В\bibinitperiod}{}{}{}{}}%
+        {{hash=03ce59719877e87bc541e47bf217ea94}{Пересторонина}{П\bibinitperiod}{Г\bibnamedelima Я}{Г\bibinitperiod\bibinitdelim Я\bibinitperiod}{}{}{}{}}%
+        {{hash=53f1af4388a2bdcff7ed18824a37e1e5}{Пруткин}{П\bibinitperiod}{И\bibnamedelima Л}{И\bibinitperiod\bibinitdelim Л\bibinitperiod}{}{}{}{}}%
+        {{hash=7288b2aa8011bba13b6b4a548df05b82}{Тимерханова}{Т\bibinitperiod}{Л\bibnamedelima Ю}{Л\bibinitperiod\bibinitdelim Ю\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \field{sortinit}{Р}
+      \field{sortinithash}{3d827e0111651aa7800aeb01f19adb8b}
+      \field{labeltitle}{Решение трехмерных обратных задач гравиметрии и магнитометрии для трехслойной среды}
+      \field{journaltitle}{Математическое моделирование}
+      \field{number}{2}
+      \field{title}{Решение трехмерных обратных задач гравиметрии и магнитометрии для трехслойной среды}
+      \field{volume}{15}
+      \field{year}{2003}
+      \field{pages}{69\bibrangedash 76}
     \endentry
     \entry{Str1967}{article}{}
       \name{labelname}{1}{}{%
@@ -2955,7 +2929,7 @@
         {{hash=d17ea6c9c03849b9d399f506ed7568fa}{Треногин}{Т\bibinitperiod}{В\bibnamedelima А}{В\bibinitperiod\bibinitdelim А\bibinitperiod}{}{}{}{}}%
       }
       \list{language}{1}{%
-        {english}%
+        {russian}%
       }
       \list{location}{1}{%
         {Москва}%
