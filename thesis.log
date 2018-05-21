@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  18 MAY 2018 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  21 MAY 2018 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1394,11 +1394,11 @@ Overfull \hbox (0.2591pt too wide) in paragraph at lines 17--17
 ные для ре^^?ше^^?ния пло^^?хо обу^^?слов^^?
  []
 
-[7] [8] [9] [10] [11] [12] [13]) (./1.tex [14] [15
+[7] [8] [9] [10] [11] [12] [13] [14] [15]) (./1.tex [16] [17
 
-] [16] [17] [18] [19]
+] [18] [19]
 [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
-[35] <fig/mmn2_ch1.png, id=1083, 372.64218pt x 294.34969pt>
+[35] [36] [37] <fig/mmn2_ch1.png, id=1092, 372.64218pt x 294.34969pt>
 File: fig/mmn2_ch1.png Graphic file (type png)
 
 <use fig/mmn2_ch1.png>
@@ -1408,34 +1408,43 @@ Package pdftex.def Info: fig/mmn2_ch1.png used on input line 401.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36] [37 <./fig/mmn2_ch1.png>] [38]
+[38] [39 <./fig/mmn2_ch1.png>] [40]
 Overfull \hbox (0.85532pt too wide) in paragraph at lines 458--462
 []\T2A/cmr/bx/n/17.28 Вывод. \T2A/cmr/m/n/14.4 В экс^^?пе^^?ри^^?мен^^?те 1.5.1
 . от^^?но^^?си^^?тель^^?ная по^^?греш^^?ность ме^^?то^^?дов ММО,
  []
 
-) (./2.tex [39] [40
+) (./2.tex [41] [42
 
-] [41] [42] [43] [44] [45] [46]
+]
+Overfull \hbox (11.0483pt too wide) in paragraph at lines 16--17
+\T2A/cmr/m/n/14.4 спектр, удо^^?вле^^?тво^^?ря^^?ю^^?щий усло^^?ви^^?ям лем^^?м
+ы $[][]\OT1/cmr/m/n/14.4 2\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 1[][]$\T2A/cmr/
+m/n/14.4 , при^^?чем функ^^?ция $\OML/cmm/m/it/14.4 ^^V\OT1/cmr/m/n/14.4 (\OML/
+cmm/m/it/14.4 S\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 ))$ \T2
+A/cmr/m/n/14.4 при фик^^?
+ []
+
+[43] [44] [45] [46] [47] [48]
 Overfull \hbox (1.01848pt too wide) in paragraph at lines 122--123
 \T2A/cmr/m/it/14.4 мат^^?ри^^?цы $\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML
 /cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/it/14.4 , со^^?сто^^?я^^?щий и
 з раз^^?лич^^?ных ве^^?ще^^?ствен^^?ных зна^^?че^^?ний, со^^?дер^^?жит
  []
 
-[47] [48] [49] [50]
+[49] [50] [51] [52]
 Overfull \hbox (18.61942pt too wide) detected at line 212
 \OML/cmm/m/it/14.4 ^^L[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.
 4 ) = [] = [] \OMS/cmsy/m/n/14.4 ^^U [] ^^U []\OML/cmm/m/it/14.4 :
  []
 
-[51]
+[53]
 Overfull \hbox (4.86664pt too wide) in paragraph at lines 233--234
 []\T2A/cmr/m/n/14.4 Неравенства $[]$, $[]$ бу^^?дут вы^^?пол^^?не^^?ны при $\OM
 L/cmm/m/it/14.4 ^^V[] \OT1/cmr/m/n/14.4 = 2\OML/cmm/m/it/14.4 =[]$
  []
 
-[52] [53] [54] <fig/Twolaymodgrav.png, id=1587, 413.29407pt x 322.95656pt>
+[54] [55] [56] <fig/Twolaymodgrav.png, id=1596, 413.29407pt x 322.95656pt>
 File: fig/Twolaymodgrav.png Graphic file (type png)
 
 <use fig/Twolaymodgrav.png>
@@ -1446,8 +1455,8 @@ Overfull \hbox (11.86327pt too wide) in paragraph at lines 287--288
  [][] 
  []
 
-[55] [56 <./fig/Twolaymodgrav.png>] [57] [58]
-<fig/Twolaymodmag.png, id=1650, 413.29407pt x 322.95656pt>
+[57] [58 <./fig/Twolaymodgrav.png>] [59] [60]
+<fig/Twolaymodmag.png, id=1658, 413.29407pt x 322.95656pt>
 File: fig/Twolaymodmag.png Graphic file (type png)
 
 <use fig/Twolaymodmag.png>
@@ -1458,10 +1467,10 @@ Overfull \hbox (11.86327pt too wide) in paragraph at lines 366--367
  [][] 
  []
 
-[59] [60 <./fig/Twolaymodmag.png>] [61] [62]) (./3.tex [63] [64
+[61] [62 <./fig/Twolaymodmag.png>] [63] [64]) (./3.tex [65] [66
 
-] [65] [66]
-[67]
+] [67] [68]
+[69]
 Package epstopdf Info: Source file: <fig/Matrix.eps>
 (epstopdf)                    date: 2017-12-23 06:08:44
 (epstopdf)                    size: 4440772 bytes
@@ -1470,16 +1479,16 @@ Package epstopdf Info: Source file: <fig/Matrix.eps>
 (epstopdf)                    size: 49213 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/Matrix-eps-converted-t
 o.pdf fig/Matrix.eps>
-(epstopdf)             \includegraphics on input line 62.
+(epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
- <fig/Matrix-eps-converted-to.pdf, id=1791, 607.26875pt x 606.265pt>
+ <fig/Matrix-eps-converted-to.pdf, id=1799, 607.26875pt x 606.265pt>
 File: fig/Matrix-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/Matrix-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Matrix-eps-converted-to.pdf used on input line 62.
+Package pdftex.def Info: fig/Matrix-eps-converted-to.pdf used on input line 60.
 
 (pdftex.def)             Requested size: 213.75185pt x 213.39566pt.
- [68 <./fig/Matrix-eps-converted-to.pdf>]
+ [70 <./fig/Matrix-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/MultilayerModel.eps>
 (epstopdf)                    date: 2017-12-23 06:08:44
 (epstopdf)                    size: 111593 bytes
@@ -1488,18 +1497,18 @@ Package epstopdf Info: Source file: <fig/MultilayerModel.eps>
 (epstopdf)                    size: 30456 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/MultilayerModel-eps-co
 nverted-to.pdf fig/MultilayerModel.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig/MultilayerModel-eps-converted-to.pdf, id=1804, 230.8625pt x 305.14pt>
+<fig/MultilayerModel-eps-converted-to.pdf, id=1812, 230.8625pt x 305.14pt>
 File: fig/MultilayerModel-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/MultilayerModel-eps-converted-to.pdf>
 Package pdftex.def Info: fig/MultilayerModel-eps-converted-to.pdf used on input
- line 85.
+ line 83.
 (pdftex.def)             Requested size: 301.38583pt x 398.33858pt.
- [69 <./fig/MultilayerModel-eps-converted-to.pdf>]
-Overfull \hbox (6.78223pt too wide) in paragraph at lines 95--97
+ [71 <./fig/MultilayerModel-eps-converted-to.pdf>]
+Overfull \hbox (6.78223pt too wide) in paragraph at lines 93--95
 \T2A/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 g$ \T2A/cmr/m/n/14.4 --- гра^^?ви^^?т
 а^^?ци^^?он^^?ная по^^?сто^^?ян^^?ная, $\OT1/cmr/m/n/14.4 ^^A\OML/cmm/m/it/14.4
  ^^[[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 l \OT1/cmr/m/n/14.4 = 1\OML/cmm/m/i
@@ -1508,66 +1517,66 @@ t/14.4 ; ::; L\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 скач^^?ки плот^^?но^^?сти,
 n/14.4 ) =
  []
 
-[70]
-Overfull \hbox (0.62907pt too wide) in paragraph at lines 117--118
+[72]
+Overfull \hbox (0.62907pt too wide) in paragraph at lines 115--116
 []\T2A/cmr/m/n/14.4 Метод Ле^^?вен^^?бер^^?га -- Марк^^?вард^^?та (МЛМ) для ап^
 ^?прок^^?си^^?ма^^?ции ре^^?ше^^?ния урав^^?
  []
 
-[71] [72] [73] [74] <fig/omp.png, id=1862, 314.67563pt x 246.9225pt>
+[73] [74] [75] [76] <fig/omp.png, id=1869, 314.67563pt x 246.9225pt>
 File: fig/omp.png Graphic file (type png)
 
 <use fig/omp.png>
-Package pdftex.def Info: fig/omp.png used on input line 209.
+Package pdftex.def Info: fig/omp.png used on input line 207.
 (pdftex.def)             Requested size: 448.12788pt x 351.66096pt.
- [75pdfTeX warning (ext4): destination with the same identifier (name{equation.
+ [77pdfTeX warning (ext4): destination with the same identifier (name{equation.
 3.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.213 
-      ] [76 <./fig/omp.png>] <fig/cuda.png, id=1878, 471.7625pt x 471.7625pt>
+l.211 
+      ] [78 <./fig/omp.png>] <fig/cuda.png, id=1885, 471.7625pt x 471.7625pt>
 File: fig/cuda.png Graphic file (type png)
 
 <use fig/cuda.png>
-Package pdftex.def Info: fig/cuda.png used on input line 218.
+Package pdftex.def Info: fig/cuda.png used on input line 216.
 (pdftex.def)             Requested size: 348.54475pt x 348.55168pt.
- [77 <./fig/cuda.png (PNG copy)>]pdfTeX warning (ext4): destination with the sa
+ [79 <./fig/cuda.png (PNG copy)>]pdfTeX warning (ext4): destination with the sa
 me identifier (name{equation.3.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.236 \begin{equation}
+l.234 \begin{equation}
                       \label{exact_exp3.4.1}pdfTeX warning (ext4): destination 
 with the same identifier (name{equation.3.14}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.236 \begin{equation}
+l.234 \begin{equation}
                       \label{exact_exp3.4.1}pdfTeX warning (ext4): destination 
 with the same identifier (name{equation.3.14}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.236 \begin{equation}
+l.234 \begin{equation}
                       \label{exact_exp3.4.1}pdfTeX warning (ext4): destination 
 with the same identifier (name{equation.3.14}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.236 \begin{equation}
+l.234 \begin{equation}
                       \label{exact_exp3.4.1}
-<fig/gravy_kiev2014_exact.png, id=1887, 293.59688pt x 170.88844pt>
+<fig/gravy_kiev2014_exact.png, id=1895, 293.59688pt x 170.88844pt>
 File: fig/gravy_kiev2014_exact.png Graphic file (type png)
 
 <use fig/gravy_kiev2014_exact.png>
-Package pdftex.def Info: fig/gravy_kiev2014_exact.png used on input line 247.
+Package pdftex.def Info: fig/gravy_kiev2014_exact.png used on input line 245.
 (pdftex.def)             Requested size: 497.92325pt x 289.8181pt.
 
-<fig/gravy_kiev2014_app.png, id=1889, 279.29344pt x 182.93344pt>
+<fig/gravy_kiev2014_app.png, id=1897, 279.29344pt x 182.93344pt>
 File: fig/gravy_kiev2014_app.png Graphic file (type png)
 
 <use fig/gravy_kiev2014_app.png>
-Package pdftex.def Info: fig/gravy_kiev2014_app.png used on input line 254.
+Package pdftex.def Info: fig/gravy_kiev2014_app.png used on input line 252.
 (pdftex.def)             Requested size: 497.92325pt x 326.14525pt.
 
 
@@ -1576,176 +1585,176 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fig/magne_kiev2014_exact.png, id=1895, 761.84625pt x 383.93437pt>
+<fig/magne_kiev2014_exact.png, id=1903, 761.84625pt x 383.93437pt>
 File: fig/magne_kiev2014_exact.png Graphic file (type png)
 
 <use fig/magne_kiev2014_exact.png>
-Package pdftex.def Info: fig/magne_kiev2014_exact.png used on input line 268.
+Package pdftex.def Info: fig/magne_kiev2014_exact.png used on input line 266.
 (pdftex.def)             Requested size: 497.92325pt x 250.92523pt.
- [78]
-<fig/magne_kiev2014_app.png, id=1905, 747.54282pt x 383.18156pt>
+ [80]
+<fig/magne_kiev2014_app.png, id=1913, 747.54282pt x 383.18156pt>
 File: fig/magne_kiev2014_app.png Graphic file (type png)
 
 <use fig/magne_kiev2014_app.png>
-Package pdftex.def Info: fig/magne_kiev2014_app.png used on input line 275.
+Package pdftex.def Info: fig/magne_kiev2014_app.png used on input line 273.
 (pdftex.def)             Requested size: 473.02556pt x 242.46979pt.
- [79 <./fig/gravy_kiev2014_exact.png> <./fig/magne_kiev2014_exact.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
+ [81 <./fig/gravy_kiev2014_exact.png> <./fig/magne_kiev2014_exact.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []\T2A/cmr/m/n/14.4 Метод ми^^?ни^^?маль^^?
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 298--298
+Underfull \hbox (badness 2671) in paragraph at lines 296--296
 []\T2A/cmr/m/n/14.4 Метод Нью^^?то^^?на с
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \T2A/cmr/m/n/14.4 лен^^?точ^^?ной мат^^?ри^^?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 []\T2A/cmr/m/n/14.4 Покомпонентный
  []
 
-[80 <./fig/gravy_kiev2014_app.png> <./fig/magne_kiev2014_app.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[82 <./fig/gravy_kiev2014_app.png> <./fig/magne_kiev2014_app.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
 []\T2A/cmr/m/n/14.4 Метод наи^^?ско^^?рей^^?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 []\T2A/cmr/m/n/14.4 Метод ми^^?ни^^?маль^^?
  []
 
 
-Overfull \hbox (4.22937pt too wide) in paragraph at lines 316--316
+Overfull \hbox (4.22937pt too wide) in paragraph at lines 314--314
 []\T2A/cmr/m/n/14.4 Модифицированный
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 317--317
+Underfull \hbox (badness 2671) in paragraph at lines 315--315
 []\T2A/cmr/m/n/14.4 Метод Нью^^?то^^?на с
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
 \T2A/cmr/m/n/14.4 лен^^?точ^^?ной мат^^?ри^^?
  []
 
-[81] <fig/exp341_mmn_gravy_field.png, id=1930, 409.53pt x 264.23718pt>
+[83] <fig/exp341_mmn_gravy_field.png, id=1937, 409.53pt x 264.23718pt>
 File: fig/exp341_mmn_gravy_field.png Graphic file (type png)
 
 <use fig/exp341_mmn_gravy_field.png>
-Package pdftex.def Info: fig/exp341_mmn_gravy_field.png used on input line 356.
+Package pdftex.def Info: fig/exp341_mmn_gravy_field.png used on input line 354.
 
 (pdftex.def)             Requested size: 497.92325pt x 321.29236pt.
 
-<fig/exp341_mmn_magne_field.png, id=1931, 390.70969pt x 234.1247pt>
+<fig/exp341_mmn_magne_field.png, id=1938, 390.70969pt x 234.1247pt>
 File: fig/exp341_mmn_magne_field.png Graphic file (type png)
 
 <use fig/exp341_mmn_magne_field.png>
-Package pdftex.def Info: fig/exp341_mmn_magne_field.png used on input line 362.
+Package pdftex.def Info: fig/exp341_mmn_magne_field.png used on input line 360.
 
 (pdftex.def)             Requested size: 497.92325pt x 298.38535pt.
- [82]
-<fig/exp341_mmn_gravy_app.png, id=1940, 414.04688pt x 264.23718pt>
+ [84]
+<fig/exp341_mmn_gravy_app.png, id=1947, 414.04688pt x 264.23718pt>
 File: fig/exp341_mmn_gravy_app.png Graphic file (type png)
 
 <use fig/exp341_mmn_gravy_app.png>
-Package pdftex.def Info: fig/exp341_mmn_gravy_app.png used on input line 368.
+Package pdftex.def Info: fig/exp341_mmn_gravy_app.png used on input line 366.
 (pdftex.def)             Requested size: 497.92325pt x 317.7765pt.
 
-<fig/exp341_mmn_magne_app.png, id=1941, 392.21532pt x 226.59656pt>
+<fig/exp341_mmn_magne_app.png, id=1948, 392.21532pt x 226.59656pt>
 File: fig/exp341_mmn_magne_app.png Graphic file (type png)
 
 <use fig/exp341_mmn_magne_app.png>
-Package pdftex.def Info: fig/exp341_mmn_magne_app.png used on input line 374.
+Package pdftex.def Info: fig/exp341_mmn_magne_app.png used on input line 372.
 (pdftex.def)             Requested size: 497.92325pt x 287.68452pt.
- [83 <./fig/exp341_mmn_gravy_field.png> <./fig/exp341_mmn_magne_field.png>] [84
- <./fig/exp341_mmn_gravy_app.png> <./fig/exp341_mmn_magne_app.png>] [85] [86]
-<fig/field_sum_exact.png, id=1977, 402.00188pt x 261.22594pt>
+ [85 <./fig/exp341_mmn_gravy_field.png> <./fig/exp341_mmn_magne_field.png>] [86
+ <./fig/exp341_mmn_gravy_app.png> <./fig/exp341_mmn_magne_app.png>] [87] [88]
+<fig/field_sum_exact.png, id=1984, 402.00188pt x 261.22594pt>
 File: fig/field_sum_exact.png Graphic file (type png)
 
 <use fig/field_sum_exact.png>
-Package pdftex.def Info: fig/field_sum_exact.png used on input line 516.
+Package pdftex.def Info: fig/field_sum_exact.png used on input line 514.
 (pdftex.def)             Requested size: 448.12788pt x 291.19586pt.
 
-<fig/field_gauss_noise22.png, id=1978, 405.76593pt x 280.04625pt>
+<fig/field_gauss_noise22.png, id=1985, 405.76593pt x 280.04625pt>
 File: fig/field_gauss_noise22.png Graphic file (type png)
 
 <use fig/field_gauss_noise22.png>
-Package pdftex.def Info: fig/field_gauss_noise22.png used on input line 522.
+Package pdftex.def Info: fig/field_gauss_noise22.png used on input line 520.
 (pdftex.def)             Requested size: 497.92325pt x 343.66002pt.
- [87]
-<fig/exact_ver.png, id=1988, 431.36156pt x 740.7675pt>
+ [89]
+<fig/exact_ver.png, id=1995, 431.36156pt x 740.7675pt>
 File: fig/exact_ver.png Graphic file (type png)
  <use fig/exact_ver.png>
-Package pdftex.def Info: fig/exact_ver.png used on input line 536.
+Package pdftex.def Info: fig/exact_ver.png used on input line 534.
 (pdftex.def)             Requested size: 404.52553pt x 694.67181pt.
 
-[88 <./fig/field_sum_exact.png> <./fig/field_gauss_noise22.png>] [89 <./fig/exa
-ct_ver.png>] <fig/levmar_ver.png, id=2005, 251.43938pt x 497.60907pt>
+[90 <./fig/field_sum_exact.png> <./fig/field_gauss_noise22.png>] [91 <./fig/exa
+ct_ver.png>] <fig/levmar_ver.png, id=2014, 251.43938pt x 497.60907pt>
 File: fig/levmar_ver.png Graphic file (type png)
 
 <use fig/levmar_ver.png>
-Package pdftex.def Info: fig/levmar_ver.png used on input line 554.
+Package pdftex.def Info: fig/levmar_ver.png used on input line 552.
 (pdftex.def)             Requested size: 351.04587pt x 694.67181pt.
- <fig/clm_ver.png, id=2006, 437.38406pt x 719.68875pt>
+ <fig/clm_ver.png, id=2015, 437.38406pt x 719.68875pt>
 File: fig/clm_ver.png Graphic file (type png)
 
 <use fig/clm_ver.png>
-Package pdftex.def Info: fig/clm_ver.png used on input line 560.
+Package pdftex.def Info: fig/clm_ver.png used on input line 558.
 (pdftex.def)             Requested size: 422.21312pt x 694.67181pt.
- [90] [91 <./fig/levmar_ver.png>]
-<fig/lm_noise_ver.png, id=2023, 237.13594pt x 441.90094pt>
+ [92] [93 <./fig/levmar_ver.png>]
+<fig/lm_noise_ver.png, id=2030, 237.13594pt x 441.90094pt>
 File: fig/lm_noise_ver.png Graphic file (type png)
 
 <use fig/lm_noise_ver.png>
-Package pdftex.def Info: fig/lm_noise_ver.png used on input line 568.
+Package pdftex.def Info: fig/lm_noise_ver.png used on input line 566.
 (pdftex.def)             Requested size: 333.55841pt x 621.55492pt.
- [92 <./fig/clm_ver.png>]
-<fig/clm_noise_ver.png, id=2028, 437.38406pt x 719.68875pt>
+ [94 <./fig/clm_ver.png>]
+<fig/clm_noise_ver.png, id=2035, 437.38406pt x 719.68875pt>
 File: fig/clm_noise_ver.png Graphic file (type png)
 
 <use fig/clm_noise_ver.png>
-Package pdftex.def Info: fig/clm_noise_ver.png used on input line 574.
+Package pdftex.def Info: fig/clm_noise_ver.png used on input line 572.
 (pdftex.def)             Requested size: 422.21312pt x 694.67181pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 578.
+               Default added (so using `tbp') on input line 576.
 
-[93 <./fig/lm_noise_ver.png>] [94 <./fig/clm_noise_ver.png>] [95] [96]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 626.
+[95 <./fig/lm_noise_ver.png>] [96 <./fig/clm_noise_ver.png>] [97] [98]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 624.
 
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 626.
- [97]
-[98] <fig/prog_complex.png, id=2063, 555.57562pt x 761.09344pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 624.
+ [99]
+[100] <fig/prog_complex.png, id=2070, 555.57562pt x 761.09344pt>
 File: fig/prog_complex.png Graphic file (type png)
 
 <use fig/prog_complex.png>
-Package pdftex.def Info: fig/prog_complex.png used on input line 656.
+Package pdftex.def Info: fig/prog_complex.png used on input line 654.
 (pdftex.def)             Requested size: 497.92325pt x 682.12091pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (11.99232pt too wide) in paragraph at lines 669--670
+Overfull \hbox (11.99232pt too wide) in paragraph at lines 667--668
 \T2A/cmr/m/n/14.4 зуль^^?та^^?тов мо^^?жет быть осу^^?ществ^^?ле^^?на с по^^?мо
 ^^?щью кар^^?то^^?гра^^?фи^^?че^^?ско^^?го па^^?ке^^?та Golden
  []
 
-) (./concl.tex [99] [100 <./fig/prog_complex.png>]) [101
+) (./concl.tex [101] [102 <./fig/prog_complex.png>]) [103
 
-] [102
+] [104
 
 ]
 Overfull \hbox (3.59418pt too wide) in paragraph at lines 175--175
@@ -1784,26 +1793,26 @@ Overfull \hbox (0.4566pt too wide) in paragraph at lines 175--175
 ). | 2010. |
  []
 
-[103]
+[105]
 Overfull \hbox (4.10739pt too wide) in paragraph at lines 175--175
 []\OT1/cmr/m/n/14.4 Numerical so-lu-tion of an ill-posed Cauchy prob-lem for a 
 quasi-lin-ear parabolic
  []
 
-[104] [105] [106] [107] [108] [109]
+[106] [107] [108] [109] [110] [111]
 Overfull \hbox (22.46846pt too wide) in paragraph at lines 175--175
 []\T2A/cmr/m/it/14.4 Куфнер А.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Фу^^?чик С
 . \T2A/cmr/m/n/14.4 Нели^^?ней^^?ные диф^^?фе^^?рен^^?ци^^?аль^^?ные урав^^?не^
 ^?ния. ^^V Москва :
  []
 
-[110] [111]
+[112] [113]
 Overfull \hbox (2.40349pt too wide) in paragraph at lines 175--175
 \T2A/cmr/m/n/14.4 Жур^^?нал вы^^?чис^^?ли^^?тель^^?ной ма^^?те^^?ма^^?ти^^?ки и
  ма^^?те^^?ма^^?ти^^?че^^?кой фи^^?зи^^?ки. ^^V 1969. ^^V
  []
 
-[112] [113] [114] [115] [116]
+[114] [115] [116] [117] [118]
 ! Misplaced alignment tab character &.
 <argument> ...Advanced Mathematics, Computations &
                                                    Applications -- 2014"
@@ -1872,11 +1881,11 @@ Overfull \hbox (13.3172pt too wide) in paragraph at lines 180--180
  ^^V Kiev, Ukraine,
  []
 
-[117
+[119
 
-] [118] 
+] [120] 
 AED: lastpage setting LastPage
-[119]
+[121]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
  (./thesis.aux)
@@ -1890,13 +1899,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
  ) 
 Here is how much of TeX's memory you used:
- 20481 strings out of 493109
- 318856 string characters out of 6132291
- 895488 words of memory out of 5000000
+ 20483 strings out of 493109
+ 318872 string characters out of 6132291
+ 894488 words of memory out of 5000000
  23096 multiletter control sequences out of 15000+600000
  24751 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,18n,48p,2288b,3648s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,18n,48p,2951b,3648s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1930,10 +1939,10 @@ ype1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fon
 ts/type1/public/cm-super/sfrm1728.pfb><c:/Program Files/texlive/2014/texmf-dist
 /fonts/type1/public/cm-super/sfrm2074.pfb><c:/Program Files/texlive/2014/texmf-
 dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on thesis.pdf (119 pages, 3888321 bytes).
+Output written on thesis.pdf (121 pages, 3893525 bytes).
 PDF statistics:
- 2347 PDF objects out of 2487 (max. 8388607)
- 1466 compressed objects within 15 object streams
- 462 named destinations out of 1000 (max. 500000)
+ 2356 PDF objects out of 2487 (max. 8388607)
+ 1473 compressed objects within 15 object streams
+ 464 named destinations out of 1000 (max. 500000)
  312 words of extra memory for PDF output out of 10000 (max. 10000000)
 
