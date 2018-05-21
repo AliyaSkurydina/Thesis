@@ -5,19 +5,19 @@
 \section{Постановка задачи}
 Пусть $H$ --- гильбертово пространство, оператор $A: H \to H$ действует в этом пространстве. В данной диссертации используется следующая терминология.
 \begin{definition}
-	Оператор $A$ называется монотонным, если $\forall u,v\in H$ $$\langle A(u)-A(v), u-v\rangle \ge 0.$$
+	Оператор $A$ называется монотонным, если $$\forall u,v\in H\quad\langle A(u)-A(v), u-v\rangle \ge 0.$$
 \end{definition}
 \begin{definition}
-	Оператор $A$ называется равномерно монотонным, если $\exists \vartheta >0$ $\forall u,v\in H$ $$\langle A(u)-A(v), u-v\rangle \ge \vartheta\|u-v\|^2.$$
+	Оператор $A$ называется равномерно монотонным, если $$\exists \vartheta >0 \quad \forall u,v\in H\quad\langle A(u)-A(v), u-v\rangle \ge \vartheta\|u-v\|^2.$$
 \end{definition}
 \begin{definition}
-	Оператор $A$ называется неотрицательно определенным, если $\forall u\in H$ выполняется неравенство $\langle A(u), u \rangle \ge 0$.
+	Оператор $A$ называется неотрицательно определенным, если для всех $u\in H$ выполняется неравенство $\langle A(u), u \rangle \ge 0$.
 \end{definition}
 \begin{definition}
-	Оператор $A$ называется дифференцируемым по Фреше в точке $u\in H$, если в некоторой окрестности этой точки $\forall h\in H$
+	Оператор $A$ называется дифференцируемым по Фреше в точке $u\in H$, если в некоторой окрестности этой точки для всех $h\in H$
 	$$A(u+h)=A(u)+A'(u)h+\omega(u,h),$$
 	где $\frac{\|\omega(u,h)\|}{\|h\|}\to 0$, $\|h\|\to 0$.
-	Линейный оператор $A'(u):H \to H$ называется производной Фреше оператора $A$ в точке $u$ .
+	Линейный непрерывный оператор $A'(u):H \to H$ называется производной Фреше оператора $A$ в точке $u$ .
 \end{definition}
 \begin{definition}
 	$\alpha$-процессы --- класс нелинейных итерационных методов для решения линейного уравнения
@@ -30,17 +30,18 @@
 \begin{definition}
 	Усиленное свойство Фейера \cite{VasEre2009} для оператора $T: H \to H$ означает, что для некоторого $\nu>0$ выполнено соотношение
 	\begin{equation}\label{fejer_prop_uni}
-	{\|T(u)-z\|}^2\le{\|u-z\|}^2-\nu{\|u-T(u)\|}^2,
+	\forall u\in H\quad\forall z\in Fix(T) \quad{\|T(u)-z\|}^2\le{\|u-z\|}^2-\nu{\|u-T(u)\|}^2.
 	\end{equation}
-	где $\forall u\in H$ $\forall z\in Fix(T)$, т.е. $z=T(z)$. 
+%	где $\forall u\in H$ $\forall z\in Fix(T)$, т.е. $z=T(z)$. 
 \end{definition}
 Операторы, для которых выполняется усиленное свойство Фейера, называются сильно фейеровскими.
 \begin{definition}
 	Усиленное свойство Фейера для итерационных точек $u^k$, порождаемых процессом $u^{k+1}=T(u^k)$ означает выполнение неравенства
 	\begin{equation}\label{fejer_prop_it}
-	{\|u^{k+1}-z\|}^2\le{\|u^k-z\|}^2-\nu{\|u^k-u^{k+1}\|}^2,
+	\forall u\in H\quad\forall z\in Fix(T) \quad
+	{\|u^{k+1}-z\|}^2\le{\|u^k-z\|}^2-\nu{\|u^k-u^{k+1}\|}^2.
 	\end{equation}
-	где $\forall u\in H$ $\forall z\in Fix(T)$.
+%	где $\forall u\in H$ $\forall z\in Fix(T)$.
 \end{definition}
 \begin{definition}
 	Пусть $\{x^k\}$ --- сходящаяся последовательность приближений итерационного метода с начальным приближением $x^0\in H$ к $z$ --- решению уравнения. 

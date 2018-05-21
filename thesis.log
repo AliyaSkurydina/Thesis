@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  21 MAY 2018 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  21 MAY 2018 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1402,14 +1402,14 @@ Overfull \hbox (0.2591pt too wide) in paragraph at lines 17--17
 File: fig/mmn2_ch1.png Graphic file (type png)
 
 <use fig/mmn2_ch1.png>
-Package pdftex.def Info: fig/mmn2_ch1.png used on input line 401.
+Package pdftex.def Info: fig/mmn2_ch1.png used on input line 402.
 (pdftex.def)             Requested size: 432.25386pt x 341.43306pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [38] [39 <./fig/mmn2_ch1.png>] [40]
-Overfull \hbox (0.85532pt too wide) in paragraph at lines 458--462
+Overfull \hbox (0.85532pt too wide) in paragraph at lines 459--463
 []\T2A/cmr/bx/n/17.28 Вывод. \T2A/cmr/m/n/14.4 В экс^^?пе^^?ри^^?мен^^?те 1.5.1
 . от^^?но^^?си^^?тель^^?ная по^^?греш^^?ность ме^^?то^^?дов ММО,
  []
@@ -1643,7 +1643,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 315--315
 \T2A/cmr/m/n/14.4 лен^^?точ^^?ной мат^^?ри^^?
  []
 
-[83] <fig/exp341_mmn_gravy_field.png, id=1937, 409.53pt x 264.23718pt>
+[83] <fig/exp341_mmn_gravy_field.png, id=1939, 409.53pt x 264.23718pt>
 File: fig/exp341_mmn_gravy_field.png Graphic file (type png)
 
 <use fig/exp341_mmn_gravy_field.png>
@@ -1651,7 +1651,7 @@ Package pdftex.def Info: fig/exp341_mmn_gravy_field.png used on input line 354.
 
 (pdftex.def)             Requested size: 497.92325pt x 321.29236pt.
 
-<fig/exp341_mmn_magne_field.png, id=1938, 390.70969pt x 234.1247pt>
+<fig/exp341_mmn_magne_field.png, id=1940, 390.70969pt x 234.1247pt>
 File: fig/exp341_mmn_magne_field.png Graphic file (type png)
 
 <use fig/exp341_mmn_magne_field.png>
@@ -1659,14 +1659,14 @@ Package pdftex.def Info: fig/exp341_mmn_magne_field.png used on input line 360.
 
 (pdftex.def)             Requested size: 497.92325pt x 298.38535pt.
  [84]
-<fig/exp341_mmn_gravy_app.png, id=1947, 414.04688pt x 264.23718pt>
+<fig/exp341_mmn_gravy_app.png, id=1949, 414.04688pt x 264.23718pt>
 File: fig/exp341_mmn_gravy_app.png Graphic file (type png)
 
 <use fig/exp341_mmn_gravy_app.png>
 Package pdftex.def Info: fig/exp341_mmn_gravy_app.png used on input line 366.
 (pdftex.def)             Requested size: 497.92325pt x 317.7765pt.
 
-<fig/exp341_mmn_magne_app.png, id=1948, 392.21532pt x 226.59656pt>
+<fig/exp341_mmn_magne_app.png, id=1950, 392.21532pt x 226.59656pt>
 File: fig/exp341_mmn_magne_app.png Graphic file (type png)
 
 <use fig/exp341_mmn_magne_app.png>
@@ -1674,80 +1674,80 @@ Package pdftex.def Info: fig/exp341_mmn_magne_app.png used on input line 372.
 (pdftex.def)             Requested size: 497.92325pt x 287.68452pt.
  [85 <./fig/exp341_mmn_gravy_field.png> <./fig/exp341_mmn_magne_field.png>] [86
  <./fig/exp341_mmn_gravy_app.png> <./fig/exp341_mmn_magne_app.png>] [87] [88]
-<fig/field_sum_exact.png, id=1984, 402.00188pt x 261.22594pt>
+<fig/field_sum_exact.png, id=1986, 402.00188pt x 261.22594pt>
 File: fig/field_sum_exact.png Graphic file (type png)
 
 <use fig/field_sum_exact.png>
-Package pdftex.def Info: fig/field_sum_exact.png used on input line 514.
+Package pdftex.def Info: fig/field_sum_exact.png used on input line 431.
 (pdftex.def)             Requested size: 448.12788pt x 291.19586pt.
 
-<fig/field_gauss_noise22.png, id=1985, 405.76593pt x 280.04625pt>
+<fig/field_gauss_noise22.png, id=1987, 405.76593pt x 280.04625pt>
 File: fig/field_gauss_noise22.png Graphic file (type png)
 
 <use fig/field_gauss_noise22.png>
-Package pdftex.def Info: fig/field_gauss_noise22.png used on input line 520.
+Package pdftex.def Info: fig/field_gauss_noise22.png used on input line 437.
 (pdftex.def)             Requested size: 497.92325pt x 343.66002pt.
  [89]
-<fig/exact_ver.png, id=1995, 431.36156pt x 740.7675pt>
+<fig/exact_ver.png, id=1997, 431.36156pt x 740.7675pt>
 File: fig/exact_ver.png Graphic file (type png)
  <use fig/exact_ver.png>
-Package pdftex.def Info: fig/exact_ver.png used on input line 534.
+Package pdftex.def Info: fig/exact_ver.png used on input line 451.
 (pdftex.def)             Requested size: 404.52553pt x 694.67181pt.
 
 [90 <./fig/field_sum_exact.png> <./fig/field_gauss_noise22.png>] [91 <./fig/exa
-ct_ver.png>] <fig/levmar_ver.png, id=2014, 251.43938pt x 497.60907pt>
+ct_ver.png>] <fig/levmar_ver.png, id=2018, 251.43938pt x 497.60907pt>
 File: fig/levmar_ver.png Graphic file (type png)
 
 <use fig/levmar_ver.png>
-Package pdftex.def Info: fig/levmar_ver.png used on input line 552.
+Package pdftex.def Info: fig/levmar_ver.png used on input line 469.
 (pdftex.def)             Requested size: 351.04587pt x 694.67181pt.
- <fig/clm_ver.png, id=2015, 437.38406pt x 719.68875pt>
+ <fig/clm_ver.png, id=2019, 437.38406pt x 719.68875pt>
 File: fig/clm_ver.png Graphic file (type png)
 
 <use fig/clm_ver.png>
-Package pdftex.def Info: fig/clm_ver.png used on input line 558.
+Package pdftex.def Info: fig/clm_ver.png used on input line 475.
 (pdftex.def)             Requested size: 422.21312pt x 694.67181pt.
  [92] [93 <./fig/levmar_ver.png>]
-<fig/lm_noise_ver.png, id=2030, 237.13594pt x 441.90094pt>
+<fig/lm_noise_ver.png, id=2035, 237.13594pt x 441.90094pt>
 File: fig/lm_noise_ver.png Graphic file (type png)
 
 <use fig/lm_noise_ver.png>
-Package pdftex.def Info: fig/lm_noise_ver.png used on input line 566.
+Package pdftex.def Info: fig/lm_noise_ver.png used on input line 483.
 (pdftex.def)             Requested size: 333.55841pt x 621.55492pt.
  [94 <./fig/clm_ver.png>]
-<fig/clm_noise_ver.png, id=2035, 437.38406pt x 719.68875pt>
+<fig/clm_noise_ver.png, id=2041, 437.38406pt x 719.68875pt>
 File: fig/clm_noise_ver.png Graphic file (type png)
 
 <use fig/clm_noise_ver.png>
-Package pdftex.def Info: fig/clm_noise_ver.png used on input line 572.
+Package pdftex.def Info: fig/clm_noise_ver.png used on input line 489.
 (pdftex.def)             Requested size: 422.21312pt x 694.67181pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 576.
+               Default added (so using `tbp') on input line 493.
 
 [95 <./fig/lm_noise_ver.png>] [96 <./fig/clm_noise_ver.png>] [97] [98]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 624.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 541.
 
 
 (c:/Program Files/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 624.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 541.
  [99]
-[100] <fig/prog_complex.png, id=2070, 555.57562pt x 761.09344pt>
+[100] <fig/prog_complex.png, id=2077, 555.57562pt x 761.09344pt>
 File: fig/prog_complex.png Graphic file (type png)
 
 <use fig/prog_complex.png>
-Package pdftex.def Info: fig/prog_complex.png used on input line 654.
+Package pdftex.def Info: fig/prog_complex.png used on input line 571.
 (pdftex.def)             Requested size: 497.92325pt x 682.12091pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (11.99232pt too wide) in paragraph at lines 667--668
+Overfull \hbox (11.99232pt too wide) in paragraph at lines 584--585
 \T2A/cmr/m/n/14.4 зуль^^?та^^?тов мо^^?жет быть осу^^?ществ^^?ле^^?на с по^^?мо
 ^^?щью кар^^?то^^?гра^^?фи^^?че^^?ско^^?го па^^?ке^^?та Golden
  []
@@ -1901,7 +1901,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
 Here is how much of TeX's memory you used:
  20483 strings out of 493109
  318872 string characters out of 6132291
- 894488 words of memory out of 5000000
+ 895502 words of memory out of 5000000
  23096 multiletter control sequences out of 15000+600000
  24751 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1939,9 +1939,9 @@ ype1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fon
 ts/type1/public/cm-super/sfrm1728.pfb><c:/Program Files/texlive/2014/texmf-dist
 /fonts/type1/public/cm-super/sfrm2074.pfb><c:/Program Files/texlive/2014/texmf-
 dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on thesis.pdf (121 pages, 3893525 bytes).
+Output written on thesis.pdf (121 pages, 3906923 bytes).
 PDF statistics:
- 2356 PDF objects out of 2487 (max. 8388607)
+ 2363 PDF objects out of 2487 (max. 8388607)
  1473 compressed objects within 15 object streams
  464 named destinations out of 1000 (max. 500000)
  312 words of extra memory for PDF output out of 10000 (max. 10000000)
