@@ -21,9 +21,9 @@
 	Пусть выполнены условия $\eqref{cond4.3}$, $\eqref{cond1.1}$--$\eqref{cond1.3}$, $A'(u^0)$ --- симметричная матрица, и для параметров $\alpha$, $\bar{\alpha}$, $r$ справедливы соотношения:\\ $0<\alpha\le\bar\alpha$, $\bar\alpha\ge 4N_1$,
 	$\|u_\alpha-u^0\|\le r$, $r\le\alpha/8N_2\bar S$.
 	Тогда для метода $\eqref{equ_rmn}$ справедливо заключение теоремы $\ref{teo2.3}$, где соотношения $\eqref{ineq2.12}$, $\eqref{eq2.13}$ для $\gamma$ и выражение для $q$ в $\eqref{est2.16}$ соответственно принимает вид
-	$$\gamma < \frac{\alpha\bar\alpha}{2(N_1+\alpha)^2\bar S^2}, \quad \gamma ^{\textnormal{opt}}=\frac{\alpha\bar\alpha}{4(N_1+\alpha)^2\bar S^2}, \quad q=\sqrt{1-\frac{\alpha ^2}{16(N_1+\alpha)^2\bar S^2}}$$
+	$$\gamma < \frac{\alpha\bar\alpha}{2(N_1+\alpha)^2\bar S^2}, \quad \gamma ^{\textnormal{opt}}=\frac{\alpha\bar\alpha}{4(N_1+\alpha)^2\bar S^2}, \quad q=\sqrt{1-\frac{\alpha ^2}{16(N_1+\alpha)^2\bar S^2}}.$$
 \end{theorem}
-\begin{proof} С учетом оценки $\eqref{est4.1}$, доказательство с несущественными поправками проводится по схеме доказательтства теоремы $\ref{teo2.3}$.
+\begin{proof} С учетом оценки $\eqref{est4.1}$, доказательство с несущественными поправками проводится по схеме доказательства теоремы $\ref{teo2.3}$.
 \end{proof}
 
 {\remark При доказательстве теоремы вместо условия  $\eqref{cond4.3}$ достаточно требовать ограниченность величины $\sup\{\mu(S(u^k)): u^k \in S(u_\alpha; r)\}$, где~$u^k$ --- итерационные точки метода. Причем, при регулярном правиле останова итераций $k(\delta)$, супремум берется по конечному набору номеров $k\le k(\delta)$, что автоматически влечет ограниченность супремума и выполнение оценки вида $\eqref{est2.16}$ при этих значениях $k$. %Кроме того, для модифицированного метода Ньютона, в котором производная $A'(u^0)$ вычисляется в фиксированной точке $u^0$, величина $\mu(S(u^0))=\|S(u^0)\|\|S^{-1}(u^0)\|=\bar S<\infty$.
@@ -45,7 +45,7 @@
 	\end{equation}
 	Тогда справедливы соотношения  $\eqref{ineq3.4}$, где
 	\begin{equation}\label{eq4.7}
-	\mu _{-1}=\frac{8\bar S^2(N_1+\alpha)^2}{\alpha\bar\alpha}, \quad \mu _0=\frac{18(N_1+\alpha)^2(N_1+\bar\alpha)}{\alpha\bar\alpha ^2}, \quad \mu _1=\frac{18(N_1+\alpha)^2(N_1+\bar\alpha)^4}{\alpha\bar\alpha ^5}
+	\mu _{-1}=\frac{8\bar S^2(N_1+\alpha)^2}{\alpha\bar\alpha}, \quad \mu _0=\frac{18(N_1+\alpha)^2(N_1+\bar\alpha)}{\alpha\bar\alpha ^2}, \quad \mu _1=\frac{18(N_1+\alpha)^2(N_1+\bar\alpha)^4}{\alpha\bar\alpha ^5}.
 	\end{equation}
 \end{theorem}
 \begin{proof} При $\varkappa=-1$ и тех же обозначениях, которые были приняты в~разделе 1.3, получим (нижний индекс (-1) соответствует методу $\eqref{equ_alphaproc}$ при $\varkappa=-1$)
@@ -66,11 +66,11 @@ $$\|F_{-1}(u)\|^2\le(\beta_{-1}(u))^2\|A(u)-A(u_\alpha)+\alpha(u-u_\alpha)\|^2$$
 \begin{equation}\label{est4.10}
 \le\|B^{-1}(u)\|^2(N_1+\alpha)^2\|u-u_\alpha\|^2\le\frac{\bar S^2(N_1+\alpha)^2}{\bar\alpha^2}\|u-u_\alpha\|^2
 \end{equation}
-Объединяя $\eqref{est4.8}$--$\eqref{est4.10}$, получаем, что в соотношении $\eqref{ineq3.4}$, $\mu_{-1}$ выражается величиной из $\eqref{eq4.7}$
+Объединяя $\eqref{est4.8}$--$\eqref{est4.10}$, получаем, что в соотношении $\eqref{ineq3.4}$, $\mu_{-1}$ выражается величиной из $\eqref{eq4.7}$.
 
 Исследуем теперь МНС, т.е. процесс $\eqref{equ_alphaproc}$ при $\varkappa=0$. Аналогично предыдущему методу устанавливаем, что
 \begin{equation}\label{est4.11}
-\langle A(u)-A(u_\alpha), u-u_\alpha\rangle+\alpha\|u-u_\alpha\|^2\ge\left(\alpha-\frac{3N_2 r}{2}\right)\|u-u_\alpha\|^2
+\langle A(u)-A(u_\alpha), u-u_\alpha\rangle+\alpha\|u-u_\alpha\|^2\ge\left(\alpha-\frac{3N_2 r}{2}\right)\|u-u_\alpha\|^2.
 \end{equation}
 Кроме того,
 $$\beta_0(u)=\frac{\|S_\alpha(u)\|^2}{\langle B(u)S_\alpha(u), S_\alpha(u)\rangle}\ge\frac{1}{\|B(u)\|}\ge\frac{1}{\|A'(u)+\bar\alpha I\|}\ge\frac{1}{N_1+\bar\alpha}.$$
@@ -85,7 +85,7 @@ $$\beta_0(u)=\frac{\|S_\alpha(u)\|^2}{\langle B(u)S_\alpha(u), S_\alpha(u)\rangl
 $$\beta_0(u)=\frac{\|S_\alpha(u)\|^2}{\bar\alpha\|S_\alpha(u)\|^2+\langle A'(u^0)S_\alpha(u), S_\alpha(u)\rangle+\langle (A'(u)-A'(u^0))S_\alpha(u), S_\alpha(u)\rangle}$$
 $$\le \frac{\|S_\alpha(u)\|^2}{\bar\alpha\|S_\alpha(u)\|^2-|\langle (A'(u)-A'(u^0))S_\alpha(u), S_\alpha(u)\rangle|}$$
 \begin{equation}\label{est4.14}
-\le\frac{1}{\bar\alpha -N_2\|u-u^0\|}\le\frac{1}{\bar\alpha -2N_2 r}
+\le\frac{1}{\bar\alpha -N_2\|u-u^0\|}\le\frac{1}{\bar\alpha -2N_2 r}.
 \end{equation}
 Из $\eqref{est4.12}$-$\eqref{est4.14}$ при значениях параметров из $\eqref{cond4.5}$ получаем значения $\mu_0$ в $\eqref{eq4.7}$.
 
@@ -123,7 +123,7 @@ $$\|F_1(u)\|\le\beta_1(u)(\|A(u)-A(u_\alpha)\|+\alpha\|u-u_\alpha\|)\le \beta_1(
 
 Пусть $\lambda _1$ --- отрицательное собственное значение с наименьшим модулем $|\lambda_1|$ и $\bar\alpha -|\lambda _1|=\bar\alpha _1<\alpha^*$. Тогда оценка $\eqref{est4.1}$ трансформируется в неравенство
 \begin{equation}\label{ineq4.16}
-\|(A'(u^k)+\bar\alpha I)^{-1}\|\le\frac{\mu(S(u^k))}{\bar\alpha^*}\le\frac{\bar S}{\bar\alpha^*}
+\|(A'(u^k)+\bar\alpha I)^{-1}\|\le\frac{\mu(S(u^k))}{\bar\alpha^*}\le\frac{\bar S}{\bar\alpha^*}.
 \end{equation}
 Все утверждения, т.е. теоремы $(\ref{teo4.1})$--$(\ref{teo4.3})$ остаются справедливыми при замене $\bar\alpha$ на $\bar\alpha^*$ во всех оценках, где используется $\eqref{ineq4.16}$.
 
@@ -164,7 +164,7 @@ $A'(u^0)$ --- самосопряженный оператор, спектр ко
 	$$\|F_\varkappa^0(u)\|^2\le\frac{8(N_1+\alpha)^2}{3\alpha\bar{\alpha}}\langle F_\varkappa^0(u), u-u_\alpha\rangle,$$
 	где $\varkappa=-1, 0, 1,$ для модифицированных вариантов ММО, МНС и ММН соответственно.
 \end{theorem} 
-\begin{proof} Получим оценку снизу скалярного произведения $\langle F_{-1}^0(u),u-u_\alpha\rangle$ для модифицированного ММО.
+\begin{proof} Получим оценку снизу скалярного произведения $\langle F_{-1}^0(u),u-u_\alpha\rangle$ для модифицированного ММО
 $$\langle F_{-1}^0(u),u-u_\alpha\rangle=\langle F_{-1}^0(u)-F_{-1}^0(u_\alpha),u-u_\alpha\rangle=\beta_{-1}^0(u)[\langle A(u)-A(u_\alpha),u-u_\alpha\rangle$$ $$+\alpha\|u-u_\alpha\|^2].$$
 Оценим снизу $\langle A(u)-A(u_\alpha),u-u_\alpha\rangle$, используя формулу Лагранжа: $$\langle A(u)-A(u_\alpha),u-u_\alpha\rangle=\langle\int_{0}^{1}[A'(u_\alpha+\theta(u-u_\alpha))-A'(u^0)](u-u_\alpha)d\theta, u-u_\alpha\rangle$$ $$+\langle A'(u^0)(u-u_\alpha), u-u_\alpha\rangle\ge-N_2\int_{0}^{1}\|u_\alpha-u^0+\theta(u-u_\alpha)\|\cdot\|u-u_\alpha\|^2d\theta$$ $$=-N_2\|u-u_\alpha\|^2\int_{0}^{1}\|u_\alpha-u^0+\theta u-\theta u_\alpha\pm\theta u^0\|d\theta=-N_2\|u-u_\alpha\|^2$$
 $$\times\int_{0}^{1}\|(1-\theta)(u_\alpha-u^0)+\theta(u-u_\alpha)\|d\theta\ge-N_2\|u-u_\alpha\|^2\Big[\int_{0}^{1}(1-\theta)d\theta\cdot\|u^0-u_\alpha\|$$$$+\int_{0}^{1}\theta d\theta\|u-u_\alpha\|^2\Big]=-N_2\|u-u_\alpha\|^2\Big[\frac{\|u_\alpha-u^0\|}{2}+\frac{\|u_\alpha-u^0+u^0-u\|}{2}\Big]$$

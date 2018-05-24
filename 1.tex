@@ -1,5 +1,5 @@
 \chapter{Решение уравнений с монотонным оператором}
-В первой главе рассматриваются методы решения некорректных задач с нелинейным монотонным оператором. В работе используется двухэтапный подход, где на первом этапе происходит регуляризация по Лаврентьеву, на втором этапе решения задачи применяются итерационные алгоритмы решения регулярной задачи. Первый раздел содержит определения и постановку задачи. Второй раздел главы посвящен вопросам сходимости регуляризованного метода Ньютона. В третьем разделе построены итерационные процессы градиентного типа~--- нелинейные $\alpha$-процессы и доказывается их сходимость к регуляризованному решению. В четвертом разделе приводится оценка погрешности двухэтапного метода. В пятом разделе приводится пример решения модельного нелинейного интегрального уравнения рассмотренными в данной главе итерационными методами.
+В первой главе рассматриваются методы решения некорректных задач с нелинейным монотонным оператором. В работе используется двухэтапный подход, где на первом этапе происходит регуляризация по Лаврентьеву, а на втором этапе применяются итерационные алгоритмы решения регулярной задачи. Первый раздел содержит определения и постановку задачи. Второй раздел главы посвящен вопросам сходимости регуляризованного метода Ньютона. В третьем разделе построены итерационные процессы градиентного типа~--- нелинейные $\alpha$-процессы и доказывается их сходимость к регуляризованному решению. В четвертом разделе приводится оценка погрешности двухэтапного метода. В пятом разделе приводится пример решения модельного нелинейного интегрального уравнения рассмотренными в данной главе итерационными методами.
 
 \newpage
 \section{Основные определения и постановка задачи}
@@ -83,7 +83,7 @@ u^{k+1} =u^k - \gamma\frac{\langle [A'(u^k)+\bar{\alpha}I]S_\alpha(u^k), S_\alph
 
 \newpage
 \section{Метод Ньютона}
-Ранее РМН исследовался в работах А. Б. Бакушинского \cite{Bak1976,Bak1992} и совместной работе с А. В. Гончарским \cite{BakGon1989} при значениях параметров $\gamma=1$, $\alpha=\bar{\alpha}=\alpha_k$. Подход основан на том, что априори выбирается подходящим образом последовательность параметров $\alpha_k$ и при некоторых условиях, в том числе на вторую производную оператора $A$ доказывается сходимость итераций к решению уравнения $\eqref{equ1}$ без анализа фейеровости процесса и оценки погрешности. 
+Ранее РМН исследовался в работах А. Б. Бакушинского \cite{Bak1976,Bak1992} и совместной работе с А. В. Гончарским \cite{BakGon1989} при значениях параметров $\gamma=1$, $\alpha=\bar{\alpha}=\alpha_k$. Подход основан на том, что априори выбирается подходящим образом последовательность параметров $\alpha_k$ и при некоторых условиях, в том числе на вторую производную оператора $A$, доказывается сходимость итераций к решению уравнения $\eqref{equ1}$ без анализа фейеровости процесса и оценки погрешности. 
 
 В данной работе используется двухэтапный метод, где на первом этапе производится регуляризация методом Лаврентьева, а на втором этапе --- аппроксимация регуляризованного решения итерационными процессами, где вводятся два параметра регуляризации и параметр, отвечающий за регулировку шага. Это позволяет при согласовании параметров регуляризации и регулировки шага получить оценку погрешности двухэтапного метода, оптимальную по порядку. В отличие от подхода А. Б. Бакушинского, выбор управляемых параметров выбирается другим способом, в явном виде. 
 
@@ -152,7 +152,7 @@ $$\ge \left( \frac{\alpha}{\bar\alpha+N_1}-\frac{\alpha N_2\|u-u^0\|}{{\bar\alph
 \begin{equation}\label{ineq2.10}
 \ge\left(\frac{\alpha}{\bar\alpha+N_1}-\frac{2\alpha N_2r}{{\bar\alpha}^2}\right)\|u-u_\alpha\|^2,
 \end{equation} где использовано неравенство $\|u-u^0\|\le\|u-u_\alpha\|+\|u_\alpha-u^0\|\le 2r$.
-Для второго слагаемого в правой части $\eqref{ineq2.9}$ запишем, используя формулу Лагранжа \cite{Tre1993}
+Для второго слагаемого в правой части $\eqref{ineq2.9}$ запишем, используя формулу Лагранжа \cite{Tre1993},
 $$ \langle B^{-1}(u)(A(u)-A(u_\alpha)), u-u_\alpha\rangle= \langle B^{-1}(u^0)(A(u)-A(u_\alpha)), u-u_\alpha\rangle$$
 $$+\langle (B^{-1}(u)-B^{-1}(u^0))(A(u)-A(u_\alpha)), u-u_\alpha\rangle$$
 $$=\langle B^{-1}(u^0)\int\limits_0^1 (A'(u_\alpha+\theta(u-u_\alpha))-A'(u^0))d\theta (u-u_\alpha), u-u_\alpha\rangle$$
@@ -203,7 +203,7 @@ $$ \|u^k-T(u^k)\|=\gamma\|F(u^k)\|\to 0, \quad k\to\infty,$$ что вместе
 Принимая во внимание $\eqref{est2.8}$, $\eqref{eq2.17}$, получим неравенство
 $$ {\|u^{k+1}-u_\alpha\|}^2={\|u^k-u_\alpha\|}^2-2\gamma\langle F(u^k), u^k-u_\alpha\rangle+{\gamma}^2\|F(u^k)\|^2 $$
 \begin{equation}\label{ineq2.20}
-\le \left (1-\gamma\frac{\alpha}{2\bar\alpha}+{\gamma}^2\frac{(N_1+\alpha)^2}{{\bar\alpha}^2}\right )\|u^k-u_\alpha\|^2
+\le \left (1-\gamma\frac{\alpha}{2\bar\alpha}+{\gamma}^2\frac{(N_1+\alpha)^2}{{\bar\alpha}^2}\right )\|u^k-u_\alpha\|^2.
 \end{equation}
 При значениях $\gamma=\gamma^{\textnormal{opt}}$ из $\eqref{eq2.15}$ выражение в круглых скобках неравенства $\eqref{ineq2.20}$ достигает минимума и при $\gamma^{\textnormal{opt}}$ параметр $q$ вычисляется по формуле, представленной в $\eqref{est2.16}$.
 \end{proof}
@@ -251,9 +251,9 @@ $$
 $$F_\varkappa(u)=\beta_\varkappa(u) S_\alpha(u), \quad \beta _\varkappa(u) =\frac{\langle B^\varkappa(u)S_\alpha(u), S_\alpha (u)\rangle}{\langle B^{\varkappa +1}(u)S_\alpha(u), S_\alpha(u)\rangle}$$ 
 где при $\varkappa=1$ в $\beta_\varkappa(u)$ следует заменить знаменатель на $\|B(u)S_\alpha(u)\|^2$.% (см. замечание 1.2).
 \begin{theorem}\label{teo3.1}
-	Пусть для монотонного оператора $A$ выполнены условия $\eqref{cond1.1}$ --- $\eqref{cond1.3}$ и $A'(u^0)$ --- самосопряженный оператор. Кроме того, для ММО параметры $\alpha$, $\bar\alpha$, $r$ удовлетворяют дополнительным соотношениям:
+	Пусть для монотонного оператора $A$ выполнены условия $\eqref{cond1.1}$ --- $\eqref{cond1.3}$ и $A'(u^0)$ --- самосопряженный оператор. Кроме того, для ММО параметры $\alpha$, $\bar\alpha$, $r$ удовлетворяют дополнительным соотношениям
 	\begin{equation}\label{cond3.3}
-	\alpha \le \bar\alpha, \quad \bar\alpha \ge N_1,\quad \|u^0-u_\alpha\|\le r, \quad r\le \alpha/8N_2,.
+	\alpha \le \bar\alpha, \quad \bar\alpha \ge N_1,\quad \|u^0-u_\alpha\|\le r, \quad r\le \alpha/8N_2.
 	\end{equation}
 	Тогда справедливы соотношения
 	\begin{equation}\label{ineq3.4}
@@ -270,7 +270,7 @@ $$ $$\ge\alpha\left(\frac{\langle B^{-1}(u^0)S_\alpha(u), S_\alpha(u)\rangle}{\|
 $$\times \|u-u_\alpha\|^2 \ge\left(\frac{\alpha}{N_1+\bar\alpha}-\alpha\|B^{-1}(u)\|\|B^{-1}(u^0)\|\|A'(u)-A'(u^0)\|\right)\|u-u_\alpha\|^2$$ 
 \begin{equation}\label{ineq3.6}
 \ge\left(\frac{\alpha}{N_1+\bar\alpha}-\frac{2\alpha N_2r}{\bar\alpha ^2}\right)\|u-u_\alpha\|^2\ge\frac{\alpha}{4\bar\alpha}\|u-u_\alpha\|^2,\end{equation}
-где учтено, что $\|u-u^0\|\le\|u-u_\alpha\|+\|u_\alpha-u^0\|\le 2r.$ Кроме того, выполнены неравенства $$\|F_{-1}(u)\|^2=\mid\beta_{-1}(u)\mid^2\|A(u)-A(u_\alpha)+\alpha(u-u_\alpha)\|^2\le(N_1+\alpha)^2\|B^{-1}(u)\|^2\|u-u_\alpha\|^2 $$
+где учтено, что $\|u-u^0\|\le\|u-u_\alpha\|+\|u_\alpha-u^0\|\le 2r.$ Кроме того, выполнено неравенство $$\|F_{-1}(u)\|^2=\mid\beta_{-1}(u)\mid^2\|A(u)-A(u_\alpha)+\alpha(u-u_\alpha)\|^2\le(N_1+\alpha)^2\|B^{-1}(u)\|^2\|u-u_\alpha\|^2 $$
 \begin{equation}\label{ineq3.7}
 \le\frac{(N_1+\alpha)^2}{\bar\alpha^2}\|u-u_\alpha\|^2 .
 \end{equation}
@@ -291,7 +291,7 @@ $$
 приходим к неравенству
 $$\|F_0(u)\|^2\le\frac{(N_1+\alpha)^2(N_1+\bar\alpha)}{\alpha\bar\alpha^2}\langle F_0(u), u-u_\alpha\rangle.$$
 
-Обратимся теперь к ММН $\eqref{equ_mmn}$. Получим неравенства:
+Обратимся теперь к ММН $\eqref{equ_mmn}$. Получим неравенства
 $$\langle F_1(u), u-u_\alpha\rangle\ge\alpha\beta_1(u)\|u-u_\alpha\|^2= \alpha\frac{\langle (A'(u)+\bar\alpha I)S_\alpha (u),S_\alpha (u)\rangle }{\|B(u)S_\alpha (u)\|^2}\|u-u_\alpha\|^2$$
 \begin{equation}\label{ineq3.11}
 \ge\frac{\alpha\bar\alpha}{\|B(u)\|^2}\|u-u_\alpha\|^2\ge\frac{\alpha\bar\alpha}{(N_1+\bar\alpha)^2}\|u-u_\alpha\|^2,
@@ -300,7 +300,7 @@ $$\|F_1(u)\|\le\frac{(N_1+\alpha)\langle B(u)S_\alpha (u),S_\alpha (u)\rangle }{
 $$\le\frac{(N_1+\alpha)\langle B(u)S_\alpha (u),S_\alpha (u)\rangle }{\langle B(u)S_\alpha (u), B(u)S_\alpha (u)\rangle }\|u-u_\alpha\|$$ 
 $$=\frac{(N_1+\alpha)\langle B(u)S_\alpha (u),S_\alpha (u)\rangle \|u-u_\alpha\|}{\|A'(u)S_\alpha (u)\|^2+\alpha\langle A'(u)S_\alpha (u),S_\alpha (u)\rangle +\bar\alpha\langle B(u)S_\alpha (u), S_\alpha (u)\rangle }$$
 \begin{equation}\label{ineq3.12}
-\le\frac{N_1+\alpha}{\bar\alpha}\|u-u_\alpha\|
+\le\frac{N_1+\alpha}{\bar\alpha}\|u-u_\alpha\|,
 \end{equation}
 из которых вытекает оценка
 $$\|F_1(u)\|^2\le\frac{(N_1+\alpha)^2(N_1+\bar\alpha)^2}{\alpha\bar\alpha^3}\langle F_1(u), u-u_\alpha\rangle.$$
@@ -323,7 +323,7 @@ $$\|F_1(u)\|^2\le\frac{(N_1+\alpha)^2(N_1+\bar\alpha)^2}{\alpha\bar\alpha^3}\lan
 	q_1=\sqrt{1-\frac{\alpha^2\bar\alpha^4}{(N_1+\bar\alpha)^4}}.
 	\end{equation}
 \end{theorem}
-\begin{proof} Сопоставляя неравенство $\eqref{ineq2.19}$ при $F(u)=F_\varkappa(u) \quad (\varkappa=-1,0,1)$ с соотношением $\eqref{ineq3.4}$, находим, что при $\gamma$, удовлетворяющем  $\eqref{ineq3.13}$, условие фейеровости выполняется для всех трех процессов. Поэтому сходимость итераций при выполнении условия $\eqref{ineq3.13}$ устанавливается аналогично теореме $(\ref{teo2.3})$, касающейся метода Ньютона. Подставляя в $\eqref{ineq2.20}$ $F_\varkappa(u^k)$ и используя оценки $\eqref{ineq3.7}$, $\eqref{ineq3.8}$ (при $\varkappa=-1$), $\eqref{ineq3.9}$, $\eqref{ineq3.10}$ (при $\varkappa=0$), $\eqref{ineq3.11}$, $\eqref{ineq3.12}$ (при $\varkappa=1$), вычисляем выражение в круглых скобках в правой части неравенства $\eqref{ineq2.20}$ для каждого метода. Минимизируя это выражение по $\gamma$, получаем значение $\gamma^{\textnormal{opt}}$, определяемое формулой $\eqref{eq3.14}$ и вычисляем коэффициенты $q_\varkappa$, которые принимают вид из $\eqref{eq3.15}$.
+\begin{proof} Сопоставляя неравенство $\eqref{ineq2.19}$ при $F(u)=F_\varkappa(u)$ \\$(\varkappa=-1,0,1)$ с соотношением $\eqref{ineq3.4}$, находим, что при $\gamma$, удовлетворяющем  $\eqref{ineq3.13}$, условие фейеровости выполняется для всех трех процессов. Поэтому сходимость итераций при выполнении условия $\eqref{ineq3.13}$ устанавливается аналогично теореме $(\ref{teo2.3})$, касающейся метода Ньютона. Подставляя в $\eqref{ineq2.20}$ $F_\varkappa(u^k)$ и используя оценки $\eqref{ineq3.7}$, $\eqref{ineq3.8}$ (при $\varkappa=-1$), $\eqref{ineq3.9}$, $\eqref{ineq3.10}$ (при $\varkappa=0$), $\eqref{ineq3.11}$, $\eqref{ineq3.12}$ (при $\varkappa=1$), вычисляем выражение в круглых скобках в правой части неравенства $\eqref{ineq2.20}$ для каждого метода. Минимизируя это выражение по $\gamma$, получаем значение $\gamma^{\textnormal{opt}}$, определяемое формулой $\eqref{eq3.14}$ и вычисляем коэффициенты $q_\varkappa$, которые принимают вид из $\eqref{eq3.15}$.
 \end{proof}
 
 \begin{remark}
@@ -349,7 +349,7 @@ u^0-\hat{u}=A'(\hat{u})v
 \end{equation}
 что дает оценку
 \begin{equation}\label{est5.3}
-\|u_{\alpha(\delta)}^{\delta}-\hat{u}\|\le 2\sqrt{\delta k_0}
+\|u_{\alpha(\delta)}^{\delta}-\hat{u}\|\le 2\sqrt{\delta k_0}.
 \end{equation}
 В данной главе для итерационных процессов $\eqref{equ_rmn}$--$\eqref{equ_alphaproc}$ получены оценки вида 
 \begin{equation}\label{est5.4}

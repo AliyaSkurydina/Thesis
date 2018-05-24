@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  23 MAY 2018 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  23 MAY 2018 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1394,7 +1394,13 @@ Overfull \hbox (0.2591pt too wide) in paragraph at lines 17--17
 ные для ре^^?ше^^?ния пло^^?хо обу^^?слов^^?
  []
 
-[7] [8] [9] [10] [11] [12] [13] [14] [15]) (./1.tex [16] [17
+[7] [8] [9]
+Overfull \hbox (17.23723pt too wide) in paragraph at lines 17--17
+\T2A/cmr/m/n/14.4 му ре^^?ше^^?нию. Для нели^^?ней^^?но^^?го урав^^?не^^?ния с 
+мо^^?но^^?тон^^?ным опе^^?ра^^?то^^?ром U. Tautenhahn
+ []
+
+[10] [11] [12] [13] [14] [15]) (./1.tex [16] [17
 
 ] [18]
 Overfull \hbox (0.24884pt too wide) in paragraph at lines 29--30
@@ -1432,7 +1438,14 @@ cmm/m/it/14.4 S\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 ))$ \T2
 A/cmr/m/n/14.4 при фик^^?
  []
 
-[43] [44] [45] [46] [47] [48]
+[43] [44]
+Overfull \hbox (3.80226pt too wide) detected at line 49
+[]\OML/cmm/m/it/14.4 ^^V[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ;  ^^V[] \O
+T1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ;  ^^V[] \OT1/cmr/m/n/14.4 = []\OML/cmm/
+m/it/14.4 :
+ []
+
+[45] [46] [47] [48]
 Overfull \hbox (1.01848pt too wide) in paragraph at lines 122--123
 \T2A/cmr/m/it/14.4 мат^^?ри^^?цы $\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML
 /cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/it/14.4 , со^^?сто^^?я^^?щий и
@@ -1912,7 +1925,7 @@ Here is how much of TeX's memory you used:
  23095 multiletter control sequences out of 15000+600000
  24751 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,18n,48p,2951b,3648s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,18n,48p,2952b,3648s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1946,7 +1959,7 @@ ype1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fon
 ts/type1/public/cm-super/sfrm1728.pfb><c:/Program Files/texlive/2014/texmf-dist
 /fonts/type1/public/cm-super/sfrm2074.pfb><c:/Program Files/texlive/2014/texmf-
 dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on thesis.pdf (121 pages, 4080414 bytes).
+Output written on thesis.pdf (121 pages, 4080269 bytes).
 PDF statistics:
  2377 PDF objects out of 2487 (max. 8388607)
  1478 compressed objects within 15 object streams
