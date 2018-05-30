@@ -401,24 +401,24 @@ A(u)=g\Delta\sigma \bigg\{ &\iint_{D} \frac{1}{[(x-x')^2+(y-y')^2+H^2]^{1/2}}dxd
 	где $g$ --- гравитационная постоянная, равная $6.67\cdot10^{-8}$ см$^3/$г$\cdot c^2$, $\Delta\sigma=\sigma_2-\sigma_1$ --- скачок плотности на поверхности раздела сред $u(x,y)$, $D=\{c\leqslant x \leqslant d, a\leqslant y \leqslant b\}$, $\Delta f(x',y',0)$ --- аномальное гравитационное поле.%, вызванное отклонением поверхности от асимптотической плоскости $z=H$ для искомого решения $u(x,y)$.
 	
 	Итерации в методе Ньютона строятся по схеме
-$$A'(u^k)(\Delta u^k)=-\big[A(u^k)-f\big],$$ где $A(u)=\int_{a}^{b}\int_{c}^{d}K(x,y, x',y',u^k(x,y))dxdy$ --- интегральный оператор задачи гравиметрии, $\Delta u^k=u^{k+1}-u^k$.
+$$A'(u^k)(\Delta u^k)=-\big[A(u^k)-f\big],$$ где $A(u)=g\Delta\sigma\int_{a}^{b}\int_{c}^{d}K(x,y, x',y',u^k(x,y))dxdy$ --- интегральный оператор задачи гравиметрии, $\Delta u^k=u^{k+1}-u^k$.
 Т.е., для задачи гравиметрии
 \begin{equation}\label{newton_integral_equ}
-	f\Delta\sigma\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y))\Delta u^k(x,y) dxdy=-\big[A(u(x',y'))-f(x',y')\big].
+	g\Delta\sigma\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y))\Delta u^k(x,y) dxdy=-\big[[A(u)](x',y')-f(x',y')\big].
 \end{equation}
 
 %\begin{remark} (И. Л. Пруткин)
 %	На значение гравитационного поля в точке $(x',y')$ наибольшее влияние оказывает глубина залегания поверхности в точке.
 %\end{remark}  
 Заменяя $\Delta u^k(x,y)$ в $\eqref{newton_integral_equ}$ на $\Delta u^k(x',y')=\textnormal{const}$ относительно переменных интегрирования, перейдем к приближенному соотношению
-$$f\Delta\sigma(\Delta u^k(x',y'))\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y)) dxdy\approx -\big[A(u(x',y'))-f(x',y')\big].$$
+$$g\Delta\sigma(\Delta u^k(x',y'))\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y)) dxdy\approx -\big[[A(u)](x',y')-f(x',y')\big].$$
 
 %Регуляризованный метод Ньютона имеет вид$^4$:
 %$$ u^{k+1}=u^k-\gamma(A'(u^k)+\bar\alpha I)^{-1}(A(u^k)+\alpha(u^k-u^0)-f_\delta).$$
 
 Покомпонентный метод типа Ньютона (ПМН) имеет вид$^{10}$:
 $$u^{k+1}(x',y')=u^k(x',y')-\gamma\frac{1}{\varPsi(x',y')}\big([A(u^k)](x',y')-f(x',y')\big),$$
-где $\varPsi(x',y')=f\Delta\sigma\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y)) dxdy.$
+где $\varPsi(x',y')=g\Delta\sigma\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y)) dxdy.$
 
 Регуляризованный покомпонентный метод типа Ньютона имеет вид:
 $$u^{k+1}(x',y')=u^k(x',y')-\gamma\frac{1}{\varPsi(x',y')+\bar{\alpha}}([A(u^k)](x',y')+$$ 
@@ -430,7 +430,7 @@ $$u_{m,l}^{k+1}=u_{m,l}^k-\frac{1}{\psi_{m,l}^k+\bar\alpha}([A_n(u^k)]_{m,l} + \
 {\scriptsize
 	\let\thefootnote\relax\let\thefootnote\relax\footnotetext{\footnotesize 10. Akimova E., Skurydina A. A componentwise Newton type method for solving the structural inverse gravity problem // EAGE Geoinformatics 2015}
 }
-где $\psi_{m,l}^k=f\Delta\sigma\sum\limits_{i=1}^{M}\sum\limits_{j=1}^{N}
+где $\psi_{m,l}^k=g\Delta\sigma\sum\limits_{i=1}^{M}\sum\limits_{j=1}^{N}
 \Delta x\Delta y\frac{u_{ij}}{[(x_k-x'_j)^2+(y_l-y'_i)^2+(u_{ij})^2]^{3/2}}$, $n=M\cdot N$.
 Сумма $\psi_{m,l}^k$ --- сумма элементов $(m\times M + l)$-й строки матрицы производной $A'_n(u_n^k)$. Вычислительная сложность ПМН для решения системы $n$ уравнений без учета сложности алгоритма вычисления $A_n(u_n^k)$ составляет $O(n)$, а в РМН сложность алгоритма составляет $O(n^2)$ при обращении $A'_n(u_n^k)$ итерационными методами.
 
@@ -441,11 +441,10 @@ $$u_{m,l}^{k+1}=u_{m,l}^k-\frac{1}{\psi_{m,l}^k+\bar\alpha}([A_n(u^k)]_{m,l} + \
 %	\item в задаче магнитометрии
 %	$$ [A'(u^k)]h=\iint_{D} \frac{(x-x')^2+(y-y')^2-2(u^k(x',y'))^2}{[(x-x')^2+(y-y')^2+(u^k(x',y'))^2]^{5/2}}h(x',y')dx'dy'.$$
 %\end{itemize}
-$$ [A'(u^k)]h=\iint_{D} \frac{u^k(x,y)h}{[(x-x')^2+(y-y')^2+(u^k(x',y'))^2]^{3/2}}dxdy,$$
+$$ [A'(u^k)]h=g\Delta\sigma\iint_{D} \frac{u^k(x,y)h}{[(x-x')^2+(y-y')^2+(u^k(x',y'))^2]^{3/2}}dxdy,$$
 и в задаче магнитометрии
-$$ [A'(u^k)]h=\iint_{D} \frac{(x-x')^2+(y-y')^2-2(u^k(x,y))^2}{[(x-x')^2+(y-y')^2+(u^k(x,y))^2]^{5/2}}h dxdy.$$
-После дискретизации интегрального оператора и его производной, получаем матрицу $A'_n(u^k)$ с диагональным преобладанием$^{11}$.
-Без существенной потери точности учитываются только значения элементов $a_{ij}$, где $i+j\in[i-\beta;i+\beta]$.
+$$ [A'(u^k)]h=\frac{\mu_0}{4\pi}\Delta J\iint_{D} \frac{(x-x')^2+(y-y')^2-2(u^k(x,y))^2}{[(x-x')^2+(y-y')^2+(u^k(x,y))^2]^{5/2}}h dxdy.$$
+После дискретизации имеем $n\times n$ матрицу $A'_n(u^k)$ с диагональным преобладанием$^{11}$. Без существенной потери точности в $\eqref{equ_rmn}$ учитываются только значения элементов $a_{ij}$ из $A'_n(u^k)$, где $|i-j|\leqslant n\cdot\beta$, $\beta$ определяется из входных данных.
 {\scriptsize
 	\let\thefootnote\relax\let\thefootnote\relax\footnotetext{\footnotesize 11. Акимова Е. Н., Миниахметова А. Ф., Мартышко М. П. Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии // EAGE Geoinformatics 2014.}
 	}
@@ -461,7 +460,7 @@ $$ [A'(u^k)]h=\iint_{D} \frac{(x-x')^2+(y-y')^2-2(u^k(x,y))^2}{[(x-x')^2+(y-y')^
 где $L$~--- число границ раздела, $g=6.67\cdot10^{-8}$ см$^3/$г$\cdot c^2$, $\Delta\sigma=\sigma_2-\sigma_1$ --- скачок плотности на поверхности раздела сред $u(x,y)$, $\Delta f(x',y',0)$ --- аномальное гравитационное поле.
 
 Регуляризованный метод Левенберга -- Марквардта имеет вид 
-$$u^{k+1}=u^k-\gamma[A'(u^k)^T A'(u^k)+\alpha I]^{-1} [A'(u^k)^*(A(u^k)-f_\delta)].$$
+$$u^{k+1}=u^k-\gamma[A'(u^k)^T A'(u^k)+\alpha I]^{-1} [A'(u^k)^T(A(u^k)-f_\delta)].$$
 
 По аналогии с ПМН, получим покомпонентный метод типа Левенберга -- Марквардта$^{12}$:
 $$ u_l^{k+1}=u_l^k-\gamma\frac{1}{\varphi_l+\bar{\alpha}}\Lambda[ A'(u_l^k)^T(A(u^k)-f_\delta)],$$
@@ -472,8 +471,8 @@ $$ u_l^{k+1}=u_l^k-\gamma\frac{1}{\varphi_l+\bar{\alpha}}\Lambda[ A'(u_l^k)^T(A(
 %K'_u(x, y, x', y', u_l^k(x',y'))dxdy\bigg] \notag \\ \times\bigg[f\Delta\sigma\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u_l^k(x,y))dxdy\bigg], 
 %\end{aligned}
 %\end{equation*} 
-$\varphi_l=\bigg[ f\Delta\sigma\int_{a}^{b}\int_{c}^{d}
-K'_u(x', y', x, y, u_l^k(x',y'))dxdy\bigg] \notag \\ \times\bigg[f\Delta\sigma\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u_l^k(x,y))dxdy\bigg], $
+$\varphi_l=\bigg[ g\Delta\sigma_l\int_{a}^{b}\int_{c}^{d}
+K'_u(x', y', x, y, u_l^k(x',y'))dxdy\bigg] \notag \\ \times\bigg[g\Delta\sigma_l\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u_l^k(x,y))dxdy\bigg], $
 где $K'_u(x',y', x, y, u_l^k(x',y'))$ --- ядро интегрального оператора.
 % Величина $\varphi_l$ зависит от $u_l^k$.
 {\scriptsize
@@ -486,10 +485,10 @@ u_{l,i}^{k+1}=u_{l,i}^k-\gamma\frac{1}{\varphi_{l,i}+\bar{\alpha}}w_{l,i}\bigg[ 
 %\begin{equation*}
 %\begin{aligned}
 $
-\varphi_{l,i}=\bigg[ f\Delta\sigma\sum\limits_{k=1}^{N}
+\varphi_{l,i}=\bigg[ g\Delta\sigma_l\sum\limits_{k=1}^{N}
 \sum\limits_{m=1}^{M}
-K'_u(x'_k,y'_m, \{x, y\}_i, u_l^k(x'_k,y'_m)) \Delta x' \Delta y'\bigg] \notag \\ \times\bigg[f\Delta\sigma\sum\limits_{k=1}^{N}
-\sum\limits_{m=1}^{M}K'_u(x_k,y_m, \{x',y'\}_i,u_l^k(x_k,y_m))\Delta x' \Delta y'\bigg]. 
+K'_u(x'_k,y'_m, x_k, y_m, u_l^k(x'_k,y'_m)) \Delta x \Delta y\bigg] \notag \\ \times\bigg[g\Delta\sigma_l\sum\limits_{k=1}^{N}
+\sum\limits_{m=1}^{M}K'_u(x'_k, y'_m, x_k,y_m, u_l^k(x_k,y_m))\Delta x \Delta y\bigg]. 
 $
 %\end{aligned}
 %\end{equation*}
