@@ -15,7 +15,7 @@ colorlinks,  % цветные гиперссылки
 \usepackage{amsmath, amsthm, amssymb}
 \usepackage[T1,T2A]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[english,russian]{babel}
+\usepackage[english,	russian]{babel}
 \usepackage{tabularx}
 \usepackage{csquotes}
 \ifpdf\usepackage{epstopdf}\fi
@@ -49,6 +49,8 @@ colorlinks,  % цветные гиперссылки
 \newtheorem{lemma}{Лемма}
 \newtheorem{fact}{Утверждение}
 \newtheorem{remark}{Замечание}
+
+\DeclareUnicodeCharacter{00A0}{~}
 
 \begin{document}
 % Включение файла с общим текстом диссертации и автореферата
@@ -530,7 +532,6 @@ heading=subbibliography,
 keyword=nohac,
 title={Другие публикации}
 ]
-%\printbibliography[notkeyword=own,title={Цитированная литература}]
 
 % ----------------------------------------------------------------
 % Выходные данные

@@ -163,14 +163,14 @@
         {russian}%
       }
       \list{location}{1}{%
-        {Kiev, Ukraine}%
+        {Kiev, \\Ukraine}%
       }
       \strng{namehash}{f51dbbce5481d100370317c6969f824d}
       \strng{fullhash}{f51dbbce5481d100370317c6969f824d}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии}
-      \field{booktitle}{XIIIth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
+      \field{booktitle}{XIIIth EAGE International Conference --- Geoinformatics: Theoretical and Applied Aspects}
       \field{title}{Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии}
       \field{year}{2014}
       \keyw{own,hac}
@@ -195,7 +195,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{A Componentwise Newton Type Method for Solving the Structural Inverse Gravity Problem}
-      \field{booktitle}{XIVth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
+      \field{booktitle}{XIVth EAGE International Confe-\\rence --- Geoinformatics: Theoretical and Applied Aspects}
       \field{title}{A Componentwise Newton Type Method for Solving the Structural Inverse Gravity Problem}
       \field{year}{2015}
       \keyw{own,hac}
@@ -219,9 +219,9 @@
       \strng{fullhash}{28a23870613be6f4c8aa60ab3861654c}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{On Solving the Three-Dimensional Structural Gravity Problem for the Case of a Multilayered Medium by the Componentwise Levenberg -- Marquardt Method}
-      \field{booktitle}{XVth EAGE International Conference - Geoinformatics: Theoretical and Applied Aspects}
-      \field{title}{On Solving the Three-Dimensional Structural Gravity Problem for the Case of a Multilayered Medium by the Componentwise Levenberg -- Marquardt Method}
+      \field{labeltitle}{On Solving the Three-Dimensional Structural Gravi-\\ty Problem for the Case of a Multilayered Medium by the Componentwise Levenberg -- Marquardt Method}
+      \field{booktitle}{XVth EAGE International Conference --- Geoinformatics: Theoretical and Applied Aspects}
+      \field{title}{On Solving the Three-Dimensional Structural Gravi-\\ty Problem for the Case of a Multilayered Medium by the Componentwise Levenberg -- Marquardt Method}
       \field{year}{2016}
       \keyw{own,hac}
     \endentry
@@ -318,7 +318,7 @@
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{Fast stable parallel algorithms for solving gravimetry and magnetometry inverse problems}
-      \field{booktitle}{International conference "Advanced Mathematics, Computations & Applications -- 2014"}
+      \field{booktitle}{Inter-\\national conference "Advanced Mathematics, Computations \& Applications -- 2014"}
       \field{title}{Fast stable parallel algorithms for solving gravimetry and magnetometry inverse problems}
       \field{year}{2014}
       \keyw{own,nohac}
