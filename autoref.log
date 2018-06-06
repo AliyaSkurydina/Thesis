@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  4 JUN 2018 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.2.27)  6 JUN 2018 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1319,7 +1319,7 @@ Package hyperref Warning: Ignoring empty anchor on input line 151.
 
 [3
 
-] [4]<<t1.cmap>> [5] [6]
+] [4] [5] [6]
 
 Package hyperref Warning: Ignoring empty anchor on input line 216.
 
@@ -1343,7 +1343,7 @@ n/14.4 (\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 со^^?став^^?
  []
 
 [10]
-Overfull \hbox (1.01848pt too wide) in paragraph at lines 335--337
+Overfull \hbox (1.01848pt too wide) in paragraph at lines 333--335
 \T2A/cmr/m/it/14.4 мат^^?ри^^?цы $\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML
 /cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/it/14.4 , со^^?сто^^?я^^?щий и
 з раз^^?лич^^?ных ве^^?ще^^?ствен^^?ных зна^^?че^^?ний, со^^?дер^^?жит
@@ -1351,22 +1351,37 @@ Overfull \hbox (1.01848pt too wide) in paragraph at lines 335--337
 
 [11]
 
-Package hyperref Warning: Ignoring empty anchor on input line 350.
+Package hyperref Warning: Ignoring empty anchor on input line 348.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 351.
+Package hyperref Warning: Ignoring empty anchor on input line 349.
 
 
-Overfull \hbox (15.18079pt too wide) detected at line 358
+Overfull \hbox (15.18079pt too wide) detected at line 356
 [] []
  []
 
-[12] [13]
 
-Package hyperref Warning: Ignoring empty anchor on input line 405.
+Overfull \hbox (6.2245pt too wide) in paragraph at lines 359--360
+[]\T2A/cmr/m/n/14.4 Вычислены чис^^?ло обу^^?слов^^?лен^^?но^^?сти $\OML/cmm/m/
+it/14.4 cond\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cm
+m/m/it/14.4 u[]\OT1/cmr/m/n/14.4 )) \OMS/cmsy/m/n/14.4 ^^Y \OT1/cmr/m/n/14.4 1\
+OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 8 \OMS/cmsy/m/n/14.4 ^^A \OT1/cmr/m/n/14.4
+ 10[]$\T2A/cmr/m/n/14.4 , и спектр $\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\O
+ML/cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/n/14.4 ,
+ []
+
+[12]
+Overfull \hbox (7.82373pt too wide) detected at line 372
+[][] []
+ []
+
+[13]
+
+Package hyperref Warning: Ignoring empty anchor on input line 401.
 
 
-Overfull \hbox (2.76074pt too wide) in paragraph at lines 403--410
+Overfull \hbox (2.76074pt too wide) in paragraph at lines 399--406
   \T2A/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4  [] \OT1/cmr/m/n/14.4 = \OML/cmm/m/
 it/14.4 g\OT1/cmr/m/n/14.4 ^^A\OML/cmm/m/it/14.4 ^^[ [] [] \OT1/cmr/m/n/14.4 ^^
 A\OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 ^^A\OML/cmm/m/it/14.4 y[]$\T2A/cmr/m/n/1
@@ -1377,13 +1392,13 @@ m/n/14.4 ^^A \OML/cmm/m/it/14.4 N$\T2A/cmr/m/n/14.4 . Сум^^?ма $\OML/cmm/m/it/1
 
 [14]
 
-Package hyperref Warning: Ignoring empty anchor on input line 423.
+Package hyperref Warning: Ignoring empty anchor on input line 419.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 453.
+Package hyperref Warning: Ignoring empty anchor on input line 449.
 
 [15]
-Overfull \hbox (9.62062pt too wide) in paragraph at lines 473--474
+Overfull \hbox (9.62062pt too wide) in paragraph at lines 469--470
 \T2A/cmr/m/n/14.4 слож^^?ность ал^^?го^^?рит^^?мов до^^?сти^^?га^^?ет $\OML/cmm
 /m/it/14.4 O\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 n[]\OT1/cmr/m/n/14.4 )$ \T2A/
 cmr/m/n/14.4 в си^^?лу умно^^?же^^?ния мат^^?риц $\OT1/cmr/m/n/14.4 [\OML/cmm/m
@@ -1392,8 +1407,15 @@ cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 )]$
 \T2A/cmr/m/n/14.4 ,
  []
 
-[16] [17]
-Overfull \hbox (0.7111pt too wide) in paragraph at lines 499--499
+
+Overfull \hbox (3.40367pt too wide) in paragraph at lines 469--470
+\T2A/cmr/m/n/14.4 вы^^?чис^^?ли^^?тель^^?ная слож^^?ность его по^^?ком^^?по^^?н
+ент^^?ной мо^^?ди^^?фи^^?ка^^?ции со^^?став^^?ля^^?ет $\OML/cmm/m/it/14.4 O\OT1
+/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 n[]\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/n/14.4 . 
+ []
+
+[16] [17]<<t1.cmap>>
+Overfull \hbox (0.7111pt too wide) in paragraph at lines 495--495
 []\T2A/cmr/m/it/14.4 Akimova E.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Skurydina
  A. \T2A/cmr/m/n/14.4 On Solving the Three-^^?Dimensional Structural Gravi- 
  []
@@ -1401,22 +1423,22 @@ Overfull \hbox (0.7111pt too wide) in paragraph at lines 499--499
 [18] 
 AED: lastpage setting LastPage
 [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 532.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 532.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 528.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 528.
  (./autoref.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 532.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 532.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 528.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 528.
 Package rerunfilecheck Info: File `autoref.out' has not changed.
 (rerunfilecheck)             Checksum: 789C49F9FA411CD898109E2838EE6B4E;783.
 Package logreq Info: Writing requests to 'autoref.run.xml'.
 \openout1 = `autoref.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 532.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 528.
  ) 
 Here is how much of TeX's memory you used:
  18373 strings out of 493109
- 282518 string characters out of 6132291
- 849081 words of memory out of 5000000
+ 282523 string characters out of 6132291
+ 849097 words of memory out of 5000000
  21444 multiletter control sequences out of 15000+600000
  28335 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1447,10 +1469,10 @@ e1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2014/texmf-dist/fonts
 /type1/public/cm-super/sfrm1728.pfb><c:/Program Files/texlive/2014/texmf-dist/f
 onts/type1/public/cm-super/sfti1200.pfb><c:/Program Files/texlive/2014/texmf-di
 st/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on autoref.pdf (19 pages, 398718 bytes).
+Output written on autoref.pdf (19 pages, 397342 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
+ 391 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
  62 named destinations out of 1000 (max. 500000)
  59 words of extra memory for PDF output out of 10000 (max. 10000000)
 
