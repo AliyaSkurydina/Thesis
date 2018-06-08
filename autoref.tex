@@ -1,7 +1,7 @@
 \documentclass[%
 autoref,     % тип документа
 href,        % использовать пакет hyperref для создания гиперссылок
-facsimile,   % отображать факсимиле диссертанта и ученого секретаря
+%facsimile,   % отображать факсимиле диссертанта и ученого секретаря
 colorlinks,  % цветные гиперссылки
 %fixint,     % отключить прямые знаки интегралов
 %times,      % шрифт Times как основной
@@ -20,6 +20,7 @@ colorlinks,  % цветные гиперссылки
 \usepackage{csquotes}
 \ifpdf\usepackage{epstopdf}\fi
 \usepackage{lastpage}
+\usepackage{hyperref}
 
 \usepackage[style=gost-numeric,
   backend=biber,
@@ -74,7 +75,7 @@ colorlinks,  % цветные гиперссылки
 \noindent
 \small
 \begin{center}
-Работа выполнена в \emph{Федеральном государственном бюджетном учреждении науки Институт математики и механики им. Н. Н. Красовского Уральского отделения Российской академии наук}.
+Работа выполнена в \emph{Федеральном государственном бюджетном учреждении науки <<Институт математики и механики им. Н. Н. Красовского Уральского отделения Российской академии наук>>}.
 \end{center}
 \vskip1ex
 \begin{tabularx}{\linewidth}{lp{1cm}X}
@@ -95,20 +96,20 @@ colorlinks,  % цветные гиперссылки
 
 \vskip2ex\noindent
 Защита состоится \datefield{} в \rule[0pt]{1cm}{0.5pt} часов
-на заседании диссертационного совета \emph{Д 004.006.04} при \emph{ФГБУН Институт математики и механики им. Н. Н. Красовского УрО РАН} по адресу:
-\emph{620990, Екатеринбург, ул. Софьи Ковалевской, 16, актовый зал}
+на заседании диссертационного совета \emph{Д 004.006.04} на базе \emph{ФГБУН <<Институт математики и механики им. Н. Н. Красовского УрО РАН>>} по адресу:
+\emph{620990, Екатеринбург, ул. Софьи Ковалевской, 16}
 
 \vskip1ex\noindent
-С диссертацией можно ознакомиться в библиотеке
-\emph{ФГБУН Институт математики и механики им. Н. Н. Красовского УрО РАН}.
+С диссертацией можно ознакомиться в библиотеке и на сайте
+\emph{ФГБУН <<Институт математики и механики им. Н. Н. Красовского УрО РАН>>},\\ \href{http://www.imm.uran.ru/rus/Dissertation\_councils/D\_004.006.04/Pages/default.aspx}{http://www.imm.uran.ru/rus/Dissertation\_councils/D\_004.006.04/Pages/default.aspx}.
 
 \vskip1ex\noindent
 Автореферат разослан \datefield{}
 
-\vskip2ex\noindent
-Отзывы и замечания по автореферату в двух экземплярах, заверенные
-печатью, просьба высылать по вышеуказанному адресу на имя ученого секретаря
-диссертационного совета.
+%\vskip2ex\noindent
+%Отзывы и замечания по автореферату в двух экземплярах, заверенные
+%печатью, просьба высылать по вышеуказанному адресу на имя ученого секретаря
+%диссертационного совета.
 
 \vfill\noindent
 \begin{minipage}[b]{0.4\linewidth}
@@ -250,7 +251,7 @@ u^{k+1}=u^k-\gamma\frac{\langle (A'(u^k)+\bar\alpha I)^{\varkappa}S_\alpha(u^k),
 \|A'(u^0)\| \leqslant N_1.
 \end{equation}
 
-\begin{theorem}\label{teo2.1} Пусть $A$ --- монотонный оператор, для которого выполнены условия $\eqref{cond1.1}$, $0<\alpha \leqslant \bar\alpha$, $\|u^0-u_\alpha\| \leqslant r$, $r\leqslant \alpha/N_2$. 
+\begin{theorem}[Теорема 1.1.]\label{teo2.1} Пусть $A$ --- монотонный оператор, для которого выполнены условия $\eqref{cond1.1}$, $0<\alpha \leqslant \bar\alpha$, $\|u^0-u_\alpha\| \leqslant r$, $r\leqslant \alpha/N_2$. 
 	
 	Тогда для процесса $\eqref{equ_rmn}$ c $\gamma=1$ имеет место линейная скорость сходимости метода при аппроксимации единственного решения $u_\alpha$ регуляризованного уравнения $\eqref{equ2}$
 	\begin{equation}\label{nwt_conv}
@@ -270,7 +271,7 @@ u^{k+1}=u^k-\gamma\frac{\langle (A'(u^k)+\bar\alpha I)^{\varkappa}S_\alpha(u^k),
 \let\thefootnote\relax\let\thefootnote\relax\footnotetext{\footnotesize 8. Vasin V.V., Eremin I.I. Operators and Iterative Processes of Fejer Type. Theory and Applications. Berlin/New York: Walter de Gruyter, 2009.}}
 Множество фейеровских операторов является замкнутым относительно операций произведения и взятия выпуклой суммы, что позволяет строить гибридные итерационные процессы, а также учитывать априорные ограничения на решение в виде систем неравенств.
 
-\begin{theorem} \label{teo2.3}
+\begin{theorem}[Теорема 1.3.] \label{teo2.3}
 	Пусть выполнены условия $\eqref{cond1.1}$--$\eqref{cond1.3}$, $A'(u^0)$ --- самосопряженный оператор, 
 $0<\alpha\leqslant\bar\alpha$, $\bar\alpha\geqslant 4N_1$, $\|u_\alpha-u^0\|\leqslant r$, $r\leqslant\alpha/8N_2$. Тогда при
 	$\gamma<\frac{\alpha\bar\alpha}{2(N_1+\alpha)^2}$
@@ -282,7 +283,7 @@ $0<\alpha\leqslant\bar\alpha$, $\bar\alpha\geqslant 4N_1$, $\|u_\alpha-u^0\|\leq
 \end{theorem}
 
 Для ММО, МНС и ММН справедлива
-\begin{theorem}\label{teo3.2}
+\begin{theorem}[Теорема 1.5.]\label{teo3.2}
 	Пусть выполнены условия $\eqref{cond1.1}$--$\eqref{cond1.3}$, $A'(u^0)$ --- самосопряженный оператор, $0<\alpha \leqslant \bar\alpha$, $\bar\alpha \geqslant N_1$, для ММО $\|u_\alpha-u^0\|\leqslant r$, $r\leqslant \alpha/8N_2$.  Тогда при
 	$\gamma<2/\mu _\varkappa\quad (\varkappa=-1,0,1),$
 	где $\mu_\varkappa$ вычисляется для каждого из трех методов, для последовательности $\{u^k\}$, порождаемой $\alpha$-процессом, имеет место сходимость $\lim_{k\to\infty}\|u^k-u_\alpha\|=0, $ а при 
@@ -302,7 +303,7 @@ $0<\alpha\leqslant\bar\alpha$, $\bar\alpha\geqslant 4N_1$, $\|u_\alpha-u^0\|\leq
 где столбцы матрицы $S(u)$ составлены из собственных векторов матрицы $A'(u)+\bar\alpha I$, $\Lambda$ --- диагональная матрица, ее элементы --- собственные значения матрицы $A'(u)+\bar\alpha I$, $\mu(S(u))=\|S(u)\|\cdot\|S^{-1}(u)\|$.
 
 Рассмотрим теперь вариант теорем 2, 3, когда оператор $A\colon \mathbb{R}^n \to \mathbb{R}^n$ и его производная имеет неотрицательный спектр. С оценкой $\eqref{est4.1}$ доказывается теорема для регуляризованного метода Ньютона
-\begin{theorem}\label{conv_rate_nemonot_nwt}
+\begin{theorem}[Теорема 2.1.]\label{conv_rate_nemonot_nwt}
 	Пусть выполнены условия $\eqref{cond1.1}$--$\eqref{cond1.3}$, а также: $\sup\{\mu(S(u)): u\in S(u_\alpha;r)\}\leqslant\bar S <\infty,$ 
 	$A'(u^0)$ --- симметричная неотрицательно определенная матрица, $0<\alpha\leqslant\bar\alpha$, $\bar\alpha\geqslant 4N_1$, $\|u_\alpha-u^0\|\leqslant r$, $r\leqslant\alpha/8N_2\bar S$. Тогда для метода $\eqref{equ_rmn}$ имеет место сходимость $\lim_{k\to\infty}\|u^k-u_\alpha\|=0$ при
 	$$\gamma<\frac{\alpha\bar\alpha}{2(N_1+\alpha)^2\bar S^2},
@@ -311,9 +312,9 @@ $0<\alpha\leqslant\bar\alpha$, $\bar\alpha\geqslant 4N_1$, $\|u_\alpha-u^0\|\leq
 	$$\|u^k-u_\alpha\|\leqslant q^k r, \quad q=\sqrt{1-\frac{\alpha ^2}{16(N_1+\alpha)^2\bar S^2}}.$$
 \end{theorem}
 Аналогичное утверждение имеет место для ММО, МНС и ММН.
-\begin{theorem}\label{conv_rate_nemonot_alpha}
-Пусть выполнены условия теоремы 4. 
-Тогда при $\gamma<2/\mu _\varkappa$, \\$\varkappa=-1,0,1$, с соответствующими $\mu _\varkappa$ для каждого процесса, последовательности ${u^k}$, порождаемые процессом $\eqref{equ_alphaproc}$ при $\varkappa=-1,0,1$, сходятся к $u_\alpha$, т.е., $\lim_{k\to\infty}\|u^k-u_\alpha\|=0,$ а при $
+\begin{theorem}[Теорема 2.3.]\label{conv_rate_nemonot_alpha}
+Пусть выполнены условия теоремы 4 (теоремы~2.1.). 
+Тогда при $\gamma<2/\mu _\varkappa$, $\varkappa=-1,0,1$, с соответствующими $\mu _\varkappa$ для каждого процесса, последовательности ${u^k}$, порождаемые процессом $\eqref{equ_alphaproc}$ при $\varkappa=-1,0,1$, сходятся к $u_\alpha$, т.е., $\lim_{k\to\infty}\|u^k-u_\alpha\|=0,$ а при $
 \gamma^{opt}=1/\mu_\varkappa$
 справедлива оценка $\|u^k-u_\alpha\|\leqslant q{_\varkappa^k}r,$ где
 $$q_{-1}=\sqrt{1-\frac{\alpha^2}{64\bar S^2(N_1+\alpha)^2}}, \quad q_0=\sqrt{1-\frac{\alpha^2\bar\alpha^2}{36(N_1+\alpha)^2(N_1+\bar\alpha)^2}},$$
@@ -329,7 +330,7 @@ $$q_1=\sqrt{1-\frac{\alpha^2\bar\alpha^6}{36(N_1+\alpha)^2(N_1+\bar\alpha)^6}}.$
 %	справедлива оценка $\|u^k-u_\alpha\|\leqslant q^k r,$ где
 %	$q=\sqrt{1-\frac{9\alpha^2}{64(N_1+\alpha)^2}}$.
 %\end{theorem}
-\begin{remark}
+\begin{remark}%[Замечание 2.2.]
 	Предложенный подход к получению оценок скорости сходимости итерационных процессов полностью переносится на случай, когда спектр матрицы $A'(u^k)$, состоящий из различных вещественных значений, содержит набор малых по абсолютной величине отрицательных собственных значений. Пусть $\lambda _1$ --- отрицательное собственное значение с наименьшим модулем $|\lambda_1|$ и $\bar\alpha -|\lambda _1|=\bar\alpha _1<\alpha^*$. Тогда оценка $\eqref{est4.1}$ 
 	трансформируется в неравенство
 	$$\|(A'(u^k)+\bar\alpha I)^{-1}\|\leqslant\frac{\mu(S(u^k))}{\bar\alpha^*}\leqslant\frac{\bar S}{\bar\alpha^*}.$$
@@ -356,7 +357,7 @@ $$\|A(u_{\alpha(\delta)}^{\delta,k(\delta)})-f_\delta\|\leqslant 2m\delta^p,$$
 \end{aligned} \end{equation*}
 где $\mu_0/{4\pi}=10^{-7}$ Гн/м --- магнитная постоянная, $\Delta J$ --- скачок $z$-компоненты вектора намагниченности, $z=H$ --- асимптотическая плоскость, $ B_z(x',y',0)$ --- функция, описывающая  аномальное поле, $D=\{c\leqslant x' \leqslant d, a\leqslant y' \leqslant b\}$, $z=u(x,y)$ --- искомая функция.
 
-Вычислены число обусловленности $cond(A'_n(u_n^k))\approx 1.8\cdot 10^7$, и спектр $A'_n(u_n^k)$, установлено, что спектр неотрицательный и состоит из различных собственных значений, $\bar\alpha=10^{-2}$, $\alpha = 10^{-4}$, $\gamma=1$, $\varepsilon =\|u^k-\hat{u}\|/\|\hat{u}\| < 10^{-2}$. Итерационные методы достигли точности $\varepsilon$ за 4--5 итераций, у модифицированных методов меньше время счета.
+Вычислены число обусловленности $cond(A'_n(u_n^k))\approx 1.8\cdot 10^7$ и спектр $A'_n(u_n^k)$, установлено, что спектр неотрицательный и состоит из различных собственных значений, $\bar\alpha=10^{-2}$, $\alpha = 10^{-4}$, $\gamma=1$, $\varepsilon =\|u^k-\hat{u}\|/\|\hat{u}\| < 10^{-2}$. Итерационные методы достигли точности $\varepsilon$ за 4--5 итераций, у модифицированных методов меньше время счета.
 
 %Результаты второй главы опубликованы в работах~\cite{VasSkur2017,VasSkur2015}.
 
@@ -378,7 +379,7 @@ $$A'(u^k)(\Delta u^k)=-\big[A(u^k)-f\big],$$ где $A(u)=g\Delta\sigma\int_{a}^
 \begin{equation}\label{newton_integral_equ}
 	g\Delta\sigma\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y))\Delta u^k(x,y) dxdy=-\big[[A(u)](x',y')-f(x',y')\big].
 \end{equation}
-Предполагая, что правая часть зависит только от $\Delta u^k(x',y')$, заменим
+Предполагая, что правая часть зависит только от $\Delta u^k(x',y')$, аппроксимируем значения функции $u$ в точках $(x,y)$ ее значением в точке $(x',y')$, заменим  
 %Заменяя 
 $\Delta u^k(x,y)$ в $\eqref{newton_integral_equ}$ на $\Delta u^k(x',y')=\textnormal{const}$ относительно переменных интегрирования, перейдем к приближенному соотношению
 $$g\Delta\sigma(\Delta u^k(x',y'))\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y)) dxdy\approx -\big[[A(u)](x',y')-f(x',y')\big].$$
@@ -473,8 +474,7 @@ $
 
 \nsection{3. Основные результаты диссертации}
 \vskip -5 mm
-1. Для нелинейного уравнения с монотонным оператором дано обоснование двухэтапного метода на основе регуляризованного метода Ньютона. 
-Выполнено теоретическое иследование нелинейных аналогов методов минимальной ошибки, наискорейшего спуска и минимальных невязок: доказаны теоремы сходимости и сильная фейеровость итерационных процессов при аппроксимации регуляризованного решения. В конечномерном случае для задачи с немонотонным оператором и неотрицательным спектром его производной обоснована сходимость метода  Ньютона и аналогов $\alpha$-процессов к регуляризованному решению.
+1. Для уравнения с монотонным оператором в рамках двухэтапного метода доказаны теоремы сходимости и сильной фейеровости метода Ньютона и нелинейных аналогов $\alpha$-процессов при аппроксимации регуляризованного решения. В конечномерном случае результаты обобщены для уравнений с немонотонным оператором, производная которого имеет неотрицательный спектр.
 
 2. Для решения нелинейных интегральных уравнений обратных задач гравиметрии предложены экономичные покомпонентные методы типа Ньютона и типа Левенберга – Марквардта. Предложена вычислительная оптимизация метода Ньютона для обратных задач гравиметрии и магнитометрии, где матрица производной имеет диагональное преобладание. 
 
@@ -491,10 +491,15 @@ $
 \printbibliography[
 heading=subbibliography,
 keyword=hac,
-title={Статьи в изданиях из перечня ВАК, SCOPUS}
+title={Статьи в журналах из перечня ВАК}
 ]
 \endgroup
 
+\printbibliography[
+heading=subbibliography,
+keyword=scopus,
+title={Публикации, цитированные в Scopus}
+]
 \printbibliography[
 heading=subbibliography,
 keyword=nohac,

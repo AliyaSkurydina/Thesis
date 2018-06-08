@@ -173,7 +173,7 @@
       \field{booktitle}{XIIIth EAGE International Conference --- Geoinformatics: Theoretical and Applied Aspects}
       \field{title}{Оптимизация и распараллеливание методов типа  Ньютона для решения структурных обратных задач гравиметрии и магнитометрии}
       \field{year}{2014}
-      \keyw{own,hac}
+      \keyw{own,scopus}
     \endentry
     \entry{AkSkur2015}{inproceedings}{}
       \name{labelname}{2}{}{%
@@ -198,7 +198,7 @@
       \field{booktitle}{XIVth EAGE International Confe-\\rence --- Geoinformatics: Theoretical and Applied Aspects}
       \field{title}{A Componentwise Newton Type Method for Solving the Structural Inverse Gravity Problem}
       \field{year}{2015}
-      \keyw{own,hac}
+      \keyw{own,scopus}
     \endentry
     \entry{AkSkur2016}{inproceedings}{}
       \name{labelname}{2}{}{%
@@ -223,7 +223,7 @@
       \field{booktitle}{XVth EAGE International Conference --- Geoinformatics: Theoretical and Applied Aspects}
       \field{title}{On Solving the Three-Dimensional Structural Gravi-\\ty Problem for the Case of a Multilayered Medium by the Componentwise Levenberg -- Marquardt Method}
       \field{year}{2016}
-      \keyw{own,hac}
+      \keyw{own,scopus}
     \endentry
     \entry{MisMinDer2013}{inproceedings}{}
       \name{labelname}{3}{}{%
