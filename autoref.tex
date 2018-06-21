@@ -361,7 +361,7 @@ $$\|A(u_{\alpha(\delta)}^{\delta,k(\delta)})-f_\delta\|\leqslant 2m\delta^p \qua
 
 Методы РМН, ММО, МНС, ММН и их модифицированные варианты использованы при решении обратной структурной задачи магнитометрии
 \begin{equation*}\begin{aligned}
-\left[A(u)\right](x',y')=\frac{\mu_0}{4\pi}\Delta J  \bigg\{&\iint_{D} \frac{H}{[(x-x')^2+(y-y')^2+H^2]^{3/2}}dxdy \notag\\
+\left[A(u)\right](x',y')=\frac{\mu_0}{4\pi}\Delta J  \bigg\{&\iint_{D} \frac{H}{[(x-x')^2+(y-y')^2+H^2]^{3/2}}dxdy - \notag\\
 - &\iint_{D} \frac{u(x,y)}{[(x-x')^2+(y-y')^2+u^2(x,y)]^{3/2}}dxdy \bigg\}= B_z(x',y',0),
 \end{aligned} \end{equation*}
 где $\mu_0/{4\pi}=10^{-7}$ Гн/м --- магнитная постоянная, $\Delta J$ --- скачок $z$-компоненты вектора намагниченности, $z=H$ --- асимптотическая плоскость, $ B_z(x',y',0)$ --- функция, описывающая  аномальное поле, $D=\{c\leqslant x' \leqslant d, a\leqslant y' \leqslant b\}$, $z=u(x,y)$ --- искомая функция.
@@ -374,7 +374,7 @@ $$\|A(u_{\alpha(\delta)}^{\delta,k(\delta)})-f_\delta\|\leqslant 2m\delta^p \qua
 \vskip -2 mm
 \begin{equation}\label{equ_grav_2l}
 \begin{aligned}
-\left[A(u)\right](x',y')=g\Delta\sigma \bigg\{ &\iint_{D} \frac{1}{[(x-x')^2+(y-y')^2+H^2]^{1/2}}dxdy \\
+\left[A(u)\right](x',y')=g\Delta\sigma \bigg\{ &\iint_{D} \frac{1}{[(x-x')^2+(y-y')^2+H^2]^{1/2}}dxdy - \\
 - &\iint_{D} \frac{1}{[(x-x')^2+(y-y')^2+u^2(x,y)]^{1/2}}dxdy\bigg\}=\Delta f(x',y',0),
 \end{aligned} 
 \end{equation}
@@ -399,7 +399,7 @@ $$u^{k+1}(x',y')=u^k(x',y')-\gamma\frac{1}{\varPsi(x',y')}\{[A(u)](x',y')-f(x',y
 где $\varPsi(x',y')=g\Delta\sigma\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u^k(x,y)) dxdy.$
 
 Регуляризованный покомпонентный метод типа Ньютона имеет вид:
-$$u^{k+1}(x',y')=u^k(x',y')-\gamma\frac{1}{\varPsi(x',y')+\bar{\alpha}}\{[A(u^k)](x',y')$$ 
+$$u^{k+1}(x',y')=u^k(x',y')-\gamma\frac{1}{\varPsi(x',y')+\bar{\alpha}}\{[A(u^k)](x',y')+$$ 
 $$+\alpha (u^k(x',y')-u^0(x',y'))-f_\delta(x',y')\},$$
 где $\gamma$ --- демпфирующий множитель, $\alpha>0$, $\bar{\alpha} >0$ --- параметры регуляризации.
 
@@ -415,12 +415,6 @@ $$u_{m,l}^{k+1}=u_{m,l}^k-\frac{1}{\psi_{m,l}^k+\bar\alpha}\{[A_n(u^k)]_{m,l} + 
 Вычислительная сложность ПМН для решения системы $n$ уравнений без учета сложности алгоритма вычисления $A_n(u_n^k)$ составляет $O(n)$, а в РМН сложность алгоритма составляет $O(n^2)$ при обращении $A'_n(u_n^k)$ итерационными методами.
 
 2. Предложена вычислительная оптимизация метода Ньютона. Прозводная оператора $A$ в точке $u^k$ определяется формулами в задаче гравиметрии
-%\begin{itemize}
-%	\item в задаче гравиметрии
-%	$$ [A'(u)]h=\iint_{D} \frac{u^k(x',y')h(x',y')}{[(x-x')^2+(y-y')^2+(u^k(x',y'))^2]^{3/2}}dx'dy',$$
-%	\item в задаче магнитометрии
-%	$$ [A'(u^k)]h=\iint_{D} \frac{(x-x')^2+(y-y')^2-2(u^k(x',y'))^2}{[(x-x')^2+(y-y')^2+(u^k(x',y'))^2]^{5/2}}h(x',y')dx'dy'.$$
-%\end{itemize}
 $$ [A'(u^k)]h=g\Delta\sigma\iint_{D} \frac{u^k(x,y)h(x,y)}{[(x-x')^2+(y-y')^2+(u^k(x,y))^2]^{3/2}}dxdy,$$
 и в задаче магнитометрии
 $$ [A'(u^k)]h=\frac{\mu_0}{4\pi}\Delta J\iint_{D} \frac{(x-x')^2+(y-y')^2-2(u^k(x,y))^2}{[(x-x')^2+(y-y')^2+(u^k(x,y))^2]^{5/2}}h(x,y) dxdy.$$
@@ -433,7 +427,7 @@ $$ [A'(u^k)]h=\frac{\mu_0}{4\pi}\Delta J\iint_{D} \frac{(x-x')^2+(y-y')^2-2(u^k(
 \begin{equation}\label{equ_grav_multi}
 		\begin{aligned}
 		& A(u)=\sum_{l=1}^{L}g\Delta\sigma_l\frac{1}{4\pi}\times 
-		\iint_D\bigg\{\frac{1}{[(x-x')^2+(y-y')^2+u_l^2(x,y)]^{1/2}} \\
+		\iint_D\bigg\{\frac{1}{[(x-x')^2+(y-y')^2+u_l^2(x,y)]^{1/2}} - \\
 		&-\frac{1}{[(x-x')^2+(y-y')^2+H_l^2]^{1/2}}\bigg\}dxdy=\Delta f(x',y',0),
 		\end{aligned}
 \end{equation}		
@@ -446,7 +440,7 @@ $$u^{k+1}=u^k-\gamma[A'(u^k)^T A'(u^k)+\alpha I]^{-1} [A'(u^k)^T(A(u^k)-f_\delta
 $$ u_l^{k+1}(x',y')=u_l^k(x',y')-\gamma\frac{1}{\varphi_l(x',y')+\bar{\alpha}}\big\{\Lambda[ A'(u_l^k)^T(A(u^k)-f_\delta)]\big\}(x',y'),$$
 где $l$ --- номер границы раздела, $l=1,..,L$;~ $\Lambda$ --- диагональный весовой оператор, 
 $\varphi_l(x',y')=\bigg[ g\Delta\sigma_l\int_{a}^{b}\int_{c}^{d}
-K'_u(x', y', x, y, u_l^k(x',y'))dxdy\bigg] \notag \\ \times\bigg[g\Delta\sigma_l\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u_l^k(x,y))dxdy\bigg], $
+K'_u(x', y', x, y, u_l^k(x',y'))dxdy\bigg] \times\notag \\ \times\bigg[g\Delta\sigma_l\int_{a}^{b}\int_{c}^{d}K'_u(x,y, x',y',u_l^k(x,y))dxdy\bigg], $
 где $K'_u(x',y', x, y, u_l^k(x',y'))$ --- ядро интегрального оператора.
 % Величина $\varphi_l$ зависит от $u_l^k$.
 {\scriptsize
@@ -461,7 +455,7 @@ u_{l,i}^{k+1}=u_{l,i}^k-\gamma\frac{1}{\varphi_{l,i}+\bar{\alpha}}w_{l,i}\big[ A
 $
 \varphi_{l,i}=\bigg[ g\Delta\sigma_l\sum\limits_{k=1}^{N}
 \sum\limits_{m=1}^{M}
-K'_u(x'_k,y'_m, x_k, y_m, u_l^k(x'_k,y'_m)) \Delta x \Delta y\bigg] \notag \\ \times\bigg[g\Delta\sigma_l\sum\limits_{k=1}^{N}
+K'_u(x'_k,y'_m, x_k, y_m, u_l^k(x'_k,y'_m)) \Delta x \Delta y\bigg] \times\notag \\ \times\bigg[g\Delta\sigma_l\sum\limits_{k=1}^{N}
 \sum\limits_{m=1}^{M}K'_u(x'_k, y'_m, x_k,y_m, u_l^k(x_k,y_m))\Delta x \Delta y\bigg]. \\
 $
 %\end{aligned}
